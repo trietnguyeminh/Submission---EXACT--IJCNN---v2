@@ -1,0 +1,100 @@
+{
+  "_format": "EXACT-IJCNN session handoff (state-summary, not raw transcript). Load this in a new Cowork session and ask Claude to read it to resume.",
+  "exported_at": "2026-06-21T06:40:28.370407Z",
+  "project": "EXACT 2026 (IJCNN) Explainable AI Challenge — neuro-symbolic Type1 logic QA + Type2 physics, live HTTP /predict API",
+  "team": "TriAstatine",
+  "machine_note": "Session on a NEW machine (user 'Suface Pro 8'). Downloads = C:\\Users\\Suface Pro 8\\Downloads. Old session was user 'Minh Triet'. Native resume not available; resume via this JSON.",
+  "status_board": {
+    "MC_cert_v3": "FROZEN",
+    "v40_symbolic": "DEPLOYED (fires 5/25 Phase-1 MC, precision 1.0)",
+    "YNU_meta_unknown": "INTEGRATED INTO Account B (endpoint full-gate still to run on Kaggle, clean kernel)",
+    "YNU_yes_no_proof": "OFF (needs rule-inference engine; atom-collapse false-chain risk)",
+    "1B_option_pruning": "WAITING (engine-limited; needs strict contradicted audit; low priority)",
+    "atom_representation_v2": "FROZEN (4 gated candidates, none promotable; distribution mismatch)"
+  },
+  "banked_gains_all_gate_verified": {
+    "v40_symbolic_engine": "already deployed; 5/25 MC fired, 0 wrong",
+    "cert_v3_premises_used": "+2.0pp Type1 (P2 0.7155->0.7556 on Phase-1), 0 regression, full_proof-only, partial OFF",
+    "ynu_meta_unknown_cert": "+4.0pp Type1 over full 25 (subgroup: +8.33 P1/+8.33 P2 over 12 YNU); holdout 779 YNU + 838 MC = 0 spurious, 0 MC fire"
+  },
+  "scoring_model": "Type1 = (P1 answer + P2 premises_used)/2. P2 = F1 overlap with gold premises_used, partial credit, scored independently of P1. Type2 = answer+unit both correct.",
+  "key_findings": {
+    "parser_not_bottleneck": "premise parse rate 97-100% across ~15k premises. Bottleneck is UNIFICATION (option-claim atom != derived-fact atom), not parsing.",
+    "unification_gap_real_holdout": {
+      "cleaned_v2_608": {
+        "key_mismatch": 160,
+        "not_derivable": 26,
+        "predicate_loss": 21
+      },
+      "v5_repair_784": {
+        "key_mismatch": 166,
+        "not_derivable": 28,
+        "predicate_loss": 14
+      },
+      "phase1_25": {
+        "key_mismatch": 3,
+        "not_derivable": 4,
+        "predicate_loss": 1
+      }
+    },
+    "distribution_mismatch": "flat-784/608 are RULE-INFERENCE ('which statement can be inferred', options are compound rules); Phase-1 is ENTITY-GROUNDED. Holdout key_mismatch is largely OUT-OF-SCOPE for the entity engine.",
+    "atom_v2_conclusion": "4 gated candidates (surface-rule, blanket STOP-strip, exist-only-strip, structural existential/if-comma/universal-fact) ALL non-promotable. Phase-1 ACCEPT_NOOP every time; holdout churns (gains traded for lost/wrong). MC symbolic at ceiling for this architecture. FREEZE.",
+    "phase1_remaining_gaps": "4 not_derivable Phase-1 MC (aerial-corridor, no-take-zone, badge, open-science) need genuine rule-chaining, NOT atom representation."
+  },
+  "ynu_branch": {
+    "candidate": "explicit_meta_unknown_only",
+    "fires_when": "request is YNU AND premise matches 'No premise states whether/that X' AND atom(X)==atom(question target) -> answer=Uncertain, premises_used=[that premise]",
+    "improves_phase1": [
+      "T1_0043 (P2 0->100)",
+      "T1_0048 (P1 0->100, answer No->Uncertain)"
+    ],
+    "disabled": [
+      "Yes proof",
+      "No proof",
+      "semantic alias",
+      "partial meta",
+      "pruning"
+    ],
+    "holdout_check": "spurious_fire_candidates=0, mc_fire_count=0 over 779 YNU + 838 MC -> PROMOTE_TO_DEPLOY",
+    "note": "pattern 'No premise states...' is Phase-1-style only; fires 0 times on flat-784/608 (safe, pattern-locked)."
+  },
+  "discipline_rules_must_keep": [
+    "Address user as 'chồng', Vietnamese.",
+    "Self-host only, no external LLM API at inference.",
+    "3 Kaggle accounts = roles (A lab, B deploy, C audit), NOT quota bypass; final = one team one endpoint.",
+    "Promote a change ONLY via gate: PROMOTE iff verified_gain>0 AND lost=0 AND new_wrong=0 AND changed_pu_bad=0 AND new_multiple=0. full_proof_delta is DIAGNOSTIC ONLY.",
+    "Never tune on the 25 Phase-1 cases; use them only as strict-additive gate. Develop/measure on holdout.",
+    "No semantic alias (eligible≈allowed etc.). Structural changes only.",
+    "YNU: no positive-wins heuristic; Yes/No needs polarity-exact + meta-cert; abstain on conflict/missing.",
+    "Any server/deploy change must pass strict full endpoint gate from a CLEAN kernel; don't restart tunnel during judging."
+  ],
+  "files_in_downloads": {
+    "notebook_ACCOUNT_B_with_ynu.ipynb": "Deploy notebook (Account B) with YNU meta-cert integrated as YNU-only pre-handler. RUN endpoint full-gate on Kaggle clean kernel before submit.",
+    "premises_used_certificate_v3.py": "MC cert v3 (full_proof-only, answer-aware, contradicted no-cert). FROZEN/shipped.",
+    "ynu_meta_unknown_certificate.py": "YNU meta-unknown pre-handler module (drop-in).",
+    "engine_v40_snapshot.py": "v40 entity-conjunctive engine baseline (solve_entity, answer_mc, decompose_option, to_literal, atom_key, parse_premise).",
+    "parser_coverage_probe.py": "Diagnostic probe: per-option status + near_proven + unification gap (key_mismatch/not_derivable/predicate_loss) + parse-fail taxonomy. Auto-detects Phase-1 log + flat jsonl.",
+    "parser_patch_gate.py": "Strict-additive promotion gate. 3-way: REJECT / PROMOTE (verified gain) / ACCEPT_NOOP. fp_delta diagnostic-only.",
+    "ynu_holdout_spurious_check.py": "YNU Tier-2 safety: spurious-fire + mc-fire check at scale -> PROMOTE_TO_DEPLOY.",
+    "measure_cert_v3.py": "Reproducible cert v3 measurement on Phase-1.",
+    "cert_v3_report.md / parser_probe_report.md / tier1_holdout_evidence.md / atom_v2_findings.md / ynu_meta_unknown_verification.md": "Reports.",
+    "data": "exact_eval_round1_Astatine.json (Phase-1 gold), Logic_Based_Educational_Queries_cleaned_v2_flat_normalized.jsonl (608), ..._v5_repair_..._flat_normalized.jsonl (784), type1_aug_holdout_minimal.jsonl + type1_aug_dev_minimal.jsonl (synthetic canary).",
+    "REJECTED_do_not_deploy": [
+      "candidate_atomv2a_scaffold.py",
+      "candidate_atomv2b_existonly.py",
+      "candidate_atomv2c_structural.py"
+    ]
+  },
+  "how_to_reproduce": {
+    "cert_v3": "python3 measure_cert_v3.py engine_v40_snapshot.py exact_eval_round1_Astatine.json",
+    "probe": "python3 parser_coverage_probe.py engine_v40_snapshot.py <dataset...>",
+    "gate": "python3 parser_patch_gate.py engine_v40_snapshot.py <candidate_engine.py> <dataset...>",
+    "ynu_holdout": "python3 ynu_holdout_spurious_check.py engine_v40_snapshot.py out.json exact_eval_round1_Astatine.json <flat jsonl...> type1_aug_holdout_minimal.jsonl"
+  },
+  "next_steps": [
+    "Run strict endpoint full-gate for notebook_ACCOUNT_B_with_ynu.ipynb on Kaggle (clean kernel) -> require READY:True.",
+    "Assemble final submission TriAstatine.zip: urls.txt + source_code.zip + solution.pdf + notation_mapping.csv; verify integrity.",
+    "Do NOT reopen atom v2 / Yes-No proof / 1B pruning unless switching to a rule-inference engine (out of scope pre-deadline).",
+    "Type2 physics: deterministic solver only (parallel-resistor etc.); deprioritized."
+  ]
+}

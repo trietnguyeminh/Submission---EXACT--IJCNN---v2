@@ -1,0 +1,15 @@
+{
+ "n": 600,
+ "baseline_acc": 0.2917,
+ "selected_acc": 0.905,
+ "delta": 0.6133,
+ "overrides": 368,
+ "override_good": 368,
+ "override_bad": 0,
+ "with_certificate": 313,
+ "source_dist": {
+  "lora": 232,
+  "v38b_ynu": 223,
+  "v38b_mc": 145
+ }
+}

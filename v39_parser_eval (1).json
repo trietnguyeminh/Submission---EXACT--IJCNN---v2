@@ -1,0 +1,32 @@
+{
+ "clause_type_match": [
+  5376,
+  5376
+ ],
+ "atom_key_match": [
+  3048,
+  5376
+ ],
+ "fol_fired": 368,
+ "nl_fired": 385,
+ "answer_preservation": [
+  366,
+  366
+ ],
+ "premises_used_preservation": [
+  366,
+  366
+ ],
+ "mismatch_examples": [
+  {
+   "q": "Based on the premises, which conclusion follows?\nA. At least",
+   "fol_ans": "A",
+   "nl_ans": null
+  },
+  {
+   "q": "Based on the premises, which conclusion follows?\nA. At least",
+   "fol_ans": "A",
+   "nl_ans": null
+  }
+ ]
+}

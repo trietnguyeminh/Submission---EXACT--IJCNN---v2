@@ -1,0 +1,10 @@
+{
+  "version": "v40.5-one-run-safe-audit",
+  "created_utc": "2026-06-19T06:55:12.412412+00:00",
+  "phase1_path": null,
+  "source_mode": "replay_cases_only",
+  "out_dir": "/mnt/data/exact_v40_5_combined_outputs",
+  "warning": null,
+  "cases_path": "/mnt/data/v40_4_phase1_replay_cases.json",
+  "n_replay_cases": 25
+}

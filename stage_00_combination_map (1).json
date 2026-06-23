@@ -1,0 +1,41 @@
+{
+  "version": "v40.5-combined-notebook",
+  "created_note": "This JSON records how the previous wrapper notebook and standalone pipeline script were merged.",
+  "combined_from": [
+    {
+      "source": "exact_v40_5_one_run_notebook.ipynb",
+      "role_before": "thin wrapper / launcher notebook",
+      "merged_into": "exact_v40_5_one_run_COMBINED.ipynb",
+      "what_changed": "Removed dependency on importing/running an external .py file; notebook now owns the run entrypoint."
+    },
+    {
+      "source": "exact_v40_5_one_run_pipeline.py",
+      "role_before": "standalone pipeline script containing engine, audit, metrics, JSON writers, Claude handoff",
+      "merged_into": "exact_v40_5_one_run_COMBINED.ipynb",
+      "what_changed": "Inlined the full pipeline code into the notebook's embedded pipeline cell."
+    }
+  ],
+  "current_run_contract": {
+    "single_primary_file": "exact_v40_5_one_run_COMBINED.ipynb",
+    "external_py_required": false,
+    "input_priority": [
+      "exact_eval_round1_Astatine.json if attached/found on Kaggle",
+      "v40_4_phase1_replay_cases.json fallback if full log is absent"
+    ],
+    "outputs": [
+      "stage_00_combination_map.json",
+      "stage_00_input_audit.json",
+      "stage_00_current_pipeline.json",
+      "stage_01_replay_report_selected.json",
+      "stage_02_full_metrics.json",
+      "stage_03_gap_audit.json",
+      "stage_04_overfit_underfit_audit.json",
+      "stage_05_upgrade_stage_reports.json",
+      "stage_06_safe_upgrade_decision.json",
+      "CLAUDE_HANDOFF.md",
+      "SUMMARY.json",
+      "MANIFEST.json"
+    ]
+  },
+  "future_policy": "If a notebook can reasonably contain the pipeline without becoming unmanageable, ship one self-contained notebook first. Only provide a .py module when reuse, package imports, or multi-file engineering is genuinely needed."
+}

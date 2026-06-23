@@ -1,0 +1,285 @@
+{
+  "ALL": {
+    "n": 25,
+    "fired": 5,
+    "abstained": 20,
+    "abstain_rate": 0.8,
+    "old_status_counts_in_abstains": {
+      "wrong_premises_used": 3,
+      "wrong_answer": 9,
+      "correct": 8
+    },
+    "expected_answer_counts_in_abstains": {
+      "B": 1,
+      "C": 3,
+      "D": 3,
+      "A": 1,
+      "Yes": 5,
+      "No": 5,
+      "Uncertain": 2
+    },
+    "top_abstain_examples": [
+      {
+        "query_id": "T1_0031",
+        "expected_answer": "B",
+        "old_status": "wrong_premises_used",
+        "rule": "multiple",
+        "query": "Based on the digitization rules, which conclusion is correct?\nA. The River Codex is not eligible for the public portal\nB. The River Codex is searchable online, but safe public rele"
+      },
+      {
+        "query_id": "T1_0025",
+        "expected_answer": "C",
+        "old_status": "wrong_answer",
+        "rule": "none",
+        "query": "Based on the drone delivery rules, which conclusion is logically supported?\nA. MedKit-7 cannot be dispatched because the route is blocked\nB. MedKit-7 has launch approval\nC. MedKit-"
+      },
+      {
+        "query_id": "T1_0027",
+        "expected_answer": "D",
+        "old_status": "wrong_answer",
+        "rule": "none",
+        "query": "Based on the triage rules, which conclusion is correct?\nA. Mira can be discharged because the rapid test is positive\nB. Mira can receive the standard antiviral dose immediately\nC. "
+      },
+      {
+        "query_id": "T1_0035",
+        "expected_answer": "D",
+        "old_status": "wrong_answer",
+        "rule": "none",
+        "query": "Based on the smart greenhouse rules, which conclusion is supported?\nA. The reservoir lacks water\nB. Chemical treatment is allowed for Greenhouse Basil\nC. Irrigation is unnecessary "
+      },
+      {
+        "query_id": "T1_0039",
+        "expected_answer": "C",
+        "old_status": "wrong_premises_used",
+        "rule": "none",
+        "query": "Based on the cold-chain rules, which conclusion is logically supported?\nA. Batch Nova is not viable\nB. Batch Nova must be quarantined\nC. Batch Nova can be administered\nD. Batch Nov"
+      },
+      {
+        "query_id": "T1_0033",
+        "expected_answer": "C",
+        "old_status": "wrong_answer",
+        "rule": "none",
+        "query": "Based on the reef management rules, which conclusion follows?\nA. Azure Reef has no restoration priority\nB. Azure Reef's conservation plan is approved\nC. A temporary no-take zone is"
+      },
+      {
+        "query_id": "T1_0046",
+        "expected_answer": "A",
+        "old_status": "correct",
+        "rule": "none",
+        "query": "Which conclusion is supported by the clinic roster premises?\nA. Linh receives a blue access badge\nB. Linh has pharmacy training\nC. The morning triage shift needs 5 volunteers\nD. Li"
+      },
+      {
+        "query_id": "T1_0013",
+        "expected_answer": "D",
+        "old_status": "correct",
+        "rule": "none",
+        "query": "Which conclusion follows from the premises?\nA. Manuscript Nova fails the reproducibility checklist\nB. Manuscript Nova cannot be peer reviewed\nC. Manuscript Nova lacks methodologica"
+      },
+      {
+        "query_id": "T1_0026",
+        "expected_answer": "Yes",
+        "old_status": "correct",
+        "rule": "task_abstain",
+        "query": "Is MedKit-7 eligible to use the aerial corridor, according to the premises?"
+      },
+      {
+        "query_id": "T1_0022",
+        "expected_answer": "Yes",
+        "old_status": "wrong_answer",
+        "rule": "task_abstain",
+        "query": "Does the Amber Amulet qualify for public display, according to the premises?"
+      },
+      {
+        "query_id": "T1_0030",
+        "expected_answer": "Yes",
+        "old_status": "correct",
+        "rule": "task_abstain",
+        "query": "Does the Harbor microgrid have a high resilience score, according to the premises?"
+      },
+      {
+        "query_id": "T1_0034",
+        "expected_answer": "Yes",
+        "old_status": "correct",
+        "rule": "task_abstain",
+        "query": "Is a temporary no-take zone recommended for Azure Reef, according to the premises?"
+      }
+    ]
+  },
+  "MC": {
+    "n": 13,
+    "fired": 5,
+    "abstained": 8,
+    "abstain_rate": 0.615385,
+    "old_status_counts_in_abstains": {
+      "wrong_premises_used": 2,
+      "wrong_answer": 4,
+      "correct": 2
+    },
+    "expected_answer_counts_in_abstains": {
+      "B": 1,
+      "C": 3,
+      "D": 3,
+      "A": 1
+    },
+    "top_abstain_examples": [
+      {
+        "query_id": "T1_0031",
+        "expected_answer": "B",
+        "old_status": "wrong_premises_used",
+        "rule": "multiple",
+        "query": "Based on the digitization rules, which conclusion is correct?\nA. The River Codex is not eligible for the public portal\nB. The River Codex is searchable online, but safe public rele"
+      },
+      {
+        "query_id": "T1_0025",
+        "expected_answer": "C",
+        "old_status": "wrong_answer",
+        "rule": "none",
+        "query": "Based on the drone delivery rules, which conclusion is logically supported?\nA. MedKit-7 cannot be dispatched because the route is blocked\nB. MedKit-7 has launch approval\nC. MedKit-"
+      },
+      {
+        "query_id": "T1_0027",
+        "expected_answer": "D",
+        "old_status": "wrong_answer",
+        "rule": "none",
+        "query": "Based on the triage rules, which conclusion is correct?\nA. Mira can be discharged because the rapid test is positive\nB. Mira can receive the standard antiviral dose immediately\nC. "
+      },
+      {
+        "query_id": "T1_0035",
+        "expected_answer": "D",
+        "old_status": "wrong_answer",
+        "rule": "none",
+        "query": "Based on the smart greenhouse rules, which conclusion is supported?\nA. The reservoir lacks water\nB. Chemical treatment is allowed for Greenhouse Basil\nC. Irrigation is unnecessary "
+      },
+      {
+        "query_id": "T1_0039",
+        "expected_answer": "C",
+        "old_status": "wrong_premises_used",
+        "rule": "none",
+        "query": "Based on the cold-chain rules, which conclusion is logically supported?\nA. Batch Nova is not viable\nB. Batch Nova must be quarantined\nC. Batch Nova can be administered\nD. Batch Nov"
+      },
+      {
+        "query_id": "T1_0033",
+        "expected_answer": "C",
+        "old_status": "wrong_answer",
+        "rule": "none",
+        "query": "Based on the reef management rules, which conclusion follows?\nA. Azure Reef has no restoration priority\nB. Azure Reef's conservation plan is approved\nC. A temporary no-take zone is"
+      },
+      {
+        "query_id": "T1_0046",
+        "expected_answer": "A",
+        "old_status": "correct",
+        "rule": "none",
+        "query": "Which conclusion is supported by the clinic roster premises?\nA. Linh receives a blue access badge\nB. Linh has pharmacy training\nC. The morning triage shift needs 5 volunteers\nD. Li"
+      },
+      {
+        "query_id": "T1_0013",
+        "expected_answer": "D",
+        "old_status": "correct",
+        "rule": "none",
+        "query": "Which conclusion follows from the premises?\nA. Manuscript Nova fails the reproducibility checklist\nB. Manuscript Nova cannot be peer reviewed\nC. Manuscript Nova lacks methodologica"
+      }
+    ]
+  },
+  "YNU": {
+    "n": 12,
+    "fired": 0,
+    "abstained": 12,
+    "abstain_rate": 1.0,
+    "old_status_counts_in_abstains": {
+      "correct": 6,
+      "wrong_answer": 5,
+      "wrong_premises_used": 1
+    },
+    "expected_answer_counts_in_abstains": {
+      "Yes": 5,
+      "No": 5,
+      "Uncertain": 2
+    },
+    "top_abstain_examples": [
+      {
+        "query_id": "T1_0026",
+        "expected_answer": "Yes",
+        "old_status": "correct",
+        "rule": "task_abstain",
+        "query": "Is MedKit-7 eligible to use the aerial corridor, according to the premises?"
+      },
+      {
+        "query_id": "T1_0022",
+        "expected_answer": "Yes",
+        "old_status": "wrong_answer",
+        "rule": "task_abstain",
+        "query": "Does the Amber Amulet qualify for public display, according to the premises?"
+      },
+      {
+        "query_id": "T1_0030",
+        "expected_answer": "Yes",
+        "old_status": "correct",
+        "rule": "task_abstain",
+        "query": "Does the Harbor microgrid have a high resilience score, according to the premises?"
+      },
+      {
+        "query_id": "T1_0034",
+        "expected_answer": "Yes",
+        "old_status": "correct",
+        "rule": "task_abstain",
+        "query": "Is a temporary no-take zone recommended for Azure Reef, according to the premises?"
+      },
+      {
+        "query_id": "T1_0042",
+        "expected_answer": "Yes",
+        "old_status": "correct",
+        "rule": "task_abstain",
+        "query": "Is Asha listed as an active contributor?"
+      },
+      {
+        "query_id": "T1_0024",
+        "expected_answer": "No",
+        "old_status": "correct",
+        "rule": "task_abstain",
+        "query": "Do the premises prove that the Atlas case can be formally closed?"
+      },
+      {
+        "query_id": "T1_0028",
+        "expected_answer": "No",
+        "old_status": "wrong_answer",
+        "rule": "task_abstain",
+        "query": "Do the premises establish that Mira should receive the standard antiviral dose?"
+      },
+      {
+        "query_id": "T1_0008",
+        "expected_answer": "No",
+        "old_status": "wrong_answer",
+        "rule": "task_abstain",
+        "query": "Does having thermal sensors and an optical camera guarantee emergency response data in this case?"
+      },
+      {
+        "query_id": "T1_0016",
+        "expected_answer": "No",
+        "old_status": "correct",
+        "rule": "task_abstain",
+        "query": "Does Robot Kappa satisfy every requirement for preparing outbound orders?"
+      },
+      {
+        "query_id": "T1_0032",
+        "expected_answer": "No",
+        "old_status": "wrong_answer",
+        "rule": "task_abstain",
+        "query": "Do the premises establish that the River Codex is safe for public release?"
+      },
+      {
+        "query_id": "T1_0043",
+        "expected_answer": "Uncertain",
+        "old_status": "wrong_premises_used",
+        "rule": "task_abstain",
+        "query": "Does Asha have budget approval?"
+      },
+      {
+        "query_id": "T1_0048",
+        "expected_answer": "Uncertain",
+        "old_status": "wrong_answer",
+        "rule": "task_abstain",
+        "query": "Does Linh have pharmacy training?"
+      }
+    ]
+  }
+}

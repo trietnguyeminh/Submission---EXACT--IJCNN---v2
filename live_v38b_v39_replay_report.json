@@ -1,0 +1,299 @@
+{
+  "engine": "live_v38b_v39_wrapper_replay",
+  "n": 600,
+  "fired": 385,
+  "correct_when_fired": 385,
+  "wrong_when_fired": 0,
+  "precision_when_fired": 1.0,
+  "coverage": 0.641667,
+  "abstained": 215,
+  "certificate_nonempty": 330,
+  "certificate_rate_when_fired": 0.857143,
+  "ynu": {
+    "total": 450,
+    "fired": 240,
+    "correct": 240,
+    "wrong": 0,
+    "precision": 1.0,
+    "coverage": 0.533333
+  },
+  "mc": {
+    "total": 150,
+    "fired": 145,
+    "correct": 145,
+    "wrong": 0,
+    "precision": 1.0,
+    "coverage": 0.966667
+  },
+  "gate": "PASS_INTEGRATE_PREHANDLER",
+  "wrong_examples": [],
+  "abstain_examples": [
+    {
+      "flat_id": "generated_v4style_300:0:0",
+      "gold": "Unknown",
+      "rule": "target_not_matched",
+      "q": "Do all students course?"
+    },
+    {
+      "flat_id": "generated_v4style_300:0:1",
+      "gold": "Unknown",
+      "rule": "no_proof",
+      "q": "Do all students submits all assignments?"
+    },
+    {
+      "flat_id": "generated_v4style_300:2:1",
+      "gold": "Unknown",
+      "rule": "no_proof",
+      "q": "Do all researchers publishes a paper?"
+    },
+    {
+      "flat_id": "generated_v4style_300:3:1",
+      "gold": "Unknown",
+      "rule": "no_proof",
+      "q": "According to the premises, is the following statement true? Every student receives the group grade."
+    },
+    {
+      "flat_id": "generated_v4style_300:4:0",
+      "gold": "No",
+      "rule": "target_not_matched",
+      "q": "Does at least one developer code?"
+    },
+    {
+      "flat_id": "generated_v4style_300:6:1",
+      "gold": "Unknown",
+      "rule": "statement_or_mc_out_of_scope",
+      "q": "According to the premises, is the following statement true? If a student earns course credit, then the student completes the coursework."
+    },
+    {
+      "flat_id": "generated_v4style_300:9:0",
+      "gold": "A",
+      "rule": "multiple_direct_proven",
+      "q": "Based on the premises, which conclusion follows?\nA. At least one student earns course credit.\nB. Every student earns course credit.\nC. No student earns course credit.\nD. At least o"
+    },
+    {
+      "flat_id": "generated_v4style_300:10:0",
+      "gold": "Unknown",
+      "rule": "no_proof",
+      "q": "Do all students study group?"
+    },
+    {
+      "flat_id": "generated_v4style_300:10:1",
+      "gold": "Unknown",
+      "rule": "no_proof",
+      "q": "Do all students group project?"
+    },
+    {
+      "flat_id": "generated_v4style_300:12:1",
+      "gold": "Unknown",
+      "rule": "target_not_matched",
+      "q": "According to the premises, is the following statement true? If a student passes the lab component, then the student completes the lab work."
+    },
+    {
+      "flat_id": "generated_v4style_300:13:1",
+      "gold": "Unknown",
+      "rule": "statement_or_mc_out_of_scope",
+      "q": "According to the premises, is the following statement true? If a developer passes the code review, then the developer writes the code."
+    },
+    {
+      "flat_id": "generated_v4style_300:15:1",
+      "gold": "Unknown",
+      "rule": "no_proof",
+      "q": "Do all developers deploys to production?"
+    },
+    {
+      "flat_id": "generated_v4style_300:17:0",
+      "gold": "Unknown",
+      "rule": "target_not_matched",
+      "q": "Do all students coursework?"
+    },
+    {
+      "flat_id": "generated_v4style_300:17:1",
+      "gold": "Unknown",
+      "rule": "no_proof",
+      "q": "Do all students earns course credit?"
+    },
+    {
+      "flat_id": "generated_v4style_300:18:0",
+      "gold": "Unknown",
+      "rule": "no_proof",
+      "q": "Do all participants program?"
+    },
+    {
+      "flat_id": "generated_v4style_300:18:1",
+      "gold": "Unknown",
+      "rule": "no_proof",
+      "q": "Do all participants finishes all modules?"
+    },
+    {
+      "flat_id": "generated_v4style_300:21:1",
+      "gold": "Unknown",
+      "rule": "target_not_matched",
+      "q": "According to the premises, is the following statement true? If a student submits all assignments, then the student enrolls in the course."
+    },
+    {
+      "flat_id": "generated_v4style_300:22:1",
+      "gold": "Unknown",
+      "rule": "statement_or_mc_out_of_scope",
+      "q": "According to the premises, is the following statement true? No student passes the final exam."
+    },
+    {
+      "flat_id": "generated_v4style_300:23:0",
+      "gold": "Unknown",
+      "rule": "no_proof",
+      "q": "Do all students lab work?"
+    },
+    {
+      "flat_id": "generated_v4style_300:23:1",
+      "gold": "Unknown",
+      "rule": "no_proof",
+      "q": "Do all students lab component?"
+    },
+    {
+      "flat_id": "generated_v4style_300:24:1",
+      "gold": "Unknown",
+      "rule": "target_not_matched",
+      "q": "According to the premises, is the following statement true? If a volunteer assists with activities, then the volunteer signs up for the event."
+    },
+    {
+      "flat_id": "generated_v4style_300:26:1",
+      "gold": "Unknown",
+      "rule": "no_proof",
+      "q": "Do all trainees professional body?"
+    },
+    {
+      "flat_id": "generated_v4style_300:28:0",
+      "gold": "Unknown",
+      "rule": "no_proof",
+      "q": "Do all students studies regularly?"
+    },
+    {
+      "flat_id": "generated_v4style_300:28:1",
+      "gold": "Unknown",
+      "rule": "target_not_matched",
+      "q": "Do all students problems?"
+    },
+    {
+      "flat_id": "generated_v4style_300:33:0",
+      "gold": "No",
+      "rule": "target_not_matched",
+      "q": "Does at least one student course?"
+    }
+  ],
+  "fired_examples": [
+    {
+      "flat_id": "generated_v4style_300:1:0",
+      "gold": "Yes",
+      "answer": "Yes",
+      "premises_used": [
+        0,
+        1,
+        2
+      ],
+      "rule": "PY_universal_positive",
+      "q": "Do all students reviews mistakes?"
+    },
+    {
+      "flat_id": "generated_v4style_300:1:1",
+      "gold": "No",
+      "answer": "No",
+      "premises_used": [
+        4,
+        5
+      ],
+      "rule": "E1_universal_negative",
+      "q": "Does at least one student improves technique?"
+    },
+    {
+      "flat_id": "generated_v4style_300:2:0",
+      "gold": "Yes",
+      "answer": "Yes",
+      "premises_used": [
+        0,
+        1,
+        2
+      ],
+      "rule": "PY_universal_positive",
+      "q": "Do all researchers designs a study?"
+    },
+    {
+      "flat_id": "generated_v4style_300:3:0",
+      "gold": "B",
+      "answer": "B",
+      "premises_used": [
+        0,
+        1,
+        2
+      ],
+      "rule": "MC_unique_direct_proof",
+      "q": "Based on the premises, which statement can be inferred?\nA. At least one student joins the study group.\nB. No student joins the study group.\nC. Every student completes the group project.\nD. At least one student completes "
+    },
+    {
+      "flat_id": "generated_v4style_300:4:1",
+      "gold": "Yes",
+      "answer": "Yes",
+      "premises_used": [
+        2,
+        3,
+        4
+      ],
+      "rule": "PY_universal_positive",
+      "q": "Do all developers deploys to production?"
+    },
+    {
+      "flat_id": "generated_v4style_300:5:0",
+      "gold": "A",
+      "answer": "A",
+      "premises_used": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rule": "MC_unique_direct_proof",
+      "q": "Based on the premises, which statement can be inferred?\nA. Every employee accesses sensitive data.\nB. No employee accesses sensitive data.\nC. Only some employees accesses sensitive data.\nD. The premises do not support an"
+    },
+    {
+      "flat_id": "generated_v4style_300:5:1",
+      "gold": "Yes",
+      "answer": "Yes",
+      "premises_used": [
+        0,
+        1,
+        3
+      ],
+      "rule": "PY_universal_positive",
+      "q": "According to the premises, is the following statement true? Every employee receives security clearance."
+    },
+    {
+      "flat_id": "generated_v4style_300:6:0",
+      "gold": "B",
+      "answer": "B",
+      "premises_used": [],
+      "rule": "MC_meta_cannot_determine",
+      "q": "Based on the premises, which statement is correct?\nA. Every student completes the coursework.\nB. It cannot be determined whether every student completes the coursework.\nC. No student completes the coursework.\nD. Every st"
+    },
+    {
+      "flat_id": "generated_v4style_300:7:0",
+      "gold": "A",
+      "answer": "A",
+      "premises_used": [
+        0,
+        1,
+        2
+      ],
+      "rule": "MC_unique_direct_proof",
+      "q": "Based on the premises, which conclusion follows?\nA. At least one researcher designs a study.\nB. Every researcher designs a study.\nC. No researcher designs a study.\nD. At least one researcher reads the literature, but not"
+    },
+    {
+      "flat_id": "generated_v4style_300:7:1",
+      "gold": "Yes",
+      "answer": "Yes",
+      "premises_used": [
+        3,
+        4
+      ],
+      "rule": "PY_universal_positive",
+      "q": "According to the premises, is the following statement true? Every researcher publishes a paper."
+    }
+  ]
+}

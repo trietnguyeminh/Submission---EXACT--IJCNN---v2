@@ -1,0 +1,14 @@
+{
+  "wrapper_path": "/kaggle/working/live_v38b_v39_wrapper.py",
+  "unit_report_path": "/kaggle/working/live_v38b_v39_unit_report.json",
+  "quick_report_path": "/kaggle/working/live_v38b_v39_quick_report.json",
+  "replay_report_path": "/kaggle/working/live_v38b_v39_replay_report.json",
+  "integration_snippet_path": "/kaggle/working/integration_snippet_predict_type1_live.py",
+  "decision": "READY_TO_INTEGRATE_AS_SYMBOLIC_PREHANDLER",
+  "notes": [
+    "No server/vLLM/GPU required for wrapper tests.",
+    "Apply only when verify_v38_live fires with certificate.",
+    "Abstain means fallback to current LoRA/v35 path unchanged.",
+    "MC answer is kept as A/B/C/D."
+  ]
+}

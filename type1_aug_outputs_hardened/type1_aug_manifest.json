@@ -1,0 +1,5 @@
+{
+ "purpose": "parser stress-test + shadow-eval ONLY",
+ "anti_circular": "abstract reference solver validates samples; v40 only tested on surface",
+ "validator": "reject if not unique-proven / canary<2 / distractor provable"
+}

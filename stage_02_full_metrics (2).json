@@ -1,0 +1,374 @@
+{
+  "source_note": "phase1_log",
+  "groups": {
+    "ALL": {
+      "baseline_status_metrics": {
+        "n": 25,
+        "status_counts": {
+          "correct": 9,
+          "wrong_premises_used": 5,
+          "wrong_answer": 11
+        },
+        "old_exact_accuracy_status_correct_only": 0.36,
+        "old_answer_accuracy_status_correct_or_wrong_premises": 0.56,
+        "note": "F1/precision for the old model require raw old predicted labels; status-only cases cannot reconstruct them.",
+        "per_expected_label_status_recall": {
+          "A": {
+            "support": 4,
+            "old_exact_recall_by_status": 0.5,
+            "old_answer_recall_by_status": 1.0,
+            "status_counts": {
+              "correct": 2,
+              "wrong_premises_used": 2
+            }
+          },
+          "B": {
+            "support": 3,
+            "old_exact_recall_by_status": 0.0,
+            "old_answer_recall_by_status": 0.333333,
+            "status_counts": {
+              "wrong_premises_used": 1,
+              "wrong_answer": 2
+            }
+          },
+          "C": {
+            "support": 3,
+            "old_exact_recall_by_status": 0.0,
+            "old_answer_recall_by_status": 0.333333,
+            "status_counts": {
+              "wrong_answer": 2,
+              "wrong_premises_used": 1
+            }
+          },
+          "D": {
+            "support": 3,
+            "old_exact_recall_by_status": 0.333333,
+            "old_answer_recall_by_status": 0.333333,
+            "status_counts": {
+              "wrong_answer": 2,
+              "correct": 1
+            }
+          },
+          "Yes": {
+            "support": 5,
+            "old_exact_recall_by_status": 0.8,
+            "old_answer_recall_by_status": 0.8,
+            "status_counts": {
+              "correct": 4,
+              "wrong_answer": 1
+            }
+          },
+          "No": {
+            "support": 5,
+            "old_exact_recall_by_status": 0.4,
+            "old_answer_recall_by_status": 0.4,
+            "status_counts": {
+              "correct": 2,
+              "wrong_answer": 3
+            }
+          },
+          "Uncertain": {
+            "support": 2,
+            "old_exact_recall_by_status": 0.0,
+            "old_answer_recall_by_status": 0.5,
+            "status_counts": {
+              "wrong_premises_used": 1,
+              "wrong_answer": 1
+            }
+          }
+        }
+      },
+      "certificate_engine_metrics": {
+        "n": 25,
+        "fired": 5,
+        "abstained": 20,
+        "coverage": 0.2,
+        "strict_accuracy_abstain_as_wrong": 0.2,
+        "fired_accuracy": 1.0,
+        "macro_precision_strict": 0.285714,
+        "macro_recall_strict": 0.202381,
+        "macro_f1_strict": 0.236735,
+        "per_label": {
+          "A": {
+            "support": 4,
+            "tp": 3,
+            "fp": 0,
+            "fn": 1,
+            "precision": 1.0,
+            "recall": 0.75,
+            "f1": 0.857143
+          },
+          "B": {
+            "support": 3,
+            "tp": 2,
+            "fp": 0,
+            "fn": 1,
+            "precision": 1.0,
+            "recall": 0.666667,
+            "f1": 0.8
+          },
+          "C": {
+            "support": 3,
+            "tp": 0,
+            "fp": 0,
+            "fn": 3,
+            "precision": null,
+            "recall": 0.0,
+            "f1": null
+          },
+          "D": {
+            "support": 3,
+            "tp": 0,
+            "fp": 0,
+            "fn": 3,
+            "precision": null,
+            "recall": 0.0,
+            "f1": null
+          },
+          "Yes": {
+            "support": 5,
+            "tp": 0,
+            "fp": 0,
+            "fn": 5,
+            "precision": null,
+            "recall": 0.0,
+            "f1": null
+          },
+          "No": {
+            "support": 5,
+            "tp": 0,
+            "fp": 0,
+            "fn": 5,
+            "precision": null,
+            "recall": 0.0,
+            "f1": null
+          },
+          "Uncertain": {
+            "support": 2,
+            "tp": 0,
+            "fp": 0,
+            "fn": 2,
+            "precision": null,
+            "recall": 0.0,
+            "f1": null
+          }
+        }
+      },
+      "after_safe_override_status_metrics": {
+        "n": 25,
+        "status_counts_after_safe_override": {
+          "correct": 13,
+          "wrong_premises_used": 3,
+          "wrong_answer": 9
+        },
+        "estimated_exact_accuracy_after_override": 0.52,
+        "estimated_answer_accuracy_after_override": 0.64,
+        "note": "This estimate is exact for status categories if old_status semantics are correct. Label F1 still needs raw old predictions for abstained rows."
+      }
+    },
+    "MC": {
+      "baseline_status_metrics": {
+        "n": 13,
+        "status_counts": {
+          "correct": 3,
+          "wrong_premises_used": 4,
+          "wrong_answer": 6
+        },
+        "old_exact_accuracy_status_correct_only": 0.230769,
+        "old_answer_accuracy_status_correct_or_wrong_premises": 0.538462,
+        "note": "F1/precision for the old model require raw old predicted labels; status-only cases cannot reconstruct them.",
+        "per_expected_label_status_recall": {
+          "A": {
+            "support": 4,
+            "old_exact_recall_by_status": 0.5,
+            "old_answer_recall_by_status": 1.0,
+            "status_counts": {
+              "correct": 2,
+              "wrong_premises_used": 2
+            }
+          },
+          "B": {
+            "support": 3,
+            "old_exact_recall_by_status": 0.0,
+            "old_answer_recall_by_status": 0.333333,
+            "status_counts": {
+              "wrong_premises_used": 1,
+              "wrong_answer": 2
+            }
+          },
+          "C": {
+            "support": 3,
+            "old_exact_recall_by_status": 0.0,
+            "old_answer_recall_by_status": 0.333333,
+            "status_counts": {
+              "wrong_answer": 2,
+              "wrong_premises_used": 1
+            }
+          },
+          "D": {
+            "support": 3,
+            "old_exact_recall_by_status": 0.333333,
+            "old_answer_recall_by_status": 0.333333,
+            "status_counts": {
+              "wrong_answer": 2,
+              "correct": 1
+            }
+          }
+        }
+      },
+      "certificate_engine_metrics": {
+        "n": 13,
+        "fired": 5,
+        "abstained": 8,
+        "coverage": 0.384615,
+        "strict_accuracy_abstain_as_wrong": 0.384615,
+        "fired_accuracy": 1.0,
+        "macro_precision_strict": 0.5,
+        "macro_recall_strict": 0.354167,
+        "macro_f1_strict": 0.414286,
+        "per_label": {
+          "A": {
+            "support": 4,
+            "tp": 3,
+            "fp": 0,
+            "fn": 1,
+            "precision": 1.0,
+            "recall": 0.75,
+            "f1": 0.857143
+          },
+          "B": {
+            "support": 3,
+            "tp": 2,
+            "fp": 0,
+            "fn": 1,
+            "precision": 1.0,
+            "recall": 0.666667,
+            "f1": 0.8
+          },
+          "C": {
+            "support": 3,
+            "tp": 0,
+            "fp": 0,
+            "fn": 3,
+            "precision": null,
+            "recall": 0.0,
+            "f1": null
+          },
+          "D": {
+            "support": 3,
+            "tp": 0,
+            "fp": 0,
+            "fn": 3,
+            "precision": null,
+            "recall": 0.0,
+            "f1": null
+          }
+        }
+      },
+      "after_safe_override_status_metrics": {
+        "n": 13,
+        "status_counts_after_safe_override": {
+          "correct": 7,
+          "wrong_premises_used": 2,
+          "wrong_answer": 4
+        },
+        "estimated_exact_accuracy_after_override": 0.538462,
+        "estimated_answer_accuracy_after_override": 0.692308,
+        "note": "This estimate is exact for status categories if old_status semantics are correct. Label F1 still needs raw old predictions for abstained rows."
+      }
+    },
+    "YNU": {
+      "baseline_status_metrics": {
+        "n": 12,
+        "status_counts": {
+          "correct": 6,
+          "wrong_answer": 5,
+          "wrong_premises_used": 1
+        },
+        "old_exact_accuracy_status_correct_only": 0.5,
+        "old_answer_accuracy_status_correct_or_wrong_premises": 0.583333,
+        "note": "F1/precision for the old model require raw old predicted labels; status-only cases cannot reconstruct them.",
+        "per_expected_label_status_recall": {
+          "Yes": {
+            "support": 5,
+            "old_exact_recall_by_status": 0.8,
+            "old_answer_recall_by_status": 0.8,
+            "status_counts": {
+              "correct": 4,
+              "wrong_answer": 1
+            }
+          },
+          "No": {
+            "support": 5,
+            "old_exact_recall_by_status": 0.4,
+            "old_answer_recall_by_status": 0.4,
+            "status_counts": {
+              "correct": 2,
+              "wrong_answer": 3
+            }
+          },
+          "Uncertain": {
+            "support": 2,
+            "old_exact_recall_by_status": 0.0,
+            "old_answer_recall_by_status": 0.5,
+            "status_counts": {
+              "wrong_premises_used": 1,
+              "wrong_answer": 1
+            }
+          }
+        }
+      },
+      "certificate_engine_metrics": {
+        "n": 12,
+        "fired": 0,
+        "abstained": 12,
+        "coverage": 0.0,
+        "strict_accuracy_abstain_as_wrong": 0.0,
+        "fired_accuracy": null,
+        "macro_precision_strict": 0.0,
+        "macro_recall_strict": 0.0,
+        "macro_f1_strict": 0.0,
+        "per_label": {
+          "Yes": {
+            "support": 5,
+            "tp": 0,
+            "fp": 0,
+            "fn": 5,
+            "precision": null,
+            "recall": 0.0,
+            "f1": null
+          },
+          "No": {
+            "support": 5,
+            "tp": 0,
+            "fp": 0,
+            "fn": 5,
+            "precision": null,
+            "recall": 0.0,
+            "f1": null
+          },
+          "Uncertain": {
+            "support": 2,
+            "tp": 0,
+            "fp": 0,
+            "fn": 2,
+            "precision": null,
+            "recall": 0.0,
+            "f1": null
+          }
+        }
+      },
+      "after_safe_override_status_metrics": {
+        "n": 12,
+        "status_counts_after_safe_override": {
+          "correct": 6,
+          "wrong_answer": 5,
+          "wrong_premises_used": 1
+        },
+        "estimated_exact_accuracy_after_override": 0.5,
+        "estimated_answer_accuracy_after_override": 0.583333,
+        "note": "This estimate is exact for status categories if old_status semantics are correct. Label F1 still needs raw old predictions for abstained rows."
+      }
+    }
+  }
+}

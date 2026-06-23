@@ -1,0 +1,30 @@
+{
+ "decision": "ACCEPT_SHADOW_ONLY",
+ "diff": {
+  "candidate": "v40_4_entity_conjunctive_engine.py",
+  "baseline": "v40_4_entity_conjunctive_engine.py",
+  "n": 25,
+  "baseline_fired_set": [
+   "T1_0007",
+   "T1_0015",
+   "T1_0021",
+   "T1_0023",
+   "T1_0041"
+  ],
+  "candidate_fired_set": [
+   "T1_0007",
+   "T1_0015",
+   "T1_0021",
+   "T1_0023",
+   "T1_0041"
+  ],
+  "added": [],
+  "lost": [],
+  "changed_premises": [],
+  "candidate_wrong": [],
+  "new_multiple_proven": [],
+  "decision": "ACCEPT_SHADOW_ONLY",
+  "reject_reasons": []
+ },
+ "golden_rule": "PROMOTE iff added!=[] and lost==[] and changed_premises==[] and wrong==[] and no new multiple-proven"
+}

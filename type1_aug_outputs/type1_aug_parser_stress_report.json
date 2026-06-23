@@ -1,0 +1,24 @@
+{
+ "dev": {
+  "n": 60,
+  "fired": 25,
+  "answer_correct_when_fired": 23,
+  "premises_used_correct_when_fired": 23,
+  "wrong_due_to_canonicalization": 2,
+  "canary_n": 21,
+  "canary_abstained_correctly": 12,
+  "paraphrase_consistency_groups": "2/2",
+  "fired_rate": 0.641
+ },
+ "holdout": {
+  "n": 140,
+  "fired": 43,
+  "answer_correct_when_fired": 41,
+  "premises_used_correct_when_fired": 41,
+  "wrong_due_to_canonicalization": 2,
+  "canary_n": 48,
+  "canary_abstained_correctly": 27,
+  "paraphrase_consistency_groups": "2/2",
+  "fired_rate": 0.467
+ }
+}

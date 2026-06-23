@@ -1,0 +1,24 @@
+{
+  "overfit": {
+    "score_1_to_5": 1.5,
+    "level": "VERY_LOW",
+    "summary": "Low if using v38b/v35 certificate-gated selector only; do not sweep rules on validation."
+  },
+  "underfit": {
+    "score_1_to_5": 3.1,
+    "level": "MEDIUM",
+    "summary": "Medium overall: MC improved strongly, YNU still abstains on target_not_matched/no_proof."
+  },
+  "sota_status": {
+    "offline_symbolic_layer": "STRONG / near-SOTA on generated when FOL is available",
+    "offline_full_system": "Cannot claim if generation unhealthy; rerun with valid LoRA raw_output needed",
+    "live_system": "Not SOTA yet unless NL-to-FOL/predicate parser ports v38b to live."
+  },
+  "notes": [
+    "Generation unhealthy: do not trust LoRA baseline/selector delta. This is reproducibility/runtime risk, not model overfit.",
+    "v38b has zero wrong fired cases on generated: proof/certificate layer reduces overfit risk.",
+    "YNU symbolic coverage below 60%: safe underfit remains, mainly target matching/no proof.",
+    "MC underfit is greatly reduced by v38b policy on generated.",
+    "High certificate rate improves trust in premises_used and reduces arbitrary override risk."
+  ]
+}

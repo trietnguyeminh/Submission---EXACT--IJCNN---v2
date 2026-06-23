@@ -1,0 +1,281 @@
+{
+  "engine": "v38_auto_proof_first_analysis_only",
+  "mode": "analysis_only_not_applied",
+  "n_rows": 50,
+  "runtime_sec": 0.021,
+  "ynu": {
+    "total": 36,
+    "answered": 16,
+    "correct": 16,
+    "wrong": 0,
+    "abstained": 20,
+    "wrong_examples": [],
+    "abstain_examples": [
+      {
+        "flat_id": "generated_v4style_300:0:0",
+        "gold": "Unknown",
+        "question": "Do all students course?",
+        "reason": "target_not_matched",
+        "target": null
+      },
+      {
+        "flat_id": "generated_v4style_300:0:1",
+        "gold": "Unknown",
+        "question": "Do all students submits all assignments?",
+        "reason": "no_proof",
+        "target": "SubmitsAllAssignments"
+      },
+      {
+        "flat_id": "generated_v4style_300:2:1",
+        "gold": "Unknown",
+        "question": "Do all researchers publishes a paper?",
+        "reason": "no_proof",
+        "target": "PublishesPaper"
+      },
+      {
+        "flat_id": "generated_v4style_300:3:1",
+        "gold": "Unknown",
+        "question": "According to the premises, is the following statement true? Every student receives the group grade.",
+        "reason": "no_proof",
+        "target": "ReceivesGroupGrade"
+      },
+      {
+        "flat_id": "generated_v4style_300:4:0",
+        "gold": "No",
+        "question": "Does at least one developer code?",
+        "reason": "target_not_matched",
+        "target": null
+      },
+      {
+        "flat_id": "generated_v4style_300:6:1",
+        "gold": "Unknown",
+        "question": "According to the premises, is the following statement true? If a student earns course credit, then the student completes the coursework.",
+        "reason": "target_not_matched",
+        "target": null
+      },
+      {
+        "flat_id": "generated_v4style_300:10:0",
+        "gold": "Unknown",
+        "question": "Do all students study group?",
+        "reason": "no_proof",
+        "target": "JoinsStudyGroup"
+      },
+      {
+        "flat_id": "generated_v4style_300:10:1",
+        "gold": "Unknown",
+        "question": "Do all students group project?",
+        "reason": "no_proof",
+        "target": "CompletesGroupProject"
+      },
+      {
+        "flat_id": "generated_v4style_300:12:1",
+        "gold": "Unknown",
+        "question": "According to the premises, is the following statement true? If a student passes the lab component, then the student completes the lab work.",
+        "reason": "target_not_matched",
+        "target": null
+      },
+      {
+        "flat_id": "generated_v4style_300:13:1",
+        "gold": "Unknown",
+        "question": "According to the premises, is the following statement true? If a developer passes the code review, then the developer writes the code.",
+        "reason": "statement_or_mc_out_of_scope",
+        "target": "PassesCodeReview"
+      }
+    ],
+    "answered_examples": [
+      {
+        "flat_id": "generated_v4style_300:1:0",
+        "gold": "Yes",
+        "pred": "Yes",
+        "premises_used": [
+          0,
+          1,
+          2
+        ],
+        "rule": "PY_universal_positive",
+        "question": "Do all students reviews mistakes?"
+      },
+      {
+        "flat_id": "generated_v4style_300:1:1",
+        "gold": "No",
+        "pred": "No",
+        "premises_used": [
+          4,
+          5
+        ],
+        "rule": "E1_universal_negative",
+        "question": "Does at least one student improves technique?"
+      },
+      {
+        "flat_id": "generated_v4style_300:2:0",
+        "gold": "Yes",
+        "pred": "Yes",
+        "premises_used": [
+          0,
+          1,
+          2
+        ],
+        "rule": "PY_universal_positive",
+        "question": "Do all researchers designs a study?"
+      },
+      {
+        "flat_id": "generated_v4style_300:4:1",
+        "gold": "Yes",
+        "pred": "Yes",
+        "premises_used": [
+          2,
+          3,
+          4
+        ],
+        "rule": "PY_universal_positive",
+        "question": "Do all developers deploys to production?"
+      },
+      {
+        "flat_id": "generated_v4style_300:5:1",
+        "gold": "Yes",
+        "pred": "Yes",
+        "premises_used": [
+          0,
+          1,
+          3
+        ],
+        "rule": "PY_universal_positive",
+        "question": "According to the premises, is the following statement true? Every employee receives security clearance."
+      }
+    ],
+    "precision_when_answered": 1.0,
+    "coverage": 0.444444,
+    "abstain_rate": 0.555556
+  },
+  "mc": {
+    "total": 14,
+    "answered": 14,
+    "correct": 9,
+    "wrong": 5,
+    "abstained": 0,
+    "wrong_examples": [
+      {
+        "flat_id": "generated_v4style_300:6:0",
+        "gold": "B",
+        "pred": "D",
+        "premises_used": [
+          2
+        ],
+        "rule": "MC_unique_proof",
+        "question": "Based on the premises, which statement is correct?\nA. Every student completes the coursework.\nB. It cannot be determined whether every student completes the coursework.\nC. No student completes the coursework.\nD. Every student who earns course credit must completes."
+      },
+      {
+        "flat_id": "generated_v4style_300:12:0",
+        "gold": "B",
+        "pred": "D",
+        "premises_used": [
+          2
+        ],
+        "rule": "MC_unique_proof",
+        "question": "Based on the premises, which statement is correct?\nA. Every student completes the lab work.\nB. It cannot be determined whether every student completes the lab work.\nC. No student completes the lab work.\nD. Every student who passes the lab component must completes."
+      },
+      {
+        "flat_id": "generated_v4style_300:13:0",
+        "gold": "B",
+        "pred": "D",
+        "premises_used": [
+          2
+        ],
+        "rule": "MC_unique_proof",
+        "question": "Based on the premises, which statement is correct?\nA. Every developer writes the code.\nB. It cannot be determined whether every developer writes the code.\nC. No developer writes the code.\nD. Every developer who passes the code review must writes."
+      },
+      {
+        "flat_id": "generated_v4style_300:21:0",
+        "gold": "B",
+        "pred": "D",
+        "premises_used": [
+          2
+        ],
+        "rule": "MC_unique_proof",
+        "question": "Based on the premises, which statement is correct?\nA. Every student enrolls in the course.\nB. It cannot be determined whether every student enrolls in the course.\nC. No student enrolls in the course.\nD. Every student who submits all assignments must enrolls."
+      },
+      {
+        "flat_id": "generated_v4style_300:24:0",
+        "gold": "B",
+        "pred": "D",
+        "premises_used": [
+          2
+        ],
+        "rule": "MC_unique_proof",
+        "question": "Based on the premises, which statement is correct?\nA. Every volunteer signs up for the event.\nB. It cannot be determined whether every volunteer signs up for the event.\nC. No volunteer signs up for the event.\nD. Every volunteer who assists with activities must signs."
+      }
+    ],
+    "abstain_examples": [],
+    "answered_examples": [
+      {
+        "flat_id": "generated_v4style_300:3:0",
+        "gold": "B",
+        "pred": "B",
+        "premises_used": [
+          0,
+          1,
+          2
+        ],
+        "rule": "MC_unique_proof",
+        "question": "Based on the premises, which statement can be inferred?\nA. At least one student joins the study group.\nB. No student joins the study group.\nC. Every student completes the group project.\nD. At least one student completes the group project."
+      },
+      {
+        "flat_id": "generated_v4style_300:5:0",
+        "gold": "A",
+        "pred": "A",
+        "premises_used": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rule": "MC_unique_proof",
+        "question": "Based on the premises, which statement can be inferred?\nA. Every employee accesses sensitive data.\nB. No employee accesses sensitive data.\nC. Only some employees accesses sensitive data.\nD. The premises do not support any conclusion about accessesing."
+      },
+      {
+        "flat_id": "generated_v4style_300:7:0",
+        "gold": "A",
+        "pred": "A",
+        "premises_used": [
+          0,
+          1,
+          2
+        ],
+        "rule": "MC_unique_proof",
+        "question": "Based on the premises, which conclusion follows?\nA. At least one researcher designs a study.\nB. Every researcher designs a study.\nC. No researcher designs a study.\nD. At least one researcher reads the literature, but nothing about designs a study."
+      },
+      {
+        "flat_id": "generated_v4style_300:8:0",
+        "gold": "A",
+        "pred": "A",
+        "premises_used": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rule": "MC_unique_proof",
+        "question": "Based on the premises, which statement can be inferred?\nA. Every researcher collects data.\nB. No researcher collects data.\nC. Only some researchers collects data.\nD. The premises do not support any conclusion about collectsing."
+      },
+      {
+        "flat_id": "generated_v4style_300:9:0",
+        "gold": "A",
+        "pred": "A",
+        "premises_used": [
+          0,
+          1,
+          2
+        ],
+        "rule": "MC_unique_proof",
+        "question": "Based on the premises, which conclusion follows?\nA. At least one student earns course credit.\nB. Every student earns course credit.\nC. No student earns course credit.\nD. At least one student completes the coursework, but nothing about earns course credit."
+      }
+    ],
+    "precision_when_answered": 0.642857,
+    "coverage": 1.0,
+    "abstain_rate": 0.0
+  },
+  "gate_suggestion": {
+    "apply_now": false,
+    "reason": "analysis-only until full precision/coverage is reviewed; live has no FOL unless NL parser is added"
+  }
+}

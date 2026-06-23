@@ -1,0 +1,15 @@
+{
+  "accepted": [
+    {
+      "stage": 1,
+      "name": "uploaded_v40_4_replay_cases_audit",
+      "gate": "accepted_for_audit_or_safe_apply"
+    }
+  ],
+  "rejected_or_not_promoted": [
+    {
+      "stage": 2,
+      "reason": "Full exact_eval_round1_Astatine.json is required to rerun parser upgrades against premises."
+    }
+  ]
+}

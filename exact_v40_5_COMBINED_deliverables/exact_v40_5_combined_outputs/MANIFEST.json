@@ -1,0 +1,21 @@
+{
+  "version": "v40.5-one-run-safe-audit",
+  "created_utc": "2026-06-19T06:55:12.414732+00:00",
+  "source_mode": "replay_cases_only",
+  "selected_stage": "uploaded_v40_4_replay_cases_no_full_premises",
+  "files": {
+    "CLAUDE_HANDOFF.md": "/mnt/data/exact_v40_5_combined_outputs/CLAUDE_HANDOFF.md",
+    "SUMMARY.json": "/mnt/data/exact_v40_5_combined_outputs/SUMMARY.json",
+    "stage_00_current_pipeline.json": "/mnt/data/exact_v40_5_combined_outputs/stage_00_current_pipeline.json",
+    "stage_00_input_audit.json": "/mnt/data/exact_v40_5_combined_outputs/stage_00_input_audit.json",
+    "stage_01_replay_report_selected.json": "/mnt/data/exact_v40_5_combined_outputs/stage_01_replay_report_selected.json",
+    "stage_02_full_metrics.json": "/mnt/data/exact_v40_5_combined_outputs/stage_02_full_metrics.json",
+    "stage_03_gap_audit.json": "/mnt/data/exact_v40_5_combined_outputs/stage_03_gap_audit.json",
+    "stage_04_overfit_underfit_audit.json": "/mnt/data/exact_v40_5_combined_outputs/stage_04_overfit_underfit_audit.json",
+    "stage_05_upgrade_stage_reports.json": "/mnt/data/exact_v40_5_combined_outputs/stage_05_upgrade_stage_reports.json",
+    "stage_06_safe_upgrade_decision.json": "/mnt/data/exact_v40_5_combined_outputs/stage_06_safe_upgrade_decision.json",
+    "stage_00_combination_map.json": "/mnt/data/exact_v40_5_combined_outputs/stage_00_combination_map.json"
+  },
+  "single_primary_file": "exact_v40_5_one_run_COMBINED.ipynb",
+  "external_py_required": false
+}

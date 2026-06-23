@@ -1,0 +1,12 @@
+{
+ "purpose": "parser stress-test + shadow-eval ONLY; NOT for LoRA training or sole live-promotion evidence",
+ "anti_circular": "gold from fixed skeleton; v40 is system-under-test on paraphrased surface",
+ "families": [
+  "entity_conjunctive_mc",
+  "ambiguity_canary",
+  "numeric_guard"
+ ],
+ "dev_n": 60,
+ "holdout_n": 140,
+ "engine_tested": "v40_4.py"
+}

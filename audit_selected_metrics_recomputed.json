@@ -1,0 +1,36 @@
+{
+  "n": 600,
+  "selected_acc": 0.905,
+  "selected_macro7": 0.9387814606285312,
+  "source_dist": {
+    "lora": 232,
+    "v38b_ynu": 223,
+    "v38b_mc": 145
+  },
+  "with_certificate": 313,
+  "certificate_rate": 0.5216666666666666,
+  "gold_dist": {
+    "Unknown": 175,
+    "Yes": 170,
+    "No": 105,
+    "B": 50,
+    "A": 50,
+    "C": 25,
+    "D": 25
+  },
+  "pred_dist": {
+    "Unknown": 232,
+    "Yes": 148,
+    "No": 75,
+    "B": 50,
+    "A": 45,
+    "C": 25,
+    "D": 25
+  },
+  "acc_source_lora": 0.7543103448275862,
+  "n_source_lora": 232,
+  "acc_source_v38b_mc": 1.0,
+  "n_source_v38b_mc": 145,
+  "acc_source_v38b_ynu": 1.0,
+  "n_source_v38b_ynu": 223
+}

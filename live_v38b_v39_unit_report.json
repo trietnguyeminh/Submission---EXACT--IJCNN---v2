@@ -1,0 +1,6 @@
+{
+  "returncode": 0,
+  "stdout": "v38b MC policy ready\nverify_v38_live ready (NL-only)\nUNIT TESTS: 6/6 passed\n  PASS YNU positive chain -> Yes: exp=Yes got=Yes rule=PY_universal_positive prem=[0, 1, 2]\n  PASS YNU existential-negative -> No: exp=No got=No rule=E1_universal_negative prem=[1, 2]\n  PASS Unknown / no proof -> abstain: exp=None got=None rule=no_proof prem=[]\n  PASS MC unique direct -> A: exp=A got=A rule=MC_unique_direct_proof prem=[0, 1]\n  PASS MC meta cannot-determine -> B: exp=B got=B rule=MC_meta_cannot_determine prem=[]\n  PASS MC conditional distractor must NOT win -> B: exp=B got=B rule=MC_meta_cannot_determine prem=[]\n\nlive-format smoke (NL-only, no FOL): Yes [0] PE_witness\n",
+  "stderr": "",
+  "pass": true
+}

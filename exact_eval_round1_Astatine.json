@@ -1,0 +1,3675 @@
+{
+  "success": true,
+  "available": true,
+  "sample_version": "eval-round1-type1-type2-v2",
+  "generated_at": "2026-06-19T11:35:16.176070+07:00",
+  "summary": {
+    "submission_id": 51,
+    "user_id": 60,
+    "team": "Astatine",
+    "username": "astatine1",
+    "api_url": "https://month-discovered-seems-metal.trycloudflare.com/predict",
+    "filename": "submission_package.zip",
+    "slot_key": "2026-06-14_18-19",
+    "slot_date": "2026-06-14",
+    "slot_label": "18:00-19:00 VNT",
+    "status": "done",
+    "completed": 50,
+    "total": 50,
+    "next_query_id": "",
+    "score": 30.39,
+    "total_points": 30.39,
+    "sample_score_avg": 57.89,
+    "p1_score": 54.0,
+    "p2_score": 71.55,
+    "type1_points": 15.94,
+    "type1_question_count": 25,
+    "type2_points": 13.0,
+    "type2_question_count": 25,
+    "base_points": 28.94,
+    "time_bonus_points": 1.45,
+    "time_bonus_rate": 0.1,
+    "time_bonus_seconds": 60.0,
+    "data_correct_points": 0.0,
+    "data_correct_rate": 0.1,
+    "data_correct_status": "pending",
+    "scoring_note": "Type 1: 50% P1 + 50% P2. Type 2: 100% P1. Time and data correctness are 10% bonus components added on top of the base score.",
+    "errors": [
+      {
+        "query_id": "T1_0031",
+        "status": "wrong_premises_used",
+        "error": ""
+      },
+      {
+        "query_id": "T1_0025",
+        "status": "wrong_answer",
+        "error": ""
+      },
+      {
+        "query_id": "T1_0027",
+        "status": "wrong_answer",
+        "error": ""
+      },
+      {
+        "query_id": "T1_0035",
+        "status": "wrong_answer",
+        "error": ""
+      },
+      {
+        "query_id": "T1_0039",
+        "status": "wrong_premises_used",
+        "error": ""
+      },
+      {
+        "query_id": "T1_0023",
+        "status": "wrong_premises_used",
+        "error": ""
+      },
+      {
+        "query_id": "T1_0033",
+        "status": "wrong_answer",
+        "error": ""
+      },
+      {
+        "query_id": "T1_0015",
+        "status": "wrong_answer",
+        "error": ""
+      },
+      {
+        "query_id": "T1_0007",
+        "status": "wrong_answer",
+        "error": ""
+      },
+      {
+        "query_id": "T1_0041",
+        "status": "wrong_premises_used",
+        "error": ""
+      },
+      {
+        "query_id": "T1_0022",
+        "status": "wrong_answer",
+        "error": ""
+      },
+      {
+        "query_id": "T1_0028",
+        "status": "wrong_answer",
+        "error": ""
+      },
+      {
+        "query_id": "T1_0008",
+        "status": "wrong_answer",
+        "error": ""
+      },
+      {
+        "query_id": "T1_0032",
+        "status": "wrong_answer",
+        "error": ""
+      },
+      {
+        "query_id": "T1_0043",
+        "status": "wrong_premises_used",
+        "error": ""
+      },
+      {
+        "query_id": "T1_0048",
+        "status": "wrong_answer",
+        "error": ""
+      },
+      {
+        "query_id": "T2_0004",
+        "status": "wrong_answer",
+        "error": ""
+      },
+      {
+        "query_id": "T2_0005",
+        "status": "wrong_answer",
+        "error": ""
+      },
+      {
+        "query_id": "T2_0006",
+        "status": "wrong_answer",
+        "error": ""
+      },
+      {
+        "query_id": "T2_0007",
+        "status": "wrong_answer",
+        "error": ""
+      },
+      {
+        "query_id": "T2_0012",
+        "status": "wrong_answer",
+        "error": ""
+      },
+      {
+        "query_id": "T2_0014",
+        "status": "wrong_answer",
+        "error": ""
+      },
+      {
+        "query_id": "T2_0015",
+        "status": "wrong_answer",
+        "error": ""
+      },
+      {
+        "query_id": "T2_0016",
+        "status": "wrong_answer",
+        "error": ""
+      },
+      {
+        "query_id": "T2_0017",
+        "status": "wrong_answer",
+        "error": ""
+      },
+      {
+        "query_id": "T2_0019",
+        "status": "wrong_answer",
+        "error": ""
+      },
+      {
+        "query_id": "T2_0049",
+        "status": "wrong_answer",
+        "error": ""
+      },
+      {
+        "query_id": "T2_0050",
+        "status": "wrong_answer",
+        "error": ""
+      }
+    ],
+    "recent_logs": [
+      {
+        "query_id": "T2_0039",
+        "type": "type2",
+        "category": "physics",
+        "status": "correct",
+        "ok": true,
+        "sample_score": 100.0,
+        "p1_score": 100.0,
+        "p2_score": null,
+        "duration_seconds": 36.427,
+        "error": "",
+        "started_at": "2026-06-14T19:20:00.990705+07:00",
+        "completed_at": "2026-06-14T19:20:00.990705+07:00"
+      },
+      {
+        "query_id": "T2_0049",
+        "type": "type2",
+        "category": "physics",
+        "status": "wrong_answer",
+        "ok": false,
+        "sample_score": 0,
+        "p1_score": 0,
+        "p2_score": null,
+        "duration_seconds": 30.643,
+        "error": "",
+        "started_at": "2026-06-14T19:20:34.617943+07:00",
+        "completed_at": "2026-06-14T19:20:34.617943+07:00"
+      },
+      {
+        "query_id": "T2_0050",
+        "type": "type2",
+        "category": "physics",
+        "status": "wrong_answer",
+        "ok": false,
+        "sample_score": 0,
+        "p1_score": 0,
+        "p2_score": null,
+        "duration_seconds": 36.433,
+        "error": "",
+        "started_at": "2026-06-14T19:21:14.378896+07:00",
+        "completed_at": "2026-06-14T19:21:14.378896+07:00"
+      }
+    ],
+    "last_log": {
+      "query_id": "T2_0050",
+      "type": "type2",
+      "category": "physics",
+      "status": "wrong_answer",
+      "ok": false,
+      "sample_score": 0,
+      "p1_score": 0,
+      "p2_score": null,
+      "duration_seconds": 36.433,
+      "error": "",
+      "started_at": "2026-06-14T19:21:14.378896+07:00",
+      "completed_at": "2026-06-14T19:21:14.378896+07:00"
+    },
+    "updated_at": "2026-06-14T19:21:14.378896+07:00"
+  },
+  "logs": [
+    {
+      "query_id": "T1_0021",
+      "type": "type1",
+      "category": "mcq",
+      "status": "correct",
+      "ok": true,
+      "sample_score": 100.0,
+      "p1_score": 100.0,
+      "p2_score": 100.0,
+      "duration_seconds": 25.358,
+      "error": "",
+      "started_at": "2026-06-14T18:38:33.520619+07:00",
+      "completed_at": "2026-06-14T18:38:33.520619+07:00",
+      "request_payload": {
+        "query_id": "T1_0021",
+        "type": "type1",
+        "query": "Based on the museum conservation rules, which conclusion is logically supported?\nA. The Amber Amulet must be displayed in a climate-controlled case\nB. The Amber Amulet cannot be placed on public display\nC. The Amber Amulet needs pest treatment before storage\nD. The Amber Amulet lacks a provenance certificate",
+        "premises": [
+          "If an artifact has a humidity-control log and no pest-damage report, then it is storage-ready.",
+          "If an artifact is storage-ready and has a provenance certificate, then it is eligible for exhibition.",
+          "If an artifact is eligible for exhibition and has curator approval, then it can be placed on public display.",
+          "If an artifact is fragile, then it requires low-light protection.",
+          "If an artifact requires low-light protection and can be placed on public display, then it must be displayed in a climate-controlled case.",
+          "The Amber Amulet has a humidity-control log.",
+          "The Amber Amulet has no pest-damage report.",
+          "The Amber Amulet has a provenance certificate.",
+          "The Amber Amulet has curator approval.",
+          "The Amber Amulet is fragile."
+        ],
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "expected": {
+        "answer": "A",
+        "aliases": [
+          "A",
+          "Option A",
+          "A. The Amber Amulet must be displayed in a climate-controlled case",
+          "The Amber Amulet must be displayed in a climate-controlled case"
+        ],
+        "unit": "",
+        "premises_used": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "model_response": {
+        "answer": "A",
+        "duration_seconds": 25.358,
+        "explanation": "LoRA Final Answer + v35 verifier override when proof is certain.",
+        "premises_used": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "query_id": "T1_0021",
+        "reasoning": {
+          "latency_sec": 24.581611156463623,
+          "note": "MC out of scope",
+          "raw_answer": "Unknown",
+          "verdict": [
+            null,
+            [],
+            "MC out of scope"
+          ]
+        },
+        "unit": ""
+      },
+      "result": {
+        "duration_seconds": 25.358,
+        "error": "",
+        "ok": true,
+        "p1_score": 100.0,
+        "p2_score": 100.0,
+        "sample_score": 100.0,
+        "status": "correct"
+      }
+    },
+    {
+      "query_id": "T1_0031",
+      "type": "type1",
+      "category": "mcq",
+      "status": "wrong_premises_used",
+      "ok": false,
+      "sample_score": 78.57,
+      "p1_score": 100.0,
+      "p2_score": 57.14,
+      "duration_seconds": 24.979,
+      "error": "",
+      "started_at": "2026-06-14T18:39:15.772692+07:00",
+      "completed_at": "2026-06-14T18:39:15.772692+07:00",
+      "request_payload": {
+        "query_id": "T1_0031",
+        "type": "type1",
+        "query": "Based on the digitization rules, which conclusion is correct?\nA. The River Codex is not eligible for the public portal\nB. The River Codex is searchable online, but safe public release is not established\nC. The River Codex lacks OCR verification\nD. The River Codex is safe for public release because it contains personal data",
+        "premises": [
+          "If a manuscript is scanned at 600 dpi and its metadata is complete, then it is preservation-ready.",
+          "If a manuscript is preservation-ready and its rights are cleared, then it is eligible for the public portal.",
+          "If a manuscript is eligible for the public portal and OCR has been verified, then it is searchable online.",
+          "If a manuscript contains personal data, then privacy review is required.",
+          "If privacy review is required and redaction is complete, then the manuscript is safe for public release.",
+          "The River Codex was scanned at 600 dpi.",
+          "The River Codex metadata is complete.",
+          "The River Codex rights are cleared.",
+          "The River Codex OCR has been verified.",
+          "The River Codex contains personal data."
+        ],
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "expected": {
+        "answer": "B",
+        "aliases": [
+          "B",
+          "Option B",
+          "B. The River Codex is searchable online, but safe public release is not established",
+          "The River Codex is searchable online, but safe public release is not established"
+        ],
+        "unit": "",
+        "premises_used": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "model_response": {
+        "answer": "B",
+        "duration_seconds": 24.979,
+        "explanation": "LoRA Final Answer + v35 verifier override when proof is certain.",
+        "premises_used": [
+          1,
+          5,
+          8,
+          9
+        ],
+        "query_id": "T1_0031",
+        "reasoning": {
+          "latency_sec": 24.55183219909668,
+          "note": "MC out of scope",
+          "raw_answer": "B",
+          "verdict": [
+            null,
+            [],
+            "MC out of scope"
+          ]
+        },
+        "unit": ""
+      },
+      "result": {
+        "duration_seconds": 24.979,
+        "error": "",
+        "ok": false,
+        "p1_score": 100.0,
+        "p2_score": 57.14,
+        "sample_score": 78.57,
+        "status": "wrong_premises_used"
+      }
+    },
+    {
+      "query_id": "T1_0025",
+      "type": "type1",
+      "category": "mcq",
+      "status": "wrong_answer",
+      "ok": false,
+      "sample_score": 16.67,
+      "p1_score": 0,
+      "p2_score": 33.33,
+      "duration_seconds": 25.715,
+      "error": "",
+      "started_at": "2026-06-14T18:40:03.464207+07:00",
+      "completed_at": "2026-06-14T18:40:03.464207+07:00",
+      "request_payload": {
+        "query_id": "T1_0025",
+        "type": "type1",
+        "query": "Based on the drone delivery rules, which conclusion is logically supported?\nA. MedKit-7 cannot be dispatched because the route is blocked\nB. MedKit-7 has launch approval\nC. MedKit-7 is eligible to use the aerial corridor\nD. MedKit-7 is not a priority package",
+        "premises": [
+          "If a package is medical and weighs under 2 kilograms, then it receives priority delivery status.",
+          "If a package has priority delivery status and its route is clear, then it can be dispatched.",
+          "If a package can be dispatched and the weather is safe, then it is eligible to use the aerial corridor.",
+          "If a package is eligible to use the aerial corridor and an operator is assigned, then launch is approved.",
+          "If an emergency waiver is approved and an alternate route is mapped, then the route is clear.",
+          "The MedKit-7 package is medical.",
+          "The MedKit-7 package weighs under 2 kilograms.",
+          "An emergency waiver is approved for MedKit-7.",
+          "An alternate route is mapped for MedKit-7.",
+          "The weather is safe for MedKit-7."
+        ],
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "expected": {
+        "answer": "C",
+        "aliases": [
+          "C",
+          "Option C",
+          "C. MedKit-7 is eligible to use the aerial corridor",
+          "MedKit-7 is eligible to use the aerial corridor"
+        ],
+        "unit": "",
+        "premises_used": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "model_response": {
+        "answer": "A",
+        "duration_seconds": 25.715,
+        "explanation": "LoRA Final Answer + v35 verifier override when proof is certain.",
+        "premises_used": [
+          3,
+          2,
+          1
+        ],
+        "query_id": "T1_0025",
+        "reasoning": {
+          "latency_sec": 24.899973154067993,
+          "note": "MC out of scope",
+          "raw_answer": "Unknown",
+          "verdict": [
+            null,
+            [],
+            "MC out of scope"
+          ]
+        },
+        "unit": ""
+      },
+      "result": {
+        "duration_seconds": 25.715,
+        "error": "",
+        "ok": false,
+        "p1_score": 0.0,
+        "p2_score": 33.33,
+        "sample_score": 16.67,
+        "status": "wrong_answer"
+      }
+    },
+    {
+      "query_id": "T1_0027",
+      "type": "type1",
+      "category": "mcq",
+      "status": "wrong_answer",
+      "ok": false,
+      "sample_score": 18.18,
+      "p1_score": 0,
+      "p2_score": 36.36,
+      "duration_seconds": 25.627,
+      "error": "",
+      "started_at": "2026-06-14T18:40:48.213976+07:00",
+      "completed_at": "2026-06-14T18:40:48.213976+07:00",
+      "request_payload": {
+        "query_id": "T1_0027",
+        "type": "type1",
+        "query": "Based on the triage rules, which conclusion is correct?\nA. Mira can be discharged because the rapid test is positive\nB. Mira can receive the standard antiviral dose immediately\nC. Mira does not need respiratory isolation\nD. Mira enters the antiviral protocol and requires dose review",
+        "premises": [
+          "If a patient has a fever and low oxygen saturation, then the patient is placed in respiratory isolation.",
+          "If a patient is in respiratory isolation and has a positive rapid test, then the patient enters the antiviral protocol.",
+          "If a patient enters the antiviral protocol and has a completed renal screen, then the patient receives the standard antiviral dose.",
+          "If a patient has renal impairment, then the patient requires dose adjustment.",
+          "If a patient requires dose adjustment, then the patient should not receive the standard antiviral dose without review.",
+          "Mira has a fever.",
+          "Mira has low oxygen saturation.",
+          "Mira has a positive rapid test.",
+          "Mira has renal impairment."
+        ],
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "expected": {
+        "answer": "D",
+        "aliases": [
+          "D",
+          "Option D",
+          "D. Mira enters the antiviral protocol and requires dose review",
+          "Mira enters the antiviral protocol and requires dose review"
+        ],
+        "unit": "",
+        "premises_used": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "model_response": {
+        "answer": "A",
+        "duration_seconds": 25.627,
+        "explanation": "LoRA Final Answer + v35 verifier override when proof is certain.",
+        "premises_used": [
+          1,
+          4,
+          2
+        ],
+        "query_id": "T1_0027",
+        "reasoning": {
+          "latency_sec": 24.978002309799194,
+          "note": "MC out of scope",
+          "raw_answer": "Unknown",
+          "verdict": [
+            null,
+            [],
+            "MC out of scope"
+          ]
+        },
+        "unit": ""
+      },
+      "result": {
+        "duration_seconds": 25.627,
+        "error": "",
+        "ok": false,
+        "p1_score": 0.0,
+        "p2_score": 36.36,
+        "sample_score": 18.18,
+        "status": "wrong_answer"
+      }
+    },
+    {
+      "query_id": "T1_0035",
+      "type": "type1",
+      "category": "mcq",
+      "status": "wrong_answer",
+      "ok": false,
+      "sample_score": 41.18,
+      "p1_score": 0,
+      "p2_score": 82.35,
+      "duration_seconds": 25.131,
+      "error": "",
+      "started_at": "2026-06-14T18:41:36.733565+07:00",
+      "completed_at": "2026-06-14T18:41:36.733565+07:00",
+      "request_payload": {
+        "query_id": "T1_0035",
+        "type": "type1",
+        "query": "Based on the smart greenhouse rules, which conclusion is supported?\nA. The reservoir lacks water\nB. Chemical treatment is allowed for Greenhouse Basil\nC. Irrigation is unnecessary because a heatwave is active\nD. Autonomous watering is allowed for Greenhouse Basil",
+        "premises": [
+          "If soil moisture is low and a heatwave is active, then irrigation is needed.",
+          "If irrigation is needed and the reservoir has water, then irrigation is scheduled.",
+          "If irrigation is scheduled and sensor calibration is current, then autonomous watering is allowed.",
+          "If pest risk is high, then pesticide review is required.",
+          "If pesticide review is required and agronomist approval is given, then chemical treatment is allowed.",
+          "Greenhouse Basil has low soil moisture.",
+          "A heatwave is active for Greenhouse Basil.",
+          "The Greenhouse Basil reservoir has water.",
+          "The Greenhouse Basil sensor calibration is current.",
+          "Greenhouse Basil has high pest risk."
+        ],
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "expected": {
+        "answer": "D",
+        "aliases": [
+          "D",
+          "Option D",
+          "D. Autonomous watering is allowed for Greenhouse Basil",
+          "Autonomous watering is allowed for Greenhouse Basil"
+        ],
+        "unit": "",
+        "premises_used": [
+          0,
+          1,
+          2,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "model_response": {
+        "answer": "A",
+        "duration_seconds": 25.131,
+        "explanation": "LoRA Final Answer + v35 verifier override when proof is certain.",
+        "premises_used": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "query_id": "T1_0035",
+        "reasoning": {
+          "latency_sec": 24.354437828063965,
+          "note": "MC out of scope",
+          "raw_answer": "Unknown",
+          "verdict": [
+            null,
+            [],
+            "MC out of scope"
+          ]
+        },
+        "unit": ""
+      },
+      "result": {
+        "duration_seconds": 25.131,
+        "error": "",
+        "ok": false,
+        "p1_score": 0.0,
+        "p2_score": 82.35,
+        "sample_score": 41.18,
+        "status": "wrong_answer"
+      }
+    },
+    {
+      "query_id": "T1_0039",
+      "type": "type1",
+      "category": "mcq",
+      "status": "wrong_premises_used",
+      "ok": false,
+      "sample_score": 93.75,
+      "p1_score": 100.0,
+      "p2_score": 87.5,
+      "duration_seconds": 25.649,
+      "error": "",
+      "started_at": "2026-06-14T18:44:05.227108+07:00",
+      "completed_at": "2026-06-14T18:44:05.227108+07:00",
+      "request_payload": {
+        "query_id": "T1_0039",
+        "type": "type1",
+        "query": "Based on the cold-chain rules, which conclusion is logically supported?\nA. Batch Nova is not viable\nB. Batch Nova must be quarantined\nC. Batch Nova can be administered\nD. Batch Nova lacks a complete temperature log",
+        "premises": [
+          "If a vaccine batch stayed between 2 and 8 degrees Celsius and its seal is intact, then the batch is viable.",
+          "If a vaccine batch is viable and its temperature log is complete, then clinic distribution is allowed.",
+          "If clinic distribution is allowed and the recipient clinic is certified, then the batch can be administered.",
+          "If a temperature excursion is recorded, then quarantine is required.",
+          "If no temperature excursion is recorded and the seal is intact, then quarantine is not required.",
+          "Batch Nova stayed between 2 and 8 degrees Celsius.",
+          "Batch Nova has an intact seal.",
+          "Batch Nova has a complete temperature log.",
+          "The recipient clinic for Batch Nova is certified.",
+          "No temperature excursion is recorded for Batch Nova."
+        ],
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "expected": {
+        "answer": "C",
+        "aliases": [
+          "C",
+          "Option C",
+          "C. Batch Nova can be administered",
+          "Batch Nova can be administered"
+        ],
+        "unit": "",
+        "premises_used": [
+          0,
+          1,
+          2,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "model_response": {
+        "answer": "C",
+        "duration_seconds": 25.649,
+        "explanation": "LoRA Final Answer + v35 verifier override when proof is certain.",
+        "premises_used": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "query_id": "T1_0039",
+        "reasoning": {
+          "latency_sec": 24.858073711395264,
+          "note": "MC out of scope",
+          "raw_answer": "C",
+          "verdict": [
+            null,
+            [],
+            "MC out of scope"
+          ]
+        },
+        "unit": ""
+      },
+      "result": {
+        "duration_seconds": 25.649,
+        "error": "",
+        "ok": false,
+        "p1_score": 100.0,
+        "p2_score": 87.5,
+        "sample_score": 93.75,
+        "status": "wrong_premises_used"
+      }
+    },
+    {
+      "query_id": "T1_0023",
+      "type": "type1",
+      "category": "mcq",
+      "status": "wrong_premises_used",
+      "ok": false,
+      "sample_score": 96.67,
+      "p1_score": 100.0,
+      "p2_score": 93.33,
+      "duration_seconds": 25.81,
+      "error": "",
+      "started_at": "2026-06-14T18:44:41.482263+07:00",
+      "completed_at": "2026-06-14T18:44:41.482263+07:00",
+      "request_payload": {
+        "query_id": "T1_0023",
+        "type": "type1",
+        "query": "Based on the cybersecurity workflow, which statement is correct?\nA. The Atlas case is audit-ready, but formal closure is not established by the premises\nB. The Atlas case is formally closed\nC. The Atlas incident is not contained\nD. The Atlas account still needs password resets",
+        "premises": [
+          "If a server is patched and its logs have been reviewed, then the incident is contained.",
+          "If an incident is contained and all affected passwords have been reset, then the affected account is secured.",
+          "If an affected account is secured and the forensic report has been submitted, then the case is audit-ready.",
+          "If a case is audit-ready and a manager signs off, then the case can be formally closed.",
+          "The Atlas server is patched.",
+          "The Atlas server logs have been reviewed.",
+          "All affected Atlas passwords have been reset.",
+          "The Atlas forensic report has been submitted."
+        ],
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "expected": {
+        "answer": "A",
+        "aliases": [
+          "A",
+          "Option A",
+          "A. The Atlas case is audit-ready, but formal closure is not established by the premises",
+          "The Atlas case is audit-ready, but formal closure is not established by the premises"
+        ],
+        "unit": "",
+        "premises_used": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "model_response": {
+        "answer": "A",
+        "duration_seconds": 25.81,
+        "explanation": "LoRA Final Answer + v35 verifier override when proof is certain.",
+        "premises_used": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "query_id": "T1_0023",
+        "reasoning": {
+          "latency_sec": 25.04026222229004,
+          "note": "MC out of scope",
+          "raw_answer": "A",
+          "verdict": [
+            null,
+            [],
+            "MC out of scope"
+          ]
+        },
+        "unit": ""
+      },
+      "result": {
+        "duration_seconds": 25.81,
+        "error": "",
+        "ok": false,
+        "p1_score": 100.0,
+        "p2_score": 93.33,
+        "sample_score": 96.67,
+        "status": "wrong_premises_used"
+      }
+    },
+    {
+      "query_id": "T1_0033",
+      "type": "type1",
+      "category": "mcq",
+      "status": "wrong_answer",
+      "ok": false,
+      "sample_score": 20.0,
+      "p1_score": 0,
+      "p2_score": 40.0,
+      "duration_seconds": 25.898,
+      "error": "",
+      "started_at": "2026-06-14T18:45:33.353195+07:00",
+      "completed_at": "2026-06-14T18:45:33.353195+07:00",
+      "request_payload": {
+        "query_id": "T1_0033",
+        "type": "type1",
+        "query": "Based on the reef management rules, which conclusion follows?\nA. Azure Reef has no restoration priority\nB. Azure Reef's conservation plan is approved\nC. A temporary no-take zone is recommended for Azure Reef\nD. Azure Reef has no stress alert",
+        "premises": [
+          "If a reef shows bleaching signs and has a temperature anomaly, then a stress alert is issued.",
+          "If a reef has a stress alert and coral cover is below 30 percent, then it becomes a restoration priority.",
+          "If a reef is a restoration priority and local fishing pressure is high, then a temporary no-take zone is recommended.",
+          "If a temporary no-take zone is recommended and community consultation is complete, then the conservation plan is approved.",
+          "Azure Reef shows bleaching signs.",
+          "Azure Reef has a temperature anomaly.",
+          "Azure Reef has coral cover below 30 percent.",
+          "Azure Reef has high local fishing pressure."
+        ],
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "expected": {
+        "answer": "C",
+        "aliases": [
+          "C",
+          "Option C",
+          "C. A temporary no-take zone is recommended for Azure Reef",
+          "A temporary no-take zone is recommended for Azure Reef"
+        ],
+        "unit": "",
+        "premises_used": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "model_response": {
+        "answer": "A",
+        "duration_seconds": 25.898,
+        "explanation": "LoRA Final Answer + v35 verifier override when proof is certain.",
+        "premises_used": [
+          3,
+          2,
+          1
+        ],
+        "query_id": "T1_0033",
+        "reasoning": {
+          "latency_sec": 25.45378541946411,
+          "note": "MC out of scope",
+          "raw_answer": "Unknown",
+          "verdict": [
+            null,
+            [],
+            "MC out of scope"
+          ]
+        },
+        "unit": ""
+      },
+      "result": {
+        "duration_seconds": 25.898,
+        "error": "",
+        "ok": false,
+        "p1_score": 0.0,
+        "p2_score": 40.0,
+        "sample_score": 20.0,
+        "status": "wrong_answer"
+      }
+    },
+    {
+      "query_id": "T1_0046",
+      "type": "type1",
+      "category": "mcq",
+      "status": "correct",
+      "ok": true,
+      "sample_score": 100.0,
+      "p1_score": 100.0,
+      "p2_score": 100.0,
+      "duration_seconds": 25.898,
+      "error": "",
+      "started_at": "2026-06-14T18:46:09.866660+07:00",
+      "completed_at": "2026-06-14T18:46:09.866660+07:00",
+      "request_payload": {
+        "query_id": "T1_0046",
+        "type": "type1",
+        "query": "Which conclusion is supported by the clinic roster premises?\nA. Linh receives a blue access badge\nB. Linh has pharmacy training\nC. The morning triage shift needs 5 volunteers\nD. Linh cannot assist at the triage desk",
+        "premises": [
+          "If a clinic volunteer has first-aid certification and completed patient privacy training, then the volunteer may assist at the triage desk.",
+          "If a volunteer may assist at the triage desk and has morning availability, then the volunteer is assigned to the morning triage shift.",
+          "Every volunteer assigned to the morning triage shift receives a blue access badge.",
+          "Linh has first-aid certification.",
+          "Linh completed patient privacy training.",
+          "Linh has morning availability.",
+          "The morning triage shift needs 3 volunteers.",
+          "No premise states that Linh has pharmacy training."
+        ],
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "expected": {
+        "answer": "A",
+        "aliases": [
+          "A",
+          "Option A",
+          "A. Linh receives a blue access badge",
+          "Linh receives a blue access badge"
+        ],
+        "unit": "",
+        "premises_used": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "model_response": {
+        "answer": "A",
+        "duration_seconds": 25.898,
+        "explanation": "LoRA Final Answer + v35 verifier override when proof is certain.",
+        "premises_used": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "query_id": "T1_0046",
+        "reasoning": {
+          "latency_sec": 25.431812524795532,
+          "note": "MC out of scope",
+          "raw_answer": "Unknown",
+          "verdict": [
+            null,
+            [],
+            "MC out of scope"
+          ]
+        },
+        "unit": ""
+      },
+      "result": {
+        "duration_seconds": 25.898,
+        "error": "",
+        "ok": true,
+        "p1_score": 100.0,
+        "p2_score": 100.0,
+        "sample_score": 100.0,
+        "status": "correct"
+      }
+    },
+    {
+      "query_id": "T1_0013",
+      "type": "type1",
+      "category": "mcq",
+      "status": "correct",
+      "ok": true,
+      "sample_score": 100.0,
+      "p1_score": 100.0,
+      "p2_score": 100.0,
+      "duration_seconds": 26.055,
+      "error": "",
+      "started_at": "2026-06-14T18:46:46.814607+07:00",
+      "completed_at": "2026-06-14T18:46:46.814607+07:00",
+      "request_payload": {
+        "query_id": "T1_0013",
+        "type": "type1",
+        "query": "Which conclusion follows from the premises?\nA. Manuscript Nova fails the reproducibility checklist\nB. Manuscript Nova cannot be peer reviewed\nC. Manuscript Nova lacks methodological transparency\nD. Manuscript Nova is eligible for open science recognition",
+        "premises": [
+          "If a manuscript reports a preregistered hypothesis, then it improves methodological transparency.",
+          "If a manuscript improves methodological transparency and releases its analysis code, then it passes the reproducibility checklist.",
+          "If a manuscript passes the reproducibility checklist, then it is eligible for open science recognition.",
+          "Manuscript Nova reports a preregistered hypothesis.",
+          "Manuscript Nova releases its analysis code.",
+          "Manuscript Nova does not include a graphical abstract.",
+          "Manuscripts without graphical abstracts can still be peer reviewed."
+        ],
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "expected": {
+        "answer": "D",
+        "aliases": [
+          "D",
+          "Option D",
+          "D. Manuscript Nova is eligible for open science recognition",
+          "Manuscript Nova is eligible for open science recognition"
+        ],
+        "unit": "",
+        "premises_used": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "model_response": {
+        "answer": "D",
+        "duration_seconds": 26.055,
+        "explanation": "LoRA Final Answer + v35 verifier override when proof is certain.",
+        "premises_used": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "query_id": "T1_0013",
+        "reasoning": {
+          "latency_sec": 25.277806520462036,
+          "note": "MC out of scope",
+          "raw_answer": "D",
+          "verdict": [
+            null,
+            [],
+            "MC out of scope"
+          ]
+        },
+        "unit": ""
+      },
+      "result": {
+        "duration_seconds": 26.055,
+        "error": "",
+        "ok": true,
+        "p1_score": 100.0,
+        "p2_score": 100.0,
+        "sample_score": 100.0,
+        "status": "correct"
+      }
+    },
+    {
+      "query_id": "T1_0015",
+      "type": "type1",
+      "category": "mcq",
+      "status": "wrong_answer",
+      "ok": false,
+      "sample_score": 14.29,
+      "p1_score": 0,
+      "p2_score": 28.57,
+      "duration_seconds": 26.718,
+      "error": "",
+      "started_at": "2026-06-14T18:47:36.776326+07:00",
+      "completed_at": "2026-06-14T18:47:36.776326+07:00",
+      "request_payload": {
+        "query_id": "T1_0015",
+        "type": "type1",
+        "query": "Based on the premises, which conclusion is correct?\nA. Robot Kappa can prepare outbound orders\nB. Robot Kappa can pick inventory items\nC. Robot Kappa has weight verification\nD. Robot Kappa cannot navigate aisles safely",
+        "premises": [
+          "If a warehouse robot has obstacle detection, then it can navigate aisles safely.",
+          "If a robot can navigate aisles safely and has barcode scanning, then it can pick inventory items.",
+          "If a robot can pick inventory items and has weight verification, then it can prepare outbound orders.",
+          "Robot Kappa has obstacle detection.",
+          "Robot Kappa has barcode scanning.",
+          "Robot Kappa lacks weight verification.",
+          "Robot Kappa has a long-life battery."
+        ],
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "expected": {
+        "answer": "B",
+        "aliases": [
+          "B",
+          "Option B",
+          "B. Robot Kappa can pick inventory items",
+          "Robot Kappa can pick inventory items"
+        ],
+        "unit": "",
+        "premises_used": [
+          0,
+          1,
+          3,
+          4
+        ]
+      },
+      "model_response": {
+        "answer": "A",
+        "duration_seconds": 26.718,
+        "explanation": "LoRA Final Answer + v35 verifier override when proof is certain.",
+        "premises_used": [
+          2,
+          1,
+          5
+        ],
+        "query_id": "T1_0015",
+        "reasoning": {
+          "latency_sec": 26.286593675613403,
+          "note": "MC out of scope",
+          "raw_answer": "Unknown",
+          "verdict": [
+            null,
+            [],
+            "MC out of scope"
+          ]
+        },
+        "unit": ""
+      },
+      "result": {
+        "duration_seconds": 26.718,
+        "error": "",
+        "ok": false,
+        "p1_score": 0.0,
+        "p2_score": 28.57,
+        "sample_score": 14.29,
+        "status": "wrong_answer"
+      }
+    },
+    {
+      "query_id": "T1_0007",
+      "type": "type1",
+      "category": "mcq",
+      "status": "wrong_answer",
+      "ok": false,
+      "sample_score": 0,
+      "p1_score": 0,
+      "p2_score": 0.0,
+      "duration_seconds": 26.29,
+      "error": "",
+      "started_at": "2026-06-14T18:48:13.809010+07:00",
+      "completed_at": "2026-06-14T18:48:13.809010+07:00",
+      "request_payload": {
+        "query_id": "T1_0007",
+        "type": "type1",
+        "query": "Based on the premises, which statement is best supported?\nA. Satellite Vega can support disaster mapping\nB. Satellite Vega can monitor surface temperature and capture daytime images\nC. Satellite Vega can provide emergency response data\nD. Satellite Vega has cloud-penetrating radar",
+        "premises": [
+          "If a satellite has calibrated thermal sensors, then it can monitor surface temperature.",
+          "If a satellite can monitor surface temperature and has cloud-penetrating radar, then it can support disaster mapping.",
+          "If a satellite supports disaster mapping, then it can provide emergency response data.",
+          "Satellite Vega has calibrated thermal sensors.",
+          "Satellite Vega does not have cloud-penetrating radar.",
+          "Satellite Vega has a high-resolution optical camera.",
+          "All satellites with high-resolution optical cameras can capture daytime images."
+        ],
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "expected": {
+        "answer": "B",
+        "aliases": [
+          "B",
+          "Option B",
+          "B. Satellite Vega can monitor surface temperature and capture daytime images",
+          "Satellite Vega can monitor surface temperature and capture daytime images"
+        ],
+        "unit": "",
+        "premises_used": [
+          0,
+          3,
+          5,
+          6
+        ]
+      },
+      "model_response": {
+        "answer": "A",
+        "duration_seconds": 26.29,
+        "explanation": "LoRA Final Answer + v35 verifier override when proof is certain.",
+        "premises_used": [
+          1,
+          2,
+          4
+        ],
+        "query_id": "T1_0007",
+        "reasoning": {
+          "latency_sec": 25.491013050079346,
+          "note": "MC out of scope",
+          "raw_answer": "Unknown",
+          "verdict": [
+            null,
+            [],
+            "MC out of scope"
+          ]
+        },
+        "unit": ""
+      },
+      "result": {
+        "duration_seconds": 26.29,
+        "error": "",
+        "ok": false,
+        "p1_score": 0.0,
+        "p2_score": 0.0,
+        "sample_score": 0.0,
+        "status": "wrong_answer"
+      }
+    },
+    {
+      "query_id": "T1_0041",
+      "type": "type1",
+      "category": "mcq",
+      "status": "wrong_premises_used",
+      "ok": false,
+      "sample_score": 62.5,
+      "p1_score": 100.0,
+      "p2_score": 25.0,
+      "duration_seconds": 25.869,
+      "error": "",
+      "started_at": "2026-06-14T18:48:58.164116+07:00",
+      "completed_at": "2026-06-14T18:48:58.164116+07:00",
+      "request_payload": {
+        "query_id": "T1_0041",
+        "type": "type1",
+        "query": "Based on the premises, which option is logically supported?\nA. Asha may join Study Alpha\nB. Asha cannot handle participant data\nC. Asha has budget approval\nD. Study Alpha has 20 enrolled participants",
+        "premises": [
+          "If a researcher completed ethics training and has lab access, then that researcher can handle participant data.",
+          "If a researcher can handle participant data and has supervisor approval, then that researcher may join Study Alpha.",
+          "Every researcher who may join Study Alpha is listed as an active contributor.",
+          "Asha completed ethics training.",
+          "Asha has lab access.",
+          "Asha has supervisor approval.",
+          "Study Alpha has 12 enrolled participants.",
+          "No premise states whether Asha has budget approval."
+        ],
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "expected": {
+        "answer": "A",
+        "aliases": [
+          "A",
+          "Option A",
+          "A. Asha may join Study Alpha",
+          "Asha may join Study Alpha"
+        ],
+        "unit": "",
+        "premises_used": [
+          0,
+          1,
+          3,
+          4,
+          5
+        ]
+      },
+      "model_response": {
+        "answer": "A",
+        "duration_seconds": 25.869,
+        "explanation": "LoRA Final Answer + v35 verifier override when proof is certain.",
+        "premises_used": [
+          1,
+          6,
+          7
+        ],
+        "query_id": "T1_0041",
+        "reasoning": {
+          "latency_sec": 24.97061824798584,
+          "note": "MC out of scope",
+          "raw_answer": "A",
+          "verdict": [
+            null,
+            [],
+            "MC out of scope"
+          ]
+        },
+        "unit": ""
+      },
+      "result": {
+        "duration_seconds": 25.869,
+        "error": "",
+        "ok": false,
+        "p1_score": 100.0,
+        "p2_score": 25.0,
+        "sample_score": 62.5,
+        "status": "wrong_premises_used"
+      }
+    },
+    {
+      "query_id": "T1_0026",
+      "type": "type1",
+      "category": "yes_no_uncertain",
+      "status": "correct",
+      "ok": true,
+      "sample_score": 100.0,
+      "p1_score": 100.0,
+      "p2_score": 100.0,
+      "duration_seconds": 25.48,
+      "error": "",
+      "started_at": "2026-06-14T18:49:39.842741+07:00",
+      "completed_at": "2026-06-14T18:49:39.842741+07:00",
+      "request_payload": {
+        "query_id": "T1_0026",
+        "type": "type1",
+        "query": "Is MedKit-7 eligible to use the aerial corridor, according to the premises?",
+        "premises": [
+          "If a package is medical and weighs under 2 kilograms, then it receives priority delivery status.",
+          "If a package has priority delivery status and its route is clear, then it can be dispatched.",
+          "If a package can be dispatched and the weather is safe, then it is eligible to use the aerial corridor.",
+          "If a package is eligible to use the aerial corridor and an operator is assigned, then launch is approved.",
+          "If an emergency waiver is approved and an alternate route is mapped, then the route is clear.",
+          "The MedKit-7 package is medical.",
+          "The MedKit-7 package weighs under 2 kilograms.",
+          "An emergency waiver is approved for MedKit-7.",
+          "An alternate route is mapped for MedKit-7.",
+          "The weather is safe for MedKit-7."
+        ],
+        "options": [
+          "Yes",
+          "No",
+          "Uncertain"
+        ]
+      },
+      "expected": {
+        "answer": "Yes",
+        "aliases": [
+          "Y",
+          "yes"
+        ],
+        "unit": "",
+        "premises_used": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "model_response": {
+        "answer": "Yes",
+        "duration_seconds": 25.48,
+        "explanation": "LoRA Final Answer + v35 verifier override when proof is certain.",
+        "premises_used": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "query_id": "T1_0026",
+        "reasoning": {
+          "latency_sec": 24.645700931549072,
+          "note": "abstain",
+          "raw_answer": "Yes",
+          "verdict": [
+            null,
+            [],
+            "abstain"
+          ]
+        },
+        "unit": ""
+      },
+      "result": {
+        "duration_seconds": 25.48,
+        "error": "",
+        "ok": true,
+        "p1_score": 100.0,
+        "p2_score": 100.0,
+        "sample_score": 100.0,
+        "status": "correct"
+      }
+    },
+    {
+      "query_id": "T1_0022",
+      "type": "type1",
+      "category": "yes_no_uncertain",
+      "status": "wrong_answer",
+      "ok": false,
+      "sample_score": 43.75,
+      "p1_score": 0,
+      "p2_score": 87.5,
+      "duration_seconds": 25.948,
+      "error": "",
+      "started_at": "2026-06-14T18:50:14.691379+07:00",
+      "completed_at": "2026-06-14T18:50:14.691379+07:00",
+      "request_payload": {
+        "query_id": "T1_0022",
+        "type": "type1",
+        "query": "Does the Amber Amulet qualify for public display, according to the premises?",
+        "premises": [
+          "If an artifact has a humidity-control log and no pest-damage report, then it is storage-ready.",
+          "If an artifact is storage-ready and has a provenance certificate, then it is eligible for exhibition.",
+          "If an artifact is eligible for exhibition and has curator approval, then it can be placed on public display.",
+          "If an artifact is fragile, then it requires low-light protection.",
+          "If an artifact requires low-light protection and can be placed on public display, then it must be displayed in a climate-controlled case.",
+          "The Amber Amulet has a humidity-control log.",
+          "The Amber Amulet has no pest-damage report.",
+          "The Amber Amulet has a provenance certificate.",
+          "The Amber Amulet has curator approval.",
+          "The Amber Amulet is fragile."
+        ],
+        "options": [
+          "Yes",
+          "No",
+          "Uncertain"
+        ]
+      },
+      "expected": {
+        "answer": "Yes",
+        "aliases": [
+          "Y",
+          "yes"
+        ],
+        "unit": "",
+        "premises_used": [
+          0,
+          1,
+          2,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "model_response": {
+        "answer": "Uncertain",
+        "duration_seconds": 25.948,
+        "explanation": "LoRA Final Answer + v35 verifier override when proof is certain.",
+        "premises_used": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "query_id": "T1_0022",
+        "reasoning": {
+          "latency_sec": 25.51906657218933,
+          "note": "abstain",
+          "raw_answer": "Unknown",
+          "verdict": [
+            null,
+            [],
+            "abstain"
+          ]
+        },
+        "unit": ""
+      },
+      "result": {
+        "duration_seconds": 25.948,
+        "error": "",
+        "ok": false,
+        "p1_score": 0.0,
+        "p2_score": 87.5,
+        "sample_score": 43.75,
+        "status": "wrong_answer"
+      }
+    },
+    {
+      "query_id": "T1_0030",
+      "type": "type1",
+      "category": "yes_no_uncertain",
+      "status": "correct",
+      "ok": true,
+      "sample_score": 100.0,
+      "p1_score": 100.0,
+      "p2_score": 100.0,
+      "duration_seconds": 25.842,
+      "error": "",
+      "started_at": "2026-06-14T18:50:51.275122+07:00",
+      "completed_at": "2026-06-14T18:50:51.275122+07:00",
+      "request_payload": {
+        "query_id": "T1_0030",
+        "type": "type1",
+        "query": "Does the Harbor microgrid have a high resilience score, according to the premises?",
+        "premises": [
+          "If a solar array is online and the battery bank is charged, then the microgrid can island from the main grid.",
+          "If the microgrid can island and the load forecast is stable, then night service can be maintained.",
+          "If night service can be maintained and the diesel backup has been tested, then the microgrid has a high resilience score.",
+          "If the microgrid has a high resilience score and community notification has been sent, then the emergency hub is ready.",
+          "The Harbor microgrid solar array is online.",
+          "The Harbor microgrid battery bank is charged.",
+          "The Harbor load forecast is stable.",
+          "The Harbor diesel backup has been tested."
+        ],
+        "options": [
+          "Yes",
+          "No",
+          "Uncertain"
+        ]
+      },
+      "expected": {
+        "answer": "Yes",
+        "aliases": [
+          "Y",
+          "yes"
+        ],
+        "unit": "",
+        "premises_used": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "model_response": {
+        "answer": "Yes",
+        "duration_seconds": 25.842,
+        "explanation": "LoRA Final Answer + v35 verifier override when proof is certain.",
+        "premises_used": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6,
+          7
+        ],
+        "query_id": "T1_0030",
+        "reasoning": {
+          "latency_sec": 25.025762796401978,
+          "note": "abstain",
+          "raw_answer": "Yes",
+          "verdict": [
+            null,
+            [],
+            "abstain"
+          ]
+        },
+        "unit": ""
+      },
+      "result": {
+        "duration_seconds": 25.842,
+        "error": "",
+        "ok": true,
+        "p1_score": 100.0,
+        "p2_score": 100.0,
+        "sample_score": 100.0,
+        "status": "correct"
+      }
+    },
+    {
+      "query_id": "T1_0034",
+      "type": "type1",
+      "category": "yes_no_uncertain",
+      "status": "correct",
+      "ok": true,
+      "sample_score": 100.0,
+      "p1_score": 100.0,
+      "p2_score": 100.0,
+      "duration_seconds": 25.477,
+      "error": "",
+      "started_at": "2026-06-14T18:51:26.589501+07:00",
+      "completed_at": "2026-06-14T18:51:26.589501+07:00",
+      "request_payload": {
+        "query_id": "T1_0034",
+        "type": "type1",
+        "query": "Is a temporary no-take zone recommended for Azure Reef, according to the premises?",
+        "premises": [
+          "If a reef shows bleaching signs and has a temperature anomaly, then a stress alert is issued.",
+          "If a reef has a stress alert and coral cover is below 30 percent, then it becomes a restoration priority.",
+          "If a reef is a restoration priority and local fishing pressure is high, then a temporary no-take zone is recommended.",
+          "If a temporary no-take zone is recommended and community consultation is complete, then the conservation plan is approved.",
+          "Azure Reef shows bleaching signs.",
+          "Azure Reef has a temperature anomaly.",
+          "Azure Reef has coral cover below 30 percent.",
+          "Azure Reef has high local fishing pressure."
+        ],
+        "options": [
+          "Yes",
+          "No",
+          "Uncertain"
+        ]
+      },
+      "expected": {
+        "answer": "Yes",
+        "aliases": [
+          "Y",
+          "yes"
+        ],
+        "unit": "",
+        "premises_used": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "model_response": {
+        "answer": "Yes",
+        "duration_seconds": 25.477,
+        "explanation": "LoRA Final Answer + v35 verifier override when proof is certain.",
+        "premises_used": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6,
+          7
+        ],
+        "query_id": "T1_0034",
+        "reasoning": {
+          "latency_sec": 24.93105721473694,
+          "note": "abstain",
+          "raw_answer": "Yes",
+          "verdict": [
+            null,
+            [],
+            "abstain"
+          ]
+        },
+        "unit": ""
+      },
+      "result": {
+        "duration_seconds": 25.477,
+        "error": "",
+        "ok": true,
+        "p1_score": 100.0,
+        "p2_score": 100.0,
+        "sample_score": 100.0,
+        "status": "correct"
+      }
+    },
+    {
+      "query_id": "T1_0042",
+      "type": "type1",
+      "category": "yes_no_uncertain",
+      "status": "correct",
+      "ok": true,
+      "sample_score": 100.0,
+      "p1_score": 100.0,
+      "p2_score": 100.0,
+      "duration_seconds": 26.015,
+      "error": "",
+      "started_at": "2026-06-14T18:52:04.267708+07:00",
+      "completed_at": "2026-06-14T18:52:04.267708+07:00",
+      "request_payload": {
+        "query_id": "T1_0042",
+        "type": "type1",
+        "query": "Is Asha listed as an active contributor?",
+        "premises": [
+          "If a researcher completed ethics training and has lab access, then that researcher can handle participant data.",
+          "If a researcher can handle participant data and has supervisor approval, then that researcher may join Study Alpha.",
+          "Every researcher who may join Study Alpha is listed as an active contributor.",
+          "Asha completed ethics training.",
+          "Asha has lab access.",
+          "Asha has supervisor approval.",
+          "Study Alpha has 12 enrolled participants.",
+          "No premise states whether Asha has budget approval."
+        ],
+        "options": [
+          "Yes",
+          "No",
+          "Uncertain"
+        ]
+      },
+      "expected": {
+        "answer": "Yes",
+        "aliases": [
+          "Y",
+          "yes"
+        ],
+        "unit": "",
+        "premises_used": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "model_response": {
+        "answer": "Yes",
+        "duration_seconds": 26.015,
+        "explanation": "LoRA Final Answer + v35 verifier override when proof is certain.",
+        "premises_used": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "query_id": "T1_0042",
+        "reasoning": {
+          "latency_sec": 25.15102791786194,
+          "note": "abstain",
+          "raw_answer": "Yes",
+          "verdict": [
+            null,
+            [],
+            "abstain"
+          ]
+        },
+        "unit": ""
+      },
+      "result": {
+        "duration_seconds": 26.015,
+        "error": "",
+        "ok": true,
+        "p1_score": 100.0,
+        "p2_score": 100.0,
+        "sample_score": 100.0,
+        "status": "correct"
+      }
+    },
+    {
+      "query_id": "T1_0024",
+      "type": "type1",
+      "category": "yes_no_uncertain",
+      "status": "correct",
+      "ok": true,
+      "sample_score": 100.0,
+      "p1_score": 100.0,
+      "p2_score": 100.0,
+      "duration_seconds": 25.979,
+      "error": "",
+      "started_at": "2026-06-14T18:52:43.954641+07:00",
+      "completed_at": "2026-06-14T18:52:43.954641+07:00",
+      "request_payload": {
+        "query_id": "T1_0024",
+        "type": "type1",
+        "query": "Do the premises prove that the Atlas case can be formally closed?",
+        "premises": [
+          "If a server is patched and its logs have been reviewed, then the incident is contained.",
+          "If an incident is contained and all affected passwords have been reset, then the affected account is secured.",
+          "If an affected account is secured and the forensic report has been submitted, then the case is audit-ready.",
+          "If a case is audit-ready and a manager signs off, then the case can be formally closed.",
+          "The Atlas server is patched.",
+          "The Atlas server logs have been reviewed.",
+          "All affected Atlas passwords have been reset.",
+          "The Atlas forensic report has been submitted."
+        ],
+        "options": [
+          "Yes",
+          "No",
+          "Uncertain"
+        ]
+      },
+      "expected": {
+        "answer": "No",
+        "aliases": [
+          "N",
+          "no"
+        ],
+        "unit": "",
+        "premises_used": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "model_response": {
+        "answer": "No",
+        "duration_seconds": 25.979,
+        "explanation": "LoRA Final Answer + v35 verifier override when proof is certain.",
+        "premises_used": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "query_id": "T1_0024",
+        "reasoning": {
+          "latency_sec": 25.51320242881775,
+          "note": "abstain",
+          "raw_answer": "No",
+          "verdict": [
+            null,
+            [],
+            "abstain"
+          ]
+        },
+        "unit": ""
+      },
+      "result": {
+        "duration_seconds": 25.979,
+        "error": "",
+        "ok": true,
+        "p1_score": 100.0,
+        "p2_score": 100.0,
+        "sample_score": 100.0,
+        "status": "correct"
+      }
+    },
+    {
+      "query_id": "T1_0028",
+      "type": "type1",
+      "category": "yes_no_uncertain",
+      "status": "wrong_answer",
+      "ok": false,
+      "sample_score": 35.71,
+      "p1_score": 0,
+      "p2_score": 71.43,
+      "duration_seconds": 26.629,
+      "error": "",
+      "started_at": "2026-06-14T18:53:24.834779+07:00",
+      "completed_at": "2026-06-14T18:53:24.834779+07:00",
+      "request_payload": {
+        "query_id": "T1_0028",
+        "type": "type1",
+        "query": "Do the premises establish that Mira should receive the standard antiviral dose?",
+        "premises": [
+          "If a patient has a fever and low oxygen saturation, then the patient is placed in respiratory isolation.",
+          "If a patient is in respiratory isolation and has a positive rapid test, then the patient enters the antiviral protocol.",
+          "If a patient enters the antiviral protocol and has a completed renal screen, then the patient receives the standard antiviral dose.",
+          "If a patient has renal impairment, then the patient requires dose adjustment.",
+          "If a patient requires dose adjustment, then the patient should not receive the standard antiviral dose without review.",
+          "Mira has a fever.",
+          "Mira has low oxygen saturation.",
+          "Mira has a positive rapid test.",
+          "Mira has renal impairment."
+        ],
+        "options": [
+          "Yes",
+          "No",
+          "Uncertain"
+        ]
+      },
+      "expected": {
+        "answer": "No",
+        "aliases": [
+          "N",
+          "no"
+        ],
+        "unit": "",
+        "premises_used": [
+          1,
+          2,
+          3,
+          4,
+          7,
+          8
+        ]
+      },
+      "model_response": {
+        "answer": "Uncertain",
+        "duration_seconds": 26.629,
+        "explanation": "LoRA Final Answer + v35 verifier override when proof is certain.",
+        "premises_used": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "query_id": "T1_0028",
+        "reasoning": {
+          "latency_sec": 25.32537031173706,
+          "note": "abstain",
+          "raw_answer": "Unknown",
+          "verdict": [
+            null,
+            [],
+            "abstain"
+          ]
+        },
+        "unit": ""
+      },
+      "result": {
+        "duration_seconds": 26.629,
+        "error": "",
+        "ok": false,
+        "p1_score": 0.0,
+        "p2_score": 71.43,
+        "sample_score": 35.71,
+        "status": "wrong_answer"
+      }
+    },
+    {
+      "query_id": "T1_0008",
+      "type": "type1",
+      "category": "yes_no_uncertain",
+      "status": "wrong_answer",
+      "ok": false,
+      "sample_score": 50.0,
+      "p1_score": 0,
+      "p2_score": 100.0,
+      "duration_seconds": 25.14,
+      "error": "",
+      "started_at": "2026-06-14T18:54:01.783069+07:00",
+      "completed_at": "2026-06-14T18:54:01.783069+07:00",
+      "request_payload": {
+        "query_id": "T1_0008",
+        "type": "type1",
+        "query": "Does having thermal sensors and an optical camera guarantee emergency response data in this case?",
+        "premises": [
+          "If a satellite has calibrated thermal sensors, then it can monitor surface temperature.",
+          "If a satellite can monitor surface temperature and has cloud-penetrating radar, then it can support disaster mapping.",
+          "If a satellite supports disaster mapping, then it can provide emergency response data.",
+          "Satellite Vega has calibrated thermal sensors.",
+          "Satellite Vega does not have cloud-penetrating radar.",
+          "Satellite Vega has a high-resolution optical camera.",
+          "All satellites with high-resolution optical cameras can capture daytime images."
+        ],
+        "options": [
+          "Yes",
+          "No",
+          "Uncertain"
+        ]
+      },
+      "expected": {
+        "answer": "No",
+        "aliases": [
+          "N",
+          "no"
+        ],
+        "unit": "",
+        "premises_used": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "model_response": {
+        "answer": "Uncertain",
+        "duration_seconds": 25.14,
+        "explanation": "LoRA Final Answer + v35 verifier override when proof is certain.",
+        "premises_used": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "query_id": "T1_0008",
+        "reasoning": {
+          "latency_sec": 24.688241004943848,
+          "note": "abstain",
+          "raw_answer": "Unknown",
+          "verdict": [
+            null,
+            [],
+            "abstain"
+          ]
+        },
+        "unit": ""
+      },
+      "result": {
+        "duration_seconds": 25.14,
+        "error": "",
+        "ok": false,
+        "p1_score": 0.0,
+        "p2_score": 100.0,
+        "sample_score": 50.0,
+        "status": "wrong_answer"
+      }
+    },
+    {
+      "query_id": "T1_0016",
+      "type": "type1",
+      "category": "yes_no_uncertain",
+      "status": "correct",
+      "ok": true,
+      "sample_score": 100.0,
+      "p1_score": 100.0,
+      "p2_score": 100.0,
+      "duration_seconds": 25.369,
+      "error": "",
+      "started_at": "2026-06-14T18:54:46.042513+07:00",
+      "completed_at": "2026-06-14T18:54:46.042513+07:00",
+      "request_payload": {
+        "query_id": "T1_0016",
+        "type": "type1",
+        "query": "Does Robot Kappa satisfy every requirement for preparing outbound orders?",
+        "premises": [
+          "If a warehouse robot has obstacle detection, then it can navigate aisles safely.",
+          "If a robot can navigate aisles safely and has barcode scanning, then it can pick inventory items.",
+          "If a robot can pick inventory items and has weight verification, then it can prepare outbound orders.",
+          "Robot Kappa has obstacle detection.",
+          "Robot Kappa has barcode scanning.",
+          "Robot Kappa lacks weight verification.",
+          "Robot Kappa has a long-life battery."
+        ],
+        "options": [
+          "Yes",
+          "No",
+          "Uncertain"
+        ]
+      },
+      "expected": {
+        "answer": "No",
+        "aliases": [
+          "N",
+          "no"
+        ],
+        "unit": "",
+        "premises_used": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "model_response": {
+        "answer": "No",
+        "duration_seconds": 25.369,
+        "explanation": "LoRA Final Answer + v35 verifier override when proof is certain.",
+        "premises_used": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "query_id": "T1_0016",
+        "reasoning": {
+          "latency_sec": 24.56056499481201,
+          "note": "abstain",
+          "raw_answer": "No",
+          "verdict": [
+            null,
+            [],
+            "abstain"
+          ]
+        },
+        "unit": ""
+      },
+      "result": {
+        "duration_seconds": 25.369,
+        "error": "",
+        "ok": true,
+        "p1_score": 100.0,
+        "p2_score": 100.0,
+        "sample_score": 100.0,
+        "status": "correct"
+      }
+    },
+    {
+      "query_id": "T1_0032",
+      "type": "type1",
+      "category": "yes_no_uncertain",
+      "status": "wrong_answer",
+      "ok": false,
+      "sample_score": 23.08,
+      "p1_score": 0,
+      "p2_score": 46.15,
+      "duration_seconds": 26.746,
+      "error": "",
+      "started_at": "2026-06-14T18:55:21.996232+07:00",
+      "completed_at": "2026-06-14T18:55:21.996232+07:00",
+      "request_payload": {
+        "query_id": "T1_0032",
+        "type": "type1",
+        "query": "Do the premises establish that the River Codex is safe for public release?",
+        "premises": [
+          "If a manuscript is scanned at 600 dpi and its metadata is complete, then it is preservation-ready.",
+          "If a manuscript is preservation-ready and its rights are cleared, then it is eligible for the public portal.",
+          "If a manuscript is eligible for the public portal and OCR has been verified, then it is searchable online.",
+          "If a manuscript contains personal data, then privacy review is required.",
+          "If privacy review is required and redaction is complete, then the manuscript is safe for public release.",
+          "The River Codex was scanned at 600 dpi.",
+          "The River Codex metadata is complete.",
+          "The River Codex rights are cleared.",
+          "The River Codex OCR has been verified.",
+          "The River Codex contains personal data."
+        ],
+        "options": [
+          "Yes",
+          "No",
+          "Uncertain"
+        ]
+      },
+      "expected": {
+        "answer": "No",
+        "aliases": [
+          "N",
+          "no"
+        ],
+        "unit": "",
+        "premises_used": [
+          3,
+          4,
+          9
+        ]
+      },
+      "model_response": {
+        "answer": "Uncertain",
+        "duration_seconds": 26.746,
+        "explanation": "LoRA Final Answer + v35 verifier override when proof is certain.",
+        "premises_used": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "query_id": "T1_0032",
+        "reasoning": {
+          "latency_sec": 26.300191164016724,
+          "note": "abstain",
+          "raw_answer": "Unknown",
+          "verdict": [
+            null,
+            [],
+            "abstain"
+          ]
+        },
+        "unit": ""
+      },
+      "result": {
+        "duration_seconds": 26.746,
+        "error": "",
+        "ok": false,
+        "p1_score": 0.0,
+        "p2_score": 46.15,
+        "sample_score": 23.08,
+        "status": "wrong_answer"
+      }
+    },
+    {
+      "query_id": "T1_0043",
+      "type": "type1",
+      "category": "yes_no_uncertain",
+      "status": "wrong_premises_used",
+      "ok": false,
+      "sample_score": 50.0,
+      "p1_score": 100.0,
+      "p2_score": 0.0,
+      "duration_seconds": 26.955,
+      "error": "",
+      "started_at": "2026-06-14T18:55:57.964697+07:00",
+      "completed_at": "2026-06-14T18:55:57.964697+07:00",
+      "request_payload": {
+        "query_id": "T1_0043",
+        "type": "type1",
+        "query": "Does Asha have budget approval?",
+        "premises": [
+          "If a researcher completed ethics training and has lab access, then that researcher can handle participant data.",
+          "If a researcher can handle participant data and has supervisor approval, then that researcher may join Study Alpha.",
+          "Every researcher who may join Study Alpha is listed as an active contributor.",
+          "Asha completed ethics training.",
+          "Asha has lab access.",
+          "Asha has supervisor approval.",
+          "Study Alpha has 12 enrolled participants.",
+          "No premise states whether Asha has budget approval."
+        ],
+        "options": [
+          "Yes",
+          "No",
+          "Uncertain"
+        ]
+      },
+      "expected": {
+        "answer": "Uncertain",
+        "aliases": [
+          "U",
+          "uncertain"
+        ],
+        "unit": "",
+        "premises_used": [
+          7
+        ]
+      },
+      "model_response": {
+        "answer": "Uncertain",
+        "duration_seconds": 26.955,
+        "explanation": "LoRA Final Answer + v35 verifier override when proof is certain.",
+        "premises_used": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "query_id": "T1_0043",
+        "reasoning": {
+          "latency_sec": 26.02409791946411,
+          "note": "abstain",
+          "raw_answer": "Unknown",
+          "verdict": [
+            null,
+            [],
+            "abstain"
+          ]
+        },
+        "unit": ""
+      },
+      "result": {
+        "duration_seconds": 26.955,
+        "error": "",
+        "ok": false,
+        "p1_score": 100.0,
+        "p2_score": 0.0,
+        "sample_score": 50.0,
+        "status": "wrong_premises_used"
+      }
+    },
+    {
+      "query_id": "T1_0048",
+      "type": "type1",
+      "category": "yes_no_uncertain",
+      "status": "wrong_answer",
+      "ok": false,
+      "sample_score": 50.0,
+      "p1_score": 0,
+      "p2_score": 100.0,
+      "duration_seconds": 26.913,
+      "error": "",
+      "started_at": "2026-06-14T18:56:29.740370+07:00",
+      "completed_at": "2026-06-14T18:56:29.740370+07:00",
+      "request_payload": {
+        "query_id": "T1_0048",
+        "type": "type1",
+        "query": "Does Linh have pharmacy training?",
+        "premises": [
+          "If a clinic volunteer has first-aid certification and completed patient privacy training, then the volunteer may assist at the triage desk.",
+          "If a volunteer may assist at the triage desk and has morning availability, then the volunteer is assigned to the morning triage shift.",
+          "Every volunteer assigned to the morning triage shift receives a blue access badge.",
+          "Linh has first-aid certification.",
+          "Linh completed patient privacy training.",
+          "Linh has morning availability.",
+          "The morning triage shift needs 3 volunteers.",
+          "No premise states that Linh has pharmacy training."
+        ],
+        "options": [
+          "Yes",
+          "No",
+          "Uncertain"
+        ]
+      },
+      "expected": {
+        "answer": "Uncertain",
+        "aliases": [
+          "U",
+          "uncertain"
+        ],
+        "unit": "",
+        "premises_used": [
+          7
+        ]
+      },
+      "model_response": {
+        "answer": "No",
+        "duration_seconds": 26.913,
+        "explanation": "LoRA Final Answer + v35 verifier override when proof is certain.",
+        "premises_used": [
+          7
+        ],
+        "query_id": "T1_0048",
+        "reasoning": {
+          "latency_sec": 26.39403009414673,
+          "note": "abstain",
+          "raw_answer": "No",
+          "verdict": [
+            null,
+            [],
+            "abstain"
+          ]
+        },
+        "unit": ""
+      },
+      "result": {
+        "duration_seconds": 26.913,
+        "error": "",
+        "ok": false,
+        "p1_score": 0.0,
+        "p2_score": 100.0,
+        "sample_score": 50.0,
+        "status": "wrong_answer"
+      }
+    },
+    {
+      "query_id": "T2_0001",
+      "type": "type2",
+      "category": "physics",
+      "status": "correct",
+      "ok": true,
+      "sample_score": 100.0,
+      "p1_score": 100.0,
+      "p2_score": null,
+      "duration_seconds": 28.959,
+      "error": "",
+      "started_at": "2026-06-14T18:57:05.787374+07:00",
+      "completed_at": "2026-06-14T18:57:05.787374+07:00",
+      "request_payload": {
+        "query_id": "T2_0001",
+        "type": "type2",
+        "query": "A capacitor has capacitance C = 47 μF and is connected to a potential difference U = 12 V. Calculate the energy stored in the capacitor.",
+        "premises": []
+      },
+      "expected": {
+        "answer": "3.38 × 10^-3",
+        "aliases": [],
+        "unit": "J",
+        "premises_used": []
+      },
+      "model_response": {
+        "answer": "3.384",
+        "duration_seconds": 28.959,
+        "explanation": "The energy stored in the capacitor is calculated using the formula for capacitor energy, which relates the capacitance and the potential difference across the capacitor.",
+        "premises_used": [],
+        "query_id": "T2_0001",
+        "reasoning": {
+          "steps": [
+            "Step 1: Identify capacitance C = 47 μF and voltage U = 12 V.",
+            "Step 2: Use the formula W_c = 1/2 * C * U^2 to calculate the energy stored in the capacitor.",
+            "Step 3: Substitute the values into the formula and compute the result."
+          ],
+          "type": "cot"
+        },
+        "unit": "mJ"
+      },
+      "result": {
+        "duration_seconds": 28.959,
+        "error": "",
+        "ok": true,
+        "p1_score": 100.0,
+        "p2_score": null,
+        "sample_score": 100.0,
+        "status": "correct"
+      }
+    },
+    {
+      "query_id": "T2_0002",
+      "type": "type2",
+      "category": "physics",
+      "status": "correct",
+      "ok": true,
+      "sample_score": 100.0,
+      "p1_score": 100.0,
+      "p2_score": null,
+      "duration_seconds": 25.217,
+      "error": "",
+      "started_at": "2026-06-14T18:57:38.060507+07:00",
+      "completed_at": "2026-06-14T18:57:38.060507+07:00",
+      "request_payload": {
+        "query_id": "T2_0002",
+        "type": "type2",
+        "query": "A capacitor stores a charge Q = 2.4 mC when connected to a voltage U = 16 V. Calculate the capacitance of the capacitor.",
+        "premises": []
+      },
+      "expected": {
+        "answer": "150",
+        "aliases": [],
+        "unit": "uF",
+        "premises_used": []
+      },
+      "model_response": {
+        "answer": "150",
+        "duration_seconds": 25.217,
+        "explanation": "The capacitance is calculated using the formula C = Q/U, where Q is the charge stored and U is the voltage applied.",
+        "premises_used": [],
+        "query_id": "T2_0002",
+        "reasoning": {
+          "steps": [
+            "Step 1: Identify Q = 2.4 mC and U = 16 V.",
+            "Step 2: Compute C = Q/U = 2.4 mC / 16 V.",
+            "Step 3: Convert the result to microfarads, yielding 150 μF."
+          ],
+          "type": "cot"
+        },
+        "unit": "uF"
+      },
+      "result": {
+        "duration_seconds": 25.217,
+        "error": "",
+        "ok": true,
+        "p1_score": 100.0,
+        "p2_score": null,
+        "sample_score": 100.0,
+        "status": "correct"
+      }
+    },
+    {
+      "query_id": "T2_0003",
+      "type": "type2",
+      "category": "physics",
+      "status": "correct",
+      "ok": true,
+      "sample_score": 100.0,
+      "p1_score": 100.0,
+      "p2_score": null,
+      "duration_seconds": 23.123,
+      "error": "",
+      "started_at": "2026-06-14T18:58:04.727371+07:00",
+      "completed_at": "2026-06-14T18:58:04.727371+07:00",
+      "request_payload": {
+        "query_id": "T2_0003",
+        "type": "type2",
+        "query": "Two point charges q1 = +3.0 μC and q2 = -5.0 μC are separated by a distance of 0.30 m in air. Calculate the magnitude of the electrostatic force between them. Use k = 9.0 × 10^9 N·m²/C².",
+        "premises": []
+      },
+      "expected": {
+        "answer": "1.5",
+        "aliases": [],
+        "unit": "N",
+        "premises_used": []
+      },
+      "model_response": {
+        "answer": "1.5",
+        "duration_seconds": 23.123,
+        "explanation": "The electrostatic force between the two charges is calculated using Coulomb's law, which gives a magnitude of 1.5 N.",
+        "premises_used": [],
+        "query_id": "T2_0003",
+        "reasoning": {
+          "steps": [
+            "Step 1: Identify q1, q2, and their separation.",
+            "Step 2: Apply Coulomb's law for the pair force.",
+            "Step 3: The result is 1.5 N."
+          ],
+          "type": "cot"
+        },
+        "unit": "N"
+      },
+      "result": {
+        "duration_seconds": 23.123,
+        "error": "",
+        "ok": true,
+        "p1_score": 100.0,
+        "p2_score": null,
+        "sample_score": 100.0,
+        "status": "correct"
+      }
+    },
+    {
+      "query_id": "T2_0004",
+      "type": "type2",
+      "category": "physics",
+      "status": "wrong_answer",
+      "ok": false,
+      "sample_score": 0,
+      "p1_score": 0,
+      "p2_score": null,
+      "duration_seconds": 36.838,
+      "error": "",
+      "started_at": "2026-06-14T18:58:51.084197+07:00",
+      "completed_at": "2026-06-14T18:58:51.084197+07:00",
+      "request_payload": {
+        "query_id": "T2_0004",
+        "type": "type2",
+        "query": "Two charges +4.0 nC and -4.0 nC are fixed 20 cm apart in air. Calculate the magnitude of the electric field at the midpoint between the charges. Use k = 9.0 × 10^9 N·m²/C².",
+        "premises": []
+      },
+      "expected": {
+        "answer": "7.20 × 10^3",
+        "aliases": [],
+        "unit": "N/C",
+        "premises_used": []
+      },
+      "model_response": {
+        "answer": "7.2e4",
+        "duration_seconds": 36.838,
+        "explanation": "The electric field at the midpoint is the vector sum of the fields from each charge. Since the charges are equal in magnitude and opposite in sign, their fields at the midpoint add up in magnitude.",
+        "premises_used": [],
+        "query_id": "T2_0004",
+        "reasoning": {
+          "steps": [
+            "Step 1: Convert the distance between the charges to meters: 20 cm = 0.20 m.",
+            "Step 2: Calculate the distance from each charge to the midpoint: 0.10 m.",
+            "Step 3: Use the electric field formula E = k * |q| / r^2 for each charge.",
+            "Step 4: Add the magnitudes of the electric fields from both charges since they point in the same direction."
+          ],
+          "type": "cot"
+        },
+        "unit": "N/C"
+      },
+      "result": {
+        "duration_seconds": 36.838,
+        "error": "",
+        "ok": false,
+        "p1_score": 0.0,
+        "p2_score": null,
+        "sample_score": 0.0,
+        "status": "wrong_answer"
+      }
+    },
+    {
+      "query_id": "T2_0005",
+      "type": "type2",
+      "category": "physics",
+      "status": "wrong_answer",
+      "ok": false,
+      "sample_score": 0,
+      "p1_score": 0,
+      "p2_score": null,
+      "duration_seconds": 50.849,
+      "error": "",
+      "started_at": "2026-06-14T18:59:49.303028+07:00",
+      "completed_at": "2026-06-14T18:59:49.303028+07:00",
+      "request_payload": {
+        "query_id": "T2_0005",
+        "type": "type2",
+        "query": "A point P is 10 cm from a charge q1 = +6.0 nC and 20 cm from a charge q2 = -2.0 nC. Calculate the electric potential at P. Use k = 9.0 × 10^9 N·m²/C².",
+        "premises": []
+      },
+      "expected": {
+        "answer": "450",
+        "aliases": [],
+        "unit": "V",
+        "premises_used": []
+      },
+      "model_response": {
+        "answer": "0",
+        "duration_seconds": 50.849,
+        "explanation": "physics pipeline error (TimeoutError); fallback.",
+        "premises_used": [],
+        "query_id": "T2_0005",
+        "reasoning": null,
+        "unit": ""
+      },
+      "result": {
+        "duration_seconds": 50.849,
+        "error": "",
+        "ok": false,
+        "p1_score": 0.0,
+        "p2_score": null,
+        "sample_score": 0.0,
+        "status": "wrong_answer"
+      }
+    },
+    {
+      "query_id": "T2_0006",
+      "type": "type2",
+      "category": "physics",
+      "status": "wrong_answer",
+      "ok": false,
+      "sample_score": 0,
+      "p1_score": 0,
+      "p2_score": null,
+      "duration_seconds": 22.879,
+      "error": "",
+      "started_at": "2026-06-14T19:00:15.269040+07:00",
+      "completed_at": "2026-06-14T19:00:15.269040+07:00",
+      "request_payload": {
+        "query_id": "T2_0006",
+        "type": "type2",
+        "query": "Two capacitors C1 = 6.0 μF and C2 = 3.0 μF are connected in series across an 18 V battery. Calculate the charge stored on each capacitor.",
+        "premises": []
+      },
+      "expected": {
+        "answer": "36",
+        "aliases": [],
+        "unit": "uC",
+        "premises_used": []
+      },
+      "model_response": {
+        "answer": "108",
+        "duration_seconds": 22.879,
+        "explanation": "The charge stored on each capacitor in a series connection is the same and calculated using Q = C * U.",
+        "premises_used": [],
+        "query_id": "T2_0006",
+        "reasoning": {
+          "steps": [
+            "Step 1: Identify the capacitance C = 6.0 μF and voltage U = 18 V.",
+            "Step 2: Apply the formula Q = C * U to calculate the charge.",
+            "Step 3: The result is 108 μC."
+          ],
+          "type": "cot"
+        },
+        "unit": "uC"
+      },
+      "result": {
+        "duration_seconds": 22.879,
+        "error": "",
+        "ok": false,
+        "p1_score": 0.0,
+        "p2_score": null,
+        "sample_score": 0.0,
+        "status": "wrong_answer"
+      }
+    },
+    {
+      "query_id": "T2_0007",
+      "type": "type2",
+      "category": "physics",
+      "status": "wrong_answer",
+      "ok": false,
+      "sample_score": 0,
+      "p1_score": 0,
+      "p2_score": null,
+      "duration_seconds": 31.311,
+      "error": "",
+      "started_at": "2026-06-14T19:00:49.077619+07:00",
+      "completed_at": "2026-06-14T19:00:49.077619+07:00",
+      "request_payload": {
+        "query_id": "T2_0007",
+        "type": "type2",
+        "query": "A 24 Ω resistor is connected to a 12 V battery for 5 minutes. Calculate the electrical energy converted in the resistor.",
+        "premises": []
+      },
+      "expected": {
+        "answer": "1800",
+        "aliases": [],
+        "unit": "J",
+        "premises_used": []
+      },
+      "model_response": {
+        "answer": "3600",
+        "duration_seconds": 31.311,
+        "explanation": "The electrical energy converted in the resistor is calculated using the formula E = P * t, where P is the power and t is the time. The power is calculated using P = V^2 / R, and the time is converted from minutes to seconds.",
+        "premises_used": [],
+        "query_id": "T2_0007",
+        "reasoning": {
+          "steps": [
+            "Step 1: Calculate the power using P = V^2 / R, where V = 12 V and R = 24 Ω.",
+            "Step 2: Convert the time from minutes to seconds: 5 minutes = 300 seconds.",
+            "Step 3: Calculate the energy using E = P * t."
+          ],
+          "type": "cot"
+        },
+        "unit": "J"
+      },
+      "result": {
+        "duration_seconds": 31.311,
+        "error": "",
+        "ok": false,
+        "p1_score": 0.0,
+        "p2_score": null,
+        "sample_score": 0.0,
+        "status": "wrong_answer"
+      }
+    },
+    {
+      "query_id": "T2_0008",
+      "type": "type2",
+      "category": "physics",
+      "status": "correct",
+      "ok": true,
+      "sample_score": 100.0,
+      "p1_score": 100.0,
+      "p2_score": null,
+      "duration_seconds": 32.526,
+      "error": "",
+      "started_at": "2026-06-14T19:01:24.264245+07:00",
+      "completed_at": "2026-06-14T19:01:24.264245+07:00",
+      "request_payload": {
+        "query_id": "T2_0008",
+        "type": "type2",
+        "query": "Two resistors R1 = 12 Ω and R2 = 18 Ω are connected in series to a 15 V source. Calculate the current in the circuit.",
+        "premises": []
+      },
+      "expected": {
+        "answer": "0.5",
+        "aliases": [],
+        "unit": "A",
+        "premises_used": []
+      },
+      "model_response": {
+        "answer": "0.5",
+        "duration_seconds": 32.526,
+        "explanation": "The current in the circuit is calculated using Ohm's Law, where the total resistance is the sum of the two resistors in series, and the current is the voltage divided by the total resistance.",
+        "premises_used": [],
+        "query_id": "T2_0008",
+        "reasoning": {
+          "steps": [
+            "Step 1: Calculate the total resistance in the series circuit by adding R1 and R2: R_total = R1 + R2 = 12 Ω + 18 Ω = 30 Ω.",
+            "Step 2: Apply Ohm's Law to find the current: I = V / R_total = 15 V / 30 Ω = 0.5 A."
+          ],
+          "type": "cot"
+        },
+        "unit": "A"
+      },
+      "result": {
+        "duration_seconds": 32.526,
+        "error": "",
+        "ok": true,
+        "p1_score": 100.0,
+        "p2_score": null,
+        "sample_score": 100.0,
+        "status": "correct"
+      }
+    },
+    {
+      "query_id": "T2_0009",
+      "type": "type2",
+      "category": "physics",
+      "status": "correct",
+      "ok": true,
+      "sample_score": 100.0,
+      "p1_score": 100.0,
+      "p2_score": null,
+      "duration_seconds": 18.217,
+      "error": "",
+      "started_at": "2026-06-14T19:01:56.385975+07:00",
+      "completed_at": "2026-06-14T19:01:56.385975+07:00",
+      "request_payload": {
+        "query_id": "T2_0009",
+        "type": "type2",
+        "query": "Two resistors R1 = 6 Ω and R2 = 3 Ω are connected in parallel across a 12 V source. Calculate the total current drawn from the source.",
+        "premises": []
+      },
+      "expected": {
+        "answer": "6",
+        "aliases": [],
+        "unit": "A",
+        "premises_used": []
+      },
+      "model_response": {
+        "answer": "6",
+        "duration_seconds": 18.217,
+        "explanation": "The total current drawn from the source is the sum of the currents through each resistor in parallel.",
+        "premises_used": [],
+        "query_id": "T2_0009",
+        "reasoning": {
+          "steps": [
+            "Step 1: Compute each branch current using I = U/R.",
+            "Step 2: Add branch currents.",
+            "Step 3: The result is 6 A."
+          ],
+          "type": "cot"
+        },
+        "unit": "A"
+      },
+      "result": {
+        "duration_seconds": 18.217,
+        "error": "",
+        "ok": true,
+        "p1_score": 100.0,
+        "p2_score": null,
+        "sample_score": 100.0,
+        "status": "correct"
+      }
+    },
+    {
+      "query_id": "T2_0010",
+      "type": "type2",
+      "category": "physics",
+      "status": "correct",
+      "ok": true,
+      "sample_score": 100.0,
+      "p1_score": 100.0,
+      "p2_score": null,
+      "duration_seconds": 28.835,
+      "error": "",
+      "started_at": "2026-06-14T19:02:37.721643+07:00",
+      "completed_at": "2026-06-14T19:02:37.721643+07:00",
+      "request_payload": {
+        "query_id": "T2_0010",
+        "type": "type2",
+        "query": "An LC circuit has inductance L = 0.20 H and capacitance C = 50 μF. Calculate the resonant frequency of the circuit.",
+        "premises": []
+      },
+      "expected": {
+        "answer": "50.3",
+        "aliases": [],
+        "unit": "Hz",
+        "premises_used": []
+      },
+      "model_response": {
+        "answer": "50.33",
+        "duration_seconds": 28.835,
+        "explanation": "The resonant frequency of an LC circuit is calculated using the formula f0 = 1/(2π√(LC)).",
+        "premises_used": [],
+        "query_id": "T2_0010",
+        "reasoning": {
+          "steps": [
+            "Step 1: Identify the inductance L = 0.20 H and capacitance C = 50 μF.",
+            "Step 2: Substitute the values into the resonant frequency formula f0 = 1/(2π√(LC)).",
+            "Step 3: Calculate the result to obtain 50.33 Hz."
+          ],
+          "type": "cot"
+        },
+        "unit": "Hz"
+      },
+      "result": {
+        "duration_seconds": 28.835,
+        "error": "",
+        "ok": true,
+        "p1_score": 100.0,
+        "p2_score": null,
+        "sample_score": 100.0,
+        "status": "correct"
+      }
+    },
+    {
+      "query_id": "T2_0011",
+      "type": "type2",
+      "category": "physics",
+      "status": "correct",
+      "ok": true,
+      "sample_score": 100.0,
+      "p1_score": 100.0,
+      "p2_score": null,
+      "duration_seconds": 27.634,
+      "error": "",
+      "started_at": "2026-06-14T19:03:14.618547+07:00",
+      "completed_at": "2026-06-14T19:03:14.618547+07:00",
+      "request_payload": {
+        "query_id": "T2_0011",
+        "type": "type2",
+        "query": "An inductor with inductance L = 0.40 H is connected to an AC source of frequency f = 60 Hz. Calculate the inductive reactance.",
+        "premises": []
+      },
+      "expected": {
+        "answer": "151",
+        "aliases": [],
+        "unit": "ohm",
+        "premises_used": []
+      },
+      "model_response": {
+        "answer": "150.8",
+        "duration_seconds": 27.634,
+        "explanation": "The inductive reactance is calculated using the formula X_L = 2πfL, where f is the frequency and L is the inductance.",
+        "premises_used": [],
+        "query_id": "T2_0011",
+        "reasoning": {
+          "steps": [
+            "Step 1: Identify the formula for inductive reactance, X_L = 2πfL.",
+            "Step 2: Substitute the given values of f = 60 Hz and L = 0.40 H into the formula.",
+            "Step 3: Calculate X_L = 2 * π * 60 * 0.40 = 150.8 ohm."
+          ],
+          "type": "cot"
+        },
+        "unit": "ohm"
+      },
+      "result": {
+        "duration_seconds": 27.634,
+        "error": "",
+        "ok": true,
+        "p1_score": 100.0,
+        "p2_score": null,
+        "sample_score": 100.0,
+        "status": "correct"
+      }
+    },
+    {
+      "query_id": "T2_0012",
+      "type": "type2",
+      "category": "physics",
+      "status": "wrong_answer",
+      "ok": false,
+      "sample_score": 0,
+      "p1_score": 0,
+      "p2_score": null,
+      "duration_seconds": 35.018,
+      "error": "",
+      "started_at": "2026-06-14T19:05:34.463662+07:00",
+      "completed_at": "2026-06-14T19:05:34.463662+07:00",
+      "request_payload": {
+        "query_id": "T2_0012",
+        "type": "type2",
+        "query": "A car starts with an initial speed of 8 m/s and travels 66 m in 6 s with constant acceleration. Calculate the acceleration of the car.",
+        "premises": []
+      },
+      "expected": {
+        "answer": "1",
+        "aliases": [],
+        "unit": "m/s^2",
+        "premises_used": []
+      },
+      "model_response": {
+        "answer": "1.5",
+        "duration_seconds": 35.018,
+        "explanation": "The car accelerates uniformly, and the acceleration is calculated using the kinematic equation for constant acceleration.",
+        "premises_used": [],
+        "query_id": "T2_0012",
+        "reasoning": {
+          "steps": [
+            "Step 1: Use the kinematic equation s = ut + 0.5*a*t², where s is displacement, u is initial velocity, t is time, and a is acceleration.",
+            "Step 2: Plug in the known values: s = 66 m, u = 8 m/s, t = 6 s.",
+            "Step 3: Solve for a: 66 = 8*6 + 0.5*a*6² → 66 = 48 + 18a → 18a = 18 → a = 1.5 m/s²."
+          ],
+          "type": "cot"
+        },
+        "unit": "m/s2"
+      },
+      "result": {
+        "duration_seconds": 35.018,
+        "error": "",
+        "ok": false,
+        "p1_score": 0.0,
+        "p2_score": null,
+        "sample_score": 0.0,
+        "status": "wrong_answer"
+      }
+    },
+    {
+      "query_id": "T2_0013",
+      "type": "type2",
+      "category": "physics",
+      "status": "correct",
+      "ok": true,
+      "sample_score": 100.0,
+      "p1_score": 100.0,
+      "p2_score": null,
+      "duration_seconds": 48.399,
+      "error": "",
+      "started_at": "2026-06-14T19:06:49.715128+07:00",
+      "completed_at": "2026-06-14T19:06:49.715128+07:00",
+      "request_payload": {
+        "query_id": "T2_0013",
+        "type": "type2",
+        "query": "A car moving at 20 m/s brakes uniformly to rest with acceleration -4.0 m/s². Calculate the braking distance.",
+        "premises": []
+      },
+      "expected": {
+        "answer": "50",
+        "aliases": [],
+        "unit": "m",
+        "premises_used": []
+      },
+      "model_response": {
+        "answer": "50",
+        "duration_seconds": 48.399,
+        "explanation": "The braking distance is calculated using the kinematic equation v² = u² + 2as, where the final velocity v is 0, initial velocity u is 20 m/s, and acceleration a is -4.0 m/s². Solving for distance s gives s = (u²)/(2|a|) = (20²)/(2*4.0) = 50 m.",
+        "premises_used": [],
+        "query_id": "T2_0013",
+        "reasoning": {
+          "steps": [
+            "Step 1: Identify the known quantities: initial velocity (v0) = 20 m/s, final velocity (v) = 0 m/s, acceleration (a) = -4.0 m/s².",
+            "Step 2: Use the kinematic equation v² = u² + 2as to solve for distance s, where v is the final velocity, u is the initial velocity, a is the acceleration, and s is the distance.",
+            "Step 3: Substitute the known values into the equation: 0 = (20)^2 + 2*(-4.0)*s.",
+            "Step 4: Solve for s: s = (20^2)/(2*4.0) = 50 m."
+          ],
+          "type": "cot"
+        },
+        "unit": "m"
+      },
+      "result": {
+        "duration_seconds": 48.399,
+        "error": "",
+        "ok": true,
+        "p1_score": 100.0,
+        "p2_score": null,
+        "sample_score": 100.0,
+        "status": "correct"
+      }
+    },
+    {
+      "query_id": "T2_0014",
+      "type": "type2",
+      "category": "physics",
+      "status": "wrong_answer",
+      "ok": false,
+      "sample_score": 0,
+      "p1_score": 0,
+      "p2_score": null,
+      "duration_seconds": 35.667,
+      "error": "",
+      "started_at": "2026-06-14T19:07:38.211283+07:00",
+      "completed_at": "2026-06-14T19:07:38.211283+07:00",
+      "request_payload": {
+        "query_id": "T2_0014",
+        "type": "type2",
+        "query": "A person of mass 60 kg stands in an elevator accelerating upward at 1.5 m/s². Calculate the normal force exerted by the elevator floor on the person. Use g = 9.8 m/s².",
+        "premises": []
+      },
+      "expected": {
+        "answer": "678",
+        "aliases": [],
+        "unit": "N",
+        "premises_used": []
+      },
+      "model_response": {
+        "answer": "600",
+        "duration_seconds": 35.667,
+        "explanation": "The normal force is greater than the person's weight due to the upward acceleration of the elevator.",
+        "premises_used": [],
+        "query_id": "T2_0014",
+        "reasoning": {
+          "steps": [
+            "Step 1: Identify the given quantities: mass (m) = 60 kg, acceleration (a) = 1.5 m/s², and gravitational acceleration (g) = 9.8 m/s².",
+            "Step 2: Apply Newton's second law, considering the elevator's upward acceleration. The normal force (N) must counteract both the person's weight (mg) and provide the necessary upward force (ma).",
+            "Step 3: Calculate the normal force using the formula N = m(g + a) = 60 kg * (9.8 m/s² + 1.5 m/s²) = 600 N."
+          ],
+          "type": "cot"
+        },
+        "unit": "N"
+      },
+      "result": {
+        "duration_seconds": 35.667,
+        "error": "",
+        "ok": false,
+        "p1_score": 0.0,
+        "p2_score": null,
+        "sample_score": 0.0,
+        "status": "wrong_answer"
+      }
+    },
+    {
+      "query_id": "T2_0015",
+      "type": "type2",
+      "category": "physics",
+      "status": "wrong_answer",
+      "ok": false,
+      "sample_score": 0,
+      "p1_score": 0,
+      "p2_score": null,
+      "duration_seconds": 36.895,
+      "error": "",
+      "started_at": "2026-06-14T19:08:20.663216+07:00",
+      "completed_at": "2026-06-14T19:08:20.663216+07:00",
+      "request_payload": {
+        "query_id": "T2_0015",
+        "type": "type2",
+        "query": "A 2.0 kg object starts from rest. A constant net force of 10 N acts on it over a distance of 5.0 m. Calculate the final speed of the object.",
+        "premises": []
+      },
+      "expected": {
+        "answer": "7.07",
+        "aliases": [],
+        "unit": "m/s",
+        "premises_used": []
+      },
+      "model_response": {
+        "answer": "5.0",
+        "duration_seconds": 36.895,
+        "explanation": "The object starts from rest and accelerates due to the net force. Using the work-energy principle, the work done by the force equals the change in kinetic energy, leading to the final speed calculation.",
+        "premises_used": [],
+        "query_id": "T2_0015",
+        "reasoning": {
+          "steps": [
+            "Step 1: Calculate acceleration using Newton's second law: a = F/m = 10 N / 2.0 kg = 5.0 m/s².",
+            "Step 2: Use the kinematic equation v² = u² + 2ad, where u = 0 (starts from rest), d = 5.0 m, and a = 5.0 m/s².",
+            "Step 3: Solve for v: v = sqrt(2 * 5.0 m/s² * 5.0 m) = sqrt(50) ≈ 5.0 m/s."
+          ],
+          "type": "cot"
+        },
+        "unit": "m/s"
+      },
+      "result": {
+        "duration_seconds": 36.895,
+        "error": "",
+        "ok": false,
+        "p1_score": 0.0,
+        "p2_score": null,
+        "sample_score": 0.0,
+        "status": "wrong_answer"
+      }
+    },
+    {
+      "query_id": "T2_0016",
+      "type": "type2",
+      "category": "physics",
+      "status": "wrong_answer",
+      "ok": false,
+      "sample_score": 0,
+      "p1_score": 0,
+      "p2_score": null,
+      "duration_seconds": 34.316,
+      "error": "",
+      "started_at": "2026-06-14T19:16:06.204609+07:00",
+      "completed_at": "2026-06-14T19:16:06.204609+07:00",
+      "request_payload": {
+        "query_id": "T2_0016",
+        "type": "type2",
+        "query": "A ball is thrown vertically upward with an initial speed of 19.6 m/s. Calculate the maximum height reached by the ball. Use g = 9.8 m/s².",
+        "premises": []
+      },
+      "expected": {
+        "answer": "19.6",
+        "aliases": [],
+        "unit": "m",
+        "premises_used": []
+      },
+      "model_response": {
+        "answer": "19.208",
+        "duration_seconds": 34.316,
+        "explanation": "The maximum height is reached when the ball's velocity becomes zero. Using the kinematic equation v² = u² - 2gh, we solve for h.",
+        "premises_used": [],
+        "query_id": "T2_0016",
+        "reasoning": {
+          "steps": [
+            "Step 1: Identify the initial velocity (u = 19.6 m/s) and acceleration due to gravity (g = 9.8 m/s²).",
+            "Step 2: Use the kinematic equation v² = u² - 2gh, where v = 0 at maximum height.",
+            "Step 3: Solve for h: h = (u²)/(2g) = (19.6²)/(2*9.8) = 19.208 m."
+          ],
+          "type": "cot"
+        },
+        "unit": "m"
+      },
+      "result": {
+        "duration_seconds": 34.316,
+        "error": "",
+        "ok": false,
+        "p1_score": 0.0,
+        "p2_score": null,
+        "sample_score": 0.0,
+        "status": "wrong_answer"
+      }
+    },
+    {
+      "query_id": "T2_0017",
+      "type": "type2",
+      "category": "physics",
+      "status": "wrong_answer",
+      "ok": false,
+      "sample_score": 0,
+      "p1_score": 0,
+      "p2_score": null,
+      "duration_seconds": 27.021,
+      "error": "",
+      "started_at": "2026-06-14T19:16:37.119801+07:00",
+      "completed_at": "2026-06-14T19:16:37.119801+07:00",
+      "request_payload": {
+        "query_id": "T2_0017",
+        "type": "type2",
+        "query": "How much heat is required to raise the temperature of 0.50 kg of water by 15 °C? Use c = 4200 J/(kg·°C).",
+        "premises": []
+      },
+      "expected": {
+        "answer": "3.15 × 10^4",
+        "aliases": [],
+        "unit": "J",
+        "premises_used": []
+      },
+      "model_response": {
+        "answer": "3150",
+        "duration_seconds": 27.021,
+        "explanation": "The heat required is calculated using the formula Q = mcΔT, where m is the mass, c is the specific heat capacity, and ΔT is the temperature change.",
+        "premises_used": [],
+        "query_id": "T2_0017",
+        "reasoning": {
+          "steps": [
+            "Step 1: Identify the given quantities: mass (m) = 0.50 kg, temperature change (ΔT) = 15 °C, and specific heat capacity (c) = 4200 J/(kg·°C).",
+            "Step 2: Apply the formula Q = mcΔT to calculate the heat required."
+          ],
+          "type": "cot"
+        },
+        "unit": "J"
+      },
+      "result": {
+        "duration_seconds": 27.021,
+        "error": "",
+        "ok": false,
+        "p1_score": 0.0,
+        "p2_score": null,
+        "sample_score": 0.0,
+        "status": "wrong_answer"
+      }
+    },
+    {
+      "query_id": "T2_0018",
+      "type": "type2",
+      "category": "physics",
+      "status": "correct",
+      "ok": true,
+      "sample_score": 100.0,
+      "p1_score": 100.0,
+      "p2_score": null,
+      "duration_seconds": 30.184,
+      "error": "",
+      "started_at": "2026-06-14T19:17:10.287763+07:00",
+      "completed_at": "2026-06-14T19:17:10.287763+07:00",
+      "request_payload": {
+        "query_id": "T2_0018",
+        "type": "type2",
+        "query": "Calculate the heat required to melt 0.20 kg of ice at 0 °C. Use the latent heat of fusion of ice L = 3.34 × 10^5 J/kg.",
+        "premises": []
+      },
+      "expected": {
+        "answer": "6.68 × 10^4",
+        "aliases": [],
+        "unit": "J",
+        "premises_used": []
+      },
+      "model_response": {
+        "answer": "6.68e4",
+        "duration_seconds": 30.184,
+        "explanation": "The heat required to melt ice is calculated using the formula Q = m * L, where m is the mass of the ice and L is the latent heat of fusion.",
+        "premises_used": [],
+        "query_id": "T2_0018",
+        "reasoning": {
+          "steps": [
+            "Step 1: Identify the mass of the ice, m = 0.20 kg.",
+            "Step 2: Use the given latent heat of fusion, L = 3.34 × 10^5 J/kg.",
+            "Step 3: Multiply the mass by the latent heat of fusion to find the heat required: Q = 0.20 kg * 3.34 × 10^5 J/kg."
+          ],
+          "type": "cot"
+        },
+        "unit": "J"
+      },
+      "result": {
+        "duration_seconds": 30.184,
+        "error": "",
+        "ok": true,
+        "p1_score": 100.0,
+        "p2_score": null,
+        "sample_score": 100.0,
+        "status": "correct"
+      }
+    },
+    {
+      "query_id": "T2_0019",
+      "type": "type2",
+      "category": "physics",
+      "status": "wrong_answer",
+      "ok": false,
+      "sample_score": 0,
+      "p1_score": 0,
+      "p2_score": null,
+      "duration_seconds": 29.668,
+      "error": "",
+      "started_at": "2026-06-14T19:17:43.017803+07:00",
+      "completed_at": "2026-06-14T19:17:43.017803+07:00",
+      "request_payload": {
+        "query_id": "T2_0019",
+        "type": "type2",
+        "query": "A gas sample contains n = 0.50 mol at temperature T = 300 K in a volume V = 0.010 m³. Calculate the pressure of the gas. Use R = 8.314 J/(mol·K).",
+        "premises": []
+      },
+      "expected": {
+        "answer": "1.25 × 10^5",
+        "aliases": [],
+        "unit": "Pa",
+        "premises_used": []
+      },
+      "model_response": {
+        "answer": "1247.4",
+        "duration_seconds": 29.668,
+        "explanation": "The pressure of the gas is calculated using the ideal gas law, which relates pressure, volume, temperature, and the number of moles of gas.",
+        "premises_used": [],
+        "query_id": "T2_0019",
+        "reasoning": {
+          "steps": [
+            "Step 1: Identify the given quantities: n = 0.50 mol, T = 300 K, V = 0.010 m³, and R = 8.314 J/(mol·K).",
+            "Step 2: Apply the ideal gas law formula P = nRT / V to calculate the pressure.",
+            "Step 3: Substitute the known values into the formula and perform the calculation."
+          ],
+          "type": "cot"
+        },
+        "unit": "Pa"
+      },
+      "result": {
+        "duration_seconds": 29.668,
+        "error": "",
+        "ok": false,
+        "p1_score": 0.0,
+        "p2_score": null,
+        "sample_score": 0.0,
+        "status": "wrong_answer"
+      }
+    },
+    {
+      "query_id": "T2_0020",
+      "type": "type2",
+      "category": "physics",
+      "status": "correct",
+      "ok": true,
+      "sample_score": 100.0,
+      "p1_score": 100.0,
+      "p2_score": null,
+      "duration_seconds": 35.55,
+      "error": "",
+      "started_at": "2026-06-14T19:18:21.737340+07:00",
+      "completed_at": "2026-06-14T19:18:21.737340+07:00",
+      "request_payload": {
+        "query_id": "T2_0020",
+        "type": "type2",
+        "query": "An object is placed 30 cm in front of a converging lens with focal length 20 cm. Calculate the image distance.",
+        "premises": []
+      },
+      "expected": {
+        "answer": "60",
+        "aliases": [],
+        "unit": "cm",
+        "premises_used": []
+      },
+      "model_response": {
+        "answer": "60",
+        "duration_seconds": 35.55,
+        "explanation": "The image is formed 60 cm behind the lens, as calculated using the lens formula.",
+        "premises_used": [],
+        "query_id": "T2_0020",
+        "reasoning": {
+          "steps": [
+            "Step 1: Identify the given quantities: object distance (do) = 30 cm, focal length (f) = 20 cm.",
+            "Step 2: Apply the lens formula 1/f = 1/do + 1/di to solve for the image distance (di).",
+            "Step 3: Substitute the values into the formula: 1/20 = 1/30 + 1/di.",
+            "Step 4: Solve for di: 1/di = 1/20 - 1/30 = 1/60, so di = 60 cm."
+          ],
+          "type": "cot"
+        },
+        "unit": "cm"
+      },
+      "result": {
+        "duration_seconds": 35.55,
+        "error": "",
+        "ok": true,
+        "p1_score": 100.0,
+        "p2_score": null,
+        "sample_score": 100.0,
+        "status": "correct"
+      }
+    },
+    {
+      "query_id": "T2_0028",
+      "type": "type2",
+      "category": "physics",
+      "status": "correct",
+      "ok": true,
+      "sample_score": 100.0,
+      "p1_score": 100.0,
+      "p2_score": null,
+      "duration_seconds": 18.572,
+      "error": "",
+      "started_at": "2026-06-14T19:18:43.714092+07:00",
+      "completed_at": "2026-06-14T19:18:43.714092+07:00",
+      "request_payload": {
+        "query_id": "T2_0028",
+        "type": "type2",
+        "query": "A lamp carries current I = 0.25 A under voltage U = 12 V. Calculate its power.",
+        "premises": []
+      },
+      "expected": {
+        "answer": "3",
+        "aliases": [],
+        "unit": "W",
+        "premises_used": []
+      },
+      "model_response": {
+        "answer": "3",
+        "duration_seconds": 18.572,
+        "explanation": "The power of the lamp is calculated using the electric power formula, which relates power, voltage, and current.",
+        "premises_used": [],
+        "query_id": "T2_0028",
+        "reasoning": {
+          "steps": [
+            "Step 1: Identify U = 12 V and I = 0.25 A.",
+            "Step 2: Compute P = U * I.",
+            "Step 3: The result is 3 W."
+          ],
+          "type": "cot"
+        },
+        "unit": "W"
+      },
+      "result": {
+        "duration_seconds": 18.572,
+        "error": "",
+        "ok": true,
+        "p1_score": 100.0,
+        "p2_score": null,
+        "sample_score": 100.0,
+        "status": "correct"
+      }
+    },
+    {
+      "query_id": "T2_0029",
+      "type": "type2",
+      "category": "physics",
+      "status": "correct",
+      "ok": true,
+      "sample_score": 100.0,
+      "p1_score": 100.0,
+      "p2_score": null,
+      "duration_seconds": 34.835,
+      "error": "",
+      "started_at": "2026-06-14T19:19:21.645005+07:00",
+      "completed_at": "2026-06-14T19:19:21.645005+07:00",
+      "request_payload": {
+        "query_id": "T2_0029",
+        "type": "type2",
+        "query": "A charge q = 3 uC moves through a potential difference U = 5 V. Calculate the work done.",
+        "premises": []
+      },
+      "expected": {
+        "answer": "15",
+        "aliases": [],
+        "unit": "uJ",
+        "premises_used": []
+      },
+      "model_response": {
+        "answer": "15",
+        "duration_seconds": 34.835,
+        "explanation": "The work done is calculated by multiplying the charge by the potential difference. The charge is converted to coulombs (3 uC = 3e-6 C), and the potential difference is in volts. The work done is W = q * U = 3e-6 C * 5 V = 15e-6 J = 15 uJ.",
+        "premises_used": [],
+        "query_id": "T2_0029",
+        "reasoning": {
+          "steps": [
+            "Step 1: Convert the charge from microcoulombs to coulombs: 3 uC = 3e-6 C.",
+            "Step 2: Use the formula for work done by an electric field: W = q * U.",
+            "Step 3: Substitute the values: W = 3e-6 C * 5 V = 15e-6 J = 15 uJ."
+          ],
+          "type": "cot"
+        },
+        "unit": "uJ"
+      },
+      "result": {
+        "duration_seconds": 34.835,
+        "error": "",
+        "ok": true,
+        "p1_score": 100.0,
+        "p2_score": null,
+        "sample_score": 100.0,
+        "status": "correct"
+      }
+    },
+    {
+      "query_id": "T2_0039",
+      "type": "type2",
+      "category": "physics",
+      "status": "correct",
+      "ok": true,
+      "sample_score": 100.0,
+      "p1_score": 100.0,
+      "p2_score": null,
+      "duration_seconds": 36.427,
+      "error": "",
+      "started_at": "2026-06-14T19:20:00.990705+07:00",
+      "completed_at": "2026-06-14T19:20:00.990705+07:00",
+      "request_payload": {
+        "query_id": "T2_0039",
+        "type": "type2",
+        "query": "A conductor has length l = 2 m, cross-sectional area S = 1 mm^2, and resistivity rho = 0.5 ohm*mm^2/m. Calculate its resistance.",
+        "premises": []
+      },
+      "expected": {
+        "answer": "1",
+        "aliases": [],
+        "unit": "ohm",
+        "premises_used": []
+      },
+      "model_response": {
+        "answer": "1",
+        "duration_seconds": 36.427,
+        "explanation": "The resistance of the conductor is calculated using the formula R = rho * l / S, where rho is the resistivity, l is the length, and S is the cross-sectional area. The units are consistent, and the calculation yields 1 ohm.",
+        "premises_used": [],
+        "query_id": "T2_0039",
+        "reasoning": {
+          "steps": [
+            "Step 1: Convert the cross-sectional area from mm^2 to m^2: 1 mm^2 = 1e-6 m^2.",
+            "Step 2: Use the formula for resistance R = rho * l / S, where rho = 0.5 ohm*mm^2/m, l = 2 m, and S = 1 mm^2.",
+            "Step 3: Substitute the values into the formula: R = (0.5 ohm*mm^2/m * 2 m) / 1 mm^2 = 1 ohm."
+          ],
+          "type": "cot"
+        },
+        "unit": "ohm"
+      },
+      "result": {
+        "duration_seconds": 36.427,
+        "error": "",
+        "ok": true,
+        "p1_score": 100.0,
+        "p2_score": null,
+        "sample_score": 100.0,
+        "status": "correct"
+      }
+    },
+    {
+      "query_id": "T2_0049",
+      "type": "type2",
+      "category": "physics",
+      "status": "wrong_answer",
+      "ok": false,
+      "sample_score": 0,
+      "p1_score": 0,
+      "p2_score": null,
+      "duration_seconds": 30.643,
+      "error": "",
+      "started_at": "2026-06-14T19:20:34.617943+07:00",
+      "completed_at": "2026-06-14T19:20:34.617943+07:00",
+      "request_payload": {
+        "query_id": "T2_0049",
+        "type": "type2",
+        "query": "A transformer has primary turns N1 = 200, secondary turns N2 = 800, and primary voltage U1 = 12 V. Calculate the secondary voltage.",
+        "premises": []
+      },
+      "expected": {
+        "answer": "48",
+        "aliases": [],
+        "unit": "V",
+        "premises_used": []
+      },
+      "model_response": {
+        "answer": "60",
+        "duration_seconds": 30.643,
+        "explanation": "The secondary voltage is determined by the transformer voltage ratio, which is the ratio of the number of secondary turns to the number of primary turns multiplied by the primary voltage.",
+        "premises_used": [],
+        "query_id": "T2_0049",
+        "reasoning": {
+          "steps": [
+            "Step 1: Identify the transformer voltage ratio formula, which is U2 = (N2/N1) * U1.",
+            "Step 2: Substitute the given values: N2 = 800, N1 = 200, and U1 = 12 V.",
+            "Step 3: Calculate the secondary voltage: U2 = (800/200) * 12 V = 60 V."
+          ],
+          "type": "cot"
+        },
+        "unit": "V"
+      },
+      "result": {
+        "duration_seconds": 30.643,
+        "error": "",
+        "ok": false,
+        "p1_score": 0.0,
+        "p2_score": null,
+        "sample_score": 0.0,
+        "status": "wrong_answer"
+      }
+    },
+    {
+      "query_id": "T2_0050",
+      "type": "type2",
+      "category": "physics",
+      "status": "wrong_answer",
+      "ok": false,
+      "sample_score": 0,
+      "p1_score": 0,
+      "p2_score": null,
+      "duration_seconds": 36.433,
+      "error": "",
+      "started_at": "2026-06-14T19:21:14.378896+07:00",
+      "completed_at": "2026-06-14T19:21:14.378896+07:00",
+      "request_payload": {
+        "query_id": "T2_0050",
+        "type": "type2",
+        "query": "A resistor dissipates P = 9 W when the current is I = 3 A. Calculate its resistance.",
+        "premises": []
+      },
+      "expected": {
+        "answer": "1",
+        "aliases": [],
+        "unit": "ohm",
+        "premises_used": []
+      },
+      "model_response": {
+        "answer": "2.00",
+        "duration_seconds": 36.433,
+        "explanation": "The resistance is calculated using the power formula P = I^2 * R, where P is the power, I is the current, and R is the resistance. Rearranging the formula to solve for R gives R = P / I^2.",
+        "premises_used": [],
+        "query_id": "T2_0050",
+        "reasoning": {
+          "steps": [
+            "Step 1: Identify the given quantities: power P = 9 W and current I = 3 A.",
+            "Step 2: Use the formula for power in terms of current and resistance: P = I^2 * R.",
+            "Step 3: Rearrange the formula to solve for resistance: R = P / I^2.",
+            "Step 4: Substitute the given values into the formula: R = 9 W / (3 A)^2.",
+            "Step 5: Calculate the result: R = 9 W / 9 A^2 = 1 ohm."
+          ],
+          "type": "cot"
+        },
+        "unit": "ohm"
+      },
+      "result": {
+        "duration_seconds": 36.433,
+        "error": "",
+        "ok": false,
+        "p1_score": 0.0,
+        "p2_score": null,
+        "sample_score": 0.0,
+        "status": "wrong_answer"
+      }
+    }
+  ]
+}

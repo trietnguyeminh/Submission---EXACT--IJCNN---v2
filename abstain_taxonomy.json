@@ -1,0 +1,161 @@
+{
+ "taxonomy": {
+  "FIRED": 5,
+  "multiple_direct_proven": 1,
+  "compound_option_unparsed": 3,
+  "predicate_mismatch": 4,
+  "ynu_unsupported": 12
+ },
+ "cases": [
+  {
+   "query_id": "T1_0021",
+   "taxonomy": "FIRED",
+   "gold": "A",
+   "old_status": "correct"
+  },
+  {
+   "query_id": "T1_0031",
+   "taxonomy": "multiple_direct_proven",
+   "gold": "B",
+   "old_status": "wrong_premises_used"
+  },
+  {
+   "query_id": "T1_0025",
+   "taxonomy": "compound_option_unparsed",
+   "gold": "C",
+   "old_status": "wrong_answer"
+  },
+  {
+   "query_id": "T1_0027",
+   "taxonomy": "compound_option_unparsed",
+   "gold": "D",
+   "old_status": "wrong_answer"
+  },
+  {
+   "query_id": "T1_0035",
+   "taxonomy": "compound_option_unparsed",
+   "gold": "D",
+   "old_status": "wrong_answer"
+  },
+  {
+   "query_id": "T1_0039",
+   "taxonomy": "predicate_mismatch",
+   "gold": "C",
+   "old_status": "wrong_premises_used"
+  },
+  {
+   "query_id": "T1_0023",
+   "taxonomy": "FIRED",
+   "gold": "A",
+   "old_status": "wrong_premises_used"
+  },
+  {
+   "query_id": "T1_0033",
+   "taxonomy": "predicate_mismatch",
+   "gold": "C",
+   "old_status": "wrong_answer"
+  },
+  {
+   "query_id": "T1_0046",
+   "taxonomy": "predicate_mismatch",
+   "gold": "A",
+   "old_status": "correct"
+  },
+  {
+   "query_id": "T1_0013",
+   "taxonomy": "predicate_mismatch",
+   "gold": "D",
+   "old_status": "correct"
+  },
+  {
+   "query_id": "T1_0015",
+   "taxonomy": "FIRED",
+   "gold": "B",
+   "old_status": "wrong_answer"
+  },
+  {
+   "query_id": "T1_0007",
+   "taxonomy": "FIRED",
+   "gold": "B",
+   "old_status": "wrong_answer"
+  },
+  {
+   "query_id": "T1_0041",
+   "taxonomy": "FIRED",
+   "gold": "A",
+   "old_status": "wrong_premises_used"
+  },
+  {
+   "query_id": "T1_0026",
+   "taxonomy": "ynu_unsupported",
+   "gold": "Yes",
+   "old_status": "correct"
+  },
+  {
+   "query_id": "T1_0022",
+   "taxonomy": "ynu_unsupported",
+   "gold": "Yes",
+   "old_status": "wrong_answer"
+  },
+  {
+   "query_id": "T1_0030",
+   "taxonomy": "ynu_unsupported",
+   "gold": "Yes",
+   "old_status": "correct"
+  },
+  {
+   "query_id": "T1_0034",
+   "taxonomy": "ynu_unsupported",
+   "gold": "Yes",
+   "old_status": "correct"
+  },
+  {
+   "query_id": "T1_0042",
+   "taxonomy": "ynu_unsupported",
+   "gold": "Yes",
+   "old_status": "correct"
+  },
+  {
+   "query_id": "T1_0024",
+   "taxonomy": "ynu_unsupported",
+   "gold": "No",
+   "old_status": "correct"
+  },
+  {
+   "query_id": "T1_0028",
+   "taxonomy": "ynu_unsupported",
+   "gold": "No",
+   "old_status": "wrong_answer"
+  },
+  {
+   "query_id": "T1_0008",
+   "taxonomy": "ynu_unsupported",
+   "gold": "No",
+   "old_status": "wrong_answer"
+  },
+  {
+   "query_id": "T1_0016",
+   "taxonomy": "ynu_unsupported",
+   "gold": "No",
+   "old_status": "correct"
+  },
+  {
+   "query_id": "T1_0032",
+   "taxonomy": "ynu_unsupported",
+   "gold": "No",
+   "old_status": "wrong_answer"
+  },
+  {
+   "query_id": "T1_0043",
+   "taxonomy": "ynu_unsupported",
+   "gold": "Uncertain",
+   "old_status": "wrong_premises_used"
+  },
+  {
+   "query_id": "T1_0048",
+   "taxonomy": "ynu_unsupported",
+   "gold": "Uncertain",
+   "old_status": "wrong_answer"
+  }
+ ]
+}

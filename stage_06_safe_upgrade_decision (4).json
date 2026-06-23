@@ -1,0 +1,16 @@
+{
+  "accepted": [
+    {
+      "stage": 1,
+      "name": "v40_5_mc_only_certificate",
+      "gate": "accepted_for_audit_or_safe_apply"
+    }
+  ],
+  "rejected_or_not_promoted": [
+    {
+      "stage": 2,
+      "name": "v40_5_mc_plus_ynu_experimental_AUDIT_ONLY",
+      "reason": "gate_failed_or_unverified"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+ "dev": {
+  "total": 80,
+  "rejected": 0,
+  "reasons": {}
+ },
+ "holdout": {
+  "total": 200,
+  "rejected": 0,
+  "reasons": {}
+ }
+}

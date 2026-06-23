@@ -1,0 +1,22 @@
+{
+ "dev": {
+  "n": 80,
+  "fired": 3,
+  "correct_when_fired": 3,
+  "premises_used_correct": 3,
+  "wrong_real_parser": 0,
+  "canary_n": 30,
+  "canary_abstained": 12,
+  "paraphrase_consistency": "n/a"
+ },
+ "holdout": {
+  "n": 200,
+  "fired": 7,
+  "correct_when_fired": 7,
+  "premises_used_correct": 7,
+  "wrong_real_parser": 0,
+  "canary_n": 69,
+  "canary_abstained": 28,
+  "paraphrase_consistency": "n/a"
+ }
+}

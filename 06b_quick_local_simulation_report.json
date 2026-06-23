@@ -1,0 +1,189 @@
+{
+  "test_suite": "LOCAL_QUICK_SIMULATION_NO_GPU",
+  "total": 3,
+  "passed": 3,
+  "failed": 0,
+  "success_pct": 100.0,
+  "cases": [
+    {
+      "name": "prompt_lock_first_N",
+      "ok": true,
+      "expected": {
+        "outside_guard": true,
+        "final_answer_guard": true,
+        "content_match": true,
+        "n": 50
+      },
+      "observed": {
+        "passed": 50,
+        "success_pct": 100.0,
+        "fail_examples": []
+      },
+      "extra": {}
+    },
+    {
+      "name": "strict_parser_policy",
+      "ok": true,
+      "expected": "all parser cases pass",
+      "observed": {
+        "test_suite": "strict_parser_cases",
+        "total": 5,
+        "passed": 5,
+        "failed": 0,
+        "success_pct": 100.0,
+        "cases": [
+          {
+            "name": "explicit_yes",
+            "ok": true,
+            "expected": "Yes",
+            "observed": "Yes",
+            "extra": {}
+          },
+          {
+            "name": "explicit_mc_c",
+            "ok": true,
+            "expected": "C",
+            "observed": "C",
+            "extra": {}
+          },
+          {
+            "name": "missing_final_cannot_conclude_to_unknown",
+            "ok": true,
+            "expected": "Unknown",
+            "observed": "Unknown",
+            "extra": {}
+          },
+          {
+            "name": "missing_final_negative_explanation_not_parse_no",
+            "ok": true,
+            "expected": "UNPARSEABLE",
+            "observed": "UNPARSEABLE",
+            "extra": {}
+          },
+          {
+            "name": "missing_final_mc_unparseable",
+            "ok": true,
+            "expected": "UNPARSEABLE",
+            "observed": "UNPARSEABLE",
+            "extra": {}
+          }
+        ],
+        "extra": {}
+      },
+      "extra": {}
+    },
+    {
+      "name": "v35_synthetic_rule_simulation",
+      "ok": true,
+      "expected": "all synthetic v35 cases pass",
+      "observed": {
+        "test_suite": "v35_synthetic_cases",
+        "total": 4,
+        "passed": 4,
+        "failed": 0,
+        "success_pct": 100.0,
+        "cases": [
+          {
+            "name": "sim_e1_existential_no",
+            "ok": true,
+            "expected": "No",
+            "observed": {
+              "pred_raw": "Yes",
+              "pred_parsefix": "Yes",
+              "pred_v35": "No",
+              "v35_changed": true,
+              "v35_verdict": "PROVE_NO",
+              "v35_certificate": {
+                "qtype": "existential",
+                "target": "LogsHours",
+                "target_score": 0.5,
+                "target_words": [
+                  "hours",
+                  "logs"
+                ],
+                "neg_proof_universal": true,
+                "pos_proof_universal": false,
+                "neg_proof_path": "GIVEN ∀x ¬AttendsWorkshops -> CONTRAPOSITIVE_OF: ∀x (LogsHours(x) → AttendsWorkshops(x))",
+                "pos_proof_path": null,
+                "rule": "E1_FORALL_NEG_NOT_EXISTS"
+              }
+            },
+            "extra": {}
+          },
+          {
+            "name": "sim_universal_no",
+            "ok": true,
+            "expected": "No",
+            "observed": {
+              "pred_raw": "Unknown",
+              "pred_parsefix": "Unknown",
+              "pred_v35": "No",
+              "v35_changed": true,
+              "v35_verdict": "PROVE_NO",
+              "v35_certificate": {
+                "qtype": "universal",
+                "target": "SubmitsAssignments",
+                "target_score": 0.5,
+                "target_words": [
+                  "assignments",
+                  "submits"
+                ],
+                "neg_proof_universal": true,
+                "pos_proof_universal": false,
+                "neg_proof_path": "GIVEN ∀x ¬SubmitsAssignments",
+                "pos_proof_path": null,
+                "rule": "TYPED_PROVE_NO_NO_POSITIVE_CONFLICT"
+              }
+            },
+            "extra": {}
+          },
+          {
+            "name": "sim_unknown_abstain",
+            "ok": true,
+            "expected": "Unknown",
+            "observed": {
+              "pred_raw": "Unknown",
+              "pred_parsefix": "Unknown",
+              "pred_v35": "Unknown",
+              "v35_changed": false,
+              "v35_verdict": "ABSTAIN",
+              "v35_certificate": {
+                "qtype": "existential",
+                "target": null,
+                "target_score": 0,
+                "target_words": [],
+                "neg_proof_universal": false,
+                "pos_proof_universal": false,
+                "neg_proof_path": null,
+                "pos_proof_path": null,
+                "reason": "NO_TARGET_MATCH"
+              }
+            },
+            "extra": {}
+          },
+          {
+            "name": "sim_mc_not_changed",
+            "ok": true,
+            "expected": "A",
+            "observed": {
+              "pred_raw": "A",
+              "pred_parsefix": "A",
+              "pred_v35": "A",
+              "v35_changed": false,
+              "v35_verdict": "ABSTAIN",
+              "v35_certificate": null
+            },
+            "extra": {}
+          }
+        ],
+        "extra": {}
+      },
+      "extra": {}
+    }
+  ],
+  "extra": {
+    "quick_test_n": 50,
+    "smoke_dataset": "generated_v4style_300",
+    "note": "This is a cheap local simulation. It does not call the LLM or vLLM."
+  }
+}

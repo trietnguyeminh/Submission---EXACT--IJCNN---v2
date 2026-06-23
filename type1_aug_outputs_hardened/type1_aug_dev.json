@@ -1,0 +1,4842 @@
+[
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_nova",
+  "entity": "Batch Nova",
+  "premises": [
+   "An item that has a seal that is intact and lacks temperature breach is release-ready.",
+   "Batch Nova carries a seal that is intact.",
+   "Batch Nova lacks temperature breach."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Batch Nova has temperature breach\nB. Batch Nova has a seal that is intact\nC. Batch Nova is release-ready\nD. Batch Nova is not release-ready",
+  "options": [
+   "A. Batch Nova has temperature breach",
+   "B. Batch Nova has a seal that is intact",
+   "C. Batch Nova is release-ready",
+   "D. Batch Nova is not release-ready"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "canary": true,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "P1",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0000",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_medkit-7",
+  "entity": "MedKit-7",
+  "premises": [
+   "If an item has clearance for launch and no route-blocking flag, then it is eligible to use the aerial corridor.",
+   "MedKit-7 carries clearance for launch.",
+   "MedKit-7 lacks route-blocking flag."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. MedKit-7 has route-blocking flag\nB. MedKit-7 has an audit waiver\nC. MedKit-7 is eligible to use the aerial corridor\nD. MedKit-7 is not eligible to use the aerial corridor",
+  "options": [
+   "A. MedKit-7 has route-blocking flag",
+   "B. MedKit-7 has an audit waiver",
+   "C. MedKit-7 is eligible to use the aerial corridor",
+   "D. MedKit-7 is not eligible to use the aerial corridor"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "canary": false,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "WAIV",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0001",
+  "split": "dev"
+ },
+ {
+  "logic_family": "meta_unknown",
+  "surface_family": "meta",
+  "entity": "MedKit-7",
+  "premises": [
+   "MedKit-7 carries clearance for launch.",
+   "No premise states whether MedKit-7 has export license."
+  ],
+  "query": "Which statement is correct?\nA. MedKit-7 has export license\nB. MedKit-7 has no export license\nC. It cannot be determined whether MedKit-7 has export license\nD. MedKit-7 lacks clearance for launch",
+  "options": [
+   "A. MedKit-7 has export license",
+   "B. MedKit-7 has no export license",
+   "C. It cannot be determined whether MedKit-7 has export license",
+   "D. MedKit-7 lacks clearance for launch"
+  ],
+  "answer": "C",
+  "premises_used": [
+   1
+  ],
+  "canary": false,
+  "abstract": {
+   "facts": {
+    "P1": true
+   },
+   "rules": [],
+   "options": {
+    "A": [
+     "X",
+     true
+    ],
+    "B": [
+     "X",
+     false
+    ],
+    "C": [
+     "META",
+     true
+    ],
+    "D": [
+     "P1",
+     false
+    ]
+   }
+  },
+  "meta_option": "C",
+  "sample_id": "dev_0002",
+  "split": "dev"
+ },
+ {
+  "logic_family": "meta_unknown",
+  "surface_family": "meta",
+  "entity": "The River Codex",
+  "premises": [
+   "The River Codex has a 600 dpi scan.",
+   "No premise states whether The River Codex has budget approval."
+  ],
+  "query": "Which statement is correct?\nA. The River Codex has budget approval\nB. The River Codex has no budget approval\nC. It cannot be determined whether The River Codex has budget approval\nD. The River Codex lacks 600 dpi scan",
+  "options": [
+   "A. The River Codex has budget approval",
+   "B. The River Codex has no budget approval",
+   "C. It cannot be determined whether The River Codex has budget approval",
+   "D. The River Codex lacks 600 dpi scan"
+  ],
+  "answer": "C",
+  "premises_used": [
+   1
+  ],
+  "canary": false,
+  "abstract": {
+   "facts": {
+    "P1": true
+   },
+   "rules": [],
+   "options": {
+    "A": [
+     "X",
+     true
+    ],
+    "B": [
+     "X",
+     false
+    ],
+    "C": [
+     "META",
+     true
+    ],
+    "D": [
+     "P1",
+     false
+    ]
+   }
+  },
+  "meta_option": "C",
+  "sample_id": "dev_0003",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_codex",
+  "entity": "The River Codex",
+  "premises": [
+   "Any item with a 600 dpi scan and without privacy flag is portal-eligible.",
+   "600 dpi scan is present for The River Codex.",
+   "The River Codex lacks privacy flag."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. The River Codex has privacy flag\nB. The River Codex has an audit waiver\nC. The River Codex is portal-eligible\nD. The River Codex is not portal-eligible",
+  "options": [
+   "A. The River Codex has privacy flag",
+   "B. The River Codex has an audit waiver",
+   "C. The River Codex is portal-eligible",
+   "D. The River Codex is not portal-eligible"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "canary": false,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "WAIV",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0004",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_codex",
+  "entity": "The River Codex",
+  "premises": [
+   "If an item has a high-resolution scan and no unresolved privacy issue, then it is eligible for the public portal.",
+   "High-resolution scan is present for The River Codex.",
+   "The River Codex lacks unresolved privacy issue."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. The River Codex has unresolved privacy issue\nB. The River Codex has an audit waiver\nC. The River Codex is eligible for the public portal\nD. The River Codex is not eligible for the public portal",
+  "options": [
+   "A. The River Codex has unresolved privacy issue",
+   "B. The River Codex has an audit waiver",
+   "C. The River Codex is eligible for the public portal",
+   "D. The River Codex is not eligible for the public portal"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "canary": false,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "WAIV",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0005",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_nova",
+  "entity": "Batch Nova",
+  "premises": [
+   "When an item has an intact seal but no cold-chain breach, it is ready for release.",
+   "Batch Nova carries an intact seal.",
+   "No cold-chain breach is recorded for Batch Nova."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Batch Nova has cold-chain breach\nB. Batch Nova has an intact seal\nC. Batch Nova is ready for release\nD. Batch Nova is not ready for release",
+  "options": [
+   "A. Batch Nova has cold-chain breach",
+   "B. Batch Nova has an intact seal",
+   "C. Batch Nova is ready for release",
+   "D. Batch Nova is not ready for release"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "canary": true,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "P1",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0006",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_medkit-7",
+  "entity": "MedKit-7",
+  "premises": [
+   "Any item with launch clearance and without route-blocking flag is eligible to use the aerial corridor.",
+   "Launch clearance is present for MedKit-7.",
+   "MedKit-7 has no route-blocking flag."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. MedKit-7 has route-blocking flag\nB. MedKit-7 has an audit waiver\nC. MedKit-7 is eligible to use the aerial corridor\nD. MedKit-7 is not eligible to use the aerial corridor",
+  "options": [
+   "A. MedKit-7 has route-blocking flag",
+   "B. MedKit-7 has an audit waiver",
+   "C. MedKit-7 is eligible to use the aerial corridor",
+   "D. MedKit-7 is not eligible to use the aerial corridor"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "canary": false,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "WAIV",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0007",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_medkit-7",
+  "entity": "MedKit-7",
+  "premises": [
+   "An item that has launch clearance and lacks blocked-route report is eligible to use the aerial corridor.",
+   "Launch clearance is present for MedKit-7.",
+   "MedKit-7 lacks blocked-route report."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. MedKit-7 has blocked-route report\nB. MedKit-7 has an audit waiver\nC. MedKit-7 is eligible to use the aerial corridor\nD. MedKit-7 is not eligible to use the aerial corridor",
+  "options": [
+   "A. MedKit-7 has blocked-route report",
+   "B. MedKit-7 has an audit waiver",
+   "C. MedKit-7 is eligible to use the aerial corridor",
+   "D. MedKit-7 is not eligible to use the aerial corridor"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "canary": false,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "WAIV",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0008",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_nova",
+  "entity": "Batch Nova",
+  "premises": [
+   "Any item with an intact seal and without temperature breach is ready for release.",
+   "Batch Nova has an intact seal.",
+   "No temperature breach is recorded for Batch Nova."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Batch Nova has temperature breach\nB. Batch Nova has an intact seal\nC. Batch Nova is ready for release\nD. Batch Nova is not ready for release",
+  "options": [
+   "A. Batch Nova has temperature breach",
+   "B. Batch Nova has an intact seal",
+   "C. Batch Nova is ready for release",
+   "D. Batch Nova is not ready for release"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "canary": true,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "P1",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0009",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_medkit-7",
+  "entity": "MedKit-7",
+  "premises": [
+   "When an item has clearance for launch but no blocked-route report, it is eligible to use the aerial corridor.",
+   "MedKit-7 carries clearance for launch.",
+   "MedKit-7 has no blocked-route report."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. MedKit-7 has blocked-route report\nB. MedKit-7 has clearance for launch\nC. MedKit-7 is eligible to use the aerial corridor\nD. MedKit-7 is not eligible to use the aerial corridor",
+  "options": [
+   "A. MedKit-7 has blocked-route report",
+   "B. MedKit-7 has clearance for launch",
+   "C. MedKit-7 is eligible to use the aerial corridor",
+   "D. MedKit-7 is not eligible to use the aerial corridor"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "canary": true,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "P1",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0010",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_medkit-7",
+  "entity": "MedKit-7",
+  "premises": [
+   "When an item has clearance for launch but no route-blocking flag, it is eligible to use the aerial corridor.",
+   "Clearance for launch is present for MedKit-7.",
+   "MedKit-7 lacks route-blocking flag."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. MedKit-7 has route-blocking flag\nB. MedKit-7 has an audit waiver\nC. MedKit-7 is eligible to use the aerial corridor\nD. MedKit-7 is not eligible to use the aerial corridor",
+  "options": [
+   "A. MedKit-7 has route-blocking flag",
+   "B. MedKit-7 has an audit waiver",
+   "C. MedKit-7 is eligible to use the aerial corridor",
+   "D. MedKit-7 is not eligible to use the aerial corridor"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "canary": false,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "WAIV",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0011",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_codex",
+  "entity": "The River Codex",
+  "premises": [
+   "An item that has a high-resolution scan and lacks unresolved privacy issue is eligible for the public portal.",
+   "High-resolution scan is present for The River Codex.",
+   "The River Codex has no unresolved privacy issue."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. The River Codex has unresolved privacy issue\nB. The River Codex has an audit waiver\nC. The River Codex is eligible for the public portal\nD. The River Codex is not eligible for the public portal",
+  "options": [
+   "A. The River Codex has unresolved privacy issue",
+   "B. The River Codex has an audit waiver",
+   "C. The River Codex is eligible for the public portal",
+   "D. The River Codex is not eligible for the public portal"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "canary": false,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "WAIV",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0012",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_vega",
+  "entity": "Satellite Vega",
+  "premises": [
+   "When an item has thermal sensors that are calibrated but no radar fault, it is able to support disaster mapping.",
+   "Thermal sensors that are calibrated is present for Satellite Vega.",
+   "Satellite Vega lacks radar fault."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Satellite Vega has radar fault\nB. Satellite Vega has an audit waiver\nC. Satellite Vega is able to support disaster mapping\nD. Satellite Vega is not able to support disaster mapping",
+  "options": [
+   "A. Satellite Vega has radar fault",
+   "B. Satellite Vega has an audit waiver",
+   "C. Satellite Vega is able to support disaster mapping",
+   "D. Satellite Vega is not able to support disaster mapping"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "canary": false,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "WAIV",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0013",
+  "split": "dev"
+ },
+ {
+  "logic_family": "meta_unknown",
+  "surface_family": "meta",
+  "entity": "MedKit-7",
+  "premises": [
+   "MedKit-7 has launch clearance.",
+   "No premise states whether MedKit-7 has budget approval."
+  ],
+  "query": "Which statement is correct?\nA. MedKit-7 has budget approval\nB. MedKit-7 has no budget approval\nC. It cannot be determined whether MedKit-7 has budget approval\nD. MedKit-7 lacks launch clearance",
+  "options": [
+   "A. MedKit-7 has budget approval",
+   "B. MedKit-7 has no budget approval",
+   "C. It cannot be determined whether MedKit-7 has budget approval",
+   "D. MedKit-7 lacks launch clearance"
+  ],
+  "answer": "C",
+  "premises_used": [
+   1
+  ],
+  "canary": false,
+  "abstract": {
+   "facts": {
+    "P1": true
+   },
+   "rules": [],
+   "options": {
+    "A": [
+     "X",
+     true
+    ],
+    "B": [
+     "X",
+     false
+    ],
+    "C": [
+     "META",
+     true
+    ],
+    "D": [
+     "P1",
+     false
+    ]
+   }
+  },
+  "meta_option": "C",
+  "sample_id": "dev_0014",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_vega",
+  "entity": "Satellite Vega",
+  "premises": [
+   "An item that has calibrated thermal sensors and lacks sensor fault is disaster-mapping capable.",
+   "Satellite Vega has calibrated thermal sensors.",
+   "Satellite Vega has no sensor fault."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Satellite Vega has sensor fault\nB. Satellite Vega has calibrated thermal sensors\nC. Satellite Vega is disaster-mapping capable\nD. Satellite Vega is not disaster-mapping capable",
+  "options": [
+   "A. Satellite Vega has sensor fault",
+   "B. Satellite Vega has calibrated thermal sensors",
+   "C. Satellite Vega is disaster-mapping capable",
+   "D. Satellite Vega is not disaster-mapping capable"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "canary": true,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "P1",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0015",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_codex",
+  "entity": "The River Codex",
+  "premises": [
+   "Any item with a 600 dpi scan and without privacy flag is portal-eligible.",
+   "The River Codex carries a 600 dpi scan.",
+   "No privacy flag is recorded for The River Codex."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. The River Codex has privacy flag\nB. The River Codex has an audit waiver\nC. The River Codex is portal-eligible\nD. The River Codex is not portal-eligible",
+  "options": [
+   "A. The River Codex has privacy flag",
+   "B. The River Codex has an audit waiver",
+   "C. The River Codex is portal-eligible",
+   "D. The River Codex is not portal-eligible"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "canary": false,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "WAIV",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0016",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_nova",
+  "entity": "Batch Nova",
+  "premises": [
+   "When an item has an intact seal but no cold-chain breach, it is release-ready.",
+   "Intact seal is present for Batch Nova.",
+   "Batch Nova has no cold-chain breach."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Batch Nova has cold-chain breach\nB. Batch Nova has an audit waiver\nC. Batch Nova is release-ready\nD. Batch Nova is not release-ready",
+  "options": [
+   "A. Batch Nova has cold-chain breach",
+   "B. Batch Nova has an audit waiver",
+   "C. Batch Nova is release-ready",
+   "D. Batch Nova is not release-ready"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "canary": false,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "WAIV",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0017",
+  "split": "dev"
+ },
+ {
+  "logic_family": "meta_unknown",
+  "surface_family": "meta",
+  "entity": "The River Codex",
+  "premises": [
+   "The River Codex carries a 600 dpi scan.",
+   "No premise states whether The River Codex has budget approval."
+  ],
+  "query": "Which statement is correct?\nA. The River Codex has budget approval\nB. The River Codex has no budget approval\nC. It cannot be determined whether The River Codex has budget approval\nD. The River Codex lacks 600 dpi scan",
+  "options": [
+   "A. The River Codex has budget approval",
+   "B. The River Codex has no budget approval",
+   "C. It cannot be determined whether The River Codex has budget approval",
+   "D. The River Codex lacks 600 dpi scan"
+  ],
+  "answer": "C",
+  "premises_used": [
+   1
+  ],
+  "canary": false,
+  "abstract": {
+   "facts": {
+    "P1": true
+   },
+   "rules": [],
+   "options": {
+    "A": [
+     "X",
+     true
+    ],
+    "B": [
+     "X",
+     false
+    ],
+    "C": [
+     "META",
+     true
+    ],
+    "D": [
+     "P1",
+     false
+    ]
+   }
+  },
+  "meta_option": "C",
+  "sample_id": "dev_0018",
+  "split": "dev"
+ },
+ {
+  "logic_family": "meta_unknown",
+  "surface_family": "meta",
+  "entity": "The River Codex",
+  "premises": [
+   "The River Codex carries a high-resolution scan.",
+   "No premise states whether The River Codex has export license."
+  ],
+  "query": "Which statement is correct?\nA. The River Codex has export license\nB. The River Codex has no export license\nC. It cannot be determined whether The River Codex has export license\nD. The River Codex lacks high-resolution scan",
+  "options": [
+   "A. The River Codex has export license",
+   "B. The River Codex has no export license",
+   "C. It cannot be determined whether The River Codex has export license",
+   "D. The River Codex lacks high-resolution scan"
+  ],
+  "answer": "C",
+  "premises_used": [
+   1
+  ],
+  "canary": false,
+  "abstract": {
+   "facts": {
+    "P1": true
+   },
+   "rules": [],
+   "options": {
+    "A": [
+     "X",
+     true
+    ],
+    "B": [
+     "X",
+     false
+    ],
+    "C": [
+     "META",
+     true
+    ],
+    "D": [
+     "P1",
+     false
+    ]
+   }
+  },
+  "meta_option": "C",
+  "sample_id": "dev_0019",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_nova",
+  "entity": "Batch Nova",
+  "premises": [
+   "If an item has an intact seal and no temperature breach, then it is release-ready.",
+   "Batch Nova carries an intact seal.",
+   "No temperature breach is recorded for Batch Nova."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Batch Nova has temperature breach\nB. Batch Nova has an audit waiver\nC. Batch Nova is release-ready\nD. Batch Nova is not release-ready",
+  "options": [
+   "A. Batch Nova has temperature breach",
+   "B. Batch Nova has an audit waiver",
+   "C. Batch Nova is release-ready",
+   "D. Batch Nova is not release-ready"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "canary": false,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "WAIV",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0020",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_nova",
+  "entity": "Batch Nova",
+  "premises": [
+   "Any item with a seal that is intact and without cold-chain breach is ready for release.",
+   "Batch Nova carries a seal that is intact.",
+   "Batch Nova has no cold-chain breach."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Batch Nova has cold-chain breach\nB. Batch Nova has an audit waiver\nC. Batch Nova is ready for release\nD. Batch Nova is not ready for release",
+  "options": [
+   "A. Batch Nova has cold-chain breach",
+   "B. Batch Nova has an audit waiver",
+   "C. Batch Nova is ready for release",
+   "D. Batch Nova is not ready for release"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "canary": false,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "WAIV",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0021",
+  "split": "dev"
+ },
+ {
+  "logic_family": "meta_unknown",
+  "surface_family": "meta",
+  "entity": "MedKit-7",
+  "premises": [
+   "Launch clearance is present for MedKit-7.",
+   "No premise states whether MedKit-7 has budget approval."
+  ],
+  "query": "Which statement is correct?\nA. MedKit-7 has budget approval\nB. MedKit-7 has no budget approval\nC. It cannot be determined whether MedKit-7 has budget approval\nD. MedKit-7 lacks launch clearance",
+  "options": [
+   "A. MedKit-7 has budget approval",
+   "B. MedKit-7 has no budget approval",
+   "C. It cannot be determined whether MedKit-7 has budget approval",
+   "D. MedKit-7 lacks launch clearance"
+  ],
+  "answer": "C",
+  "premises_used": [
+   1
+  ],
+  "canary": false,
+  "abstract": {
+   "facts": {
+    "P1": true
+   },
+   "rules": [],
+   "options": {
+    "A": [
+     "X",
+     true
+    ],
+    "B": [
+     "X",
+     false
+    ],
+    "C": [
+     "META",
+     true
+    ],
+    "D": [
+     "P1",
+     false
+    ]
+   }
+  },
+  "meta_option": "C",
+  "sample_id": "dev_0022",
+  "split": "dev"
+ },
+ {
+  "logic_family": "meta_unknown",
+  "surface_family": "meta",
+  "entity": "MedKit-7",
+  "premises": [
+   "MedKit-7 has clearance for launch.",
+   "No premise states whether MedKit-7 has budget approval."
+  ],
+  "query": "Which statement is correct?\nA. MedKit-7 has budget approval\nB. MedKit-7 has no budget approval\nC. It cannot be determined whether MedKit-7 has budget approval\nD. MedKit-7 lacks clearance for launch",
+  "options": [
+   "A. MedKit-7 has budget approval",
+   "B. MedKit-7 has no budget approval",
+   "C. It cannot be determined whether MedKit-7 has budget approval",
+   "D. MedKit-7 lacks clearance for launch"
+  ],
+  "answer": "C",
+  "premises_used": [
+   1
+  ],
+  "canary": false,
+  "abstract": {
+   "facts": {
+    "P1": true
+   },
+   "rules": [],
+   "options": {
+    "A": [
+     "X",
+     true
+    ],
+    "B": [
+     "X",
+     false
+    ],
+    "C": [
+     "META",
+     true
+    ],
+    "D": [
+     "P1",
+     false
+    ]
+   }
+  },
+  "meta_option": "C",
+  "sample_id": "dev_0023",
+  "split": "dev"
+ },
+ {
+  "logic_family": "meta_unknown",
+  "surface_family": "meta",
+  "entity": "MedKit-7",
+  "premises": [
+   "Launch clearance is present for MedKit-7.",
+   "No premise states whether MedKit-7 has export license."
+  ],
+  "query": "Which statement is correct?\nA. MedKit-7 has export license\nB. MedKit-7 has no export license\nC. It cannot be determined whether MedKit-7 has export license\nD. MedKit-7 lacks launch clearance",
+  "options": [
+   "A. MedKit-7 has export license",
+   "B. MedKit-7 has no export license",
+   "C. It cannot be determined whether MedKit-7 has export license",
+   "D. MedKit-7 lacks launch clearance"
+  ],
+  "answer": "C",
+  "premises_used": [
+   1
+  ],
+  "canary": false,
+  "abstract": {
+   "facts": {
+    "P1": true
+   },
+   "rules": [],
+   "options": {
+    "A": [
+     "X",
+     true
+    ],
+    "B": [
+     "X",
+     false
+    ],
+    "C": [
+     "META",
+     true
+    ],
+    "D": [
+     "P1",
+     false
+    ]
+   }
+  },
+  "meta_option": "C",
+  "sample_id": "dev_0024",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_codex",
+  "entity": "The River Codex",
+  "premises": [
+   "Any item with a 600 dpi scan and without privacy flag is eligible for the public portal.",
+   "600 dpi scan is present for The River Codex.",
+   "The River Codex lacks privacy flag."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. The River Codex has privacy flag\nB. The River Codex has a 600 dpi scan\nC. The River Codex is eligible for the public portal\nD. The River Codex is not eligible for the public portal",
+  "options": [
+   "A. The River Codex has privacy flag",
+   "B. The River Codex has a 600 dpi scan",
+   "C. The River Codex is eligible for the public portal",
+   "D. The River Codex is not eligible for the public portal"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "canary": true,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "P1",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0025",
+  "split": "dev"
+ },
+ {
+  "logic_family": "meta_unknown",
+  "surface_family": "meta",
+  "entity": "The River Codex",
+  "premises": [
+   "The River Codex has a 600 dpi scan.",
+   "No premise states whether The River Codex has export license."
+  ],
+  "query": "Which statement is correct?\nA. The River Codex has export license\nB. The River Codex has no export license\nC. It cannot be determined whether The River Codex has export license\nD. The River Codex lacks 600 dpi scan",
+  "options": [
+   "A. The River Codex has export license",
+   "B. The River Codex has no export license",
+   "C. It cannot be determined whether The River Codex has export license",
+   "D. The River Codex lacks 600 dpi scan"
+  ],
+  "answer": "C",
+  "premises_used": [
+   1
+  ],
+  "canary": false,
+  "abstract": {
+   "facts": {
+    "P1": true
+   },
+   "rules": [],
+   "options": {
+    "A": [
+     "X",
+     true
+    ],
+    "B": [
+     "X",
+     false
+    ],
+    "C": [
+     "META",
+     true
+    ],
+    "D": [
+     "P1",
+     false
+    ]
+   }
+  },
+  "meta_option": "C",
+  "sample_id": "dev_0026",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_vega",
+  "entity": "Satellite Vega",
+  "premises": [
+   "An item that has calibrated thermal sensors and lacks radar fault is able to support disaster mapping.",
+   "Calibrated thermal sensors is present for Satellite Vega.",
+   "Satellite Vega lacks radar fault."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Satellite Vega has radar fault\nB. Satellite Vega has calibrated thermal sensors\nC. Satellite Vega is able to support disaster mapping\nD. Satellite Vega is not able to support disaster mapping",
+  "options": [
+   "A. Satellite Vega has radar fault",
+   "B. Satellite Vega has calibrated thermal sensors",
+   "C. Satellite Vega is able to support disaster mapping",
+   "D. Satellite Vega is not able to support disaster mapping"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "canary": true,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "P1",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0027",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_medkit-7",
+  "entity": "MedKit-7",
+  "premises": [
+   "If an item has launch clearance and no blocked-route report, then it is permitted on the aerial corridor.",
+   "MedKit-7 carries launch clearance.",
+   "No blocked-route report is recorded for MedKit-7."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. MedKit-7 has blocked-route report\nB. MedKit-7 has launch clearance\nC. MedKit-7 is permitted on the aerial corridor\nD. MedKit-7 is not permitted on the aerial corridor",
+  "options": [
+   "A. MedKit-7 has blocked-route report",
+   "B. MedKit-7 has launch clearance",
+   "C. MedKit-7 is permitted on the aerial corridor",
+   "D. MedKit-7 is not permitted on the aerial corridor"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "canary": true,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "P1",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0028",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_codex",
+  "entity": "The River Codex",
+  "premises": [
+   "Any item with a 600 dpi scan and without privacy flag is portal-eligible.",
+   "The River Codex carries a 600 dpi scan.",
+   "The River Codex has no privacy flag."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. The River Codex has privacy flag\nB. The River Codex has a 600 dpi scan\nC. The River Codex is portal-eligible\nD. The River Codex is not portal-eligible",
+  "options": [
+   "A. The River Codex has privacy flag",
+   "B. The River Codex has a 600 dpi scan",
+   "C. The River Codex is portal-eligible",
+   "D. The River Codex is not portal-eligible"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "canary": true,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "P1",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0029",
+  "split": "dev"
+ },
+ {
+  "logic_family": "meta_unknown",
+  "surface_family": "meta",
+  "entity": "The River Codex",
+  "premises": [
+   "The River Codex has a high-resolution scan.",
+   "No premise states whether The River Codex has export license."
+  ],
+  "query": "Which statement is correct?\nA. The River Codex has export license\nB. The River Codex has no export license\nC. It cannot be determined whether The River Codex has export license\nD. The River Codex lacks high-resolution scan",
+  "options": [
+   "A. The River Codex has export license",
+   "B. The River Codex has no export license",
+   "C. It cannot be determined whether The River Codex has export license",
+   "D. The River Codex lacks high-resolution scan"
+  ],
+  "answer": "C",
+  "premises_used": [
+   1
+  ],
+  "canary": false,
+  "abstract": {
+   "facts": {
+    "P1": true
+   },
+   "rules": [],
+   "options": {
+    "A": [
+     "X",
+     true
+    ],
+    "B": [
+     "X",
+     false
+    ],
+    "C": [
+     "META",
+     true
+    ],
+    "D": [
+     "P1",
+     false
+    ]
+   }
+  },
+  "meta_option": "C",
+  "sample_id": "dev_0030",
+  "split": "dev"
+ },
+ {
+  "logic_family": "meta_unknown",
+  "surface_family": "meta",
+  "entity": "Batch Nova",
+  "premises": [
+   "Batch Nova has an intact seal.",
+   "No premise states whether Batch Nova has export license."
+  ],
+  "query": "Which statement is correct?\nA. Batch Nova has export license\nB. Batch Nova has no export license\nC. It cannot be determined whether Batch Nova has export license\nD. Batch Nova lacks intact seal",
+  "options": [
+   "A. Batch Nova has export license",
+   "B. Batch Nova has no export license",
+   "C. It cannot be determined whether Batch Nova has export license",
+   "D. Batch Nova lacks intact seal"
+  ],
+  "answer": "C",
+  "premises_used": [
+   1
+  ],
+  "canary": false,
+  "abstract": {
+   "facts": {
+    "P1": true
+   },
+   "rules": [],
+   "options": {
+    "A": [
+     "X",
+     true
+    ],
+    "B": [
+     "X",
+     false
+    ],
+    "C": [
+     "META",
+     true
+    ],
+    "D": [
+     "P1",
+     false
+    ]
+   }
+  },
+  "meta_option": "C",
+  "sample_id": "dev_0031",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_medkit-7",
+  "entity": "MedKit-7",
+  "premises": [
+   "If an item has clearance for launch and no route-blocking flag, then it is eligible to use the aerial corridor.",
+   "MedKit-7 has clearance for launch.",
+   "MedKit-7 has no route-blocking flag."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. MedKit-7 has route-blocking flag\nB. MedKit-7 has clearance for launch\nC. MedKit-7 is eligible to use the aerial corridor\nD. MedKit-7 is not eligible to use the aerial corridor",
+  "options": [
+   "A. MedKit-7 has route-blocking flag",
+   "B. MedKit-7 has clearance for launch",
+   "C. MedKit-7 is eligible to use the aerial corridor",
+   "D. MedKit-7 is not eligible to use the aerial corridor"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "canary": true,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "P1",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0032",
+  "split": "dev"
+ },
+ {
+  "logic_family": "meta_unknown",
+  "surface_family": "meta",
+  "entity": "MedKit-7",
+  "premises": [
+   "MedKit-7 carries clearance for launch.",
+   "No premise states whether MedKit-7 has export license."
+  ],
+  "query": "Which statement is correct?\nA. MedKit-7 has export license\nB. MedKit-7 has no export license\nC. It cannot be determined whether MedKit-7 has export license\nD. MedKit-7 lacks clearance for launch",
+  "options": [
+   "A. MedKit-7 has export license",
+   "B. MedKit-7 has no export license",
+   "C. It cannot be determined whether MedKit-7 has export license",
+   "D. MedKit-7 lacks clearance for launch"
+  ],
+  "answer": "C",
+  "premises_used": [
+   1
+  ],
+  "canary": false,
+  "abstract": {
+   "facts": {
+    "P1": true
+   },
+   "rules": [],
+   "options": {
+    "A": [
+     "X",
+     true
+    ],
+    "B": [
+     "X",
+     false
+    ],
+    "C": [
+     "META",
+     true
+    ],
+    "D": [
+     "P1",
+     false
+    ]
+   }
+  },
+  "meta_option": "C",
+  "sample_id": "dev_0033",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_nova",
+  "entity": "Batch Nova",
+  "premises": [
+   "If an item has a seal that is intact and no cold-chain breach, then it is ready for release.",
+   "Batch Nova carries a seal that is intact.",
+   "Batch Nova lacks cold-chain breach."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Batch Nova has cold-chain breach\nB. Batch Nova has a seal that is intact\nC. Batch Nova is ready for release\nD. Batch Nova is not ready for release",
+  "options": [
+   "A. Batch Nova has cold-chain breach",
+   "B. Batch Nova has a seal that is intact",
+   "C. Batch Nova is ready for release",
+   "D. Batch Nova is not ready for release"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "canary": true,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "P1",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0034",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_vega",
+  "entity": "Satellite Vega",
+  "premises": [
+   "When an item has calibrated thermal sensors but no sensor fault, it is able to support disaster mapping.",
+   "Satellite Vega carries calibrated thermal sensors.",
+   "Satellite Vega has no sensor fault."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Satellite Vega has sensor fault\nB. Satellite Vega has an audit waiver\nC. Satellite Vega is able to support disaster mapping\nD. Satellite Vega is not able to support disaster mapping",
+  "options": [
+   "A. Satellite Vega has sensor fault",
+   "B. Satellite Vega has an audit waiver",
+   "C. Satellite Vega is able to support disaster mapping",
+   "D. Satellite Vega is not able to support disaster mapping"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "canary": false,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "WAIV",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0035",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_nova",
+  "entity": "Batch Nova",
+  "premises": [
+   "Any item with a seal that is intact and without temperature breach is ready for release.",
+   "Batch Nova has a seal that is intact.",
+   "Batch Nova lacks temperature breach."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Batch Nova has temperature breach\nB. Batch Nova has a seal that is intact\nC. Batch Nova is ready for release\nD. Batch Nova is not ready for release",
+  "options": [
+   "A. Batch Nova has temperature breach",
+   "B. Batch Nova has a seal that is intact",
+   "C. Batch Nova is ready for release",
+   "D. Batch Nova is not ready for release"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "canary": true,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "P1",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0036",
+  "split": "dev"
+ },
+ {
+  "logic_family": "meta_unknown",
+  "surface_family": "meta",
+  "entity": "The River Codex",
+  "premises": [
+   "The River Codex carries a 600 dpi scan.",
+   "No premise states whether The River Codex has export license."
+  ],
+  "query": "Which statement is correct?\nA. The River Codex has export license\nB. The River Codex has no export license\nC. It cannot be determined whether The River Codex has export license\nD. The River Codex lacks 600 dpi scan",
+  "options": [
+   "A. The River Codex has export license",
+   "B. The River Codex has no export license",
+   "C. It cannot be determined whether The River Codex has export license",
+   "D. The River Codex lacks 600 dpi scan"
+  ],
+  "answer": "C",
+  "premises_used": [
+   1
+  ],
+  "canary": false,
+  "abstract": {
+   "facts": {
+    "P1": true
+   },
+   "rules": [],
+   "options": {
+    "A": [
+     "X",
+     true
+    ],
+    "B": [
+     "X",
+     false
+    ],
+    "C": [
+     "META",
+     true
+    ],
+    "D": [
+     "P1",
+     false
+    ]
+   }
+  },
+  "meta_option": "C",
+  "sample_id": "dev_0037",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_nova",
+  "entity": "Batch Nova",
+  "premises": [
+   "Any item with an intact seal and without cold-chain breach is ready for release.",
+   "Batch Nova has an intact seal.",
+   "Batch Nova lacks cold-chain breach."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Batch Nova has cold-chain breach\nB. Batch Nova has an intact seal\nC. Batch Nova is ready for release\nD. Batch Nova is not ready for release",
+  "options": [
+   "A. Batch Nova has cold-chain breach",
+   "B. Batch Nova has an intact seal",
+   "C. Batch Nova is ready for release",
+   "D. Batch Nova is not ready for release"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "canary": true,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "P1",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0038",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_codex",
+  "entity": "The River Codex",
+  "premises": [
+   "Any item with a 600 dpi scan and without unresolved privacy issue is eligible for the public portal.",
+   "The River Codex has a 600 dpi scan.",
+   "The River Codex has no unresolved privacy issue."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. The River Codex has unresolved privacy issue\nB. The River Codex has a 600 dpi scan\nC. The River Codex is eligible for the public portal\nD. The River Codex is not eligible for the public portal",
+  "options": [
+   "A. The River Codex has unresolved privacy issue",
+   "B. The River Codex has a 600 dpi scan",
+   "C. The River Codex is eligible for the public portal",
+   "D. The River Codex is not eligible for the public portal"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "canary": true,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "P1",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0039",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_nova",
+  "entity": "Batch Nova",
+  "premises": [
+   "Any item with a seal that is intact and without temperature breach is release-ready.",
+   "Batch Nova has a seal that is intact.",
+   "Batch Nova has no temperature breach."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Batch Nova has temperature breach\nB. Batch Nova has an audit waiver\nC. Batch Nova is release-ready\nD. Batch Nova is not release-ready",
+  "options": [
+   "A. Batch Nova has temperature breach",
+   "B. Batch Nova has an audit waiver",
+   "C. Batch Nova is release-ready",
+   "D. Batch Nova is not release-ready"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "canary": false,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "WAIV",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0040",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_nova",
+  "entity": "Batch Nova",
+  "premises": [
+   "An item that has a seal that is intact and lacks temperature breach is ready for release.",
+   "Batch Nova carries a seal that is intact.",
+   "Batch Nova lacks temperature breach."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Batch Nova has temperature breach\nB. Batch Nova has a seal that is intact\nC. Batch Nova is ready for release\nD. Batch Nova is not ready for release",
+  "options": [
+   "A. Batch Nova has temperature breach",
+   "B. Batch Nova has a seal that is intact",
+   "C. Batch Nova is ready for release",
+   "D. Batch Nova is not ready for release"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "canary": true,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "P1",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0041",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_vega",
+  "entity": "Satellite Vega",
+  "premises": [
+   "If an item has thermal sensors that are calibrated and no sensor fault, then it is able to support disaster mapping.",
+   "Thermal sensors that are calibrated is present for Satellite Vega.",
+   "Satellite Vega lacks sensor fault."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Satellite Vega has sensor fault\nB. Satellite Vega has thermal sensors that are calibrated\nC. Satellite Vega is able to support disaster mapping\nD. Satellite Vega is not able to support disaster mapping",
+  "options": [
+   "A. Satellite Vega has sensor fault",
+   "B. Satellite Vega has thermal sensors that are calibrated",
+   "C. Satellite Vega is able to support disaster mapping",
+   "D. Satellite Vega is not able to support disaster mapping"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "canary": true,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "P1",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0042",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_vega",
+  "entity": "Satellite Vega",
+  "premises": [
+   "When an item has thermal sensors that are calibrated but no sensor fault, it is able to support disaster mapping.",
+   "Thermal sensors that are calibrated is present for Satellite Vega.",
+   "No sensor fault is recorded for Satellite Vega."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Satellite Vega has sensor fault\nB. Satellite Vega has an audit waiver\nC. Satellite Vega is able to support disaster mapping\nD. Satellite Vega is not able to support disaster mapping",
+  "options": [
+   "A. Satellite Vega has sensor fault",
+   "B. Satellite Vega has an audit waiver",
+   "C. Satellite Vega is able to support disaster mapping",
+   "D. Satellite Vega is not able to support disaster mapping"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "canary": false,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "WAIV",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0043",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_medkit-7",
+  "entity": "MedKit-7",
+  "premises": [
+   "If an item has clearance for launch and no blocked-route report, then it is eligible to use the aerial corridor.",
+   "MedKit-7 carries clearance for launch.",
+   "MedKit-7 has no blocked-route report."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. MedKit-7 has blocked-route report\nB. MedKit-7 has an audit waiver\nC. MedKit-7 is eligible to use the aerial corridor\nD. MedKit-7 is not eligible to use the aerial corridor",
+  "options": [
+   "A. MedKit-7 has blocked-route report",
+   "B. MedKit-7 has an audit waiver",
+   "C. MedKit-7 is eligible to use the aerial corridor",
+   "D. MedKit-7 is not eligible to use the aerial corridor"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "canary": false,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "WAIV",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0044",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_medkit-7",
+  "entity": "MedKit-7",
+  "premises": [
+   "When an item has clearance for launch but no blocked-route report, it is eligible to use the aerial corridor.",
+   "Clearance for launch is present for MedKit-7.",
+   "No blocked-route report is recorded for MedKit-7."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. MedKit-7 has blocked-route report\nB. MedKit-7 has clearance for launch\nC. MedKit-7 is eligible to use the aerial corridor\nD. MedKit-7 is not eligible to use the aerial corridor",
+  "options": [
+   "A. MedKit-7 has blocked-route report",
+   "B. MedKit-7 has clearance for launch",
+   "C. MedKit-7 is eligible to use the aerial corridor",
+   "D. MedKit-7 is not eligible to use the aerial corridor"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "canary": true,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "P1",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0045",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_medkit-7",
+  "entity": "MedKit-7",
+  "premises": [
+   "When an item has clearance for launch but no blocked-route report, it is eligible to use the aerial corridor.",
+   "Clearance for launch is present for MedKit-7.",
+   "No blocked-route report is recorded for MedKit-7."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. MedKit-7 has blocked-route report\nB. MedKit-7 has an audit waiver\nC. MedKit-7 is eligible to use the aerial corridor\nD. MedKit-7 is not eligible to use the aerial corridor",
+  "options": [
+   "A. MedKit-7 has blocked-route report",
+   "B. MedKit-7 has an audit waiver",
+   "C. MedKit-7 is eligible to use the aerial corridor",
+   "D. MedKit-7 is not eligible to use the aerial corridor"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "canary": false,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "WAIV",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0046",
+  "split": "dev"
+ },
+ {
+  "logic_family": "meta_unknown",
+  "surface_family": "meta",
+  "entity": "The River Codex",
+  "premises": [
+   "The River Codex has a high-resolution scan.",
+   "No premise states whether The River Codex has budget approval."
+  ],
+  "query": "Which statement is correct?\nA. The River Codex has budget approval\nB. The River Codex has no budget approval\nC. It cannot be determined whether The River Codex has budget approval\nD. The River Codex lacks high-resolution scan",
+  "options": [
+   "A. The River Codex has budget approval",
+   "B. The River Codex has no budget approval",
+   "C. It cannot be determined whether The River Codex has budget approval",
+   "D. The River Codex lacks high-resolution scan"
+  ],
+  "answer": "C",
+  "premises_used": [
+   1
+  ],
+  "canary": false,
+  "abstract": {
+   "facts": {
+    "P1": true
+   },
+   "rules": [],
+   "options": {
+    "A": [
+     "X",
+     true
+    ],
+    "B": [
+     "X",
+     false
+    ],
+    "C": [
+     "META",
+     true
+    ],
+    "D": [
+     "P1",
+     false
+    ]
+   }
+  },
+  "meta_option": "C",
+  "sample_id": "dev_0047",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_nova",
+  "entity": "Batch Nova",
+  "premises": [
+   "When an item has an intact seal but no cold-chain breach, it is ready for release.",
+   "Batch Nova carries an intact seal.",
+   "Batch Nova has no cold-chain breach."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Batch Nova has cold-chain breach\nB. Batch Nova has an intact seal\nC. Batch Nova is ready for release\nD. Batch Nova is not ready for release",
+  "options": [
+   "A. Batch Nova has cold-chain breach",
+   "B. Batch Nova has an intact seal",
+   "C. Batch Nova is ready for release",
+   "D. Batch Nova is not ready for release"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "canary": true,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "P1",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0048",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_vega",
+  "entity": "Satellite Vega",
+  "premises": [
+   "If an item has thermal sensors that are calibrated and no sensor fault, then it is able to support disaster mapping.",
+   "Satellite Vega carries thermal sensors that are calibrated.",
+   "Satellite Vega lacks sensor fault."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Satellite Vega has sensor fault\nB. Satellite Vega has thermal sensors that are calibrated\nC. Satellite Vega is able to support disaster mapping\nD. Satellite Vega is not able to support disaster mapping",
+  "options": [
+   "A. Satellite Vega has sensor fault",
+   "B. Satellite Vega has thermal sensors that are calibrated",
+   "C. Satellite Vega is able to support disaster mapping",
+   "D. Satellite Vega is not able to support disaster mapping"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "canary": true,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "P1",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0049",
+  "split": "dev"
+ },
+ {
+  "logic_family": "meta_unknown",
+  "surface_family": "meta",
+  "entity": "MedKit-7",
+  "premises": [
+   "Launch clearance is present for MedKit-7.",
+   "No premise states whether MedKit-7 has budget approval."
+  ],
+  "query": "Which statement is correct?\nA. MedKit-7 has budget approval\nB. MedKit-7 has no budget approval\nC. It cannot be determined whether MedKit-7 has budget approval\nD. MedKit-7 lacks launch clearance",
+  "options": [
+   "A. MedKit-7 has budget approval",
+   "B. MedKit-7 has no budget approval",
+   "C. It cannot be determined whether MedKit-7 has budget approval",
+   "D. MedKit-7 lacks launch clearance"
+  ],
+  "answer": "C",
+  "premises_used": [
+   1
+  ],
+  "canary": false,
+  "abstract": {
+   "facts": {
+    "P1": true
+   },
+   "rules": [],
+   "options": {
+    "A": [
+     "X",
+     true
+    ],
+    "B": [
+     "X",
+     false
+    ],
+    "C": [
+     "META",
+     true
+    ],
+    "D": [
+     "P1",
+     false
+    ]
+   }
+  },
+  "meta_option": "C",
+  "sample_id": "dev_0050",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_vega",
+  "entity": "Satellite Vega",
+  "premises": [
+   "Any item with thermal sensors that are calibrated and without sensor fault is able to support disaster mapping.",
+   "Satellite Vega carries thermal sensors that are calibrated.",
+   "Satellite Vega has no sensor fault."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Satellite Vega has sensor fault\nB. Satellite Vega has an audit waiver\nC. Satellite Vega is able to support disaster mapping\nD. Satellite Vega is not able to support disaster mapping",
+  "options": [
+   "A. Satellite Vega has sensor fault",
+   "B. Satellite Vega has an audit waiver",
+   "C. Satellite Vega is able to support disaster mapping",
+   "D. Satellite Vega is not able to support disaster mapping"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "canary": false,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "WAIV",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0051",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_nova",
+  "entity": "Batch Nova",
+  "premises": [
+   "An item that has a seal that is intact and lacks cold-chain breach is ready for release.",
+   "Batch Nova has a seal that is intact.",
+   "Batch Nova has no cold-chain breach."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Batch Nova has cold-chain breach\nB. Batch Nova has an audit waiver\nC. Batch Nova is ready for release\nD. Batch Nova is not ready for release",
+  "options": [
+   "A. Batch Nova has cold-chain breach",
+   "B. Batch Nova has an audit waiver",
+   "C. Batch Nova is ready for release",
+   "D. Batch Nova is not ready for release"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "canary": false,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "WAIV",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0052",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_nova",
+  "entity": "Batch Nova",
+  "premises": [
+   "When an item has an intact seal but no temperature breach, it is ready for release.",
+   "Intact seal is present for Batch Nova.",
+   "Batch Nova has no temperature breach."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Batch Nova has temperature breach\nB. Batch Nova has an audit waiver\nC. Batch Nova is ready for release\nD. Batch Nova is not ready for release",
+  "options": [
+   "A. Batch Nova has temperature breach",
+   "B. Batch Nova has an audit waiver",
+   "C. Batch Nova is ready for release",
+   "D. Batch Nova is not ready for release"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "canary": false,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "WAIV",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0053",
+  "split": "dev"
+ },
+ {
+  "logic_family": "meta_unknown",
+  "surface_family": "meta",
+  "entity": "Batch Nova",
+  "premises": [
+   "Batch Nova has a seal that is intact.",
+   "No premise states whether Batch Nova has budget approval."
+  ],
+  "query": "Which statement is correct?\nA. Batch Nova has budget approval\nB. Batch Nova has no budget approval\nC. It cannot be determined whether Batch Nova has budget approval\nD. Batch Nova lacks seal that is intact",
+  "options": [
+   "A. Batch Nova has budget approval",
+   "B. Batch Nova has no budget approval",
+   "C. It cannot be determined whether Batch Nova has budget approval",
+   "D. Batch Nova lacks seal that is intact"
+  ],
+  "answer": "C",
+  "premises_used": [
+   1
+  ],
+  "canary": false,
+  "abstract": {
+   "facts": {
+    "P1": true
+   },
+   "rules": [],
+   "options": {
+    "A": [
+     "X",
+     true
+    ],
+    "B": [
+     "X",
+     false
+    ],
+    "C": [
+     "META",
+     true
+    ],
+    "D": [
+     "P1",
+     false
+    ]
+   }
+  },
+  "meta_option": "C",
+  "sample_id": "dev_0054",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_vega",
+  "entity": "Satellite Vega",
+  "premises": [
+   "An item that has calibrated thermal sensors and lacks sensor fault is disaster-mapping capable.",
+   "Satellite Vega carries calibrated thermal sensors.",
+   "Satellite Vega has no sensor fault."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Satellite Vega has sensor fault\nB. Satellite Vega has calibrated thermal sensors\nC. Satellite Vega is disaster-mapping capable\nD. Satellite Vega is not disaster-mapping capable",
+  "options": [
+   "A. Satellite Vega has sensor fault",
+   "B. Satellite Vega has calibrated thermal sensors",
+   "C. Satellite Vega is disaster-mapping capable",
+   "D. Satellite Vega is not disaster-mapping capable"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "canary": true,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "P1",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0055",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_codex",
+  "entity": "The River Codex",
+  "premises": [
+   "An item that has a high-resolution scan and lacks unresolved privacy issue is eligible for the public portal.",
+   "The River Codex carries a high-resolution scan.",
+   "The River Codex has no unresolved privacy issue."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. The River Codex has unresolved privacy issue\nB. The River Codex has a high-resolution scan\nC. The River Codex is eligible for the public portal\nD. The River Codex is not eligible for the public portal",
+  "options": [
+   "A. The River Codex has unresolved privacy issue",
+   "B. The River Codex has a high-resolution scan",
+   "C. The River Codex is eligible for the public portal",
+   "D. The River Codex is not eligible for the public portal"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "canary": true,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "P1",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0056",
+  "split": "dev"
+ },
+ {
+  "logic_family": "meta_unknown",
+  "surface_family": "meta",
+  "entity": "MedKit-7",
+  "premises": [
+   "MedKit-7 carries clearance for launch.",
+   "No premise states whether MedKit-7 has budget approval."
+  ],
+  "query": "Which statement is correct?\nA. MedKit-7 has budget approval\nB. MedKit-7 has no budget approval\nC. It cannot be determined whether MedKit-7 has budget approval\nD. MedKit-7 lacks clearance for launch",
+  "options": [
+   "A. MedKit-7 has budget approval",
+   "B. MedKit-7 has no budget approval",
+   "C. It cannot be determined whether MedKit-7 has budget approval",
+   "D. MedKit-7 lacks clearance for launch"
+  ],
+  "answer": "C",
+  "premises_used": [
+   1
+  ],
+  "canary": false,
+  "abstract": {
+   "facts": {
+    "P1": true
+   },
+   "rules": [],
+   "options": {
+    "A": [
+     "X",
+     true
+    ],
+    "B": [
+     "X",
+     false
+    ],
+    "C": [
+     "META",
+     true
+    ],
+    "D": [
+     "P1",
+     false
+    ]
+   }
+  },
+  "meta_option": "C",
+  "sample_id": "dev_0057",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_nova",
+  "entity": "Batch Nova",
+  "premises": [
+   "When an item has an intact seal but no cold-chain breach, it is release-ready.",
+   "Batch Nova has an intact seal.",
+   "Batch Nova lacks cold-chain breach."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Batch Nova has cold-chain breach\nB. Batch Nova has an audit waiver\nC. Batch Nova is release-ready\nD. Batch Nova is not release-ready",
+  "options": [
+   "A. Batch Nova has cold-chain breach",
+   "B. Batch Nova has an audit waiver",
+   "C. Batch Nova is release-ready",
+   "D. Batch Nova is not release-ready"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "canary": false,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "WAIV",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0058",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_nova",
+  "entity": "Batch Nova",
+  "premises": [
+   "An item that has a seal that is intact and lacks cold-chain breach is release-ready.",
+   "Seal that is intact is present for Batch Nova.",
+   "Batch Nova has no cold-chain breach."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Batch Nova has cold-chain breach\nB. Batch Nova has a seal that is intact\nC. Batch Nova is release-ready\nD. Batch Nova is not release-ready",
+  "options": [
+   "A. Batch Nova has cold-chain breach",
+   "B. Batch Nova has a seal that is intact",
+   "C. Batch Nova is release-ready",
+   "D. Batch Nova is not release-ready"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "canary": true,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "P1",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0059",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_nova",
+  "entity": "Batch Nova",
+  "premises": [
+   "When an item has a seal that is intact but no cold-chain breach, it is release-ready.",
+   "Seal that is intact is present for Batch Nova.",
+   "Batch Nova lacks cold-chain breach."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Batch Nova has cold-chain breach\nB. Batch Nova has a seal that is intact\nC. Batch Nova is release-ready\nD. Batch Nova is not release-ready",
+  "options": [
+   "A. Batch Nova has cold-chain breach",
+   "B. Batch Nova has a seal that is intact",
+   "C. Batch Nova is release-ready",
+   "D. Batch Nova is not release-ready"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "canary": true,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "P1",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0060",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_vega",
+  "entity": "Satellite Vega",
+  "premises": [
+   "When an item has calibrated thermal sensors but no radar fault, it is able to support disaster mapping.",
+   "Satellite Vega has calibrated thermal sensors.",
+   "Satellite Vega has no radar fault."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Satellite Vega has radar fault\nB. Satellite Vega has an audit waiver\nC. Satellite Vega is able to support disaster mapping\nD. Satellite Vega is not able to support disaster mapping",
+  "options": [
+   "A. Satellite Vega has radar fault",
+   "B. Satellite Vega has an audit waiver",
+   "C. Satellite Vega is able to support disaster mapping",
+   "D. Satellite Vega is not able to support disaster mapping"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "canary": false,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "WAIV",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0061",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_vega",
+  "entity": "Satellite Vega",
+  "premises": [
+   "An item that has thermal sensors that are calibrated and lacks sensor fault is able to support disaster mapping.",
+   "Satellite Vega has thermal sensors that are calibrated.",
+   "No sensor fault is recorded for Satellite Vega."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Satellite Vega has sensor fault\nB. Satellite Vega has an audit waiver\nC. Satellite Vega is able to support disaster mapping\nD. Satellite Vega is not able to support disaster mapping",
+  "options": [
+   "A. Satellite Vega has sensor fault",
+   "B. Satellite Vega has an audit waiver",
+   "C. Satellite Vega is able to support disaster mapping",
+   "D. Satellite Vega is not able to support disaster mapping"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "canary": false,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "WAIV",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0062",
+  "split": "dev"
+ },
+ {
+  "logic_family": "meta_unknown",
+  "surface_family": "meta",
+  "entity": "MedKit-7",
+  "premises": [
+   "MedKit-7 carries clearance for launch.",
+   "No premise states whether MedKit-7 has budget approval."
+  ],
+  "query": "Which statement is correct?\nA. MedKit-7 has budget approval\nB. MedKit-7 has no budget approval\nC. It cannot be determined whether MedKit-7 has budget approval\nD. MedKit-7 lacks clearance for launch",
+  "options": [
+   "A. MedKit-7 has budget approval",
+   "B. MedKit-7 has no budget approval",
+   "C. It cannot be determined whether MedKit-7 has budget approval",
+   "D. MedKit-7 lacks clearance for launch"
+  ],
+  "answer": "C",
+  "premises_used": [
+   1
+  ],
+  "canary": false,
+  "abstract": {
+   "facts": {
+    "P1": true
+   },
+   "rules": [],
+   "options": {
+    "A": [
+     "X",
+     true
+    ],
+    "B": [
+     "X",
+     false
+    ],
+    "C": [
+     "META",
+     true
+    ],
+    "D": [
+     "P1",
+     false
+    ]
+   }
+  },
+  "meta_option": "C",
+  "sample_id": "dev_0063",
+  "split": "dev"
+ },
+ {
+  "logic_family": "meta_unknown",
+  "surface_family": "meta",
+  "entity": "Batch Nova",
+  "premises": [
+   "Batch Nova carries an intact seal.",
+   "No premise states whether Batch Nova has export license."
+  ],
+  "query": "Which statement is correct?\nA. Batch Nova has export license\nB. Batch Nova has no export license\nC. It cannot be determined whether Batch Nova has export license\nD. Batch Nova lacks intact seal",
+  "options": [
+   "A. Batch Nova has export license",
+   "B. Batch Nova has no export license",
+   "C. It cannot be determined whether Batch Nova has export license",
+   "D. Batch Nova lacks intact seal"
+  ],
+  "answer": "C",
+  "premises_used": [
+   1
+  ],
+  "canary": false,
+  "abstract": {
+   "facts": {
+    "P1": true
+   },
+   "rules": [],
+   "options": {
+    "A": [
+     "X",
+     true
+    ],
+    "B": [
+     "X",
+     false
+    ],
+    "C": [
+     "META",
+     true
+    ],
+    "D": [
+     "P1",
+     false
+    ]
+   }
+  },
+  "meta_option": "C",
+  "sample_id": "dev_0064",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_codex",
+  "entity": "The River Codex",
+  "premises": [
+   "When an item has a 600 dpi scan but no privacy flag, it is eligible for the public portal.",
+   "The River Codex has a 600 dpi scan.",
+   "The River Codex lacks privacy flag."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. The River Codex has privacy flag\nB. The River Codex has a 600 dpi scan\nC. The River Codex is eligible for the public portal\nD. The River Codex is not eligible for the public portal",
+  "options": [
+   "A. The River Codex has privacy flag",
+   "B. The River Codex has a 600 dpi scan",
+   "C. The River Codex is eligible for the public portal",
+   "D. The River Codex is not eligible for the public portal"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "canary": true,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "P1",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0065",
+  "split": "dev"
+ },
+ {
+  "logic_family": "meta_unknown",
+  "surface_family": "meta",
+  "entity": "Satellite Vega",
+  "premises": [
+   "Satellite Vega carries calibrated thermal sensors.",
+   "No premise states whether Satellite Vega has export license."
+  ],
+  "query": "Which statement is correct?\nA. Satellite Vega has export license\nB. Satellite Vega has no export license\nC. It cannot be determined whether Satellite Vega has export license\nD. Satellite Vega lacks calibrated thermal sensors",
+  "options": [
+   "A. Satellite Vega has export license",
+   "B. Satellite Vega has no export license",
+   "C. It cannot be determined whether Satellite Vega has export license",
+   "D. Satellite Vega lacks calibrated thermal sensors"
+  ],
+  "answer": "C",
+  "premises_used": [
+   1
+  ],
+  "canary": false,
+  "abstract": {
+   "facts": {
+    "P1": true
+   },
+   "rules": [],
+   "options": {
+    "A": [
+     "X",
+     true
+    ],
+    "B": [
+     "X",
+     false
+    ],
+    "C": [
+     "META",
+     true
+    ],
+    "D": [
+     "P1",
+     false
+    ]
+   }
+  },
+  "meta_option": "C",
+  "sample_id": "dev_0066",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_codex",
+  "entity": "The River Codex",
+  "premises": [
+   "When an item has a 600 dpi scan but no privacy flag, it is eligible for the public portal.",
+   "The River Codex has a 600 dpi scan.",
+   "The River Codex has no privacy flag."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. The River Codex has privacy flag\nB. The River Codex has a 600 dpi scan\nC. The River Codex is eligible for the public portal\nD. The River Codex is not eligible for the public portal",
+  "options": [
+   "A. The River Codex has privacy flag",
+   "B. The River Codex has a 600 dpi scan",
+   "C. The River Codex is eligible for the public portal",
+   "D. The River Codex is not eligible for the public portal"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "canary": true,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "P1",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0067",
+  "split": "dev"
+ },
+ {
+  "logic_family": "meta_unknown",
+  "surface_family": "meta",
+  "entity": "MedKit-7",
+  "premises": [
+   "MedKit-7 has clearance for launch.",
+   "No premise states whether MedKit-7 has export license."
+  ],
+  "query": "Which statement is correct?\nA. MedKit-7 has export license\nB. MedKit-7 has no export license\nC. It cannot be determined whether MedKit-7 has export license\nD. MedKit-7 lacks clearance for launch",
+  "options": [
+   "A. MedKit-7 has export license",
+   "B. MedKit-7 has no export license",
+   "C. It cannot be determined whether MedKit-7 has export license",
+   "D. MedKit-7 lacks clearance for launch"
+  ],
+  "answer": "C",
+  "premises_used": [
+   1
+  ],
+  "canary": false,
+  "abstract": {
+   "facts": {
+    "P1": true
+   },
+   "rules": [],
+   "options": {
+    "A": [
+     "X",
+     true
+    ],
+    "B": [
+     "X",
+     false
+    ],
+    "C": [
+     "META",
+     true
+    ],
+    "D": [
+     "P1",
+     false
+    ]
+   }
+  },
+  "meta_option": "C",
+  "sample_id": "dev_0068",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_nova",
+  "entity": "Batch Nova",
+  "premises": [
+   "If an item has an intact seal and no temperature breach, then it is ready for release.",
+   "Batch Nova has an intact seal.",
+   "Batch Nova has no temperature breach."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Batch Nova has temperature breach\nB. Batch Nova has an intact seal\nC. Batch Nova is ready for release\nD. Batch Nova is not ready for release",
+  "options": [
+   "A. Batch Nova has temperature breach",
+   "B. Batch Nova has an intact seal",
+   "C. Batch Nova is ready for release",
+   "D. Batch Nova is not ready for release"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "canary": true,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "P1",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0069",
+  "split": "dev"
+ },
+ {
+  "logic_family": "meta_unknown",
+  "surface_family": "meta",
+  "entity": "Satellite Vega",
+  "premises": [
+   "Satellite Vega carries thermal sensors that are calibrated.",
+   "No premise states whether Satellite Vega has budget approval."
+  ],
+  "query": "Which statement is correct?\nA. Satellite Vega has budget approval\nB. Satellite Vega has no budget approval\nC. It cannot be determined whether Satellite Vega has budget approval\nD. Satellite Vega lacks thermal sensors that are calibrated",
+  "options": [
+   "A. Satellite Vega has budget approval",
+   "B. Satellite Vega has no budget approval",
+   "C. It cannot be determined whether Satellite Vega has budget approval",
+   "D. Satellite Vega lacks thermal sensors that are calibrated"
+  ],
+  "answer": "C",
+  "premises_used": [
+   1
+  ],
+  "canary": false,
+  "abstract": {
+   "facts": {
+    "P1": true
+   },
+   "rules": [],
+   "options": {
+    "A": [
+     "X",
+     true
+    ],
+    "B": [
+     "X",
+     false
+    ],
+    "C": [
+     "META",
+     true
+    ],
+    "D": [
+     "P1",
+     false
+    ]
+   }
+  },
+  "meta_option": "C",
+  "sample_id": "dev_0070",
+  "split": "dev"
+ },
+ {
+  "logic_family": "meta_unknown",
+  "surface_family": "meta",
+  "entity": "Satellite Vega",
+  "premises": [
+   "Calibrated thermal sensors is present for Satellite Vega.",
+   "No premise states whether Satellite Vega has budget approval."
+  ],
+  "query": "Which statement is correct?\nA. Satellite Vega has budget approval\nB. Satellite Vega has no budget approval\nC. It cannot be determined whether Satellite Vega has budget approval\nD. Satellite Vega lacks calibrated thermal sensors",
+  "options": [
+   "A. Satellite Vega has budget approval",
+   "B. Satellite Vega has no budget approval",
+   "C. It cannot be determined whether Satellite Vega has budget approval",
+   "D. Satellite Vega lacks calibrated thermal sensors"
+  ],
+  "answer": "C",
+  "premises_used": [
+   1
+  ],
+  "canary": false,
+  "abstract": {
+   "facts": {
+    "P1": true
+   },
+   "rules": [],
+   "options": {
+    "A": [
+     "X",
+     true
+    ],
+    "B": [
+     "X",
+     false
+    ],
+    "C": [
+     "META",
+     true
+    ],
+    "D": [
+     "P1",
+     false
+    ]
+   }
+  },
+  "meta_option": "C",
+  "sample_id": "dev_0071",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_medkit-7",
+  "entity": "MedKit-7",
+  "premises": [
+   "When an item has launch clearance but no route-blocking flag, it is eligible to use the aerial corridor.",
+   "MedKit-7 has launch clearance.",
+   "MedKit-7 has no route-blocking flag."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. MedKit-7 has route-blocking flag\nB. MedKit-7 has an audit waiver\nC. MedKit-7 is eligible to use the aerial corridor\nD. MedKit-7 is not eligible to use the aerial corridor",
+  "options": [
+   "A. MedKit-7 has route-blocking flag",
+   "B. MedKit-7 has an audit waiver",
+   "C. MedKit-7 is eligible to use the aerial corridor",
+   "D. MedKit-7 is not eligible to use the aerial corridor"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "canary": false,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "WAIV",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0072",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_codex",
+  "entity": "The River Codex",
+  "premises": [
+   "If an item has a 600 dpi scan and no unresolved privacy issue, then it is eligible for the public portal.",
+   "The River Codex has a 600 dpi scan.",
+   "The River Codex lacks unresolved privacy issue."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. The River Codex has unresolved privacy issue\nB. The River Codex has an audit waiver\nC. The River Codex is eligible for the public portal\nD. The River Codex is not eligible for the public portal",
+  "options": [
+   "A. The River Codex has unresolved privacy issue",
+   "B. The River Codex has an audit waiver",
+   "C. The River Codex is eligible for the public portal",
+   "D. The River Codex is not eligible for the public portal"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "canary": false,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "WAIV",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0073",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_medkit-7",
+  "entity": "MedKit-7",
+  "premises": [
+   "An item that has launch clearance and lacks route-blocking flag is permitted on the aerial corridor.",
+   "Launch clearance is present for MedKit-7.",
+   "MedKit-7 lacks route-blocking flag."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. MedKit-7 has route-blocking flag\nB. MedKit-7 has launch clearance\nC. MedKit-7 is permitted on the aerial corridor\nD. MedKit-7 is not permitted on the aerial corridor",
+  "options": [
+   "A. MedKit-7 has route-blocking flag",
+   "B. MedKit-7 has launch clearance",
+   "C. MedKit-7 is permitted on the aerial corridor",
+   "D. MedKit-7 is not permitted on the aerial corridor"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "canary": true,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "P1",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0074",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_nova",
+  "entity": "Batch Nova",
+  "premises": [
+   "If an item has an intact seal and no cold-chain breach, then it is release-ready.",
+   "Batch Nova has an intact seal.",
+   "Batch Nova has no cold-chain breach."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Batch Nova has cold-chain breach\nB. Batch Nova has an intact seal\nC. Batch Nova is release-ready\nD. Batch Nova is not release-ready",
+  "options": [
+   "A. Batch Nova has cold-chain breach",
+   "B. Batch Nova has an intact seal",
+   "C. Batch Nova is release-ready",
+   "D. Batch Nova is not release-ready"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "canary": true,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "P1",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0075",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_nova",
+  "entity": "Batch Nova",
+  "premises": [
+   "When an item has a seal that is intact but no cold-chain breach, it is ready for release.",
+   "Batch Nova carries a seal that is intact.",
+   "Batch Nova has no cold-chain breach."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Batch Nova has cold-chain breach\nB. Batch Nova has a seal that is intact\nC. Batch Nova is ready for release\nD. Batch Nova is not ready for release",
+  "options": [
+   "A. Batch Nova has cold-chain breach",
+   "B. Batch Nova has a seal that is intact",
+   "C. Batch Nova is ready for release",
+   "D. Batch Nova is not ready for release"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "canary": true,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "P1",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0076",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_medkit-7",
+  "entity": "MedKit-7",
+  "premises": [
+   "When an item has clearance for launch but no blocked-route report, it is permitted on the aerial corridor.",
+   "MedKit-7 carries clearance for launch.",
+   "MedKit-7 lacks blocked-route report."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. MedKit-7 has blocked-route report\nB. MedKit-7 has an audit waiver\nC. MedKit-7 is permitted on the aerial corridor\nD. MedKit-7 is not permitted on the aerial corridor",
+  "options": [
+   "A. MedKit-7 has blocked-route report",
+   "B. MedKit-7 has an audit waiver",
+   "C. MedKit-7 is permitted on the aerial corridor",
+   "D. MedKit-7 is not permitted on the aerial corridor"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "canary": false,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "WAIV",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0077",
+  "split": "dev"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "para_vega",
+  "entity": "Satellite Vega",
+  "premises": [
+   "An item that has thermal sensors that are calibrated and lacks radar fault is able to support disaster mapping.",
+   "Satellite Vega has thermal sensors that are calibrated.",
+   "No radar fault is recorded for Satellite Vega."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Satellite Vega has radar fault\nB. Satellite Vega has thermal sensors that are calibrated\nC. Satellite Vega is able to support disaster mapping\nD. Satellite Vega is not able to support disaster mapping",
+  "options": [
+   "A. Satellite Vega has radar fault",
+   "B. Satellite Vega has thermal sensors that are calibrated",
+   "C. Satellite Vega is able to support disaster mapping",
+   "D. Satellite Vega is not able to support disaster mapping"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "canary": true,
+  "abstract": {
+   "facts": {
+    "P1": true,
+    "P2": false
+   },
+   "rules": [
+    [
+     [
+      [
+       "P1",
+       true
+      ],
+      [
+       "P2",
+       false
+      ]
+     ],
+     [
+      "P3",
+      true
+     ]
+    ]
+   ],
+   "options": {
+    "A": [
+     "P2",
+     true
+    ],
+    "B": [
+     "P1",
+     true
+    ],
+    "C": [
+     "P3",
+     true
+    ],
+    "D": [
+     "P3",
+     false
+    ]
+   }
+  },
+  "sample_id": "dev_0078",
+  "split": "dev"
+ },
+ {
+  "logic_family": "meta_unknown",
+  "surface_family": "meta",
+  "entity": "Satellite Vega",
+  "premises": [
+   "Thermal sensors that are calibrated is present for Satellite Vega.",
+   "No premise states whether Satellite Vega has budget approval."
+  ],
+  "query": "Which statement is correct?\nA. Satellite Vega has budget approval\nB. Satellite Vega has no budget approval\nC. It cannot be determined whether Satellite Vega has budget approval\nD. Satellite Vega lacks thermal sensors that are calibrated",
+  "options": [
+   "A. Satellite Vega has budget approval",
+   "B. Satellite Vega has no budget approval",
+   "C. It cannot be determined whether Satellite Vega has budget approval",
+   "D. Satellite Vega lacks thermal sensors that are calibrated"
+  ],
+  "answer": "C",
+  "premises_used": [
+   1
+  ],
+  "canary": false,
+  "abstract": {
+   "facts": {
+    "P1": true
+   },
+   "rules": [],
+   "options": {
+    "A": [
+     "X",
+     true
+    ],
+    "B": [
+     "X",
+     false
+    ],
+    "C": [
+     "META",
+     true
+    ],
+    "D": [
+     "P1",
+     false
+    ]
+   }
+  },
+  "meta_option": "C",
+  "sample_id": "dev_0079",
+  "split": "dev"
+ }
+]

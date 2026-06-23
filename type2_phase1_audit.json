@@ -1,0 +1,126 @@
+{
+ "n_type2": 25,
+ "wrong": 12,
+ "cases": [
+  {
+   "query_id": "T2_0004",
+   "family": "E_field_superposition",
+   "computed": 7200.0,
+   "expected": "7.20 \u00d7 10^3",
+   "unit": "N/C",
+   "model_answer": "7.2e4",
+   "formula": "E=2\u00b7kq/r\u00b2, r=0.10m (dipole midpoint, fields add)",
+   "error_class": "arith_factor10"
+  },
+  {
+   "query_id": "T2_0005",
+   "family": "electric_potential",
+   "computed": 450.0,
+   "expected": "450",
+   "unit": "V",
+   "model_answer": "0",
+   "formula": "V=k\u03a3q_i/r_i (scalar, signed)",
+   "error_class": "solver_returned_0"
+  },
+  {
+   "query_id": "T2_0006",
+   "family": "capacitor_series",
+   "computed": 36.0,
+   "expected": "36",
+   "unit": "uC",
+   "model_answer": "108",
+   "formula": "Q=Ceq\u00b7V, Ceq=C1C2/(C1+C2)",
+   "error_class": "wrong_formula_used_C1_not_Ceq"
+  },
+  {
+   "query_id": "T2_0007",
+   "family": "electrical_energy",
+   "computed": 1800.0,
+   "expected": "1800",
+   "unit": "J",
+   "model_answer": "3600",
+   "formula": "E=V\u00b2/R\u00b7t, t=5min=300s",
+   "error_class": "time_conversion_used_600s"
+  },
+  {
+   "query_id": "T2_0012",
+   "family": "kinematics_accel",
+   "computed": 1.0,
+   "expected": "1",
+   "unit": "m/s^2",
+   "model_answer": "1.5",
+   "formula": "s=v0t+\u00bdat\u00b2 \u2192 a",
+   "error_class": "ignored_initial_velocity"
+  },
+  {
+   "query_id": "T2_0014",
+   "family": "newton_elevator",
+   "computed": 678.0,
+   "expected": "678",
+   "unit": "N",
+   "model_answer": "600",
+   "formula": "N=m(g+a)",
+   "error_class": "ignored_accel_and_g10"
+  },
+  {
+   "query_id": "T2_0015",
+   "family": "work_energy_speed",
+   "computed": 7.0711,
+   "expected": "7.07",
+   "unit": "m/s",
+   "model_answer": "5.0",
+   "formula": "v=\u221a(2as), a=F/m",
+   "error_class": "returned_a_not_v"
+  },
+  {
+   "query_id": "T2_0016",
+   "family": "projectile_height",
+   "computed": 19.6,
+   "expected": "19.6",
+   "unit": "m",
+   "model_answer": "19.208",
+   "formula": "h=v0\u00b2/(2g)",
+   "error_class": "rounding_g_value"
+  },
+  {
+   "query_id": "T2_0017",
+   "family": "calorimetry",
+   "computed": 31500.0,
+   "expected": "3.15 \u00d7 10^4",
+   "unit": "J",
+   "model_answer": "3150",
+   "formula": "Q=mc\u0394T",
+   "error_class": "arith_factor10"
+  },
+  {
+   "query_id": "T2_0019",
+   "family": "ideal_gas",
+   "computed": 124710.0,
+   "expected": "1.25 \u00d7 10^5",
+   "unit": "Pa",
+   "model_answer": "1247.4",
+   "formula": "P=nRT/V",
+   "error_class": "missing_div_by_V_factor100"
+  },
+  {
+   "query_id": "T2_0049",
+   "family": "transformer",
+   "computed": 48.0,
+   "expected": "48",
+   "unit": "V",
+   "model_answer": "60",
+   "formula": "U2=U1\u00b7N2/N1",
+   "error_class": "wrong_turns_ratio"
+  },
+  {
+   "query_id": "T2_0050",
+   "family": "power_resistance",
+   "computed": 1.0,
+   "expected": "1",
+   "unit": "ohm",
+   "model_answer": "2.00",
+   "formula": "R=P/I\u00b2",
+   "error_class": "wrong_formula"
+  }
+ ]
+}

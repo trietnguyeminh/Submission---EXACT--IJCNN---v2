@@ -1,0 +1,140 @@
+[
+  {
+    "query_id": "T1_amber",
+    "ok": true,
+    "response": {
+      "query_id": "T1_amber",
+      "answer": "A",
+      "unit": "",
+      "explanation": "Derived by v40.4 entity-conjunctive symbolic proof (entity_unique_proof).",
+      "premises_used": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "reasoning": {
+        "source": "v40_4_entity_conjunctive",
+        "rule": "entity_unique_proof",
+        "option_status": {
+          "A": [
+            "PROVEN",
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ]
+          ],
+          "B": [
+            "DISPROVEN",
+            []
+          ],
+          "C": [
+            "UNSUP",
+            []
+          ],
+          "D": [
+            "DISPROVEN",
+            []
+          ]
+        }
+      }
+    },
+    "expected": {
+      "answer": "A",
+      "premises_used": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    }
+  },
+  {
+    "query_id": "T1_ynu",
+    "ok": true,
+    "response": {
+      "query_id": "T1_ynu",
+      "answer": "Yes",
+      "unit": "",
+      "explanation": "Derived by v38b/v39 symbolic proof (PE_witness).",
+      "premises_used": [
+        0
+      ],
+      "reasoning": {
+        "source": "v38b_v39_symbolic",
+        "rule": "PE_witness",
+        "canon_premises": [
+          "∀x (ReceiveScholarship(x))"
+        ]
+      }
+    },
+    "expected": {
+      "answer": "Yes",
+      "premises_used": [
+        0
+      ]
+    }
+  },
+  {
+    "query_id": "T2_parallel",
+    "ok": true,
+    "response": {
+      "query_id": "T2_parallel",
+      "answer": "5",
+      "unit": "A",
+      "explanation": "Total current in parallel is the sum of branch currents I=V/R.",
+      "premises_used": [],
+      "reasoning": {
+        "source": "type2_parallel_resistor",
+        "R": [
+          4.0,
+          6.0
+        ],
+        "V": 12.0
+      }
+    },
+    "expected": {
+      "answer": "5",
+      "unit": "A"
+    }
+  },
+  {
+    "query_id": "T2_cap",
+    "ok": true,
+    "response": {
+      "query_id": "T2_cap",
+      "answer": "3.384",
+      "unit": "mJ",
+      "explanation": "Capacitor energy is 1/2 C U^2.",
+      "premises_used": [],
+      "reasoning": {
+        "source": "type2_capacitor_energy",
+        "C_F": 4.7e-05,
+        "U": 12.0
+      }
+    },
+    "expected": {
+      "unit": "mJ"
+    }
+  }
+]

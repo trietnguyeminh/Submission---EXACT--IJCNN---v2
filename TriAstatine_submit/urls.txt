@@ -1,0 +1,5 @@
+# Replace <PUBLIC_BASE_URL> with the trycloudflare host printed by the notebook (CELL 11/12), then submit.
+PREDICTION_URL=https://<PUBLIC_BASE_URL>/predict
+V1_MODELS_URL=https://<PUBLIC_BASE_URL>/v1/models
+V1_COMPLETIONS_URL=https://<PUBLIC_BASE_URL>/v1/completions
+HEALTH_URL=https://<PUBLIC_BASE_URL>/health

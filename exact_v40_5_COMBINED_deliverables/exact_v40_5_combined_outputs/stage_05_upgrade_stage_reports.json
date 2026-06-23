@@ -1,0 +1,31 @@
+[
+  {
+    "stage": 1,
+    "name": "uploaded_v40_4_replay_cases_audit",
+    "runnable": true,
+    "reason": null,
+    "replay_report": {
+      "n": 25,
+      "fired": 5,
+      "answer_correct": 5,
+      "premises_used_correct": 5,
+      "wrong": [],
+      "fixed_old_wrong": [
+        "T1_0023",
+        "T1_0015",
+        "T1_0007",
+        "T1_0041"
+      ],
+      "abstained": 20,
+      "precision_when_fired": 1.0,
+      "coverage": 0.2,
+      "gate": "ABSTAIN_SAFE"
+    }
+  },
+  {
+    "stage": 2,
+    "name": "v40_5_full_log_upgrade_candidates",
+    "runnable": false,
+    "reason": "Full exact_eval_round1_Astatine.json is required to rerun parser upgrades against premises."
+  }
+]

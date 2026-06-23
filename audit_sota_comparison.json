@@ -1,0 +1,30 @@
+[
+  {
+    "system": "Official Round 1 live Astatine",
+    "acc_or_score": 0.5789,
+    "macro7": null,
+    "trust": "official live",
+    "note": "Public leaderboard score, includes live API/system issues."
+  },
+  {
+    "system": "Old trusted v35 full generated",
+    "acc_or_score": 0.8533333333,
+    "macro7": 0.8163793033,
+    "trust": "trusted offline historical",
+    "note": "Verified earlier; current comparison target."
+  },
+  {
+    "system": "Current v38b selected file",
+    "acc_or_score": 0.905,
+    "macro7": 0.9387814606285312,
+    "trust": "NOT trusted as LoRA selector; generation unhealthy",
+    "note": "Use only if gen_error_rate <=2%."
+  },
+  {
+    "system": "v38b symbolic fired-only",
+    "acc_or_score": 1.0,
+    "macro7": null,
+    "trust": "trusted fired-only precision",
+    "note": "368/368 correct when fired; not full-system acc."
+  }
+]

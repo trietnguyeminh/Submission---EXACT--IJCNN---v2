@@ -1,0 +1,166 @@
+{
+  "n": 6,
+  "passed": 6,
+  "failed": 0,
+  "cases": [
+    {
+      "name": "YNU positive chain",
+      "ok": true,
+      "expected_answer": "Yes",
+      "answer": "Yes",
+      "expected_premises": [
+        0,
+        1,
+        2
+      ],
+      "premises_used": [
+        0,
+        1,
+        2
+      ],
+      "rule": "PY_universal_positive",
+      "cert": {
+        "query_type": "universal",
+        "target": "DesignStudy",
+        "positive": true,
+        "negative": false,
+        "answer": "Yes",
+        "premises_used": [
+          0,
+          1,
+          2
+        ],
+        "abstain_reason": null,
+        "proof_rule": "PY_universal_positive",
+        "canon_premises": [
+          "∀x (LiteratureRead(x))",
+          "∀x (LiteratureRead(x) → GapIdentify(x))",
+          "∀x (GapIdentify(x) → DesignStudy(x))"
+        ]
+      }
+    },
+    {
+      "name": "YNU existential negative",
+      "ok": true,
+      "expected_answer": "No",
+      "answer": "No",
+      "expected_premises": null,
+      "premises_used": [
+        1,
+        2
+      ],
+      "rule": "E1_universal_negative",
+      "cert": {
+        "query_type": "existential",
+        "target": "ImproveTechnique",
+        "positive": true,
+        "negative": true,
+        "answer": "No",
+        "premises_used": [
+          1,
+          2
+        ],
+        "abstain_reason": null,
+        "proof_rule": "E1_universal_negative",
+        "canon_premises": [
+          "∀x (ImproveTechnique(x))",
+          "∀x (ImproveTechnique(x) → AboveScoreThreshold(x))",
+          "∀x (¬AboveScoreThreshold(x))"
+        ]
+      }
+    },
+    {
+      "name": "YNU no proof abstain",
+      "ok": true,
+      "expected_answer": null,
+      "answer": null,
+      "expected_premises": null,
+      "premises_used": [],
+      "rule": "no_proof",
+      "cert": {
+        "query_type": "universal",
+        "target": "AssignmentSubmit",
+        "positive": false,
+        "negative": false,
+        "answer": null,
+        "premises_used": [],
+        "abstain_reason": "no_proof",
+        "canon_premises": [
+          "∀x (AssignmentSubmit(x) → AchieveGHighP(x))",
+          "∀x (AchieveGHighP(x))"
+        ]
+      }
+    },
+    {
+      "name": "MC full-statement options without labels in query",
+      "ok": true,
+      "expected_answer": "A",
+      "answer": "A",
+      "expected_premises": [
+        0,
+        1
+      ],
+      "premises_used": [
+        0,
+        1
+      ],
+      "rule": "MC_unique_direct_proof",
+      "cert": {
+        "answer": "A",
+        "rule": "MC_unique_direct_proof",
+        "premises_used": [
+          0,
+          1
+        ],
+        "abstain_reason": null,
+        "canon_premises": [
+          "∀x (CourseCreditEarn(x) → CompleteCoursework(x))",
+          "∀x (CourseCreditEarn(x))"
+        ]
+      }
+    },
+    {
+      "name": "MC meta cannot determine",
+      "ok": true,
+      "expected_answer": "B",
+      "answer": "B",
+      "expected_premises": null,
+      "premises_used": [],
+      "rule": "MC_meta_cannot_determine",
+      "cert": {
+        "answer": "B",
+        "rule": "MC_meta_cannot_determine",
+        "premises_used": [],
+        "abstain_reason": null,
+        "canon_premises": [
+          "∀x (CourseCreditEarn(x) → CompleteCoursework(x))"
+        ]
+      }
+    },
+    {
+      "name": "Study Alpha named-entity MC safe behavior",
+      "ok": true,
+      "answer": null,
+      "premises_used": [],
+      "rule": "no_direct_and_no_meta",
+      "cert": {
+        "answer": null,
+        "rule": null,
+        "premises_used": [],
+        "abstain_reason": "no_direct_and_no_meta",
+        "canon_premises": [
+          "∀x (AccessCompletEthicHaLabTrain(x) → CanDataHandleParticipant(x))",
+          "∀x (ApprovalCanDataHaHandleParticipantSupervisor(x) → AlphaJoinMayStudy(x))",
+          "∀x (AActiveAlphaContributorJoinListMayStudy(x))",
+          null,
+          null,
+          null,
+          null,
+          "∀x (¬ApprovalAshaBudgetHaPremiseStateWhether(x))"
+        ]
+      },
+      "note": "safe abstain allowed; named-entity facts are outside v39 generic quantifier scope"
+    }
+  ],
+  "success_pct": 100.0
+}

@@ -1,0 +1,55 @@
+[
+  {
+    "stage": 1,
+    "name": "v40_5_mc_only_certificate",
+    "runnable": true,
+    "replay_report": {
+      "n": 25,
+      "fired": 5,
+      "answer_correct": 5,
+      "premises_used_correct": 5,
+      "wrong": [],
+      "fixed_old_wrong": [
+        "T1_0023",
+        "T1_0015",
+        "T1_0007",
+        "T1_0041"
+      ],
+      "abstained": 20,
+      "precision_when_fired": 1.0,
+      "coverage": 0.2,
+      "gate": "ABSTAIN_SAFE"
+    }
+  },
+  {
+    "stage": 2,
+    "name": "v40_5_mc_plus_ynu_experimental_AUDIT_ONLY",
+    "runnable": true,
+    "replay_report": {
+      "n": 25,
+      "fired": 10,
+      "answer_correct": 9,
+      "premises_used_correct": 5,
+      "wrong": [
+        {
+          "query_id": "T1_0032",
+          "exp": "No",
+          "got": "Yes"
+        }
+      ],
+      "fixed_old_wrong": [
+        "T1_0023",
+        "T1_0015",
+        "T1_0007",
+        "T1_0041",
+        "T1_0028",
+        "T1_0008"
+      ],
+      "abstained": 15,
+      "precision_when_fired": 0.9,
+      "coverage": 0.4,
+      "gate": "HAS_WRONG_FIX_BEFORE_APPLY"
+    },
+    "promotion_policy": "only_if_zero_wrong_and_premises_ok; otherwise reject"
+  }
+]

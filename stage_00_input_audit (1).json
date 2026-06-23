@@ -1,0 +1,9 @@
+{
+  "version": "v40.5-one-run-safe-audit",
+  "created_utc": "2026-06-19T06:49:16.040927+00:00",
+  "phase1_path": "/kaggle/input/datasets/nguyenminhtric/test-pipeline/exact_eval_round1_Astatine.json",
+  "source_mode": "phase1_log",
+  "out_dir": "/kaggle/working/exact_v40_5_outputs",
+  "warning": null,
+  "n_type1_logs": 25
+}

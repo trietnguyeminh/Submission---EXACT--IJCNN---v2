@@ -1,0 +1,47 @@
+{
+  "version": "v40.5-one-run-safe-audit",
+  "source_mode": "replay_cases_only",
+  "pipeline": [
+    {
+      "stage": 0,
+      "name": "input_audit",
+      "description": "Find full Phase-1 log if available; otherwise use uploaded replay cases."
+    },
+    {
+      "stage": 1,
+      "name": "parse_task",
+      "description": "Split Type1 into MC labels A-D and YNU labels Yes/No/Uncertain."
+    },
+    {
+      "stage": 2,
+      "name": "entity_horn_solver",
+      "description": "Parse facts/rules into single-entity literals; forward-chain Horn implications; retain certificate premise indices."
+    },
+    {
+      "stage": 3,
+      "name": "mc_certificate_answer",
+      "description": "For A-D options, prove/decompose claims; fire only on exactly one PROVEN option."
+    },
+    {
+      "stage": 4,
+      "name": "ynu_experimental_audit",
+      "description": "YNU target parser is audited only; not promoted unless full-log gate has zero wrong and no premises regression."
+    },
+    {
+      "stage": 5,
+      "name": "safe_override",
+      "description": "Override existing model only when certificate answer is non-null and gate passes; otherwise keep original model output."
+    },
+    {
+      "stage": 6,
+      "name": "metrics_and_gap_audit",
+      "description": "Write coverage, fired precision, status accuracy, F1/recall where reconstructable, abstain breakdown, overfit/underfit risk."
+    }
+  ],
+  "hard_gate": {
+    "must_have_wrong_empty": true,
+    "must_have_all_fired_answers_correct": true,
+    "must_not_regress_premises_used_correct": true,
+    "on_fail": "reject_candidate_and_keep_previous_stage"
+  }
+}

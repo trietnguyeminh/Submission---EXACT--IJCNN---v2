@@ -1,0 +1,19 @@
+{
+ "n": 300,
+ "nl_fired": 0,
+ "nl_correct": 0,
+ "nl_wrong": 0,
+ "nl_precision": 0.0,
+ "nl_coverage": 0.0,
+ "premises_used_preservation": [
+  0,
+  0
+ ],
+ "nl_only_extra": 0,
+ "nl_only_correct": 0,
+ "nl_only_wrong": 0,
+ "nl_only_wrong_examples": [],
+ "fol_only_missed": 0,
+ "fol_only_missed_examples": [],
+ "gate": "FIX_V39_ALIAS_OR_POLARITY_FROM_NL_ONLY_WRONG"
+}

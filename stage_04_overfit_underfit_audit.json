@@ -1,0 +1,24 @@
+{
+  "version": "v40.5-one-run-safe-audit",
+  "source_mode": "replay_cases_only",
+  "summary": {
+    "overfit_status": "inconclusive_from_replay_only",
+    "underfit_status": "high_coverage_underfit",
+    "why": [
+      "The rule layer is not trained statistically, so classic train-loss/test-loss overfit cannot be measured from this artifact alone.",
+      "Overfit risk appears when rules are hand-tuned to the same 25 Phase-1 cases; use staged zero-wrong promotion and a separate holdout/full log.",
+      "Underfit/low-coverage is visible: fired=5/25 and abstained=20/25.",
+      "MC abstains=8/13; YNU abstains=12/12."
+    ]
+  },
+  "risk_scores_qualitative": {
+    "current_v40_4_overfit_risk": "low_to_medium_because_rules_are_broad_but_validated_on_small_n",
+    "future_parser_expansion_overfit_risk": "medium_to_high_unless_checked_on_full_log_or_holdout",
+    "current_underfit_risk": "high_because_coverage_is_low_and_YNU_is_not_covered"
+  },
+  "controls": [
+    "Do not apply YNU experimental answers unless full-log wrong=[] and fired premises certificates are correct or explicitly accepted.",
+    "Keep T1_0031-style multiple-proven cases as abstain, never force-tie-break.",
+    "Track every promoted rule in a stage JSON with fired/wrong/fixed/abstained counts."
+  ]
+}

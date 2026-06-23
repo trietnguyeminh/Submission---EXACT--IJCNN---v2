@@ -1,0 +1,9 @@
+{
+  "decision": "DO_NOT_TRUST_CURRENT_SELECTED_AS_LORA_SELECTOR; USE_V38B_SYMBOLIC_REPORT_AND_RERUN_GENERATION_OR_USE_OLD_VALID_PREDS",
+  "reason": "Generation unhealthy: gen_error_rate=1.0. v38b symbolic report remains valid, but LoRA baseline/delta is invalid.",
+  "next_best_steps": [
+    "For offline: run selector on a valid full LoRA preds file, or fix generation and rerun.",
+    "For live: do not require server for audit; build NL->predicate/FOL parser before using v38b live.",
+    "For reporting: use audit_overfit_underfit_sota_report.json and audit_sota_comparison.json."
+  ]
+}

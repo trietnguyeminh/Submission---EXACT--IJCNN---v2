@@ -1,0 +1,4178 @@
+[
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_vega",
+  "entity": "Satellite Vega",
+  "premises": [
+   "If an item has calibrated thermal sensors and no cloud-penetrating radar fault, then it is able to support disaster mapping.",
+   "Satellite Vega has calibrated thermal sensors.",
+   "Satellite Vega lacks cloud-penetrating radar fault.",
+   "Satellite Vega carries calibrated thermal sensors."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Satellite Vega has a cloud-penetrating radar fault\nB. Satellite Vega has calibrated thermal sensors\nC. Satellite Vega is able to support disaster mapping\nD. Satellite Vega is not able to support disaster mapping",
+  "options": [
+   "A. Satellite Vega has a cloud-penetrating radar fault",
+   "B. Satellite Vega has calibrated thermal sensors",
+   "C. Satellite Vega is able to support disaster mapping",
+   "D. Satellite Vega is not able to support disaster mapping"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "also_proven_canary",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": true,
+  "sample_id": "holdout_0000",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_codex",
+  "entity": "The River Codex",
+  "premises": [
+   "Any item with a high-resolution scan and without incomplete metadata is portal-eligible.",
+   "The River Codex carries a high-resolution scan.",
+   "Incomplete metadata is not established for The River Codex."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. The River Codex has incomplete metadata\nB. The River Codex has an audit waiver\nC. The River Codex is portal-eligible\nD. The River Codex is not portal-eligible",
+  "options": [
+   "A. The River Codex has incomplete metadata",
+   "B. The River Codex has an audit waiver",
+   "C. The River Codex is portal-eligible",
+   "D. The River Codex is not portal-eligible"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0001",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_nova",
+  "entity": "Batch Nova",
+  "premises": [
+   "If an item has a seal that is intact and no temperature breach, then it is ready for release.",
+   "A seal that is intact is present for Batch Nova.",
+   "Temperature breach is not established for Batch Nova."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Batch Nova has a temperature breach\nB. Batch Nova has an audit waiver\nC. Batch Nova is ready for release\nD. Batch Nova is not ready for release",
+  "options": [
+   "A. Batch Nova has a temperature breach",
+   "B. Batch Nova has an audit waiver",
+   "C. Batch Nova is ready for release",
+   "D. Batch Nova is not ready for release"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0002",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_vega",
+  "entity": "Satellite Vega",
+  "premises": [
+   "If an item has calibrated thermal sensors and no cloud-penetrating radar fault, then it is disaster-mapping capable.",
+   "Calibrated thermal sensors is present for Satellite Vega.",
+   "Satellite Vega has no cloud-penetrating radar fault."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Satellite Vega has a cloud-penetrating radar fault\nB. Satellite Vega has an audit waiver\nC. Satellite Vega is disaster-mapping capable\nD. Satellite Vega is not disaster-mapping capable",
+  "options": [
+   "A. Satellite Vega has a cloud-penetrating radar fault",
+   "B. Satellite Vega has an audit waiver",
+   "C. Satellite Vega is disaster-mapping capable",
+   "D. Satellite Vega is not disaster-mapping capable"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0003",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_medkit-7",
+  "entity": "MedKit-7",
+  "premises": [
+   "Any item with clearance for launch and without blocked-route report is permitted on the aerial corridor.",
+   "There is clearance for launch for MedKit-7.",
+   "MedKit-7 lacks blocked-route report.",
+   "Clearance for launch is present for MedKit-7."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. MedKit-7 has a blocked-route report\nB. MedKit-7 has clearance for launch\nC. MedKit-7 is permitted on the aerial corridor\nD. MedKit-7 is not permitted on the aerial corridor",
+  "options": [
+   "A. MedKit-7 has a blocked-route report",
+   "B. MedKit-7 has clearance for launch",
+   "C. MedKit-7 is permitted on the aerial corridor",
+   "D. MedKit-7 is not permitted on the aerial corridor"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "also_proven_canary",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": true,
+  "sample_id": "holdout_0004",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_codex",
+  "entity": "The River Codex",
+  "premises": [
+   "If an item has a 600 dpi scan and no incomplete metadata, then it is portal-eligible.",
+   "A 600 dpi scan is present for The River Codex.",
+   "No incomplete metadata is recorded for The River Codex."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. The River Codex has incomplete metadata\nB. The River Codex has an audit waiver\nC. The River Codex is portal-eligible\nD. The River Codex is not portal-eligible",
+  "options": [
+   "A. The River Codex has incomplete metadata",
+   "B. The River Codex has an audit waiver",
+   "C. The River Codex is portal-eligible",
+   "D. The River Codex is not portal-eligible"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0005",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_vega",
+  "entity": "Satellite Vega",
+  "premises": [
+   "Any item with calibrated thermal sensors and without radar fault is disaster-mapping capable.",
+   "Calibrated thermal sensors is present for Satellite Vega.",
+   "Satellite Vega lacks radar fault.",
+   "Satellite Vega carries calibrated thermal sensors."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Satellite Vega has a radar fault\nB. Satellite Vega has calibrated thermal sensors\nC. Satellite Vega is disaster-mapping capable\nD. Satellite Vega is not disaster-mapping capable",
+  "options": [
+   "A. Satellite Vega has a radar fault",
+   "B. Satellite Vega has calibrated thermal sensors",
+   "C. Satellite Vega is disaster-mapping capable",
+   "D. Satellite Vega is not disaster-mapping capable"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "also_proven_canary",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": true,
+  "sample_id": "holdout_0006",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_vega",
+  "entity": "Satellite Vega",
+  "premises": [
+   "Any item with calibrated thermal sensors and without cloud-penetrating radar fault is able to support disaster mapping.",
+   "Calibrated thermal sensors is present for Satellite Vega.",
+   "Cloud-penetrating radar fault is not established for Satellite Vega."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Satellite Vega has a cloud-penetrating radar fault\nB. Satellite Vega has an audit waiver\nC. Satellite Vega is able to support disaster mapping\nD. Satellite Vega is not able to support disaster mapping",
+  "options": [
+   "A. Satellite Vega has a cloud-penetrating radar fault",
+   "B. Satellite Vega has an audit waiver",
+   "C. Satellite Vega is able to support disaster mapping",
+   "D. Satellite Vega is not able to support disaster mapping"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0007",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_nova",
+  "entity": "Batch Nova",
+  "premises": [
+   "Any item with an intact seal and without cold-chain breach is ready for release.",
+   "There is an intact seal for Batch Nova.",
+   "Batch Nova lacks cold-chain breach."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Batch Nova has a cold-chain breach\nB. Batch Nova has an audit waiver\nC. Batch Nova is ready for release\nD. Batch Nova is not ready for release",
+  "options": [
+   "A. Batch Nova has a cold-chain breach",
+   "B. Batch Nova has an audit waiver",
+   "C. Batch Nova is ready for release",
+   "D. Batch Nova is not ready for release"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0008",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "numeric_guard",
+  "surface_family": "numeric_12_vs_20",
+  "entity": "Study Alpha",
+  "premises": [
+   "Study Alpha has 12 enrolled participants."
+  ],
+  "query": "Which statement is correct?\nA. Study Alpha has 12 enrolled participants\nB. Study Alpha has 20 enrolled participants\nC. Study Alpha has no enrolled participants\nD. Study Alpha is full",
+  "options": [
+   "A. Study Alpha has 12 enrolled participants",
+   "B. Study Alpha has 20 enrolled participants",
+   "C. Study Alpha has no enrolled participants",
+   "D. Study Alpha is full"
+  ],
+  "answer": "A",
+  "premises_used": [
+   0
+  ],
+  "distractor_types": {
+   "A": "correct",
+   "B": "wrong_number",
+   "C": "negated_fact",
+   "D": "unsupported"
+  },
+  "canary": false,
+  "sample_id": "holdout_0009",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_codex",
+  "entity": "The River Codex",
+  "premises": [
+   "If an item has a 600 dpi scan and no missing metadata, then it is portal-eligible.",
+   "A 600 dpi scan is present for The River Codex.",
+   "The River Codex has no missing metadata.",
+   "The River Codex has a 600 dpi scan."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. The River Codex has missing metadata\nB. The River Codex has a 600 dpi scan\nC. The River Codex is portal-eligible\nD. The River Codex is not portal-eligible",
+  "options": [
+   "A. The River Codex has missing metadata",
+   "B. The River Codex has a 600 dpi scan",
+   "C. The River Codex is portal-eligible",
+   "D. The River Codex is not portal-eligible"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "also_proven_canary",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": true,
+  "sample_id": "holdout_0010",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "numeric_guard",
+  "surface_family": "numeric_12_vs_20",
+  "entity": "Cohort B",
+  "premises": [
+   "Cohort B has 8 enrolled participants."
+  ],
+  "query": "Which statement is correct?\nA. Cohort B has 8 enrolled participants\nB. Cohort B has 15 enrolled participants\nC. Cohort B has no enrolled participants\nD. Cohort B is full",
+  "options": [
+   "A. Cohort B has 8 enrolled participants",
+   "B. Cohort B has 15 enrolled participants",
+   "C. Cohort B has no enrolled participants",
+   "D. Cohort B is full"
+  ],
+  "answer": "A",
+  "premises_used": [
+   0
+  ],
+  "distractor_types": {
+   "A": "correct",
+   "B": "wrong_number",
+   "C": "negated_fact",
+   "D": "unsupported"
+  },
+  "canary": false,
+  "sample_id": "holdout_0011",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_codex",
+  "entity": "The River Codex",
+  "premises": [
+   "Any item with a 600 dpi scan and without incomplete metadata is portal-eligible.",
+   "The River Codex carries a 600 dpi scan.",
+   "No incomplete metadata is recorded for The River Codex.",
+   "The River Codex carries a 600 dpi scan."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. The River Codex has incomplete metadata\nB. The River Codex has a 600 dpi scan\nC. The River Codex is portal-eligible\nD. The River Codex is not portal-eligible",
+  "options": [
+   "A. The River Codex has incomplete metadata",
+   "B. The River Codex has a 600 dpi scan",
+   "C. The River Codex is portal-eligible",
+   "D. The River Codex is not portal-eligible"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "also_proven_canary",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": true,
+  "sample_id": "holdout_0012",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_nova",
+  "entity": "Batch Nova",
+  "premises": [
+   "When an item has an intact seal but no temperature breach, the item is ready for release.",
+   "Batch Nova has an intact seal.",
+   "Batch Nova lacks temperature breach."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Batch Nova has a temperature breach\nB. Batch Nova has an audit waiver\nC. Batch Nova is ready for release\nD. Batch Nova is not ready for release",
+  "options": [
+   "A. Batch Nova has a temperature breach",
+   "B. Batch Nova has an audit waiver",
+   "C. Batch Nova is ready for release",
+   "D. Batch Nova is not ready for release"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0013",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_vega",
+  "entity": "Satellite Vega",
+  "premises": [
+   "When an item has thermal sensors that are calibrated but no cloud-penetrating radar fault, the item is able to support disaster mapping.",
+   "Thermal sensors that are calibrated is present for Satellite Vega.",
+   "Satellite Vega lacks cloud-penetrating radar fault.",
+   "Thermal sensors that are calibrated is present for Satellite Vega."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Satellite Vega has a cloud-penetrating radar fault\nB. Satellite Vega has thermal sensors that are calibrated\nC. Satellite Vega is able to support disaster mapping\nD. Satellite Vega is not able to support disaster mapping",
+  "options": [
+   "A. Satellite Vega has a cloud-penetrating radar fault",
+   "B. Satellite Vega has thermal sensors that are calibrated",
+   "C. Satellite Vega is able to support disaster mapping",
+   "D. Satellite Vega is not able to support disaster mapping"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "also_proven_canary",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": true,
+  "sample_id": "holdout_0014",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_vega",
+  "entity": "Satellite Vega",
+  "premises": [
+   "When an item has thermal sensors that are calibrated but no cloud-penetrating radar fault, the item is disaster-mapping capable.",
+   "Thermal sensors that are calibrated is present for Satellite Vega.",
+   "No cloud-penetrating radar fault is recorded for Satellite Vega."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Satellite Vega has a cloud-penetrating radar fault\nB. Satellite Vega has an audit waiver\nC. Satellite Vega is disaster-mapping capable\nD. Satellite Vega is not disaster-mapping capable",
+  "options": [
+   "A. Satellite Vega has a cloud-penetrating radar fault",
+   "B. Satellite Vega has an audit waiver",
+   "C. Satellite Vega is disaster-mapping capable",
+   "D. Satellite Vega is not disaster-mapping capable"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0015",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "numeric_guard",
+  "surface_family": "numeric_12_vs_20",
+  "entity": "Study Alpha",
+  "premises": [
+   "Study Alpha has 12 enrolled participants."
+  ],
+  "query": "Which statement is correct?\nA. Study Alpha has 12 enrolled participants\nB. Study Alpha has 20 enrolled participants\nC. Study Alpha has no enrolled participants\nD. Study Alpha is full",
+  "options": [
+   "A. Study Alpha has 12 enrolled participants",
+   "B. Study Alpha has 20 enrolled participants",
+   "C. Study Alpha has no enrolled participants",
+   "D. Study Alpha is full"
+  ],
+  "answer": "A",
+  "premises_used": [
+   0
+  ],
+  "distractor_types": {
+   "A": "correct",
+   "B": "wrong_number",
+   "C": "negated_fact",
+   "D": "unsupported"
+  },
+  "canary": false,
+  "sample_id": "holdout_0016",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_medkit-7",
+  "entity": "MedKit-7",
+  "premises": [
+   "When an item has launch clearance but no route-blocking flag, the item is eligible to use the aerial corridor.",
+   "MedKit-7 has launch clearance.",
+   "MedKit-7 lacks route-blocking flag.",
+   "MedKit-7 carries launch clearance."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. MedKit-7 has a route-blocking flag\nB. MedKit-7 has launch clearance\nC. MedKit-7 is eligible to use the aerial corridor\nD. MedKit-7 is not eligible to use the aerial corridor",
+  "options": [
+   "A. MedKit-7 has a route-blocking flag",
+   "B. MedKit-7 has launch clearance",
+   "C. MedKit-7 is eligible to use the aerial corridor",
+   "D. MedKit-7 is not eligible to use the aerial corridor"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "also_proven_canary",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": true,
+  "sample_id": "holdout_0017",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "numeric_guard",
+  "surface_family": "numeric_12_vs_20",
+  "entity": "Study Alpha",
+  "premises": [
+   "Study Alpha has 12 enrolled participants."
+  ],
+  "query": "Which statement is correct?\nA. Study Alpha has 12 enrolled participants\nB. Study Alpha has 20 enrolled participants\nC. Study Alpha has no enrolled participants\nD. Study Alpha is full",
+  "options": [
+   "A. Study Alpha has 12 enrolled participants",
+   "B. Study Alpha has 20 enrolled participants",
+   "C. Study Alpha has no enrolled participants",
+   "D. Study Alpha is full"
+  ],
+  "answer": "A",
+  "premises_used": [
+   0
+  ],
+  "distractor_types": {
+   "A": "correct",
+   "B": "wrong_number",
+   "C": "negated_fact",
+   "D": "unsupported"
+  },
+  "canary": false,
+  "sample_id": "holdout_0018",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "numeric_guard",
+  "surface_family": "numeric_12_vs_20",
+  "entity": "Cohort B",
+  "premises": [
+   "Cohort B has 12 enrolled participants."
+  ],
+  "query": "Which statement is correct?\nA. Cohort B has 12 enrolled participants\nB. Cohort B has 20 enrolled participants\nC. Cohort B has no enrolled participants\nD. Cohort B is full",
+  "options": [
+   "A. Cohort B has 12 enrolled participants",
+   "B. Cohort B has 20 enrolled participants",
+   "C. Cohort B has no enrolled participants",
+   "D. Cohort B is full"
+  ],
+  "answer": "A",
+  "premises_used": [
+   0
+  ],
+  "distractor_types": {
+   "A": "correct",
+   "B": "wrong_number",
+   "C": "negated_fact",
+   "D": "unsupported"
+  },
+  "canary": false,
+  "sample_id": "holdout_0019",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "numeric_guard",
+  "surface_family": "numeric_12_vs_20",
+  "entity": "Cohort B",
+  "premises": [
+   "Cohort B has 5 enrolled participants."
+  ],
+  "query": "Which statement is correct?\nA. Cohort B has 5 enrolled participants\nB. Cohort B has 9 enrolled participants\nC. Cohort B has no enrolled participants\nD. Cohort B is full",
+  "options": [
+   "A. Cohort B has 5 enrolled participants",
+   "B. Cohort B has 9 enrolled participants",
+   "C. Cohort B has no enrolled participants",
+   "D. Cohort B is full"
+  ],
+  "answer": "A",
+  "premises_used": [
+   0
+  ],
+  "distractor_types": {
+   "A": "correct",
+   "B": "wrong_number",
+   "C": "negated_fact",
+   "D": "unsupported"
+  },
+  "canary": false,
+  "sample_id": "holdout_0020",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_vega",
+  "entity": "Satellite Vega",
+  "premises": [
+   "Any item with thermal sensors that are calibrated and without cloud-penetrating radar fault is disaster-mapping capable.",
+   "Thermal sensors that are calibrated is present for Satellite Vega.",
+   "Satellite Vega has no cloud-penetrating radar fault.",
+   "There is thermal sensors that are calibrated for Satellite Vega."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Satellite Vega has a cloud-penetrating radar fault\nB. Satellite Vega has thermal sensors that are calibrated\nC. Satellite Vega is disaster-mapping capable\nD. Satellite Vega is not disaster-mapping capable",
+  "options": [
+   "A. Satellite Vega has a cloud-penetrating radar fault",
+   "B. Satellite Vega has thermal sensors that are calibrated",
+   "C. Satellite Vega is disaster-mapping capable",
+   "D. Satellite Vega is not disaster-mapping capable"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "also_proven_canary",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": true,
+  "sample_id": "holdout_0021",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "numeric_guard",
+  "surface_family": "numeric_12_vs_20",
+  "entity": "Cohort B",
+  "premises": [
+   "Cohort B has 5 enrolled participants."
+  ],
+  "query": "Which statement is correct?\nA. Cohort B has 5 enrolled participants\nB. Cohort B has 9 enrolled participants\nC. Cohort B has no enrolled participants\nD. Cohort B is full",
+  "options": [
+   "A. Cohort B has 5 enrolled participants",
+   "B. Cohort B has 9 enrolled participants",
+   "C. Cohort B has no enrolled participants",
+   "D. Cohort B is full"
+  ],
+  "answer": "A",
+  "premises_used": [
+   0
+  ],
+  "distractor_types": {
+   "A": "correct",
+   "B": "wrong_number",
+   "C": "negated_fact",
+   "D": "unsupported"
+  },
+  "canary": false,
+  "sample_id": "holdout_0022",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_medkit-7",
+  "entity": "MedKit-7",
+  "premises": [
+   "If an item has launch clearance and no blocked-route report, then it is eligible to use the aerial corridor.",
+   "Launch clearance is present for MedKit-7.",
+   "MedKit-7 lacks blocked-route report."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. MedKit-7 has a blocked-route report\nB. MedKit-7 has an audit waiver\nC. MedKit-7 is eligible to use the aerial corridor\nD. MedKit-7 is not eligible to use the aerial corridor",
+  "options": [
+   "A. MedKit-7 has a blocked-route report",
+   "B. MedKit-7 has an audit waiver",
+   "C. MedKit-7 is eligible to use the aerial corridor",
+   "D. MedKit-7 is not eligible to use the aerial corridor"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0023",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_nova",
+  "entity": "Batch Nova",
+  "premises": [
+   "Any item with a seal that is intact and without temperature breach is release-ready.",
+   "A seal that is intact is present for Batch Nova.",
+   "Temperature breach is not established for Batch Nova."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Batch Nova has a temperature breach\nB. Batch Nova has an audit waiver\nC. Batch Nova is release-ready\nD. Batch Nova is not release-ready",
+  "options": [
+   "A. Batch Nova has a temperature breach",
+   "B. Batch Nova has an audit waiver",
+   "C. Batch Nova is release-ready",
+   "D. Batch Nova is not release-ready"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0024",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_medkit-7",
+  "entity": "MedKit-7",
+  "premises": [
+   "Any item with clearance for launch and without blocked-route report is eligible to use the aerial corridor.",
+   "MedKit-7 has clearance for launch.",
+   "Blocked-route report is not established for MedKit-7.",
+   "MedKit-7 carries clearance for launch."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. MedKit-7 has a blocked-route report\nB. MedKit-7 has clearance for launch\nC. MedKit-7 is eligible to use the aerial corridor\nD. MedKit-7 is not eligible to use the aerial corridor",
+  "options": [
+   "A. MedKit-7 has a blocked-route report",
+   "B. MedKit-7 has clearance for launch",
+   "C. MedKit-7 is eligible to use the aerial corridor",
+   "D. MedKit-7 is not eligible to use the aerial corridor"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "also_proven_canary",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": true,
+  "sample_id": "holdout_0025",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_vega",
+  "entity": "Satellite Vega",
+  "premises": [
+   "Any item with calibrated thermal sensors and without cloud-penetrating radar fault is able to support disaster mapping.",
+   "There is calibrated thermal sensors for Satellite Vega.",
+   "Cloud-penetrating radar fault is not established for Satellite Vega."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Satellite Vega has a cloud-penetrating radar fault\nB. Satellite Vega has an audit waiver\nC. Satellite Vega is able to support disaster mapping\nD. Satellite Vega is not able to support disaster mapping",
+  "options": [
+   "A. Satellite Vega has a cloud-penetrating radar fault",
+   "B. Satellite Vega has an audit waiver",
+   "C. Satellite Vega is able to support disaster mapping",
+   "D. Satellite Vega is not able to support disaster mapping"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0026",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_medkit-7",
+  "entity": "MedKit-7",
+  "premises": [
+   "Any item with clearance for launch and without route-blocking flag is eligible to use the aerial corridor.",
+   "Clearance for launch is present for MedKit-7.",
+   "MedKit-7 has no route-blocking flag.",
+   "Clearance for launch is present for MedKit-7."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. MedKit-7 has a route-blocking flag\nB. MedKit-7 has clearance for launch\nC. MedKit-7 is eligible to use the aerial corridor\nD. MedKit-7 is not eligible to use the aerial corridor",
+  "options": [
+   "A. MedKit-7 has a route-blocking flag",
+   "B. MedKit-7 has clearance for launch",
+   "C. MedKit-7 is eligible to use the aerial corridor",
+   "D. MedKit-7 is not eligible to use the aerial corridor"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "also_proven_canary",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": true,
+  "sample_id": "holdout_0027",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_vega",
+  "entity": "Satellite Vega",
+  "premises": [
+   "When an item has thermal sensors that are calibrated but no cloud-penetrating radar fault, the item is able to support disaster mapping.",
+   "Satellite Vega has thermal sensors that are calibrated.",
+   "Cloud-penetrating radar fault is not established for Satellite Vega.",
+   "Satellite Vega carries thermal sensors that are calibrated."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Satellite Vega has a cloud-penetrating radar fault\nB. Satellite Vega has thermal sensors that are calibrated\nC. Satellite Vega is able to support disaster mapping\nD. Satellite Vega is not able to support disaster mapping",
+  "options": [
+   "A. Satellite Vega has a cloud-penetrating radar fault",
+   "B. Satellite Vega has thermal sensors that are calibrated",
+   "C. Satellite Vega is able to support disaster mapping",
+   "D. Satellite Vega is not able to support disaster mapping"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "also_proven_canary",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": true,
+  "sample_id": "holdout_0028",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "numeric_guard",
+  "surface_family": "numeric_12_vs_20",
+  "entity": "Study Alpha",
+  "premises": [
+   "Study Alpha has 5 enrolled participants."
+  ],
+  "query": "Which statement is correct?\nA. Study Alpha has 5 enrolled participants\nB. Study Alpha has 9 enrolled participants\nC. Study Alpha has no enrolled participants\nD. Study Alpha is full",
+  "options": [
+   "A. Study Alpha has 5 enrolled participants",
+   "B. Study Alpha has 9 enrolled participants",
+   "C. Study Alpha has no enrolled participants",
+   "D. Study Alpha is full"
+  ],
+  "answer": "A",
+  "premises_used": [
+   0
+  ],
+  "distractor_types": {
+   "A": "correct",
+   "B": "wrong_number",
+   "C": "negated_fact",
+   "D": "unsupported"
+  },
+  "canary": false,
+  "sample_id": "holdout_0029",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_nova",
+  "entity": "Batch Nova",
+  "premises": [
+   "When an item has a seal that is intact but no cold-chain breach, the item is ready for release.",
+   "There is a seal that is intact for Batch Nova.",
+   "Batch Nova has no cold-chain breach."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Batch Nova has a cold-chain breach\nB. Batch Nova has an audit waiver\nC. Batch Nova is ready for release\nD. Batch Nova is not ready for release",
+  "options": [
+   "A. Batch Nova has a cold-chain breach",
+   "B. Batch Nova has an audit waiver",
+   "C. Batch Nova is ready for release",
+   "D. Batch Nova is not ready for release"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0030",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "numeric_guard",
+  "surface_family": "numeric_12_vs_20",
+  "entity": "Study Alpha",
+  "premises": [
+   "Study Alpha has 8 enrolled participants."
+  ],
+  "query": "Which statement is correct?\nA. Study Alpha has 8 enrolled participants\nB. Study Alpha has 15 enrolled participants\nC. Study Alpha has no enrolled participants\nD. Study Alpha is full",
+  "options": [
+   "A. Study Alpha has 8 enrolled participants",
+   "B. Study Alpha has 15 enrolled participants",
+   "C. Study Alpha has no enrolled participants",
+   "D. Study Alpha is full"
+  ],
+  "answer": "A",
+  "premises_used": [
+   0
+  ],
+  "distractor_types": {
+   "A": "correct",
+   "B": "wrong_number",
+   "C": "negated_fact",
+   "D": "unsupported"
+  },
+  "canary": false,
+  "sample_id": "holdout_0031",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_nova",
+  "entity": "Batch Nova",
+  "premises": [
+   "If an item has an intact seal and no cold-chain breach, then it is ready for release.",
+   "There is an intact seal for Batch Nova.",
+   "Batch Nova lacks cold-chain breach."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Batch Nova has a cold-chain breach\nB. Batch Nova has an audit waiver\nC. Batch Nova is ready for release\nD. Batch Nova is not ready for release",
+  "options": [
+   "A. Batch Nova has a cold-chain breach",
+   "B. Batch Nova has an audit waiver",
+   "C. Batch Nova is ready for release",
+   "D. Batch Nova is not ready for release"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0032",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_codex",
+  "entity": "The River Codex",
+  "premises": [
+   "If an item has a 600 dpi scan and no incomplete metadata, then it is eligible for the public portal.",
+   "The River Codex carries a 600 dpi scan.",
+   "The River Codex lacks incomplete metadata.",
+   "A 600 dpi scan is present for The River Codex."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. The River Codex has incomplete metadata\nB. The River Codex has a 600 dpi scan\nC. The River Codex is eligible for the public portal\nD. The River Codex is not eligible for the public portal",
+  "options": [
+   "A. The River Codex has incomplete metadata",
+   "B. The River Codex has a 600 dpi scan",
+   "C. The River Codex is eligible for the public portal",
+   "D. The River Codex is not eligible for the public portal"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "also_proven_canary",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": true,
+  "sample_id": "holdout_0033",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "numeric_guard",
+  "surface_family": "numeric_12_vs_20",
+  "entity": "Cohort B",
+  "premises": [
+   "Cohort B has 5 enrolled participants."
+  ],
+  "query": "Which statement is correct?\nA. Cohort B has 5 enrolled participants\nB. Cohort B has 9 enrolled participants\nC. Cohort B has no enrolled participants\nD. Cohort B is full",
+  "options": [
+   "A. Cohort B has 5 enrolled participants",
+   "B. Cohort B has 9 enrolled participants",
+   "C. Cohort B has no enrolled participants",
+   "D. Cohort B is full"
+  ],
+  "answer": "A",
+  "premises_used": [
+   0
+  ],
+  "distractor_types": {
+   "A": "correct",
+   "B": "wrong_number",
+   "C": "negated_fact",
+   "D": "unsupported"
+  },
+  "canary": false,
+  "sample_id": "holdout_0034",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_medkit-7",
+  "entity": "MedKit-7",
+  "premises": [
+   "When an item has clearance for launch but no blocked-route report, the item is permitted on the aerial corridor.",
+   "There is clearance for launch for MedKit-7.",
+   "MedKit-7 has no blocked-route report.",
+   "Clearance for launch is present for MedKit-7."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. MedKit-7 has a blocked-route report\nB. MedKit-7 has clearance for launch\nC. MedKit-7 is permitted on the aerial corridor\nD. MedKit-7 is not permitted on the aerial corridor",
+  "options": [
+   "A. MedKit-7 has a blocked-route report",
+   "B. MedKit-7 has clearance for launch",
+   "C. MedKit-7 is permitted on the aerial corridor",
+   "D. MedKit-7 is not permitted on the aerial corridor"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "also_proven_canary",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": true,
+  "sample_id": "holdout_0035",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_nova",
+  "entity": "Batch Nova",
+  "premises": [
+   "Any item with a seal that is intact and without cold-chain breach is ready for release.",
+   "A seal that is intact is present for Batch Nova.",
+   "Cold-chain breach is not established for Batch Nova."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Batch Nova has a cold-chain breach\nB. Batch Nova has an audit waiver\nC. Batch Nova is ready for release\nD. Batch Nova is not ready for release",
+  "options": [
+   "A. Batch Nova has a cold-chain breach",
+   "B. Batch Nova has an audit waiver",
+   "C. Batch Nova is ready for release",
+   "D. Batch Nova is not ready for release"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0036",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_nova",
+  "entity": "Batch Nova",
+  "premises": [
+   "If an item has a seal that is intact and no temperature breach, then it is ready for release.",
+   "Batch Nova carries a seal that is intact.",
+   "Batch Nova lacks temperature breach.",
+   "There is a seal that is intact for Batch Nova."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Batch Nova has a temperature breach\nB. Batch Nova has a seal that is intact\nC. Batch Nova is ready for release\nD. Batch Nova is not ready for release",
+  "options": [
+   "A. Batch Nova has a temperature breach",
+   "B. Batch Nova has a seal that is intact",
+   "C. Batch Nova is ready for release",
+   "D. Batch Nova is not ready for release"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "also_proven_canary",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": true,
+  "sample_id": "holdout_0037",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_codex",
+  "entity": "The River Codex",
+  "premises": [
+   "When an item has a 600 dpi scan but no missing metadata, the item is portal-eligible.",
+   "The River Codex has a 600 dpi scan.",
+   "Missing metadata is not established for The River Codex."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. The River Codex has missing metadata\nB. The River Codex has an audit waiver\nC. The River Codex is portal-eligible\nD. The River Codex is not portal-eligible",
+  "options": [
+   "A. The River Codex has missing metadata",
+   "B. The River Codex has an audit waiver",
+   "C. The River Codex is portal-eligible",
+   "D. The River Codex is not portal-eligible"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0038",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_medkit-7",
+  "entity": "MedKit-7",
+  "premises": [
+   "If an item has clearance for launch and no route-blocking flag, then it is permitted on the aerial corridor.",
+   "MedKit-7 carries clearance for launch.",
+   "MedKit-7 has no route-blocking flag.",
+   "MedKit-7 has clearance for launch."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. MedKit-7 has a route-blocking flag\nB. MedKit-7 has clearance for launch\nC. MedKit-7 is permitted on the aerial corridor\nD. MedKit-7 is not permitted on the aerial corridor",
+  "options": [
+   "A. MedKit-7 has a route-blocking flag",
+   "B. MedKit-7 has clearance for launch",
+   "C. MedKit-7 is permitted on the aerial corridor",
+   "D. MedKit-7 is not permitted on the aerial corridor"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "also_proven_canary",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": true,
+  "sample_id": "holdout_0039",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "numeric_guard",
+  "surface_family": "numeric_12_vs_20",
+  "entity": "Unit 9",
+  "premises": [
+   "Unit 9 has 5 enrolled participants."
+  ],
+  "query": "Which statement is correct?\nA. Unit 9 has 5 enrolled participants\nB. Unit 9 has 9 enrolled participants\nC. Unit 9 has no enrolled participants\nD. Unit 9 is full",
+  "options": [
+   "A. Unit 9 has 5 enrolled participants",
+   "B. Unit 9 has 9 enrolled participants",
+   "C. Unit 9 has no enrolled participants",
+   "D. Unit 9 is full"
+  ],
+  "answer": "A",
+  "premises_used": [
+   0
+  ],
+  "distractor_types": {
+   "A": "correct",
+   "B": "wrong_number",
+   "C": "negated_fact",
+   "D": "unsupported"
+  },
+  "canary": false,
+  "sample_id": "holdout_0040",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_codex",
+  "entity": "The River Codex",
+  "premises": [
+   "If an item has a high-resolution scan and no missing metadata, then it is portal-eligible.",
+   "The River Codex carries a high-resolution scan.",
+   "Missing metadata is not established for The River Codex."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. The River Codex has missing metadata\nB. The River Codex has an audit waiver\nC. The River Codex is portal-eligible\nD. The River Codex is not portal-eligible",
+  "options": [
+   "A. The River Codex has missing metadata",
+   "B. The River Codex has an audit waiver",
+   "C. The River Codex is portal-eligible",
+   "D. The River Codex is not portal-eligible"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0041",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_nova",
+  "entity": "Batch Nova",
+  "premises": [
+   "Any item with an intact seal and without temperature breach is release-ready.",
+   "There is an intact seal for Batch Nova.",
+   "Temperature breach is not established for Batch Nova."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Batch Nova has a temperature breach\nB. Batch Nova has an audit waiver\nC. Batch Nova is release-ready\nD. Batch Nova is not release-ready",
+  "options": [
+   "A. Batch Nova has a temperature breach",
+   "B. Batch Nova has an audit waiver",
+   "C. Batch Nova is release-ready",
+   "D. Batch Nova is not release-ready"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0042",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "numeric_guard",
+  "surface_family": "numeric_12_vs_20",
+  "entity": "Study Alpha",
+  "premises": [
+   "Study Alpha has 5 enrolled participants."
+  ],
+  "query": "Which statement is correct?\nA. Study Alpha has 5 enrolled participants\nB. Study Alpha has 9 enrolled participants\nC. Study Alpha has no enrolled participants\nD. Study Alpha is full",
+  "options": [
+   "A. Study Alpha has 5 enrolled participants",
+   "B. Study Alpha has 9 enrolled participants",
+   "C. Study Alpha has no enrolled participants",
+   "D. Study Alpha is full"
+  ],
+  "answer": "A",
+  "premises_used": [
+   0
+  ],
+  "distractor_types": {
+   "A": "correct",
+   "B": "wrong_number",
+   "C": "negated_fact",
+   "D": "unsupported"
+  },
+  "canary": false,
+  "sample_id": "holdout_0043",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_nova",
+  "entity": "Batch Nova",
+  "premises": [
+   "When an item has an intact seal but no temperature breach, the item is release-ready.",
+   "There is an intact seal for Batch Nova.",
+   "Batch Nova lacks temperature breach.",
+   "Batch Nova carries an intact seal."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Batch Nova has a temperature breach\nB. Batch Nova has an intact seal\nC. Batch Nova is release-ready\nD. Batch Nova is not release-ready",
+  "options": [
+   "A. Batch Nova has a temperature breach",
+   "B. Batch Nova has an intact seal",
+   "C. Batch Nova is release-ready",
+   "D. Batch Nova is not release-ready"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "also_proven_canary",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": true,
+  "sample_id": "holdout_0044",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_vega",
+  "entity": "Satellite Vega",
+  "premises": [
+   "When an item has thermal sensors that are calibrated but no radar fault, the item is able to support disaster mapping.",
+   "There is thermal sensors that are calibrated for Satellite Vega.",
+   "Radar fault is not established for Satellite Vega.",
+   "Satellite Vega has thermal sensors that are calibrated."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Satellite Vega has a radar fault\nB. Satellite Vega has thermal sensors that are calibrated\nC. Satellite Vega is able to support disaster mapping\nD. Satellite Vega is not able to support disaster mapping",
+  "options": [
+   "A. Satellite Vega has a radar fault",
+   "B. Satellite Vega has thermal sensors that are calibrated",
+   "C. Satellite Vega is able to support disaster mapping",
+   "D. Satellite Vega is not able to support disaster mapping"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "also_proven_canary",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": true,
+  "sample_id": "holdout_0045",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_codex",
+  "entity": "The River Codex",
+  "premises": [
+   "Any item with a 600 dpi scan and without incomplete metadata is portal-eligible.",
+   "A 600 dpi scan is present for The River Codex.",
+   "Incomplete metadata is not established for The River Codex."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. The River Codex has incomplete metadata\nB. The River Codex has an audit waiver\nC. The River Codex is portal-eligible\nD. The River Codex is not portal-eligible",
+  "options": [
+   "A. The River Codex has incomplete metadata",
+   "B. The River Codex has an audit waiver",
+   "C. The River Codex is portal-eligible",
+   "D. The River Codex is not portal-eligible"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0046",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_nova",
+  "entity": "Batch Nova",
+  "premises": [
+   "If an item has a seal that is intact and no temperature breach, then it is release-ready.",
+   "Batch Nova has a seal that is intact.",
+   "No temperature breach is recorded for Batch Nova.",
+   "Batch Nova carries a seal that is intact."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Batch Nova has a temperature breach\nB. Batch Nova has a seal that is intact\nC. Batch Nova is release-ready\nD. Batch Nova is not release-ready",
+  "options": [
+   "A. Batch Nova has a temperature breach",
+   "B. Batch Nova has a seal that is intact",
+   "C. Batch Nova is release-ready",
+   "D. Batch Nova is not release-ready"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "also_proven_canary",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": true,
+  "sample_id": "holdout_0047",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "numeric_guard",
+  "surface_family": "numeric_12_vs_20",
+  "entity": "Study Alpha",
+  "premises": [
+   "Study Alpha has 8 enrolled participants."
+  ],
+  "query": "Which statement is correct?\nA. Study Alpha has 8 enrolled participants\nB. Study Alpha has 15 enrolled participants\nC. Study Alpha has no enrolled participants\nD. Study Alpha is full",
+  "options": [
+   "A. Study Alpha has 8 enrolled participants",
+   "B. Study Alpha has 15 enrolled participants",
+   "C. Study Alpha has no enrolled participants",
+   "D. Study Alpha is full"
+  ],
+  "answer": "A",
+  "premises_used": [
+   0
+  ],
+  "distractor_types": {
+   "A": "correct",
+   "B": "wrong_number",
+   "C": "negated_fact",
+   "D": "unsupported"
+  },
+  "canary": false,
+  "sample_id": "holdout_0048",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_vega",
+  "entity": "Satellite Vega",
+  "premises": [
+   "Any item with thermal sensors that are calibrated and without cloud-penetrating radar fault is able to support disaster mapping.",
+   "There is thermal sensors that are calibrated for Satellite Vega.",
+   "Cloud-penetrating radar fault is not established for Satellite Vega."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Satellite Vega has a cloud-penetrating radar fault\nB. Satellite Vega has an audit waiver\nC. Satellite Vega is able to support disaster mapping\nD. Satellite Vega is not able to support disaster mapping",
+  "options": [
+   "A. Satellite Vega has a cloud-penetrating radar fault",
+   "B. Satellite Vega has an audit waiver",
+   "C. Satellite Vega is able to support disaster mapping",
+   "D. Satellite Vega is not able to support disaster mapping"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0049",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_codex",
+  "entity": "The River Codex",
+  "premises": [
+   "If an item has a high-resolution scan and no missing metadata, then it is portal-eligible.",
+   "There is a high-resolution scan for The River Codex.",
+   "The River Codex lacks missing metadata.",
+   "The River Codex carries a high-resolution scan."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. The River Codex has missing metadata\nB. The River Codex has a high-resolution scan\nC. The River Codex is portal-eligible\nD. The River Codex is not portal-eligible",
+  "options": [
+   "A. The River Codex has missing metadata",
+   "B. The River Codex has a high-resolution scan",
+   "C. The River Codex is portal-eligible",
+   "D. The River Codex is not portal-eligible"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "also_proven_canary",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": true,
+  "sample_id": "holdout_0050",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_codex",
+  "entity": "The River Codex",
+  "premises": [
+   "When an item has a 600 dpi scan but no missing metadata, the item is eligible for the public portal.",
+   "There is a 600 dpi scan for The River Codex.",
+   "Missing metadata is not established for The River Codex."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. The River Codex has missing metadata\nB. The River Codex has an audit waiver\nC. The River Codex is eligible for the public portal\nD. The River Codex is not eligible for the public portal",
+  "options": [
+   "A. The River Codex has missing metadata",
+   "B. The River Codex has an audit waiver",
+   "C. The River Codex is eligible for the public portal",
+   "D. The River Codex is not eligible for the public portal"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0051",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_vega",
+  "entity": "Satellite Vega",
+  "premises": [
+   "When an item has calibrated thermal sensors but no cloud-penetrating radar fault, the item is able to support disaster mapping.",
+   "There is calibrated thermal sensors for Satellite Vega.",
+   "Cloud-penetrating radar fault is not established for Satellite Vega.",
+   "Satellite Vega has calibrated thermal sensors."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Satellite Vega has a cloud-penetrating radar fault\nB. Satellite Vega has calibrated thermal sensors\nC. Satellite Vega is able to support disaster mapping\nD. Satellite Vega is not able to support disaster mapping",
+  "options": [
+   "A. Satellite Vega has a cloud-penetrating radar fault",
+   "B. Satellite Vega has calibrated thermal sensors",
+   "C. Satellite Vega is able to support disaster mapping",
+   "D. Satellite Vega is not able to support disaster mapping"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "also_proven_canary",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": true,
+  "sample_id": "holdout_0052",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_nova",
+  "entity": "Batch Nova",
+  "premises": [
+   "If an item has a seal that is intact and no cold-chain breach, then it is release-ready.",
+   "A seal that is intact is present for Batch Nova.",
+   "No cold-chain breach is recorded for Batch Nova."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Batch Nova has a cold-chain breach\nB. Batch Nova has an audit waiver\nC. Batch Nova is release-ready\nD. Batch Nova is not release-ready",
+  "options": [
+   "A. Batch Nova has a cold-chain breach",
+   "B. Batch Nova has an audit waiver",
+   "C. Batch Nova is release-ready",
+   "D. Batch Nova is not release-ready"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0053",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_medkit-7",
+  "entity": "MedKit-7",
+  "premises": [
+   "If an item has clearance for launch and no blocked-route report, then it is eligible to use the aerial corridor.",
+   "Clearance for launch is present for MedKit-7.",
+   "No blocked-route report is recorded for MedKit-7."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. MedKit-7 has a blocked-route report\nB. MedKit-7 has an audit waiver\nC. MedKit-7 is eligible to use the aerial corridor\nD. MedKit-7 is not eligible to use the aerial corridor",
+  "options": [
+   "A. MedKit-7 has a blocked-route report",
+   "B. MedKit-7 has an audit waiver",
+   "C. MedKit-7 is eligible to use the aerial corridor",
+   "D. MedKit-7 is not eligible to use the aerial corridor"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0054",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "numeric_guard",
+  "surface_family": "numeric_12_vs_20",
+  "entity": "Study Alpha",
+  "premises": [
+   "Study Alpha has 5 enrolled participants."
+  ],
+  "query": "Which statement is correct?\nA. Study Alpha has 5 enrolled participants\nB. Study Alpha has 9 enrolled participants\nC. Study Alpha has no enrolled participants\nD. Study Alpha is full",
+  "options": [
+   "A. Study Alpha has 5 enrolled participants",
+   "B. Study Alpha has 9 enrolled participants",
+   "C. Study Alpha has no enrolled participants",
+   "D. Study Alpha is full"
+  ],
+  "answer": "A",
+  "premises_used": [
+   0
+  ],
+  "distractor_types": {
+   "A": "correct",
+   "B": "wrong_number",
+   "C": "negated_fact",
+   "D": "unsupported"
+  },
+  "canary": false,
+  "sample_id": "holdout_0055",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "numeric_guard",
+  "surface_family": "numeric_12_vs_20",
+  "entity": "Unit 9",
+  "premises": [
+   "Unit 9 has 12 enrolled participants."
+  ],
+  "query": "Which statement is correct?\nA. Unit 9 has 12 enrolled participants\nB. Unit 9 has 20 enrolled participants\nC. Unit 9 has no enrolled participants\nD. Unit 9 is full",
+  "options": [
+   "A. Unit 9 has 12 enrolled participants",
+   "B. Unit 9 has 20 enrolled participants",
+   "C. Unit 9 has no enrolled participants",
+   "D. Unit 9 is full"
+  ],
+  "answer": "A",
+  "premises_used": [
+   0
+  ],
+  "distractor_types": {
+   "A": "correct",
+   "B": "wrong_number",
+   "C": "negated_fact",
+   "D": "unsupported"
+  },
+  "canary": false,
+  "sample_id": "holdout_0056",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "numeric_guard",
+  "surface_family": "numeric_12_vs_20",
+  "entity": "Unit 9",
+  "premises": [
+   "Unit 9 has 5 enrolled participants."
+  ],
+  "query": "Which statement is correct?\nA. Unit 9 has 5 enrolled participants\nB. Unit 9 has 9 enrolled participants\nC. Unit 9 has no enrolled participants\nD. Unit 9 is full",
+  "options": [
+   "A. Unit 9 has 5 enrolled participants",
+   "B. Unit 9 has 9 enrolled participants",
+   "C. Unit 9 has no enrolled participants",
+   "D. Unit 9 is full"
+  ],
+  "answer": "A",
+  "premises_used": [
+   0
+  ],
+  "distractor_types": {
+   "A": "correct",
+   "B": "wrong_number",
+   "C": "negated_fact",
+   "D": "unsupported"
+  },
+  "canary": false,
+  "sample_id": "holdout_0057",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "numeric_guard",
+  "surface_family": "numeric_12_vs_20",
+  "entity": "Unit 9",
+  "premises": [
+   "Unit 9 has 5 enrolled participants."
+  ],
+  "query": "Which statement is correct?\nA. Unit 9 has 5 enrolled participants\nB. Unit 9 has 9 enrolled participants\nC. Unit 9 has no enrolled participants\nD. Unit 9 is full",
+  "options": [
+   "A. Unit 9 has 5 enrolled participants",
+   "B. Unit 9 has 9 enrolled participants",
+   "C. Unit 9 has no enrolled participants",
+   "D. Unit 9 is full"
+  ],
+  "answer": "A",
+  "premises_used": [
+   0
+  ],
+  "distractor_types": {
+   "A": "correct",
+   "B": "wrong_number",
+   "C": "negated_fact",
+   "D": "unsupported"
+  },
+  "canary": false,
+  "sample_id": "holdout_0058",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_medkit-7",
+  "entity": "MedKit-7",
+  "premises": [
+   "When an item has launch clearance but no route-blocking flag, the item is eligible to use the aerial corridor.",
+   "MedKit-7 carries launch clearance.",
+   "No route-blocking flag is recorded for MedKit-7."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. MedKit-7 has a route-blocking flag\nB. MedKit-7 has an audit waiver\nC. MedKit-7 is eligible to use the aerial corridor\nD. MedKit-7 is not eligible to use the aerial corridor",
+  "options": [
+   "A. MedKit-7 has a route-blocking flag",
+   "B. MedKit-7 has an audit waiver",
+   "C. MedKit-7 is eligible to use the aerial corridor",
+   "D. MedKit-7 is not eligible to use the aerial corridor"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0059",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "numeric_guard",
+  "surface_family": "numeric_12_vs_20",
+  "entity": "Study Alpha",
+  "premises": [
+   "Study Alpha has 12 enrolled participants."
+  ],
+  "query": "Which statement is correct?\nA. Study Alpha has 12 enrolled participants\nB. Study Alpha has 20 enrolled participants\nC. Study Alpha has no enrolled participants\nD. Study Alpha is full",
+  "options": [
+   "A. Study Alpha has 12 enrolled participants",
+   "B. Study Alpha has 20 enrolled participants",
+   "C. Study Alpha has no enrolled participants",
+   "D. Study Alpha is full"
+  ],
+  "answer": "A",
+  "premises_used": [
+   0
+  ],
+  "distractor_types": {
+   "A": "correct",
+   "B": "wrong_number",
+   "C": "negated_fact",
+   "D": "unsupported"
+  },
+  "canary": false,
+  "sample_id": "holdout_0060",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "numeric_guard",
+  "surface_family": "numeric_12_vs_20",
+  "entity": "Unit 9",
+  "premises": [
+   "Unit 9 has 8 enrolled participants."
+  ],
+  "query": "Which statement is correct?\nA. Unit 9 has 8 enrolled participants\nB. Unit 9 has 15 enrolled participants\nC. Unit 9 has no enrolled participants\nD. Unit 9 is full",
+  "options": [
+   "A. Unit 9 has 8 enrolled participants",
+   "B. Unit 9 has 15 enrolled participants",
+   "C. Unit 9 has no enrolled participants",
+   "D. Unit 9 is full"
+  ],
+  "answer": "A",
+  "premises_used": [
+   0
+  ],
+  "distractor_types": {
+   "A": "correct",
+   "B": "wrong_number",
+   "C": "negated_fact",
+   "D": "unsupported"
+  },
+  "canary": false,
+  "sample_id": "holdout_0061",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_vega",
+  "entity": "Satellite Vega",
+  "premises": [
+   "Any item with calibrated thermal sensors and without radar fault is able to support disaster mapping.",
+   "Calibrated thermal sensors is present for Satellite Vega.",
+   "Satellite Vega has no radar fault.",
+   "There is calibrated thermal sensors for Satellite Vega."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Satellite Vega has a radar fault\nB. Satellite Vega has calibrated thermal sensors\nC. Satellite Vega is able to support disaster mapping\nD. Satellite Vega is not able to support disaster mapping",
+  "options": [
+   "A. Satellite Vega has a radar fault",
+   "B. Satellite Vega has calibrated thermal sensors",
+   "C. Satellite Vega is able to support disaster mapping",
+   "D. Satellite Vega is not able to support disaster mapping"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "also_proven_canary",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": true,
+  "sample_id": "holdout_0062",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "numeric_guard",
+  "surface_family": "numeric_12_vs_20",
+  "entity": "Cohort B",
+  "premises": [
+   "Cohort B has 8 enrolled participants."
+  ],
+  "query": "Which statement is correct?\nA. Cohort B has 8 enrolled participants\nB. Cohort B has 15 enrolled participants\nC. Cohort B has no enrolled participants\nD. Cohort B is full",
+  "options": [
+   "A. Cohort B has 8 enrolled participants",
+   "B. Cohort B has 15 enrolled participants",
+   "C. Cohort B has no enrolled participants",
+   "D. Cohort B is full"
+  ],
+  "answer": "A",
+  "premises_used": [
+   0
+  ],
+  "distractor_types": {
+   "A": "correct",
+   "B": "wrong_number",
+   "C": "negated_fact",
+   "D": "unsupported"
+  },
+  "canary": false,
+  "sample_id": "holdout_0063",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_medkit-7",
+  "entity": "MedKit-7",
+  "premises": [
+   "If an item has launch clearance and no route-blocking flag, then it is permitted on the aerial corridor.",
+   "MedKit-7 carries launch clearance.",
+   "No route-blocking flag is recorded for MedKit-7."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. MedKit-7 has a route-blocking flag\nB. MedKit-7 has an audit waiver\nC. MedKit-7 is permitted on the aerial corridor\nD. MedKit-7 is not permitted on the aerial corridor",
+  "options": [
+   "A. MedKit-7 has a route-blocking flag",
+   "B. MedKit-7 has an audit waiver",
+   "C. MedKit-7 is permitted on the aerial corridor",
+   "D. MedKit-7 is not permitted on the aerial corridor"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0064",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "numeric_guard",
+  "surface_family": "numeric_12_vs_20",
+  "entity": "Unit 9",
+  "premises": [
+   "Unit 9 has 8 enrolled participants."
+  ],
+  "query": "Which statement is correct?\nA. Unit 9 has 8 enrolled participants\nB. Unit 9 has 15 enrolled participants\nC. Unit 9 has no enrolled participants\nD. Unit 9 is full",
+  "options": [
+   "A. Unit 9 has 8 enrolled participants",
+   "B. Unit 9 has 15 enrolled participants",
+   "C. Unit 9 has no enrolled participants",
+   "D. Unit 9 is full"
+  ],
+  "answer": "A",
+  "premises_used": [
+   0
+  ],
+  "distractor_types": {
+   "A": "correct",
+   "B": "wrong_number",
+   "C": "negated_fact",
+   "D": "unsupported"
+  },
+  "canary": false,
+  "sample_id": "holdout_0065",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_nova",
+  "entity": "Batch Nova",
+  "premises": [
+   "When an item has an intact seal but no cold-chain breach, the item is ready for release.",
+   "There is an intact seal for Batch Nova.",
+   "No cold-chain breach is recorded for Batch Nova."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Batch Nova has a cold-chain breach\nB. Batch Nova has an audit waiver\nC. Batch Nova is ready for release\nD. Batch Nova is not ready for release",
+  "options": [
+   "A. Batch Nova has a cold-chain breach",
+   "B. Batch Nova has an audit waiver",
+   "C. Batch Nova is ready for release",
+   "D. Batch Nova is not ready for release"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0066",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_vega",
+  "entity": "Satellite Vega",
+  "premises": [
+   "If an item has calibrated thermal sensors and no cloud-penetrating radar fault, then it is disaster-mapping capable.",
+   "Satellite Vega carries calibrated thermal sensors.",
+   "No cloud-penetrating radar fault is recorded for Satellite Vega."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Satellite Vega has a cloud-penetrating radar fault\nB. Satellite Vega has an audit waiver\nC. Satellite Vega is disaster-mapping capable\nD. Satellite Vega is not disaster-mapping capable",
+  "options": [
+   "A. Satellite Vega has a cloud-penetrating radar fault",
+   "B. Satellite Vega has an audit waiver",
+   "C. Satellite Vega is disaster-mapping capable",
+   "D. Satellite Vega is not disaster-mapping capable"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0067",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_nova",
+  "entity": "Batch Nova",
+  "premises": [
+   "If an item has an intact seal and no cold-chain breach, then it is ready for release.",
+   "There is an intact seal for Batch Nova.",
+   "No cold-chain breach is recorded for Batch Nova."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Batch Nova has a cold-chain breach\nB. Batch Nova has an audit waiver\nC. Batch Nova is ready for release\nD. Batch Nova is not ready for release",
+  "options": [
+   "A. Batch Nova has a cold-chain breach",
+   "B. Batch Nova has an audit waiver",
+   "C. Batch Nova is ready for release",
+   "D. Batch Nova is not ready for release"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0068",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_nova",
+  "entity": "Batch Nova",
+  "premises": [
+   "When an item has a seal that is intact but no temperature breach, the item is release-ready.",
+   "Batch Nova has a seal that is intact.",
+   "No temperature breach is recorded for Batch Nova."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Batch Nova has a temperature breach\nB. Batch Nova has an audit waiver\nC. Batch Nova is release-ready\nD. Batch Nova is not release-ready",
+  "options": [
+   "A. Batch Nova has a temperature breach",
+   "B. Batch Nova has an audit waiver",
+   "C. Batch Nova is release-ready",
+   "D. Batch Nova is not release-ready"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0069",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_codex",
+  "entity": "The River Codex",
+  "premises": [
+   "If an item has a high-resolution scan and no incomplete metadata, then it is eligible for the public portal.",
+   "There is a high-resolution scan for The River Codex.",
+   "Incomplete metadata is not established for The River Codex."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. The River Codex has incomplete metadata\nB. The River Codex has an audit waiver\nC. The River Codex is eligible for the public portal\nD. The River Codex is not eligible for the public portal",
+  "options": [
+   "A. The River Codex has incomplete metadata",
+   "B. The River Codex has an audit waiver",
+   "C. The River Codex is eligible for the public portal",
+   "D. The River Codex is not eligible for the public portal"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0070",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "numeric_guard",
+  "surface_family": "numeric_12_vs_20",
+  "entity": "Unit 9",
+  "premises": [
+   "Unit 9 has 5 enrolled participants."
+  ],
+  "query": "Which statement is correct?\nA. Unit 9 has 5 enrolled participants\nB. Unit 9 has 9 enrolled participants\nC. Unit 9 has no enrolled participants\nD. Unit 9 is full",
+  "options": [
+   "A. Unit 9 has 5 enrolled participants",
+   "B. Unit 9 has 9 enrolled participants",
+   "C. Unit 9 has no enrolled participants",
+   "D. Unit 9 is full"
+  ],
+  "answer": "A",
+  "premises_used": [
+   0
+  ],
+  "distractor_types": {
+   "A": "correct",
+   "B": "wrong_number",
+   "C": "negated_fact",
+   "D": "unsupported"
+  },
+  "canary": false,
+  "sample_id": "holdout_0071",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_medkit-7",
+  "entity": "MedKit-7",
+  "premises": [
+   "If an item has launch clearance and no route-blocking flag, then it is eligible to use the aerial corridor.",
+   "There is launch clearance for MedKit-7.",
+   "MedKit-7 has no route-blocking flag."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. MedKit-7 has a route-blocking flag\nB. MedKit-7 has an audit waiver\nC. MedKit-7 is eligible to use the aerial corridor\nD. MedKit-7 is not eligible to use the aerial corridor",
+  "options": [
+   "A. MedKit-7 has a route-blocking flag",
+   "B. MedKit-7 has an audit waiver",
+   "C. MedKit-7 is eligible to use the aerial corridor",
+   "D. MedKit-7 is not eligible to use the aerial corridor"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0072",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_nova",
+  "entity": "Batch Nova",
+  "premises": [
+   "If an item has a seal that is intact and no cold-chain breach, then it is ready for release.",
+   "Batch Nova has a seal that is intact.",
+   "Batch Nova has no cold-chain breach.",
+   "Batch Nova has a seal that is intact."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Batch Nova has a cold-chain breach\nB. Batch Nova has a seal that is intact\nC. Batch Nova is ready for release\nD. Batch Nova is not ready for release",
+  "options": [
+   "A. Batch Nova has a cold-chain breach",
+   "B. Batch Nova has a seal that is intact",
+   "C. Batch Nova is ready for release",
+   "D. Batch Nova is not ready for release"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "also_proven_canary",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": true,
+  "sample_id": "holdout_0073",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_medkit-7",
+  "entity": "MedKit-7",
+  "premises": [
+   "Any item with clearance for launch and without route-blocking flag is eligible to use the aerial corridor.",
+   "Clearance for launch is present for MedKit-7.",
+   "Route-blocking flag is not established for MedKit-7.",
+   "MedKit-7 carries clearance for launch."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. MedKit-7 has a route-blocking flag\nB. MedKit-7 has clearance for launch\nC. MedKit-7 is eligible to use the aerial corridor\nD. MedKit-7 is not eligible to use the aerial corridor",
+  "options": [
+   "A. MedKit-7 has a route-blocking flag",
+   "B. MedKit-7 has clearance for launch",
+   "C. MedKit-7 is eligible to use the aerial corridor",
+   "D. MedKit-7 is not eligible to use the aerial corridor"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "also_proven_canary",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": true,
+  "sample_id": "holdout_0074",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_nova",
+  "entity": "Batch Nova",
+  "premises": [
+   "If an item has an intact seal and no temperature breach, then it is ready for release.",
+   "Batch Nova carries an intact seal.",
+   "Temperature breach is not established for Batch Nova.",
+   "An intact seal is present for Batch Nova."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Batch Nova has a temperature breach\nB. Batch Nova has an intact seal\nC. Batch Nova is ready for release\nD. Batch Nova is not ready for release",
+  "options": [
+   "A. Batch Nova has a temperature breach",
+   "B. Batch Nova has an intact seal",
+   "C. Batch Nova is ready for release",
+   "D. Batch Nova is not ready for release"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "also_proven_canary",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": true,
+  "sample_id": "holdout_0075",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_vega",
+  "entity": "Satellite Vega",
+  "premises": [
+   "If an item has thermal sensors that are calibrated and no cloud-penetrating radar fault, then it is disaster-mapping capable.",
+   "There is thermal sensors that are calibrated for Satellite Vega.",
+   "Satellite Vega has no cloud-penetrating radar fault.",
+   "There is thermal sensors that are calibrated for Satellite Vega."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Satellite Vega has a cloud-penetrating radar fault\nB. Satellite Vega has thermal sensors that are calibrated\nC. Satellite Vega is disaster-mapping capable\nD. Satellite Vega is not disaster-mapping capable",
+  "options": [
+   "A. Satellite Vega has a cloud-penetrating radar fault",
+   "B. Satellite Vega has thermal sensors that are calibrated",
+   "C. Satellite Vega is disaster-mapping capable",
+   "D. Satellite Vega is not disaster-mapping capable"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "also_proven_canary",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": true,
+  "sample_id": "holdout_0076",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_nova",
+  "entity": "Batch Nova",
+  "premises": [
+   "If an item has an intact seal and no temperature breach, then it is ready for release.",
+   "Batch Nova has an intact seal.",
+   "Batch Nova lacks temperature breach."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Batch Nova has a temperature breach\nB. Batch Nova has an audit waiver\nC. Batch Nova is ready for release\nD. Batch Nova is not ready for release",
+  "options": [
+   "A. Batch Nova has a temperature breach",
+   "B. Batch Nova has an audit waiver",
+   "C. Batch Nova is ready for release",
+   "D. Batch Nova is not ready for release"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0077",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_vega",
+  "entity": "Satellite Vega",
+  "premises": [
+   "Any item with thermal sensors that are calibrated and without cloud-penetrating radar fault is disaster-mapping capable.",
+   "Satellite Vega carries thermal sensors that are calibrated.",
+   "Satellite Vega lacks cloud-penetrating radar fault.",
+   "Satellite Vega carries thermal sensors that are calibrated."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Satellite Vega has a cloud-penetrating radar fault\nB. Satellite Vega has thermal sensors that are calibrated\nC. Satellite Vega is disaster-mapping capable\nD. Satellite Vega is not disaster-mapping capable",
+  "options": [
+   "A. Satellite Vega has a cloud-penetrating radar fault",
+   "B. Satellite Vega has thermal sensors that are calibrated",
+   "C. Satellite Vega is disaster-mapping capable",
+   "D. Satellite Vega is not disaster-mapping capable"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "also_proven_canary",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": true,
+  "sample_id": "holdout_0078",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_medkit-7",
+  "entity": "MedKit-7",
+  "premises": [
+   "When an item has launch clearance but no blocked-route report, the item is eligible to use the aerial corridor.",
+   "There is launch clearance for MedKit-7.",
+   "Blocked-route report is not established for MedKit-7."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. MedKit-7 has a blocked-route report\nB. MedKit-7 has an audit waiver\nC. MedKit-7 is eligible to use the aerial corridor\nD. MedKit-7 is not eligible to use the aerial corridor",
+  "options": [
+   "A. MedKit-7 has a blocked-route report",
+   "B. MedKit-7 has an audit waiver",
+   "C. MedKit-7 is eligible to use the aerial corridor",
+   "D. MedKit-7 is not eligible to use the aerial corridor"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0079",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_nova",
+  "entity": "Batch Nova",
+  "premises": [
+   "If an item has a seal that is intact and no temperature breach, then it is ready for release.",
+   "Batch Nova has a seal that is intact.",
+   "Batch Nova lacks temperature breach.",
+   "A seal that is intact is present for Batch Nova."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Batch Nova has a temperature breach\nB. Batch Nova has a seal that is intact\nC. Batch Nova is ready for release\nD. Batch Nova is not ready for release",
+  "options": [
+   "A. Batch Nova has a temperature breach",
+   "B. Batch Nova has a seal that is intact",
+   "C. Batch Nova is ready for release",
+   "D. Batch Nova is not ready for release"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "also_proven_canary",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": true,
+  "sample_id": "holdout_0080",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "numeric_guard",
+  "surface_family": "numeric_12_vs_20",
+  "entity": "Study Alpha",
+  "premises": [
+   "Study Alpha has 8 enrolled participants."
+  ],
+  "query": "Which statement is correct?\nA. Study Alpha has 8 enrolled participants\nB. Study Alpha has 15 enrolled participants\nC. Study Alpha has no enrolled participants\nD. Study Alpha is full",
+  "options": [
+   "A. Study Alpha has 8 enrolled participants",
+   "B. Study Alpha has 15 enrolled participants",
+   "C. Study Alpha has no enrolled participants",
+   "D. Study Alpha is full"
+  ],
+  "answer": "A",
+  "premises_used": [
+   0
+  ],
+  "distractor_types": {
+   "A": "correct",
+   "B": "wrong_number",
+   "C": "negated_fact",
+   "D": "unsupported"
+  },
+  "canary": false,
+  "sample_id": "holdout_0081",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_nova",
+  "entity": "Batch Nova",
+  "premises": [
+   "When an item has a seal that is intact but no temperature breach, the item is release-ready.",
+   "A seal that is intact is present for Batch Nova.",
+   "No temperature breach is recorded for Batch Nova.",
+   "There is a seal that is intact for Batch Nova."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Batch Nova has a temperature breach\nB. Batch Nova has a seal that is intact\nC. Batch Nova is release-ready\nD. Batch Nova is not release-ready",
+  "options": [
+   "A. Batch Nova has a temperature breach",
+   "B. Batch Nova has a seal that is intact",
+   "C. Batch Nova is release-ready",
+   "D. Batch Nova is not release-ready"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "also_proven_canary",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": true,
+  "sample_id": "holdout_0082",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_medkit-7",
+  "entity": "MedKit-7",
+  "premises": [
+   "When an item has clearance for launch but no route-blocking flag, the item is eligible to use the aerial corridor.",
+   "MedKit-7 has clearance for launch.",
+   "MedKit-7 has no route-blocking flag."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. MedKit-7 has a route-blocking flag\nB. MedKit-7 has an audit waiver\nC. MedKit-7 is eligible to use the aerial corridor\nD. MedKit-7 is not eligible to use the aerial corridor",
+  "options": [
+   "A. MedKit-7 has a route-blocking flag",
+   "B. MedKit-7 has an audit waiver",
+   "C. MedKit-7 is eligible to use the aerial corridor",
+   "D. MedKit-7 is not eligible to use the aerial corridor"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0083",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_medkit-7",
+  "entity": "MedKit-7",
+  "premises": [
+   "When an item has launch clearance but no blocked-route report, the item is permitted on the aerial corridor.",
+   "There is launch clearance for MedKit-7.",
+   "No blocked-route report is recorded for MedKit-7.",
+   "Launch clearance is present for MedKit-7."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. MedKit-7 has a blocked-route report\nB. MedKit-7 has launch clearance\nC. MedKit-7 is permitted on the aerial corridor\nD. MedKit-7 is not permitted on the aerial corridor",
+  "options": [
+   "A. MedKit-7 has a blocked-route report",
+   "B. MedKit-7 has launch clearance",
+   "C. MedKit-7 is permitted on the aerial corridor",
+   "D. MedKit-7 is not permitted on the aerial corridor"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "also_proven_canary",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": true,
+  "sample_id": "holdout_0084",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_nova",
+  "entity": "Batch Nova",
+  "premises": [
+   "When an item has a seal that is intact but no temperature breach, the item is release-ready.",
+   "Batch Nova carries a seal that is intact.",
+   "Batch Nova lacks temperature breach."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Batch Nova has a temperature breach\nB. Batch Nova has an audit waiver\nC. Batch Nova is release-ready\nD. Batch Nova is not release-ready",
+  "options": [
+   "A. Batch Nova has a temperature breach",
+   "B. Batch Nova has an audit waiver",
+   "C. Batch Nova is release-ready",
+   "D. Batch Nova is not release-ready"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0085",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "numeric_guard",
+  "surface_family": "numeric_12_vs_20",
+  "entity": "Unit 9",
+  "premises": [
+   "Unit 9 has 8 enrolled participants."
+  ],
+  "query": "Which statement is correct?\nA. Unit 9 has 8 enrolled participants\nB. Unit 9 has 15 enrolled participants\nC. Unit 9 has no enrolled participants\nD. Unit 9 is full",
+  "options": [
+   "A. Unit 9 has 8 enrolled participants",
+   "B. Unit 9 has 15 enrolled participants",
+   "C. Unit 9 has no enrolled participants",
+   "D. Unit 9 is full"
+  ],
+  "answer": "A",
+  "premises_used": [
+   0
+  ],
+  "distractor_types": {
+   "A": "correct",
+   "B": "wrong_number",
+   "C": "negated_fact",
+   "D": "unsupported"
+  },
+  "canary": false,
+  "sample_id": "holdout_0086",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_vega",
+  "entity": "Satellite Vega",
+  "premises": [
+   "If an item has calibrated thermal sensors and no radar fault, then it is able to support disaster mapping.",
+   "Calibrated thermal sensors is present for Satellite Vega.",
+   "No radar fault is recorded for Satellite Vega.",
+   "Calibrated thermal sensors is present for Satellite Vega."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Satellite Vega has a radar fault\nB. Satellite Vega has calibrated thermal sensors\nC. Satellite Vega is able to support disaster mapping\nD. Satellite Vega is not able to support disaster mapping",
+  "options": [
+   "A. Satellite Vega has a radar fault",
+   "B. Satellite Vega has calibrated thermal sensors",
+   "C. Satellite Vega is able to support disaster mapping",
+   "D. Satellite Vega is not able to support disaster mapping"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "also_proven_canary",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": true,
+  "sample_id": "holdout_0087",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_codex",
+  "entity": "The River Codex",
+  "premises": [
+   "When an item has a high-resolution scan but no incomplete metadata, the item is portal-eligible.",
+   "A high-resolution scan is present for The River Codex.",
+   "No incomplete metadata is recorded for The River Codex.",
+   "The River Codex has a high-resolution scan."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. The River Codex has incomplete metadata\nB. The River Codex has a high-resolution scan\nC. The River Codex is portal-eligible\nD. The River Codex is not portal-eligible",
+  "options": [
+   "A. The River Codex has incomplete metadata",
+   "B. The River Codex has a high-resolution scan",
+   "C. The River Codex is portal-eligible",
+   "D. The River Codex is not portal-eligible"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "also_proven_canary",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": true,
+  "sample_id": "holdout_0088",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "numeric_guard",
+  "surface_family": "numeric_12_vs_20",
+  "entity": "Unit 9",
+  "premises": [
+   "Unit 9 has 12 enrolled participants."
+  ],
+  "query": "Which statement is correct?\nA. Unit 9 has 12 enrolled participants\nB. Unit 9 has 20 enrolled participants\nC. Unit 9 has no enrolled participants\nD. Unit 9 is full",
+  "options": [
+   "A. Unit 9 has 12 enrolled participants",
+   "B. Unit 9 has 20 enrolled participants",
+   "C. Unit 9 has no enrolled participants",
+   "D. Unit 9 is full"
+  ],
+  "answer": "A",
+  "premises_used": [
+   0
+  ],
+  "distractor_types": {
+   "A": "correct",
+   "B": "wrong_number",
+   "C": "negated_fact",
+   "D": "unsupported"
+  },
+  "canary": false,
+  "sample_id": "holdout_0089",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_medkit-7",
+  "entity": "MedKit-7",
+  "premises": [
+   "When an item has clearance for launch but no blocked-route report, the item is permitted on the aerial corridor.",
+   "MedKit-7 has clearance for launch.",
+   "MedKit-7 lacks blocked-route report."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. MedKit-7 has a blocked-route report\nB. MedKit-7 has an audit waiver\nC. MedKit-7 is permitted on the aerial corridor\nD. MedKit-7 is not permitted on the aerial corridor",
+  "options": [
+   "A. MedKit-7 has a blocked-route report",
+   "B. MedKit-7 has an audit waiver",
+   "C. MedKit-7 is permitted on the aerial corridor",
+   "D. MedKit-7 is not permitted on the aerial corridor"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0090",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_medkit-7",
+  "entity": "MedKit-7",
+  "premises": [
+   "If an item has launch clearance and no blocked-route report, then it is eligible to use the aerial corridor.",
+   "MedKit-7 carries launch clearance.",
+   "No blocked-route report is recorded for MedKit-7."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. MedKit-7 has a blocked-route report\nB. MedKit-7 has an audit waiver\nC. MedKit-7 is eligible to use the aerial corridor\nD. MedKit-7 is not eligible to use the aerial corridor",
+  "options": [
+   "A. MedKit-7 has a blocked-route report",
+   "B. MedKit-7 has an audit waiver",
+   "C. MedKit-7 is eligible to use the aerial corridor",
+   "D. MedKit-7 is not eligible to use the aerial corridor"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0091",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_vega",
+  "entity": "Satellite Vega",
+  "premises": [
+   "If an item has calibrated thermal sensors and no cloud-penetrating radar fault, then it is disaster-mapping capable.",
+   "Satellite Vega has calibrated thermal sensors.",
+   "Satellite Vega lacks cloud-penetrating radar fault.",
+   "Satellite Vega carries calibrated thermal sensors."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Satellite Vega has a cloud-penetrating radar fault\nB. Satellite Vega has calibrated thermal sensors\nC. Satellite Vega is disaster-mapping capable\nD. Satellite Vega is not disaster-mapping capable",
+  "options": [
+   "A. Satellite Vega has a cloud-penetrating radar fault",
+   "B. Satellite Vega has calibrated thermal sensors",
+   "C. Satellite Vega is disaster-mapping capable",
+   "D. Satellite Vega is not disaster-mapping capable"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "also_proven_canary",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": true,
+  "sample_id": "holdout_0092",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_medkit-7",
+  "entity": "MedKit-7",
+  "premises": [
+   "Any item with launch clearance and without route-blocking flag is eligible to use the aerial corridor.",
+   "Launch clearance is present for MedKit-7.",
+   "MedKit-7 has no route-blocking flag."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. MedKit-7 has a route-blocking flag\nB. MedKit-7 has an audit waiver\nC. MedKit-7 is eligible to use the aerial corridor\nD. MedKit-7 is not eligible to use the aerial corridor",
+  "options": [
+   "A. MedKit-7 has a route-blocking flag",
+   "B. MedKit-7 has an audit waiver",
+   "C. MedKit-7 is eligible to use the aerial corridor",
+   "D. MedKit-7 is not eligible to use the aerial corridor"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0093",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_nova",
+  "entity": "Batch Nova",
+  "premises": [
+   "If an item has a seal that is intact and no temperature breach, then it is ready for release.",
+   "A seal that is intact is present for Batch Nova.",
+   "Batch Nova has no temperature breach.",
+   "There is a seal that is intact for Batch Nova."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Batch Nova has a temperature breach\nB. Batch Nova has a seal that is intact\nC. Batch Nova is ready for release\nD. Batch Nova is not ready for release",
+  "options": [
+   "A. Batch Nova has a temperature breach",
+   "B. Batch Nova has a seal that is intact",
+   "C. Batch Nova is ready for release",
+   "D. Batch Nova is not ready for release"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "also_proven_canary",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": true,
+  "sample_id": "holdout_0094",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "numeric_guard",
+  "surface_family": "numeric_12_vs_20",
+  "entity": "Unit 9",
+  "premises": [
+   "Unit 9 has 12 enrolled participants."
+  ],
+  "query": "Which statement is correct?\nA. Unit 9 has 12 enrolled participants\nB. Unit 9 has 20 enrolled participants\nC. Unit 9 has no enrolled participants\nD. Unit 9 is full",
+  "options": [
+   "A. Unit 9 has 12 enrolled participants",
+   "B. Unit 9 has 20 enrolled participants",
+   "C. Unit 9 has no enrolled participants",
+   "D. Unit 9 is full"
+  ],
+  "answer": "A",
+  "premises_used": [
+   0
+  ],
+  "distractor_types": {
+   "A": "correct",
+   "B": "wrong_number",
+   "C": "negated_fact",
+   "D": "unsupported"
+  },
+  "canary": false,
+  "sample_id": "holdout_0095",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_medkit-7",
+  "entity": "MedKit-7",
+  "premises": [
+   "Any item with clearance for launch and without blocked-route report is eligible to use the aerial corridor.",
+   "Clearance for launch is present for MedKit-7.",
+   "Blocked-route report is not established for MedKit-7.",
+   "MedKit-7 carries clearance for launch."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. MedKit-7 has a blocked-route report\nB. MedKit-7 has clearance for launch\nC. MedKit-7 is eligible to use the aerial corridor\nD. MedKit-7 is not eligible to use the aerial corridor",
+  "options": [
+   "A. MedKit-7 has a blocked-route report",
+   "B. MedKit-7 has clearance for launch",
+   "C. MedKit-7 is eligible to use the aerial corridor",
+   "D. MedKit-7 is not eligible to use the aerial corridor"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "also_proven_canary",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": true,
+  "sample_id": "holdout_0096",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_vega",
+  "entity": "Satellite Vega",
+  "premises": [
+   "When an item has thermal sensors that are calibrated but no radar fault, the item is able to support disaster mapping.",
+   "Satellite Vega carries thermal sensors that are calibrated.",
+   "Radar fault is not established for Satellite Vega.",
+   "There is thermal sensors that are calibrated for Satellite Vega."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Satellite Vega has a radar fault\nB. Satellite Vega has thermal sensors that are calibrated\nC. Satellite Vega is able to support disaster mapping\nD. Satellite Vega is not able to support disaster mapping",
+  "options": [
+   "A. Satellite Vega has a radar fault",
+   "B. Satellite Vega has thermal sensors that are calibrated",
+   "C. Satellite Vega is able to support disaster mapping",
+   "D. Satellite Vega is not able to support disaster mapping"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "also_proven_canary",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": true,
+  "sample_id": "holdout_0097",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_vega",
+  "entity": "Satellite Vega",
+  "premises": [
+   "If an item has calibrated thermal sensors and no radar fault, then it is disaster-mapping capable.",
+   "Satellite Vega has calibrated thermal sensors.",
+   "Radar fault is not established for Satellite Vega."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Satellite Vega has a radar fault\nB. Satellite Vega has an audit waiver\nC. Satellite Vega is disaster-mapping capable\nD. Satellite Vega is not disaster-mapping capable",
+  "options": [
+   "A. Satellite Vega has a radar fault",
+   "B. Satellite Vega has an audit waiver",
+   "C. Satellite Vega is disaster-mapping capable",
+   "D. Satellite Vega is not disaster-mapping capable"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0098",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_nova",
+  "entity": "Batch Nova",
+  "premises": [
+   "Any item with an intact seal and without temperature breach is ready for release.",
+   "Batch Nova carries an intact seal.",
+   "Temperature breach is not established for Batch Nova."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Batch Nova has a temperature breach\nB. Batch Nova has an audit waiver\nC. Batch Nova is ready for release\nD. Batch Nova is not ready for release",
+  "options": [
+   "A. Batch Nova has a temperature breach",
+   "B. Batch Nova has an audit waiver",
+   "C. Batch Nova is ready for release",
+   "D. Batch Nova is not ready for release"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0099",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_codex",
+  "entity": "The River Codex",
+  "premises": [
+   "Any item with a 600 dpi scan and without incomplete metadata is eligible for the public portal.",
+   "There is a 600 dpi scan for The River Codex.",
+   "The River Codex has no incomplete metadata."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. The River Codex has incomplete metadata\nB. The River Codex has an audit waiver\nC. The River Codex is eligible for the public portal\nD. The River Codex is not eligible for the public portal",
+  "options": [
+   "A. The River Codex has incomplete metadata",
+   "B. The River Codex has an audit waiver",
+   "C. The River Codex is eligible for the public portal",
+   "D. The River Codex is not eligible for the public portal"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0100",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "numeric_guard",
+  "surface_family": "numeric_12_vs_20",
+  "entity": "Cohort B",
+  "premises": [
+   "Cohort B has 8 enrolled participants."
+  ],
+  "query": "Which statement is correct?\nA. Cohort B has 8 enrolled participants\nB. Cohort B has 15 enrolled participants\nC. Cohort B has no enrolled participants\nD. Cohort B is full",
+  "options": [
+   "A. Cohort B has 8 enrolled participants",
+   "B. Cohort B has 15 enrolled participants",
+   "C. Cohort B has no enrolled participants",
+   "D. Cohort B is full"
+  ],
+  "answer": "A",
+  "premises_used": [
+   0
+  ],
+  "distractor_types": {
+   "A": "correct",
+   "B": "wrong_number",
+   "C": "negated_fact",
+   "D": "unsupported"
+  },
+  "canary": false,
+  "sample_id": "holdout_0101",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "numeric_guard",
+  "surface_family": "numeric_12_vs_20",
+  "entity": "Cohort B",
+  "premises": [
+   "Cohort B has 12 enrolled participants."
+  ],
+  "query": "Which statement is correct?\nA. Cohort B has 12 enrolled participants\nB. Cohort B has 20 enrolled participants\nC. Cohort B has no enrolled participants\nD. Cohort B is full",
+  "options": [
+   "A. Cohort B has 12 enrolled participants",
+   "B. Cohort B has 20 enrolled participants",
+   "C. Cohort B has no enrolled participants",
+   "D. Cohort B is full"
+  ],
+  "answer": "A",
+  "premises_used": [
+   0
+  ],
+  "distractor_types": {
+   "A": "correct",
+   "B": "wrong_number",
+   "C": "negated_fact",
+   "D": "unsupported"
+  },
+  "canary": false,
+  "sample_id": "holdout_0102",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_vega",
+  "entity": "Satellite Vega",
+  "premises": [
+   "If an item has thermal sensors that are calibrated and no cloud-penetrating radar fault, then it is able to support disaster mapping.",
+   "Satellite Vega has thermal sensors that are calibrated.",
+   "Cloud-penetrating radar fault is not established for Satellite Vega."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Satellite Vega has a cloud-penetrating radar fault\nB. Satellite Vega has an audit waiver\nC. Satellite Vega is able to support disaster mapping\nD. Satellite Vega is not able to support disaster mapping",
+  "options": [
+   "A. Satellite Vega has a cloud-penetrating radar fault",
+   "B. Satellite Vega has an audit waiver",
+   "C. Satellite Vega is able to support disaster mapping",
+   "D. Satellite Vega is not able to support disaster mapping"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0103",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_codex",
+  "entity": "The River Codex",
+  "premises": [
+   "When an item has a high-resolution scan but no incomplete metadata, the item is eligible for the public portal.",
+   "The River Codex carries a high-resolution scan.",
+   "The River Codex has no incomplete metadata.",
+   "There is a high-resolution scan for The River Codex."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. The River Codex has incomplete metadata\nB. The River Codex has a high-resolution scan\nC. The River Codex is eligible for the public portal\nD. The River Codex is not eligible for the public portal",
+  "options": [
+   "A. The River Codex has incomplete metadata",
+   "B. The River Codex has a high-resolution scan",
+   "C. The River Codex is eligible for the public portal",
+   "D. The River Codex is not eligible for the public portal"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "also_proven_canary",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": true,
+  "sample_id": "holdout_0104",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_codex",
+  "entity": "The River Codex",
+  "premises": [
+   "When an item has a 600 dpi scan but no missing metadata, the item is eligible for the public portal.",
+   "A 600 dpi scan is present for The River Codex.",
+   "No missing metadata is recorded for The River Codex."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. The River Codex has missing metadata\nB. The River Codex has an audit waiver\nC. The River Codex is eligible for the public portal\nD. The River Codex is not eligible for the public portal",
+  "options": [
+   "A. The River Codex has missing metadata",
+   "B. The River Codex has an audit waiver",
+   "C. The River Codex is eligible for the public portal",
+   "D. The River Codex is not eligible for the public portal"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0105",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_nova",
+  "entity": "Batch Nova",
+  "premises": [
+   "If an item has an intact seal and no cold-chain breach, then it is ready for release.",
+   "An intact seal is present for Batch Nova.",
+   "No cold-chain breach is recorded for Batch Nova."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Batch Nova has a cold-chain breach\nB. Batch Nova has an audit waiver\nC. Batch Nova is ready for release\nD. Batch Nova is not ready for release",
+  "options": [
+   "A. Batch Nova has a cold-chain breach",
+   "B. Batch Nova has an audit waiver",
+   "C. Batch Nova is ready for release",
+   "D. Batch Nova is not ready for release"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0106",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "numeric_guard",
+  "surface_family": "numeric_12_vs_20",
+  "entity": "Study Alpha",
+  "premises": [
+   "Study Alpha has 12 enrolled participants."
+  ],
+  "query": "Which statement is correct?\nA. Study Alpha has 12 enrolled participants\nB. Study Alpha has 20 enrolled participants\nC. Study Alpha has no enrolled participants\nD. Study Alpha is full",
+  "options": [
+   "A. Study Alpha has 12 enrolled participants",
+   "B. Study Alpha has 20 enrolled participants",
+   "C. Study Alpha has no enrolled participants",
+   "D. Study Alpha is full"
+  ],
+  "answer": "A",
+  "premises_used": [
+   0
+  ],
+  "distractor_types": {
+   "A": "correct",
+   "B": "wrong_number",
+   "C": "negated_fact",
+   "D": "unsupported"
+  },
+  "canary": false,
+  "sample_id": "holdout_0107",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "numeric_guard",
+  "surface_family": "numeric_12_vs_20",
+  "entity": "Cohort B",
+  "premises": [
+   "Cohort B has 12 enrolled participants."
+  ],
+  "query": "Which statement is correct?\nA. Cohort B has 12 enrolled participants\nB. Cohort B has 20 enrolled participants\nC. Cohort B has no enrolled participants\nD. Cohort B is full",
+  "options": [
+   "A. Cohort B has 12 enrolled participants",
+   "B. Cohort B has 20 enrolled participants",
+   "C. Cohort B has no enrolled participants",
+   "D. Cohort B is full"
+  ],
+  "answer": "A",
+  "premises_used": [
+   0
+  ],
+  "distractor_types": {
+   "A": "correct",
+   "B": "wrong_number",
+   "C": "negated_fact",
+   "D": "unsupported"
+  },
+  "canary": false,
+  "sample_id": "holdout_0108",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "numeric_guard",
+  "surface_family": "numeric_12_vs_20",
+  "entity": "Unit 9",
+  "premises": [
+   "Unit 9 has 12 enrolled participants."
+  ],
+  "query": "Which statement is correct?\nA. Unit 9 has 12 enrolled participants\nB. Unit 9 has 20 enrolled participants\nC. Unit 9 has no enrolled participants\nD. Unit 9 is full",
+  "options": [
+   "A. Unit 9 has 12 enrolled participants",
+   "B. Unit 9 has 20 enrolled participants",
+   "C. Unit 9 has no enrolled participants",
+   "D. Unit 9 is full"
+  ],
+  "answer": "A",
+  "premises_used": [
+   0
+  ],
+  "distractor_types": {
+   "A": "correct",
+   "B": "wrong_number",
+   "C": "negated_fact",
+   "D": "unsupported"
+  },
+  "canary": false,
+  "sample_id": "holdout_0109",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_nova",
+  "entity": "Batch Nova",
+  "premises": [
+   "Any item with a seal that is intact and without cold-chain breach is ready for release.",
+   "A seal that is intact is present for Batch Nova.",
+   "Cold-chain breach is not established for Batch Nova.",
+   "There is a seal that is intact for Batch Nova."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Batch Nova has a cold-chain breach\nB. Batch Nova has a seal that is intact\nC. Batch Nova is ready for release\nD. Batch Nova is not ready for release",
+  "options": [
+   "A. Batch Nova has a cold-chain breach",
+   "B. Batch Nova has a seal that is intact",
+   "C. Batch Nova is ready for release",
+   "D. Batch Nova is not ready for release"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "also_proven_canary",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": true,
+  "sample_id": "holdout_0110",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "numeric_guard",
+  "surface_family": "numeric_12_vs_20",
+  "entity": "Unit 9",
+  "premises": [
+   "Unit 9 has 8 enrolled participants."
+  ],
+  "query": "Which statement is correct?\nA. Unit 9 has 8 enrolled participants\nB. Unit 9 has 15 enrolled participants\nC. Unit 9 has no enrolled participants\nD. Unit 9 is full",
+  "options": [
+   "A. Unit 9 has 8 enrolled participants",
+   "B. Unit 9 has 15 enrolled participants",
+   "C. Unit 9 has no enrolled participants",
+   "D. Unit 9 is full"
+  ],
+  "answer": "A",
+  "premises_used": [
+   0
+  ],
+  "distractor_types": {
+   "A": "correct",
+   "B": "wrong_number",
+   "C": "negated_fact",
+   "D": "unsupported"
+  },
+  "canary": false,
+  "sample_id": "holdout_0111",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "numeric_guard",
+  "surface_family": "numeric_12_vs_20",
+  "entity": "Unit 9",
+  "premises": [
+   "Unit 9 has 12 enrolled participants."
+  ],
+  "query": "Which statement is correct?\nA. Unit 9 has 12 enrolled participants\nB. Unit 9 has 20 enrolled participants\nC. Unit 9 has no enrolled participants\nD. Unit 9 is full",
+  "options": [
+   "A. Unit 9 has 12 enrolled participants",
+   "B. Unit 9 has 20 enrolled participants",
+   "C. Unit 9 has no enrolled participants",
+   "D. Unit 9 is full"
+  ],
+  "answer": "A",
+  "premises_used": [
+   0
+  ],
+  "distractor_types": {
+   "A": "correct",
+   "B": "wrong_number",
+   "C": "negated_fact",
+   "D": "unsupported"
+  },
+  "canary": false,
+  "sample_id": "holdout_0112",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_medkit-7",
+  "entity": "MedKit-7",
+  "premises": [
+   "When an item has clearance for launch but no route-blocking flag, the item is eligible to use the aerial corridor.",
+   "There is clearance for launch for MedKit-7.",
+   "No route-blocking flag is recorded for MedKit-7."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. MedKit-7 has a route-blocking flag\nB. MedKit-7 has an audit waiver\nC. MedKit-7 is eligible to use the aerial corridor\nD. MedKit-7 is not eligible to use the aerial corridor",
+  "options": [
+   "A. MedKit-7 has a route-blocking flag",
+   "B. MedKit-7 has an audit waiver",
+   "C. MedKit-7 is eligible to use the aerial corridor",
+   "D. MedKit-7 is not eligible to use the aerial corridor"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0113",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_nova",
+  "entity": "Batch Nova",
+  "premises": [
+   "When an item has an intact seal but no temperature breach, the item is release-ready.",
+   "There is an intact seal for Batch Nova.",
+   "Batch Nova lacks temperature breach.",
+   "Batch Nova has an intact seal."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Batch Nova has a temperature breach\nB. Batch Nova has an intact seal\nC. Batch Nova is release-ready\nD. Batch Nova is not release-ready",
+  "options": [
+   "A. Batch Nova has a temperature breach",
+   "B. Batch Nova has an intact seal",
+   "C. Batch Nova is release-ready",
+   "D. Batch Nova is not release-ready"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "also_proven_canary",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": true,
+  "sample_id": "holdout_0114",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_medkit-7",
+  "entity": "MedKit-7",
+  "premises": [
+   "Any item with launch clearance and without blocked-route report is eligible to use the aerial corridor.",
+   "MedKit-7 carries launch clearance.",
+   "MedKit-7 has no blocked-route report.",
+   "MedKit-7 has launch clearance."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. MedKit-7 has a blocked-route report\nB. MedKit-7 has launch clearance\nC. MedKit-7 is eligible to use the aerial corridor\nD. MedKit-7 is not eligible to use the aerial corridor",
+  "options": [
+   "A. MedKit-7 has a blocked-route report",
+   "B. MedKit-7 has launch clearance",
+   "C. MedKit-7 is eligible to use the aerial corridor",
+   "D. MedKit-7 is not eligible to use the aerial corridor"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "also_proven_canary",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": true,
+  "sample_id": "holdout_0115",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "numeric_guard",
+  "surface_family": "numeric_12_vs_20",
+  "entity": "Unit 9",
+  "premises": [
+   "Unit 9 has 5 enrolled participants."
+  ],
+  "query": "Which statement is correct?\nA. Unit 9 has 5 enrolled participants\nB. Unit 9 has 9 enrolled participants\nC. Unit 9 has no enrolled participants\nD. Unit 9 is full",
+  "options": [
+   "A. Unit 9 has 5 enrolled participants",
+   "B. Unit 9 has 9 enrolled participants",
+   "C. Unit 9 has no enrolled participants",
+   "D. Unit 9 is full"
+  ],
+  "answer": "A",
+  "premises_used": [
+   0
+  ],
+  "distractor_types": {
+   "A": "correct",
+   "B": "wrong_number",
+   "C": "negated_fact",
+   "D": "unsupported"
+  },
+  "canary": false,
+  "sample_id": "holdout_0116",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_medkit-7",
+  "entity": "MedKit-7",
+  "premises": [
+   "If an item has launch clearance and no blocked-route report, then it is eligible to use the aerial corridor.",
+   "There is launch clearance for MedKit-7.",
+   "MedKit-7 lacks blocked-route report."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. MedKit-7 has a blocked-route report\nB. MedKit-7 has an audit waiver\nC. MedKit-7 is eligible to use the aerial corridor\nD. MedKit-7 is not eligible to use the aerial corridor",
+  "options": [
+   "A. MedKit-7 has a blocked-route report",
+   "B. MedKit-7 has an audit waiver",
+   "C. MedKit-7 is eligible to use the aerial corridor",
+   "D. MedKit-7 is not eligible to use the aerial corridor"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0117",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_codex",
+  "entity": "The River Codex",
+  "premises": [
+   "If an item has a 600 dpi scan and no missing metadata, then it is portal-eligible.",
+   "The River Codex carries a 600 dpi scan.",
+   "The River Codex lacks missing metadata."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. The River Codex has missing metadata\nB. The River Codex has an audit waiver\nC. The River Codex is portal-eligible\nD. The River Codex is not portal-eligible",
+  "options": [
+   "A. The River Codex has missing metadata",
+   "B. The River Codex has an audit waiver",
+   "C. The River Codex is portal-eligible",
+   "D. The River Codex is not portal-eligible"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0118",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_codex",
+  "entity": "The River Codex",
+  "premises": [
+   "Any item with a high-resolution scan and without missing metadata is eligible for the public portal.",
+   "The River Codex carries a high-resolution scan.",
+   "No missing metadata is recorded for The River Codex.",
+   "The River Codex carries a high-resolution scan."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. The River Codex has missing metadata\nB. The River Codex has a high-resolution scan\nC. The River Codex is eligible for the public portal\nD. The River Codex is not eligible for the public portal",
+  "options": [
+   "A. The River Codex has missing metadata",
+   "B. The River Codex has a high-resolution scan",
+   "C. The River Codex is eligible for the public portal",
+   "D. The River Codex is not eligible for the public portal"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "also_proven_canary",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": true,
+  "sample_id": "holdout_0119",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_medkit-7",
+  "entity": "MedKit-7",
+  "premises": [
+   "If an item has launch clearance and no blocked-route report, then it is permitted on the aerial corridor.",
+   "MedKit-7 carries launch clearance.",
+   "MedKit-7 lacks blocked-route report.",
+   "There is launch clearance for MedKit-7."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. MedKit-7 has a blocked-route report\nB. MedKit-7 has launch clearance\nC. MedKit-7 is permitted on the aerial corridor\nD. MedKit-7 is not permitted on the aerial corridor",
+  "options": [
+   "A. MedKit-7 has a blocked-route report",
+   "B. MedKit-7 has launch clearance",
+   "C. MedKit-7 is permitted on the aerial corridor",
+   "D. MedKit-7 is not permitted on the aerial corridor"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "also_proven_canary",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": true,
+  "sample_id": "holdout_0120",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_vega",
+  "entity": "Satellite Vega",
+  "premises": [
+   "When an item has calibrated thermal sensors but no cloud-penetrating radar fault, the item is disaster-mapping capable.",
+   "Satellite Vega has calibrated thermal sensors.",
+   "Satellite Vega lacks cloud-penetrating radar fault."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Satellite Vega has a cloud-penetrating radar fault\nB. Satellite Vega has an audit waiver\nC. Satellite Vega is disaster-mapping capable\nD. Satellite Vega is not disaster-mapping capable",
+  "options": [
+   "A. Satellite Vega has a cloud-penetrating radar fault",
+   "B. Satellite Vega has an audit waiver",
+   "C. Satellite Vega is disaster-mapping capable",
+   "D. Satellite Vega is not disaster-mapping capable"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0121",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "numeric_guard",
+  "surface_family": "numeric_12_vs_20",
+  "entity": "Cohort B",
+  "premises": [
+   "Cohort B has 8 enrolled participants."
+  ],
+  "query": "Which statement is correct?\nA. Cohort B has 8 enrolled participants\nB. Cohort B has 15 enrolled participants\nC. Cohort B has no enrolled participants\nD. Cohort B is full",
+  "options": [
+   "A. Cohort B has 8 enrolled participants",
+   "B. Cohort B has 15 enrolled participants",
+   "C. Cohort B has no enrolled participants",
+   "D. Cohort B is full"
+  ],
+  "answer": "A",
+  "premises_used": [
+   0
+  ],
+  "distractor_types": {
+   "A": "correct",
+   "B": "wrong_number",
+   "C": "negated_fact",
+   "D": "unsupported"
+  },
+  "canary": false,
+  "sample_id": "holdout_0122",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "numeric_guard",
+  "surface_family": "numeric_12_vs_20",
+  "entity": "Unit 9",
+  "premises": [
+   "Unit 9 has 8 enrolled participants."
+  ],
+  "query": "Which statement is correct?\nA. Unit 9 has 8 enrolled participants\nB. Unit 9 has 15 enrolled participants\nC. Unit 9 has no enrolled participants\nD. Unit 9 is full",
+  "options": [
+   "A. Unit 9 has 8 enrolled participants",
+   "B. Unit 9 has 15 enrolled participants",
+   "C. Unit 9 has no enrolled participants",
+   "D. Unit 9 is full"
+  ],
+  "answer": "A",
+  "premises_used": [
+   0
+  ],
+  "distractor_types": {
+   "A": "correct",
+   "B": "wrong_number",
+   "C": "negated_fact",
+   "D": "unsupported"
+  },
+  "canary": false,
+  "sample_id": "holdout_0123",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_vega",
+  "entity": "Satellite Vega",
+  "premises": [
+   "If an item has calibrated thermal sensors and no radar fault, then it is disaster-mapping capable.",
+   "There is calibrated thermal sensors for Satellite Vega.",
+   "No radar fault is recorded for Satellite Vega.",
+   "Calibrated thermal sensors is present for Satellite Vega."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Satellite Vega has a radar fault\nB. Satellite Vega has calibrated thermal sensors\nC. Satellite Vega is disaster-mapping capable\nD. Satellite Vega is not disaster-mapping capable",
+  "options": [
+   "A. Satellite Vega has a radar fault",
+   "B. Satellite Vega has calibrated thermal sensors",
+   "C. Satellite Vega is disaster-mapping capable",
+   "D. Satellite Vega is not disaster-mapping capable"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "also_proven_canary",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": true,
+  "sample_id": "holdout_0124",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "numeric_guard",
+  "surface_family": "numeric_12_vs_20",
+  "entity": "Cohort B",
+  "premises": [
+   "Cohort B has 12 enrolled participants."
+  ],
+  "query": "Which statement is correct?\nA. Cohort B has 12 enrolled participants\nB. Cohort B has 20 enrolled participants\nC. Cohort B has no enrolled participants\nD. Cohort B is full",
+  "options": [
+   "A. Cohort B has 12 enrolled participants",
+   "B. Cohort B has 20 enrolled participants",
+   "C. Cohort B has no enrolled participants",
+   "D. Cohort B is full"
+  ],
+  "answer": "A",
+  "premises_used": [
+   0
+  ],
+  "distractor_types": {
+   "A": "correct",
+   "B": "wrong_number",
+   "C": "negated_fact",
+   "D": "unsupported"
+  },
+  "canary": false,
+  "sample_id": "holdout_0125",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_vega",
+  "entity": "Satellite Vega",
+  "premises": [
+   "Any item with thermal sensors that are calibrated and without radar fault is able to support disaster mapping.",
+   "Satellite Vega has thermal sensors that are calibrated.",
+   "No radar fault is recorded for Satellite Vega.",
+   "Thermal sensors that are calibrated is present for Satellite Vega."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Satellite Vega has a radar fault\nB. Satellite Vega has thermal sensors that are calibrated\nC. Satellite Vega is able to support disaster mapping\nD. Satellite Vega is not able to support disaster mapping",
+  "options": [
+   "A. Satellite Vega has a radar fault",
+   "B. Satellite Vega has thermal sensors that are calibrated",
+   "C. Satellite Vega is able to support disaster mapping",
+   "D. Satellite Vega is not able to support disaster mapping"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "also_proven_canary",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": true,
+  "sample_id": "holdout_0126",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_nova",
+  "entity": "Batch Nova",
+  "premises": [
+   "If an item has a seal that is intact and no cold-chain breach, then it is release-ready.",
+   "There is a seal that is intact for Batch Nova.",
+   "No cold-chain breach is recorded for Batch Nova.",
+   "Batch Nova has a seal that is intact."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Batch Nova has a cold-chain breach\nB. Batch Nova has a seal that is intact\nC. Batch Nova is release-ready\nD. Batch Nova is not release-ready",
+  "options": [
+   "A. Batch Nova has a cold-chain breach",
+   "B. Batch Nova has a seal that is intact",
+   "C. Batch Nova is release-ready",
+   "D. Batch Nova is not release-ready"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "also_proven_canary",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": true,
+  "sample_id": "holdout_0127",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_medkit-7",
+  "entity": "MedKit-7",
+  "premises": [
+   "If an item has launch clearance and no route-blocking flag, then it is permitted on the aerial corridor.",
+   "MedKit-7 carries launch clearance.",
+   "No route-blocking flag is recorded for MedKit-7."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. MedKit-7 has a route-blocking flag\nB. MedKit-7 has an audit waiver\nC. MedKit-7 is permitted on the aerial corridor\nD. MedKit-7 is not permitted on the aerial corridor",
+  "options": [
+   "A. MedKit-7 has a route-blocking flag",
+   "B. MedKit-7 has an audit waiver",
+   "C. MedKit-7 is permitted on the aerial corridor",
+   "D. MedKit-7 is not permitted on the aerial corridor"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0128",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_vega",
+  "entity": "Satellite Vega",
+  "premises": [
+   "Any item with calibrated thermal sensors and without cloud-penetrating radar fault is disaster-mapping capable.",
+   "There is calibrated thermal sensors for Satellite Vega.",
+   "No cloud-penetrating radar fault is recorded for Satellite Vega.",
+   "Calibrated thermal sensors is present for Satellite Vega."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Satellite Vega has a cloud-penetrating radar fault\nB. Satellite Vega has calibrated thermal sensors\nC. Satellite Vega is disaster-mapping capable\nD. Satellite Vega is not disaster-mapping capable",
+  "options": [
+   "A. Satellite Vega has a cloud-penetrating radar fault",
+   "B. Satellite Vega has calibrated thermal sensors",
+   "C. Satellite Vega is disaster-mapping capable",
+   "D. Satellite Vega is not disaster-mapping capable"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "also_proven_canary",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": true,
+  "sample_id": "holdout_0129",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_codex",
+  "entity": "The River Codex",
+  "premises": [
+   "If an item has a 600 dpi scan and no missing metadata, then it is eligible for the public portal.",
+   "A 600 dpi scan is present for The River Codex.",
+   "The River Codex lacks missing metadata."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. The River Codex has missing metadata\nB. The River Codex has an audit waiver\nC. The River Codex is eligible for the public portal\nD. The River Codex is not eligible for the public portal",
+  "options": [
+   "A. The River Codex has missing metadata",
+   "B. The River Codex has an audit waiver",
+   "C. The River Codex is eligible for the public portal",
+   "D. The River Codex is not eligible for the public portal"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0130",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_vega",
+  "entity": "Satellite Vega",
+  "premises": [
+   "Any item with calibrated thermal sensors and without cloud-penetrating radar fault is disaster-mapping capable.",
+   "There is calibrated thermal sensors for Satellite Vega.",
+   "Cloud-penetrating radar fault is not established for Satellite Vega.",
+   "Calibrated thermal sensors is present for Satellite Vega."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Satellite Vega has a cloud-penetrating radar fault\nB. Satellite Vega has calibrated thermal sensors\nC. Satellite Vega is disaster-mapping capable\nD. Satellite Vega is not disaster-mapping capable",
+  "options": [
+   "A. Satellite Vega has a cloud-penetrating radar fault",
+   "B. Satellite Vega has calibrated thermal sensors",
+   "C. Satellite Vega is disaster-mapping capable",
+   "D. Satellite Vega is not disaster-mapping capable"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "also_proven_canary",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": true,
+  "sample_id": "holdout_0131",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_medkit-7",
+  "entity": "MedKit-7",
+  "premises": [
+   "When an item has launch clearance but no blocked-route report, the item is eligible to use the aerial corridor.",
+   "Launch clearance is present for MedKit-7.",
+   "No blocked-route report is recorded for MedKit-7."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. MedKit-7 has a blocked-route report\nB. MedKit-7 has an audit waiver\nC. MedKit-7 is eligible to use the aerial corridor\nD. MedKit-7 is not eligible to use the aerial corridor",
+  "options": [
+   "A. MedKit-7 has a blocked-route report",
+   "B. MedKit-7 has an audit waiver",
+   "C. MedKit-7 is eligible to use the aerial corridor",
+   "D. MedKit-7 is not eligible to use the aerial corridor"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0132",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_medkit-7",
+  "entity": "MedKit-7",
+  "premises": [
+   "If an item has launch clearance and no blocked-route report, then it is eligible to use the aerial corridor.",
+   "There is launch clearance for MedKit-7.",
+   "No blocked-route report is recorded for MedKit-7."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. MedKit-7 has a blocked-route report\nB. MedKit-7 has an audit waiver\nC. MedKit-7 is eligible to use the aerial corridor\nD. MedKit-7 is not eligible to use the aerial corridor",
+  "options": [
+   "A. MedKit-7 has a blocked-route report",
+   "B. MedKit-7 has an audit waiver",
+   "C. MedKit-7 is eligible to use the aerial corridor",
+   "D. MedKit-7 is not eligible to use the aerial corridor"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0133",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "numeric_guard",
+  "surface_family": "numeric_12_vs_20",
+  "entity": "Cohort B",
+  "premises": [
+   "Cohort B has 5 enrolled participants."
+  ],
+  "query": "Which statement is correct?\nA. Cohort B has 5 enrolled participants\nB. Cohort B has 9 enrolled participants\nC. Cohort B has no enrolled participants\nD. Cohort B is full",
+  "options": [
+   "A. Cohort B has 5 enrolled participants",
+   "B. Cohort B has 9 enrolled participants",
+   "C. Cohort B has no enrolled participants",
+   "D. Cohort B is full"
+  ],
+  "answer": "A",
+  "premises_used": [
+   0
+  ],
+  "distractor_types": {
+   "A": "correct",
+   "B": "wrong_number",
+   "C": "negated_fact",
+   "D": "unsupported"
+  },
+  "canary": false,
+  "sample_id": "holdout_0134",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "numeric_guard",
+  "surface_family": "numeric_12_vs_20",
+  "entity": "Cohort B",
+  "premises": [
+   "Cohort B has 5 enrolled participants."
+  ],
+  "query": "Which statement is correct?\nA. Cohort B has 5 enrolled participants\nB. Cohort B has 9 enrolled participants\nC. Cohort B has no enrolled participants\nD. Cohort B is full",
+  "options": [
+   "A. Cohort B has 5 enrolled participants",
+   "B. Cohort B has 9 enrolled participants",
+   "C. Cohort B has no enrolled participants",
+   "D. Cohort B is full"
+  ],
+  "answer": "A",
+  "premises_used": [
+   0
+  ],
+  "distractor_types": {
+   "A": "correct",
+   "B": "wrong_number",
+   "C": "negated_fact",
+   "D": "unsupported"
+  },
+  "canary": false,
+  "sample_id": "holdout_0135",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_codex",
+  "entity": "The River Codex",
+  "premises": [
+   "Any item with a high-resolution scan and without incomplete metadata is portal-eligible.",
+   "The River Codex has a high-resolution scan.",
+   "Incomplete metadata is not established for The River Codex.",
+   "The River Codex has a high-resolution scan."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. The River Codex has incomplete metadata\nB. The River Codex has a high-resolution scan\nC. The River Codex is portal-eligible\nD. The River Codex is not portal-eligible",
+  "options": [
+   "A. The River Codex has incomplete metadata",
+   "B. The River Codex has a high-resolution scan",
+   "C. The River Codex is portal-eligible",
+   "D. The River Codex is not portal-eligible"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "also_proven_canary",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": true,
+  "sample_id": "holdout_0136",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_nova",
+  "entity": "Batch Nova",
+  "premises": [
+   "If an item has a seal that is intact and no temperature breach, then it is ready for release.",
+   "A seal that is intact is present for Batch Nova.",
+   "Batch Nova has no temperature breach.",
+   "Batch Nova carries a seal that is intact."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. Batch Nova has a temperature breach\nB. Batch Nova has a seal that is intact\nC. Batch Nova is ready for release\nD. Batch Nova is not ready for release",
+  "options": [
+   "A. Batch Nova has a temperature breach",
+   "B. Batch Nova has a seal that is intact",
+   "C. Batch Nova is ready for release",
+   "D. Batch Nova is not ready for release"
+  ],
+  "answer": null,
+  "premises_used": [],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "also_proven_canary",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": true,
+  "sample_id": "holdout_0137",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "entity_conjunctive_mc",
+  "surface_family": "paraphrase_medkit-7",
+  "entity": "MedKit-7",
+  "premises": [
+   "Any item with launch clearance and without route-blocking flag is permitted on the aerial corridor.",
+   "MedKit-7 has launch clearance.",
+   "MedKit-7 lacks route-blocking flag."
+  ],
+  "query": "Based on the premises, which statement is correct?\nA. MedKit-7 has a route-blocking flag\nB. MedKit-7 has an audit waiver\nC. MedKit-7 is permitted on the aerial corridor\nD. MedKit-7 is not permitted on the aerial corridor",
+  "options": [
+   "A. MedKit-7 has a route-blocking flag",
+   "B. MedKit-7 has an audit waiver",
+   "C. MedKit-7 is permitted on the aerial corridor",
+   "D. MedKit-7 is not permitted on the aerial corridor"
+  ],
+  "answer": "C",
+  "premises_used": [
+   0,
+   1,
+   2
+  ],
+  "distractor_types": {
+   "A": "negated_fact",
+   "B": "unsupported",
+   "C": "correct_conjunctive",
+   "D": "contradiction"
+  },
+  "canary": false,
+  "sample_id": "holdout_0138",
+  "split": "holdout"
+ },
+ {
+  "logic_family": "numeric_guard",
+  "surface_family": "numeric_12_vs_20",
+  "entity": "Cohort B",
+  "premises": [
+   "Cohort B has 5 enrolled participants."
+  ],
+  "query": "Which statement is correct?\nA. Cohort B has 5 enrolled participants\nB. Cohort B has 9 enrolled participants\nC. Cohort B has no enrolled participants\nD. Cohort B is full",
+  "options": [
+   "A. Cohort B has 5 enrolled participants",
+   "B. Cohort B has 9 enrolled participants",
+   "C. Cohort B has no enrolled participants",
+   "D. Cohort B is full"
+  ],
+  "answer": "A",
+  "premises_used": [
+   0
+  ],
+  "distractor_types": {
+   "A": "correct",
+   "B": "wrong_number",
+   "C": "negated_fact",
+   "D": "unsupported"
+  },
+  "canary": false,
+  "sample_id": "holdout_0139",
+  "split": "holdout"
+ }
+]

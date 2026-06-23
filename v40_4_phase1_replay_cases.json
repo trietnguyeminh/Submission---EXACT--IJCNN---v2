@@ -1,0 +1,969 @@
+[
+  {
+    "query_id": "T1_0021",
+    "old_status": "correct",
+    "expected_answer": "A",
+    "expected_premises_used": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "v40_answer": "A",
+    "v40_premises_used": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "rule": "entity_unique_proof",
+    "answer_ok": true,
+    "premises_ok": true,
+    "query": "Based on the museum conservation rules, which conclusion is logically supported?\nA. The Amber Amulet must be displayed in a climate-controlled case\nB. The Amber Amulet cannot be placed on public display\nC. The Amber Amulet needs pest treatment before storage\nD. The Amber Amulet lacks a provenance ce",
+    "option_status": {
+      "A": [
+        "PROVEN",
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      ],
+      "B": [
+        "DISPROVEN",
+        []
+      ],
+      "C": [
+        "UNSUP",
+        []
+      ],
+      "D": [
+        "DISPROVEN",
+        []
+      ]
+    }
+  },
+  {
+    "query_id": "T1_0031",
+    "old_status": "wrong_premises_used",
+    "expected_answer": "B",
+    "expected_premises_used": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "v40_answer": null,
+    "v40_premises_used": [],
+    "rule": "multiple",
+    "answer_ok": false,
+    "premises_ok": false,
+    "query": "Based on the digitization rules, which conclusion is correct?\nA. The River Codex is not eligible for the public portal\nB. The River Codex is searchable online, but safe public release is not established\nC. The River Codex lacks OCR verification\nD. The River Codex is safe for public release because i",
+    "option_status": {
+      "A": [
+        "DISPROVEN",
+        []
+      ],
+      "B": [
+        "PROVEN",
+        [
+          0,
+          1,
+          2,
+          5,
+          6,
+          7,
+          8
+        ]
+      ],
+      "C": [
+        "UNSUP",
+        []
+      ],
+      "D": [
+        "PROVEN",
+        [
+          3,
+          4,
+          6,
+          9
+        ]
+      ]
+    }
+  },
+  {
+    "query_id": "T1_0025",
+    "old_status": "wrong_answer",
+    "expected_answer": "C",
+    "expected_premises_used": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "v40_answer": null,
+    "v40_premises_used": [],
+    "rule": "none",
+    "answer_ok": false,
+    "premises_ok": false,
+    "query": "Based on the drone delivery rules, which conclusion is logically supported?\nA. MedKit-7 cannot be dispatched because the route is blocked\nB. MedKit-7 has launch approval\nC. MedKit-7 is eligible to use the aerial corridor\nD. MedKit-7 is not a priority package",
+    "option_status": {
+      "A": [
+        "UNSUP",
+        []
+      ],
+      "B": [
+        "UNSUP",
+        []
+      ],
+      "C": [
+        "UNSUP",
+        []
+      ],
+      "D": [
+        "UNSUP",
+        []
+      ]
+    }
+  },
+  {
+    "query_id": "T1_0027",
+    "old_status": "wrong_answer",
+    "expected_answer": "D",
+    "expected_premises_used": [
+      0,
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "v40_answer": null,
+    "v40_premises_used": [],
+    "rule": "none",
+    "answer_ok": false,
+    "premises_ok": false,
+    "query": "Based on the triage rules, which conclusion is correct?\nA. Mira can be discharged because the rapid test is positive\nB. Mira can receive the standard antiviral dose immediately\nC. Mira does not need respiratory isolation\nD. Mira enters the antiviral protocol and requires dose review",
+    "option_status": {
+      "A": [
+        "UNSUP",
+        []
+      ],
+      "B": [
+        "UNSUP",
+        []
+      ],
+      "C": [
+        "UNSUP",
+        []
+      ],
+      "D": [
+        "UNSUP",
+        []
+      ]
+    }
+  },
+  {
+    "query_id": "T1_0035",
+    "old_status": "wrong_answer",
+    "expected_answer": "D",
+    "expected_premises_used": [
+      0,
+      1,
+      2,
+      5,
+      6,
+      7,
+      8
+    ],
+    "v40_answer": null,
+    "v40_premises_used": [],
+    "rule": "none",
+    "answer_ok": false,
+    "premises_ok": false,
+    "query": "Based on the smart greenhouse rules, which conclusion is supported?\nA. The reservoir lacks water\nB. Chemical treatment is allowed for Greenhouse Basil\nC. Irrigation is unnecessary because a heatwave is active\nD. Autonomous watering is allowed for Greenhouse Basil",
+    "option_status": {
+      "A": [
+        "DISPROVEN",
+        []
+      ],
+      "B": [
+        "UNSUP",
+        []
+      ],
+      "C": [
+        "UNSUP",
+        []
+      ],
+      "D": [
+        "UNSUP",
+        []
+      ]
+    }
+  },
+  {
+    "query_id": "T1_0039",
+    "old_status": "wrong_premises_used",
+    "expected_answer": "C",
+    "expected_premises_used": [
+      0,
+      1,
+      2,
+      5,
+      6,
+      7,
+      8
+    ],
+    "v40_answer": null,
+    "v40_premises_used": [],
+    "rule": "none",
+    "answer_ok": false,
+    "premises_ok": false,
+    "query": "Based on the cold-chain rules, which conclusion is logically supported?\nA. Batch Nova is not viable\nB. Batch Nova must be quarantined\nC. Batch Nova can be administered\nD. Batch Nova lacks a complete temperature log",
+    "option_status": {
+      "A": [
+        "UNSUP",
+        []
+      ],
+      "B": [
+        "UNSUP",
+        []
+      ],
+      "C": [
+        "UNSUP",
+        []
+      ],
+      "D": [
+        "DISPROVEN",
+        []
+      ]
+    }
+  },
+  {
+    "query_id": "T1_0023",
+    "old_status": "wrong_premises_used",
+    "expected_answer": "A",
+    "expected_premises_used": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      6,
+      7
+    ],
+    "v40_answer": "A",
+    "v40_premises_used": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      6,
+      7
+    ],
+    "rule": "entity_unique_proof",
+    "answer_ok": true,
+    "premises_ok": true,
+    "query": "Based on the cybersecurity workflow, which statement is correct?\nA. The Atlas case is audit-ready, but formal closure is not established by the premises\nB. The Atlas case is formally closed\nC. The Atlas incident is not contained\nD. The Atlas account still needs password resets",
+    "option_status": {
+      "A": [
+        "PROVEN",
+        [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "B": [
+        "UNSUP",
+        []
+      ],
+      "C": [
+        "DISPROVEN",
+        []
+      ],
+      "D": [
+        "UNSUP",
+        []
+      ]
+    }
+  },
+  {
+    "query_id": "T1_0033",
+    "old_status": "wrong_answer",
+    "expected_answer": "C",
+    "expected_premises_used": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      6,
+      7
+    ],
+    "v40_answer": null,
+    "v40_premises_used": [],
+    "rule": "none",
+    "answer_ok": false,
+    "premises_ok": false,
+    "query": "Based on the reef management rules, which conclusion follows?\nA. Azure Reef has no restoration priority\nB. Azure Reef's conservation plan is approved\nC. A temporary no-take zone is recommended for Azure Reef\nD. Azure Reef has no stress alert",
+    "option_status": {
+      "A": [
+        "UNSUP",
+        []
+      ],
+      "B": [
+        "UNSUP",
+        []
+      ],
+      "C": [
+        "UNSUP",
+        []
+      ],
+      "D": [
+        "UNSUP",
+        []
+      ]
+    }
+  },
+  {
+    "query_id": "T1_0046",
+    "old_status": "correct",
+    "expected_answer": "A",
+    "expected_premises_used": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "v40_answer": null,
+    "v40_premises_used": [],
+    "rule": "none",
+    "answer_ok": false,
+    "premises_ok": false,
+    "query": "Which conclusion is supported by the clinic roster premises?\nA. Linh receives a blue access badge\nB. Linh has pharmacy training\nC. The morning triage shift needs 5 volunteers\nD. Linh cannot assist at the triage desk",
+    "option_status": {
+      "A": [
+        "UNSUP",
+        []
+      ],
+      "B": [
+        "UNSUP",
+        []
+      ],
+      "C": [
+        "UNSUP",
+        []
+      ],
+      "D": [
+        "DISPROVEN",
+        []
+      ]
+    }
+  },
+  {
+    "query_id": "T1_0013",
+    "old_status": "correct",
+    "expected_answer": "D",
+    "expected_premises_used": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "v40_answer": null,
+    "v40_premises_used": [],
+    "rule": "none",
+    "answer_ok": false,
+    "premises_ok": false,
+    "query": "Which conclusion follows from the premises?\nA. Manuscript Nova fails the reproducibility checklist\nB. Manuscript Nova cannot be peer reviewed\nC. Manuscript Nova lacks methodological transparency\nD. Manuscript Nova is eligible for open science recognition",
+    "option_status": {
+      "A": [
+        "UNSUP",
+        []
+      ],
+      "B": [
+        "UNSUP",
+        []
+      ],
+      "C": [
+        "UNSUP",
+        []
+      ],
+      "D": [
+        "UNSUP",
+        []
+      ]
+    }
+  },
+  {
+    "query_id": "T1_0015",
+    "old_status": "wrong_answer",
+    "expected_answer": "B",
+    "expected_premises_used": [
+      0,
+      1,
+      3,
+      4
+    ],
+    "v40_answer": "B",
+    "v40_premises_used": [
+      0,
+      1,
+      3,
+      4
+    ],
+    "rule": "entity_unique_proof",
+    "answer_ok": true,
+    "premises_ok": true,
+    "query": "Based on the premises, which conclusion is correct?\nA. Robot Kappa can prepare outbound orders\nB. Robot Kappa can pick inventory items\nC. Robot Kappa has weight verification\nD. Robot Kappa cannot navigate aisles safely",
+    "option_status": {
+      "A": [
+        "UNSUP",
+        []
+      ],
+      "B": [
+        "PROVEN",
+        [
+          0,
+          1,
+          3,
+          4
+        ]
+      ],
+      "C": [
+        "DISPROVEN",
+        []
+      ],
+      "D": [
+        "DISPROVEN",
+        []
+      ]
+    }
+  },
+  {
+    "query_id": "T1_0007",
+    "old_status": "wrong_answer",
+    "expected_answer": "B",
+    "expected_premises_used": [
+      0,
+      3,
+      5,
+      6
+    ],
+    "v40_answer": "B",
+    "v40_premises_used": [
+      0,
+      3,
+      5,
+      6
+    ],
+    "rule": "entity_unique_proof",
+    "answer_ok": true,
+    "premises_ok": true,
+    "query": "Based on the premises, which statement is best supported?\nA. Satellite Vega can support disaster mapping\nB. Satellite Vega can monitor surface temperature and capture daytime images\nC. Satellite Vega can provide emergency response data\nD. Satellite Vega has cloud-penetrating radar",
+    "option_status": {
+      "A": [
+        "UNSUP",
+        []
+      ],
+      "B": [
+        "PROVEN",
+        [
+          0,
+          3,
+          5,
+          6
+        ]
+      ],
+      "C": [
+        "UNSUP",
+        []
+      ],
+      "D": [
+        "DISPROVEN",
+        []
+      ]
+    }
+  },
+  {
+    "query_id": "T1_0041",
+    "old_status": "wrong_premises_used",
+    "expected_answer": "A",
+    "expected_premises_used": [
+      0,
+      1,
+      3,
+      4,
+      5
+    ],
+    "v40_answer": "A",
+    "v40_premises_used": [
+      0,
+      1,
+      3,
+      4,
+      5
+    ],
+    "rule": "entity_unique_proof",
+    "answer_ok": true,
+    "premises_ok": true,
+    "query": "Based on the premises, which option is logically supported?\nA. Asha may join Study Alpha\nB. Asha cannot handle participant data\nC. Asha has budget approval\nD. Study Alpha has 20 enrolled participants",
+    "option_status": {
+      "A": [
+        "PROVEN",
+        [
+          0,
+          1,
+          3,
+          4,
+          5
+        ]
+      ],
+      "B": [
+        "DISPROVEN",
+        []
+      ],
+      "C": [
+        "UNSUP",
+        []
+      ],
+      "D": [
+        "UNSUP",
+        []
+      ]
+    }
+  },
+  {
+    "query_id": "T1_0026",
+    "old_status": "correct",
+    "expected_answer": "Yes",
+    "expected_premises_used": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "v40_answer": null,
+    "v40_premises_used": [],
+    "rule": "none",
+    "answer_ok": false,
+    "premises_ok": false,
+    "query": "Is MedKit-7 eligible to use the aerial corridor, according to the premises?",
+    "option_status": {
+      "A": [
+        "UNSUP",
+        []
+      ],
+      "B": [
+        "UNSUP",
+        []
+      ],
+      "C": [
+        "UNSUP",
+        []
+      ]
+    }
+  },
+  {
+    "query_id": "T1_0022",
+    "old_status": "wrong_answer",
+    "expected_answer": "Yes",
+    "expected_premises_used": [
+      0,
+      1,
+      2,
+      5,
+      6,
+      7,
+      8
+    ],
+    "v40_answer": null,
+    "v40_premises_used": [],
+    "rule": "none",
+    "answer_ok": false,
+    "premises_ok": false,
+    "query": "Does the Amber Amulet qualify for public display, according to the premises?",
+    "option_status": {
+      "A": [
+        "UNSUP",
+        []
+      ],
+      "B": [
+        "UNSUP",
+        []
+      ],
+      "C": [
+        "UNSUP",
+        []
+      ]
+    }
+  },
+  {
+    "query_id": "T1_0030",
+    "old_status": "correct",
+    "expected_answer": "Yes",
+    "expected_premises_used": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      6,
+      7
+    ],
+    "v40_answer": null,
+    "v40_premises_used": [],
+    "rule": "none",
+    "answer_ok": false,
+    "premises_ok": false,
+    "query": "Does the Harbor microgrid have a high resilience score, according to the premises?",
+    "option_status": {
+      "A": [
+        "UNSUP",
+        []
+      ],
+      "B": [
+        "UNSUP",
+        []
+      ],
+      "C": [
+        "UNSUP",
+        []
+      ]
+    }
+  },
+  {
+    "query_id": "T1_0034",
+    "old_status": "correct",
+    "expected_answer": "Yes",
+    "expected_premises_used": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      6,
+      7
+    ],
+    "v40_answer": null,
+    "v40_premises_used": [],
+    "rule": "none",
+    "answer_ok": false,
+    "premises_ok": false,
+    "query": "Is a temporary no-take zone recommended for Azure Reef, according to the premises?",
+    "option_status": {
+      "A": [
+        "UNSUP",
+        []
+      ],
+      "B": [
+        "UNSUP",
+        []
+      ],
+      "C": [
+        "UNSUP",
+        []
+      ]
+    }
+  },
+  {
+    "query_id": "T1_0042",
+    "old_status": "correct",
+    "expected_answer": "Yes",
+    "expected_premises_used": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "v40_answer": null,
+    "v40_premises_used": [],
+    "rule": "none",
+    "answer_ok": false,
+    "premises_ok": false,
+    "query": "Is Asha listed as an active contributor?",
+    "option_status": {
+      "A": [
+        "UNSUP",
+        []
+      ],
+      "B": [
+        "UNSUP",
+        []
+      ],
+      "C": [
+        "UNSUP",
+        []
+      ]
+    }
+  },
+  {
+    "query_id": "T1_0024",
+    "old_status": "correct",
+    "expected_answer": "No",
+    "expected_premises_used": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "v40_answer": null,
+    "v40_premises_used": [],
+    "rule": "none",
+    "answer_ok": false,
+    "premises_ok": false,
+    "query": "Do the premises prove that the Atlas case can be formally closed?",
+    "option_status": {
+      "A": [
+        "UNSUP",
+        []
+      ],
+      "B": [
+        "UNSUP",
+        []
+      ],
+      "C": [
+        "UNSUP",
+        []
+      ]
+    }
+  },
+  {
+    "query_id": "T1_0028",
+    "old_status": "wrong_answer",
+    "expected_answer": "No",
+    "expected_premises_used": [
+      1,
+      2,
+      3,
+      4,
+      7,
+      8
+    ],
+    "v40_answer": null,
+    "v40_premises_used": [],
+    "rule": "none",
+    "answer_ok": false,
+    "premises_ok": false,
+    "query": "Do the premises establish that Mira should receive the standard antiviral dose?",
+    "option_status": {
+      "A": [
+        "UNSUP",
+        []
+      ],
+      "B": [
+        "UNSUP",
+        []
+      ],
+      "C": [
+        "UNSUP",
+        []
+      ]
+    }
+  },
+  {
+    "query_id": "T1_0008",
+    "old_status": "wrong_answer",
+    "expected_answer": "No",
+    "expected_premises_used": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "v40_answer": null,
+    "v40_premises_used": [],
+    "rule": "none",
+    "answer_ok": false,
+    "premises_ok": false,
+    "query": "Does having thermal sensors and an optical camera guarantee emergency response data in this case?",
+    "option_status": {
+      "A": [
+        "UNSUP",
+        []
+      ],
+      "B": [
+        "UNSUP",
+        []
+      ],
+      "C": [
+        "UNSUP",
+        []
+      ]
+    }
+  },
+  {
+    "query_id": "T1_0016",
+    "old_status": "correct",
+    "expected_answer": "No",
+    "expected_premises_used": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "v40_answer": null,
+    "v40_premises_used": [],
+    "rule": "none",
+    "answer_ok": false,
+    "premises_ok": false,
+    "query": "Does Robot Kappa satisfy every requirement for preparing outbound orders?",
+    "option_status": {
+      "A": [
+        "UNSUP",
+        []
+      ],
+      "B": [
+        "UNSUP",
+        []
+      ],
+      "C": [
+        "UNSUP",
+        []
+      ]
+    }
+  },
+  {
+    "query_id": "T1_0032",
+    "old_status": "wrong_answer",
+    "expected_answer": "No",
+    "expected_premises_used": [
+      3,
+      4,
+      9
+    ],
+    "v40_answer": null,
+    "v40_premises_used": [],
+    "rule": "none",
+    "answer_ok": false,
+    "premises_ok": false,
+    "query": "Do the premises establish that the River Codex is safe for public release?",
+    "option_status": {
+      "A": [
+        "UNSUP",
+        []
+      ],
+      "B": [
+        "UNSUP",
+        []
+      ],
+      "C": [
+        "UNSUP",
+        []
+      ]
+    }
+  },
+  {
+    "query_id": "T1_0043",
+    "old_status": "wrong_premises_used",
+    "expected_answer": "Uncertain",
+    "expected_premises_used": [
+      7
+    ],
+    "v40_answer": null,
+    "v40_premises_used": [],
+    "rule": "none",
+    "answer_ok": false,
+    "premises_ok": false,
+    "query": "Does Asha have budget approval?",
+    "option_status": {
+      "A": [
+        "UNSUP",
+        []
+      ],
+      "B": [
+        "UNSUP",
+        []
+      ],
+      "C": [
+        "UNSUP",
+        []
+      ]
+    }
+  },
+  {
+    "query_id": "T1_0048",
+    "old_status": "wrong_answer",
+    "expected_answer": "Uncertain",
+    "expected_premises_used": [
+      7
+    ],
+    "v40_answer": null,
+    "v40_premises_used": [],
+    "rule": "none",
+    "answer_ok": false,
+    "premises_ok": false,
+    "query": "Does Linh have pharmacy training?",
+    "option_status": {
+      "A": [
+        "UNSUP",
+        []
+      ],
+      "B": [
+        "UNSUP",
+        []
+      ],
+      "C": [
+        "UNSUP",
+        []
+      ]
+    }
+  }
+]

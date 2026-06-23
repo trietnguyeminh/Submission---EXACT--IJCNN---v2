@@ -1,0 +1,24 @@
+{
+  "version": "v40.5-one-run-safe-audit",
+  "created_utc": "2026-06-19T08:55:44.734633+00:00",
+  "source_mode": "phase1_log",
+  "selected_stage": "v40_5_mc_only_certificate",
+  "files": {
+    "CLAUDE_HANDOFF.md": "/kaggle/working/exact_v40_5_combined_outputs/CLAUDE_HANDOFF.md",
+    "SUMMARY.json": "/kaggle/working/exact_v40_5_combined_outputs/SUMMARY.json",
+    "stage_00_combination_map.json": "/kaggle/working/exact_v40_5_combined_outputs/stage_00_combination_map.json",
+    "stage_00_current_pipeline.json": "/kaggle/working/exact_v40_5_combined_outputs/stage_00_current_pipeline.json",
+    "stage_00_input_audit.json": "/kaggle/working/exact_v40_5_combined_outputs/stage_00_input_audit.json",
+    "stage_01_replay_report_selected.json": "/kaggle/working/exact_v40_5_combined_outputs/stage_01_replay_report_selected.json",
+    "stage_01_v40_5_mc_only_cases.json": "/kaggle/working/exact_v40_5_combined_outputs/stage_01_v40_5_mc_only_cases.json",
+    "stage_02_full_metrics.json": "/kaggle/working/exact_v40_5_combined_outputs/stage_02_full_metrics.json",
+    "stage_02_v40_5_mc_plus_ynu_experimental_cases.json": "/kaggle/working/exact_v40_5_combined_outputs/stage_02_v40_5_mc_plus_ynu_experimental_cases.json",
+    "stage_03_gap_audit.json": "/kaggle/working/exact_v40_5_combined_outputs/stage_03_gap_audit.json",
+    "stage_03_selected_cases.json": "/kaggle/working/exact_v40_5_combined_outputs/stage_03_selected_cases.json",
+    "stage_04_overfit_underfit_audit.json": "/kaggle/working/exact_v40_5_combined_outputs/stage_04_overfit_underfit_audit.json",
+    "stage_05_upgrade_stage_reports.json": "/kaggle/working/exact_v40_5_combined_outputs/stage_05_upgrade_stage_reports.json",
+    "stage_06_safe_upgrade_decision.json": "/kaggle/working/exact_v40_5_combined_outputs/stage_06_safe_upgrade_decision.json"
+  },
+  "single_primary_file": "exact_v40_5_one_run_COMBINED.ipynb",
+  "external_py_required": false
+}

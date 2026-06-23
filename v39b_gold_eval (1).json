@@ -1,0 +1,49 @@
+{
+ "n": 600,
+ "nl_fired": 385,
+ "nl_correct": 385,
+ "nl_wrong": 0,
+ "nl_precision": 1.0,
+ "nl_coverage": 0.641667,
+ "both_fired": 366,
+ "answer_preservation_common": [
+  366,
+  366
+ ],
+ "premises_used_preservation": [
+  366,
+  366
+ ],
+ "nl_only_extra": 19,
+ "nl_only_correct": 19,
+ "nl_only_wrong": 0,
+ "nl_only_wrong_examples": [],
+ "fol_only_missed": 2,
+ "fol_only_missed_examples": [
+  {
+   "flat_id": "generated_v4style_300:9:0",
+   "q": "Based on the premises, which conclusion follows?\nA. At least one student earns course credit.\nB. Every student earns course credit.\nC. No student earns course c",
+   "fol_answer": "A",
+   "gold": "A",
+   "fol_rule": "MC_unique_direct_proof",
+   "fol_premises_used": [
+    0,
+    1,
+    2
+   ]
+  },
+  {
+   "flat_id": "generated_v4style_300:227:0",
+   "q": "Based on the premises, which conclusion follows?\nA. At least one researcher conducts experiments.\nB. Every researcher conducts experiments.\nC. No researcher con",
+   "fol_answer": "A",
+   "gold": "A",
+   "fol_rule": "MC_unique_direct_proof",
+   "fol_premises_used": [
+    0,
+    1,
+    2
+   ]
+  }
+ ],
+ "gate": "BUILD_LIVE_V38B_V39_WRAPPER"
+}

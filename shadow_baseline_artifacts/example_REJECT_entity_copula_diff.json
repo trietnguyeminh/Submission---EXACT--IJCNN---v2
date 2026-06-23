@@ -1,0 +1,36 @@
+{
+ "candidate": "v405.py",
+ "baseline": "v40_4_entity_conjunctive_engine.py",
+ "n": 25,
+ "baseline_fired_set": [
+  "T1_0007",
+  "T1_0015",
+  "T1_0021",
+  "T1_0023",
+  "T1_0041"
+ ],
+ "candidate_fired_set": [
+  "T1_0013",
+  "T1_0015",
+  "T1_0021",
+  "T1_0031",
+  "T1_0035",
+  "T1_0041"
+ ],
+ "added": [
+  "T1_0013",
+  "T1_0031",
+  "T1_0035"
+ ],
+ "lost": [
+  "T1_0007",
+  "T1_0023"
+ ],
+ "changed_premises": [],
+ "candidate_wrong": [],
+ "new_multiple_proven": [],
+ "decision": "REJECT",
+ "reject_reasons": [
+  "lost_cases"
+ ]
+}

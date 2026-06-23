@@ -1,0 +1,52 @@
+{
+  "test_suite": "EVALUATED_OUTPUT_PASS_RATE_REPORT",
+  "total": 1,
+  "passed": 1,
+  "failed": 0,
+  "success_pct": 100.0,
+  "cases": [
+    {
+      "name": "06b_generated_v4style_300_smoke50_preds_evaluated.json",
+      "ok": true,
+      "expected": null,
+      "observed": {
+        "file": "/kaggle/working/06b_generated_v4style_300_smoke50_preds_evaluated.json",
+        "n": 50,
+        "success_pct_v35": 88.0,
+        "acc_v35": 0.88,
+        "macro7_v35": 0.7808738880167452,
+        "acc_raw": 0.82,
+        "macro7_raw": 0.7146520146520147,
+        "mc_success_pct": 92.8571,
+        "ynu_success_pct": 86.1111,
+        "v35_flips": 3,
+        "v35_good_flips": 3,
+        "v35_bad_flips": 0,
+        "missing_final_answer": 0,
+        "generation_errors": 0,
+        "label_gold_distribution": {
+          "Unknown": 19,
+          "Yes": 12,
+          "No": 5,
+          "B": 6,
+          "A": 6,
+          "C": 1,
+          "D": 1
+        },
+        "label_pred_distribution": {
+          "Unknown": 16,
+          "Yes": 12,
+          "No": 8,
+          "B": 6,
+          "A": 7,
+          "C": 1
+        }
+      },
+      "extra": {}
+    }
+  ],
+  "extra": {
+    "n_files": 1,
+    "note": "If n_files=0, run the smoke/full evaluation cells first."
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "version": "v40.5-one-run-safe-audit",
+  "source_mode": "phase1_log",
+  "selected_stage": "v40_5_mc_only_certificate",
+  "replay_report": {
+    "n": 25,
+    "fired": 5,
+    "answer_correct": 5,
+    "premises_used_correct": 5,
+    "wrong": [],
+    "fixed_old_wrong": [
+      "T1_0023",
+      "T1_0015",
+      "T1_0007",
+      "T1_0041"
+    ],
+    "abstained": 20,
+    "precision_when_fired": 1.0,
+    "coverage": 0.2,
+    "gate": "ABSTAIN_SAFE"
+  },
+  "MC_certificate_metrics": {
+    "n": 13,
+    "fired": 5,
+    "abstained": 8,
+    "coverage": 0.384615,
+    "strict_accuracy_abstain_as_wrong": 0.384615,
+    "fired_accuracy": 1.0,
+    "macro_precision_strict": 0.5,
+    "macro_recall_strict": 0.354167,
+    "macro_f1_strict": 0.414286,
+    "per_label": {
+      "A": {
+        "support": 4,
+        "tp": 3,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1": 0.857143
+      },
+      "B": {
+        "support": 3,
+        "tp": 2,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.666667,
+        "f1": 0.8
+      },
+      "C": {
+        "support": 3,
+        "tp": 0,
+        "fp": 0,
+        "fn": 3,
+        "precision": null,
+        "recall": 0.0,
+        "f1": null
+      },
+      "D": {
+        "support": 3,
+        "tp": 0,
+        "fp": 0,
+        "fn": 3,
+        "precision": null,
+        "recall": 0.0,
+        "f1": null
+      }
+    }
+  },
+  "YNU_certificate_metrics": {
+    "n": 12,
+    "fired": 0,
+    "abstained": 12,
+    "coverage": 0.0,
+    "strict_accuracy_abstain_as_wrong": 0.0,
+    "fired_accuracy": null,
+    "macro_precision_strict": 0.0,
+    "macro_recall_strict": 0.0,
+    "macro_f1_strict": 0.0,
+    "per_label": {
+      "Yes": {
+        "support": 5,
+        "tp": 0,
+        "fp": 0,
+        "fn": 5,
+        "precision": null,
+        "recall": 0.0,
+        "f1": null
+      },
+      "No": {
+        "support": 5,
+        "tp": 0,
+        "fp": 0,
+        "fn": 5,
+        "precision": null,
+        "recall": 0.0,
+        "f1": null
+      },
+      "Uncertain": {
+        "support": 2,
+        "tp": 0,
+        "fp": 0,
+        "fn": 2,
+        "precision": null,
+        "recall": 0.0,
+        "f1": null
+      }
+    }
+  },
+  "ALL_after_safe_override_status_metrics": {
+    "n": 25,
+    "status_counts_after_safe_override": {
+      "correct": 13,
+      "wrong_premises_used": 3,
+      "wrong_answer": 9
+    },
+    "estimated_exact_accuracy_after_override": 0.52,
+    "estimated_answer_accuracy_after_override": 0.64,
+    "note": "This estimate is exact for status categories if old_status semantics are correct. Label F1 still needs raw old predictions for abstained rows."
+  },
+  "overfit_underfit_summary": {
+    "overfit_status": "needs_holdout_or_cross_log_check",
+    "underfit_status": "high_coverage_underfit",
+    "why": [
+      "The rule layer is not trained statistically, so classic train-loss/test-loss overfit cannot be measured from this artifact alone.",
+      "Overfit risk appears when rules are hand-tuned to the same 25 Phase-1 cases; use staged zero-wrong promotion and a separate holdout/full log.",
+      "Underfit/low-coverage is visible: fired=5/25 and abstained=20/25.",
+      "MC abstains=8/13; YNU abstains=12/12."
+    ]
+  }
+}

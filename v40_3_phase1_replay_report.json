@@ -1,0 +1,17 @@
+{
+ "n": 25,
+ "fired": 5,
+ "answer_correct": 5,
+ "premises_used_correct": 5,
+ "wrong": [],
+ "fixed_old_wrong": [
+  "T1_0023",
+  "T1_0015",
+  "T1_0007",
+  "T1_0041"
+ ],
+ "abstained": 20,
+ "precision_when_fired": 1.0,
+ "coverage": 0.2,
+ "gate": "ABSTAIN_SAFE"
+}

@@ -1,0 +1,619 @@
+{
+ "n": 25,
+ "taxonomy": {
+  "FIRED": 5,
+  "multiple_direct_proven": 1,
+  "compound_option_unparsed": 3,
+  "predicate_mismatch": 4,
+  "ynu_unsupported": 12
+ },
+ "cases": [
+  {
+   "query_id": "T1_0021",
+   "category": "mcq",
+   "old_status": "correct",
+   "expected_answer": "A",
+   "expected_premises_used": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "v40_decision": "A",
+   "v40_premises_used": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "v40_rule": "entity_unique_proof",
+   "taxonomy": "FIRED",
+   "option_status": {
+    "A": "PROVEN",
+    "B": "DISPROVEN",
+    "C": "UNSUP",
+    "D": "DISPROVEN"
+   },
+   "n_options": 4
+  },
+  {
+   "query_id": "T1_0031",
+   "category": "mcq",
+   "old_status": "wrong_premises_used",
+   "expected_answer": "B",
+   "expected_premises_used": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "v40_decision": null,
+   "v40_premises_used": [],
+   "v40_rule": "multiple",
+   "taxonomy": "multiple_direct_proven",
+   "option_status": {
+    "A": "DISPROVEN",
+    "B": "PROVEN",
+    "C": "UNSUP",
+    "D": "PROVEN"
+   },
+   "n_options": 4
+  },
+  {
+   "query_id": "T1_0025",
+   "category": "mcq",
+   "old_status": "wrong_answer",
+   "expected_answer": "C",
+   "expected_premises_used": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "v40_decision": null,
+   "v40_premises_used": [],
+   "v40_rule": "none",
+   "taxonomy": "compound_option_unparsed",
+   "option_status": {
+    "A": "UNSUP",
+    "B": "UNSUP",
+    "C": "UNSUP",
+    "D": "UNSUP"
+   },
+   "n_options": 4
+  },
+  {
+   "query_id": "T1_0027",
+   "category": "mcq",
+   "old_status": "wrong_answer",
+   "expected_answer": "D",
+   "expected_premises_used": [
+    0,
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "v40_decision": null,
+   "v40_premises_used": [],
+   "v40_rule": "none",
+   "taxonomy": "compound_option_unparsed",
+   "option_status": {
+    "A": "UNSUP",
+    "B": "UNSUP",
+    "C": "UNSUP",
+    "D": "UNSUP"
+   },
+   "n_options": 4
+  },
+  {
+   "query_id": "T1_0035",
+   "category": "mcq",
+   "old_status": "wrong_answer",
+   "expected_answer": "D",
+   "expected_premises_used": [
+    0,
+    1,
+    2,
+    5,
+    6,
+    7,
+    8
+   ],
+   "v40_decision": null,
+   "v40_premises_used": [],
+   "v40_rule": "none",
+   "taxonomy": "compound_option_unparsed",
+   "option_status": {
+    "A": "DISPROVEN",
+    "B": "UNSUP",
+    "C": "UNSUP",
+    "D": "UNSUP"
+   },
+   "n_options": 4
+  },
+  {
+   "query_id": "T1_0039",
+   "category": "mcq",
+   "old_status": "wrong_premises_used",
+   "expected_answer": "C",
+   "expected_premises_used": [
+    0,
+    1,
+    2,
+    5,
+    6,
+    7,
+    8
+   ],
+   "v40_decision": null,
+   "v40_premises_used": [],
+   "v40_rule": "none",
+   "taxonomy": "predicate_mismatch",
+   "option_status": {
+    "A": "UNSUP",
+    "B": "UNSUP",
+    "C": "UNSUP",
+    "D": "DISPROVEN"
+   },
+   "n_options": 4
+  },
+  {
+   "query_id": "T1_0023",
+   "category": "mcq",
+   "old_status": "wrong_premises_used",
+   "expected_answer": "A",
+   "expected_premises_used": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    6,
+    7
+   ],
+   "v40_decision": "A",
+   "v40_premises_used": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    6,
+    7
+   ],
+   "v40_rule": "entity_unique_proof",
+   "taxonomy": "FIRED",
+   "option_status": {
+    "A": "PROVEN",
+    "B": "UNSUP",
+    "C": "DISPROVEN",
+    "D": "UNSUP"
+   },
+   "n_options": 4
+  },
+  {
+   "query_id": "T1_0033",
+   "category": "mcq",
+   "old_status": "wrong_answer",
+   "expected_answer": "C",
+   "expected_premises_used": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    6,
+    7
+   ],
+   "v40_decision": null,
+   "v40_premises_used": [],
+   "v40_rule": "none",
+   "taxonomy": "predicate_mismatch",
+   "option_status": {
+    "A": "UNSUP",
+    "B": "UNSUP",
+    "C": "UNSUP",
+    "D": "UNSUP"
+   },
+   "n_options": 4
+  },
+  {
+   "query_id": "T1_0046",
+   "category": "mcq",
+   "old_status": "correct",
+   "expected_answer": "A",
+   "expected_premises_used": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "v40_decision": null,
+   "v40_premises_used": [],
+   "v40_rule": "none",
+   "taxonomy": "predicate_mismatch",
+   "option_status": {
+    "A": "UNSUP",
+    "B": "UNSUP",
+    "C": "UNSUP",
+    "D": "DISPROVEN"
+   },
+   "n_options": 4
+  },
+  {
+   "query_id": "T1_0013",
+   "category": "mcq",
+   "old_status": "correct",
+   "expected_answer": "D",
+   "expected_premises_used": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "v40_decision": null,
+   "v40_premises_used": [],
+   "v40_rule": "none",
+   "taxonomy": "predicate_mismatch",
+   "option_status": {
+    "A": "UNSUP",
+    "B": "UNSUP",
+    "C": "UNSUP",
+    "D": "UNSUP"
+   },
+   "n_options": 4
+  },
+  {
+   "query_id": "T1_0015",
+   "category": "mcq",
+   "old_status": "wrong_answer",
+   "expected_answer": "B",
+   "expected_premises_used": [
+    0,
+    1,
+    3,
+    4
+   ],
+   "v40_decision": "B",
+   "v40_premises_used": [
+    0,
+    1,
+    3,
+    4
+   ],
+   "v40_rule": "entity_unique_proof",
+   "taxonomy": "FIRED",
+   "option_status": {
+    "A": "UNSUP",
+    "B": "PROVEN",
+    "C": "DISPROVEN",
+    "D": "DISPROVEN"
+   },
+   "n_options": 4
+  },
+  {
+   "query_id": "T1_0007",
+   "category": "mcq",
+   "old_status": "wrong_answer",
+   "expected_answer": "B",
+   "expected_premises_used": [
+    0,
+    3,
+    5,
+    6
+   ],
+   "v40_decision": "B",
+   "v40_premises_used": [
+    0,
+    3,
+    5,
+    6
+   ],
+   "v40_rule": "entity_unique_proof",
+   "taxonomy": "FIRED",
+   "option_status": {
+    "A": "UNSUP",
+    "B": "PROVEN",
+    "C": "UNSUP",
+    "D": "DISPROVEN"
+   },
+   "n_options": 4
+  },
+  {
+   "query_id": "T1_0041",
+   "category": "mcq",
+   "old_status": "wrong_premises_used",
+   "expected_answer": "A",
+   "expected_premises_used": [
+    0,
+    1,
+    3,
+    4,
+    5
+   ],
+   "v40_decision": "A",
+   "v40_premises_used": [
+    0,
+    1,
+    3,
+    4,
+    5
+   ],
+   "v40_rule": "entity_unique_proof",
+   "taxonomy": "FIRED",
+   "option_status": {
+    "A": "PROVEN",
+    "B": "DISPROVEN",
+    "C": "UNSUP",
+    "D": "UNSUP"
+   },
+   "n_options": 4
+  },
+  {
+   "query_id": "T1_0026",
+   "category": "yes_no_uncertain",
+   "old_status": "correct",
+   "expected_answer": "Yes",
+   "expected_premises_used": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "v40_decision": null,
+   "v40_premises_used": [],
+   "v40_rule": "no_options",
+   "taxonomy": "ynu_unsupported",
+   "option_status": {},
+   "n_options": 0
+  },
+  {
+   "query_id": "T1_0022",
+   "category": "yes_no_uncertain",
+   "old_status": "wrong_answer",
+   "expected_answer": "Yes",
+   "expected_premises_used": [
+    0,
+    1,
+    2,
+    5,
+    6,
+    7,
+    8
+   ],
+   "v40_decision": null,
+   "v40_premises_used": [],
+   "v40_rule": "no_options",
+   "taxonomy": "ynu_unsupported",
+   "option_status": {},
+   "n_options": 0
+  },
+  {
+   "query_id": "T1_0030",
+   "category": "yes_no_uncertain",
+   "old_status": "correct",
+   "expected_answer": "Yes",
+   "expected_premises_used": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    6,
+    7
+   ],
+   "v40_decision": null,
+   "v40_premises_used": [],
+   "v40_rule": "no_options",
+   "taxonomy": "ynu_unsupported",
+   "option_status": {},
+   "n_options": 0
+  },
+  {
+   "query_id": "T1_0034",
+   "category": "yes_no_uncertain",
+   "old_status": "correct",
+   "expected_answer": "Yes",
+   "expected_premises_used": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    6,
+    7
+   ],
+   "v40_decision": null,
+   "v40_premises_used": [],
+   "v40_rule": "no_options",
+   "taxonomy": "ynu_unsupported",
+   "option_status": {},
+   "n_options": 0
+  },
+  {
+   "query_id": "T1_0042",
+   "category": "yes_no_uncertain",
+   "old_status": "correct",
+   "expected_answer": "Yes",
+   "expected_premises_used": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "v40_decision": null,
+   "v40_premises_used": [],
+   "v40_rule": "no_options",
+   "taxonomy": "ynu_unsupported",
+   "option_status": {},
+   "n_options": 0
+  },
+  {
+   "query_id": "T1_0024",
+   "category": "yes_no_uncertain",
+   "old_status": "correct",
+   "expected_answer": "No",
+   "expected_premises_used": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "v40_decision": null,
+   "v40_premises_used": [],
+   "v40_rule": "no_options",
+   "taxonomy": "ynu_unsupported",
+   "option_status": {},
+   "n_options": 0
+  },
+  {
+   "query_id": "T1_0028",
+   "category": "yes_no_uncertain",
+   "old_status": "wrong_answer",
+   "expected_answer": "No",
+   "expected_premises_used": [
+    1,
+    2,
+    3,
+    4,
+    7,
+    8
+   ],
+   "v40_decision": null,
+   "v40_premises_used": [],
+   "v40_rule": "no_options",
+   "taxonomy": "ynu_unsupported",
+   "option_status": {},
+   "n_options": 0
+  },
+  {
+   "query_id": "T1_0008",
+   "category": "yes_no_uncertain",
+   "old_status": "wrong_answer",
+   "expected_answer": "No",
+   "expected_premises_used": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "v40_decision": null,
+   "v40_premises_used": [],
+   "v40_rule": "no_options",
+   "taxonomy": "ynu_unsupported",
+   "option_status": {},
+   "n_options": 0
+  },
+  {
+   "query_id": "T1_0016",
+   "category": "yes_no_uncertain",
+   "old_status": "correct",
+   "expected_answer": "No",
+   "expected_premises_used": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "v40_decision": null,
+   "v40_premises_used": [],
+   "v40_rule": "no_options",
+   "taxonomy": "ynu_unsupported",
+   "option_status": {},
+   "n_options": 0
+  },
+  {
+   "query_id": "T1_0032",
+   "category": "yes_no_uncertain",
+   "old_status": "wrong_answer",
+   "expected_answer": "No",
+   "expected_premises_used": [
+    3,
+    4,
+    9
+   ],
+   "v40_decision": null,
+   "v40_premises_used": [],
+   "v40_rule": "no_options",
+   "taxonomy": "ynu_unsupported",
+   "option_status": {},
+   "n_options": 0
+  },
+  {
+   "query_id": "T1_0043",
+   "category": "yes_no_uncertain",
+   "old_status": "wrong_premises_used",
+   "expected_answer": "Uncertain",
+   "expected_premises_used": [
+    7
+   ],
+   "v40_decision": null,
+   "v40_premises_used": [],
+   "v40_rule": "no_options",
+   "taxonomy": "ynu_unsupported",
+   "option_status": {},
+   "n_options": 0
+  },
+  {
+   "query_id": "T1_0048",
+   "category": "yes_no_uncertain",
+   "old_status": "wrong_answer",
+   "expected_answer": "Uncertain",
+   "expected_premises_used": [
+    7
+   ],
+   "v40_decision": null,
+   "v40_premises_used": [],
+   "v40_rule": "no_options",
+   "taxonomy": "ynu_unsupported",
+   "option_status": {},
+   "n_options": 0
+  }
+ ]
+}
